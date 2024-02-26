@@ -1,0 +1,121 @@
+# Glossary {.unnumbered}
+
+## Accession Number
+
+An **accession number** is the unique identifier for an entry, such as a biological sequence record, in a database. 
+
+::: { .callout-note }
+If the same sequence is present in more than one database (e.g. [GenBank](https://www.ncbi.nlm.nih.gov/), [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/), [UniProt](https://www.uniprot.org/), [Ensembl](https://www.ensembl.org/index.html), etc.) it will usually have a different accession number in each database.
+:::
+
+::: { .callout-tip }
+The online interface to a BLAST search may allow you to simply paste the accession number into a tool to carry out your search. 
+:::
+
+## Alignment
+
+**Sequence alignment** is the process of optimally matching the symbols between two biological sequences to obtain a maximum level of similarity between those sequences.
+
+The result of that process is also called **a sequence alignment**. This is often used synonymously with match, even though a single match may comprise more than one alignment.
+
+## Bit Score
+
+A sequence alignment and/or match is associated with a **bit score** that statistically represents the extent of similarity between the query sequence and the match/alignment, using the specified scoring scheme. A larger bit score indicates greater similarity between the sequences. 
+
+::: { .callout-tip }
+Bit scores are normalised to the scoring scheme, so searches _with the same search tool_ against different databases can be compared by bit score (**but not by E-value**)
+:::
+
+## BLAST (Basic Local Alignment Search Tool)
+
+**BLAST** is a family of software tools that compares one or more query biological sequences against a database of sequences, or against a file containing one or more sequences. 
+
+**BLAST** is also the name given to the sequence search algorithm originally implemented in the BLAST software.
+
+::: { .callout-note }
+The original BLAST software suite was replaced by the completely rewritten BLAST+ in 2008. The underlying algorithms were changed in some cases (e.g. for BLASTN), so results obtained using the two versions can differ, and in some cases the BLAST tools no longer use the BLAST algorithm.
+:::
+
+## blastn 
+
+`blastn` is the BLAST suite tool for searching with a query nucleic acid sequence against a database containing nucleic acid sequences - for example when querying a 16S rDNA sequence against a genome sequence database.
+
+## blastp
+
+`blastp` is the BLAST suite tool for searching with a query amino acid sequence against a database containing amino acid sequences - for example when querying an enzyme's protein sequence against a database of all proteins made by an organism.
+
+## Coverage (percent coverage)
+
+**Coverage** is the proportion of symbols in a sequence that participate in an alignment.
+
+::: { .callout-note }
+The best alignment of two sequences may not include the full length of either the query or subject sequence. The _query coverage_ expresses the proportion of the query sequence involved in the alignment as a percentage, and the _subject coverage_ expresses the proportion of the subject sequence (usually a database sequence) involved in the alignment as a percentage. 
+:::
+
+::: { .callout-warning }
+The query coverage and subject coverage are not always equal.
+:::
+
+## E-value (expectation value)
+
+The **E-value** for a returned match/alignment is an estimate of the number of alignments with the _same bitscore or higher_ (i.e. alignments of _equal quality or better_) that would be expected if you were to search a database of the same size that contained completely random sequences. 
+
+::: { .callout-important }
+The E-value is not a probability, and E-values should not be used to compare between searches of different databases. Use the alignment [bitscore](#bitscore) to compare results between databases.
+:::
+
+## FASTA Format
+
+`FASTA` is a common file format used to describe sequence data. The FASTA record for a sequence has a header line that begins with a right-angled bracket (`>`), e.g: `>NC_000913.3:223903-225030`. The corresponding sequence begins on the following line.
+
+::: { .callout-note collapse="true" }
+## An example `FASTA` format file
+
+```
+>MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken
+MADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTID
+FPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREA
+DIDGDGQVNYEEFVQMMTAK*
+```
+:::
+
+
+## Homology
+
+**Homology** is the state of being related by descent from a common ancestor. Two sequences are _homologous_ if they share a common ancestor. 
+
+::: { .callout-important }
+There are not degrees of homology: sequences are either homologous or not homologous.
+:::
+
+## Identity (percentage identity)
+
+**Sequence identity** is the proportion of symbols (nucleotides or amino acids) that are identical and aligned in both sequences of an alignment or match. 
+
+::: { .callout-warning }
+Note that an alignment or match may not extend for the full length of either the query or subject sequence, so it is not always useful to assume that higher sequence identity implies a better sequence match. See [coverage](#coverage-percent-coverage).
+:::
+
+## Match
+
+A **match** is a sequence returned from the database being searched that has appreciable sequence similarity with the query sequence. "*Match*" is often used synonymously with [alignment](#alignment), though a single match may comprise more than one alignment.
+
+## Query Sequence
+
+The biological sequence used as a search term.
+
+## Scoring Scheme
+
+The **scoring scheme** for a database search is a quantitative representation of how the search tool rates similarities between two sequences.
+
+::: { .callout-note }
+The **scoring scheme** is often a _substitution scoring matrix_ of values indicating how likely we expect one symbol (e.g. amino acid) to be substituted by a different symbol in a sequence alignment. These values are often derived from observations of substitutions in blocks of aligned sequences.
+:::
+
+::: { .callout-tip }
+The choice of scoring scheme affects the alignment, bit score, and E-value. Some scoring schemes are suited to finding more distant, or more recent, relationships between sequences.
+:::
+
+## Subject Sequence
+
+A **subject sequence** is a specific match returned by the database search.

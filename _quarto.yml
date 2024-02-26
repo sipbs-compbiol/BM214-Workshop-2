@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "BM214 Workshop 2: Sequence Searching"
+  reader-mode: true
+  
+  cover-image: sipbs_compbio_800.png
+  favicon: icon_32.png
+  
+  page-footer:
+    left: |
+      This workshop was written by Dr Leighton Pritchard and Dr Morgan Feeney
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  
+  repo-url: https://github.com/sipbs-compbiol/BM214-Workshop-2
+  repo-branch: main
+  repo-actions: [edit, issue]
+  
+  author: "Leighton Pritchard and Morgan Feeney"
+  date: "1st March 2024"
+  
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - glossary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    code-link: true
+    author-meta: "Leighton Pritchard"
+    
+execute: 
+  freeze: auto
+
+
