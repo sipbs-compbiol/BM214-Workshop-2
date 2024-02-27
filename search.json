@@ -4,153 +4,269 @@
     "href": "index.html",
     "title": "BM214 Workshop 2: Sequence Searching",
     "section": "",
-    "text": "Preface to 2023-24 BM214 Workshop 2: Sequence Searching\nWelcome to the BM214 (Being a Biomolecular Scientist 2) workshop on sequence searching in bioinformatics, for 2023-24.\nThis year is the first presentation of the workshop material in this format, and we would be very grateful to hear feedback by email or through the GitHub repository Issues page."
+    "text": "Preface to 2023-24 BM214 Workshop 2: Sequence Searching\nWelcome to the BM214 (Being a Biomolecular Scientist 2) workshop on sequence searching in bioinformatics, for 2023-24.\nThis year is the first presentation of the workshop material in this format, and we would be very grateful to hear feedback by email or through the GitHub repository Issues page.",
+    "crumbs": [
+      "Preface to {{< var ay >}} BM214 Workshop 2: Sequence Searching"
+    ]
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "BM214 Workshop 2: Sequence Searching",
     "section": "Overview",
-    "text": "Overview\nThis workshop asks you to search for biological sequences similar to a query sequence in public sequence databases, using common bioinformatics tools.\n\n\n\n\n\n\nImportant Note\n\n\n\nThere is new material in this workshop that is not covered in lectures, and this material is examinable. Please take care to reach the text in the expandable callout boxes, as well as that for the workshop activities, to be sure you have understood the topic and obtain full value from the exercise."
+    "text": "Overview\nThis workshop asks you to search for biological sequences similar to a query sequence in public sequence databases, using common bioinformatics tools.\n\n\n\n\n\n\nImportant Note\n\n\n\nThere is new material in this workshop that is not covered in lectures, and this material is examinable. Please take care to reach the text in the expandable callout boxes, as well as that for the workshop activities, to be sure you have understood the topic and obtain full value from the exercise.",
+    "crumbs": [
+      "Preface to {{< var ay >}} BM214 Workshop 2: Sequence Searching"
+    ]
   },
   {
     "objectID": "index.html#learning-objectives",
     "href": "index.html#learning-objectives",
     "title": "BM214 Workshop 2: Sequence Searching",
     "section": "Learning Objectives",
-    "text": "Learning Objectives\nBy the end of this workshop, students will be able to:\n\nExplain how the BLAST search algorithm works\nUse common bioinformatics tools, such as BLAST, to identify matches to a query sequence\nInterpret the output of common bioinformatics sequence search tools\nCompare, and make informed judgements between, the outputs from searches using different tools and databases"
+    "text": "Learning Objectives\nBy the end of this workshop, students will be able to:\n\nExplain how the BLAST search algorithm works\nUse common bioinformatics tools, such as BLAST, to identify matches to a query sequence\nInterpret the output of common bioinformatics sequence search tools\nCompare, and make informed judgements between, the outputs from searches using different tools and databases",
+    "crumbs": [
+      "Preface to {{< var ay >}} BM214 Workshop 2: Sequence Searching"
+    ]
   },
   {
     "objectID": "index.html#assessment",
     "href": "index.html#assessment",
     "title": "BM214 Workshop 2: Sequence Searching",
     "section": "Assessment",
-    "text": "Assessment\nThe workshop is not formally assessed although, as noted, all the material contained in the workshop is examinable. There is a formative assessment of short answer questions on MyPlace which you should complete as part of the workshop."
+    "text": "Assessment\nThe workshop is not formally assessed although, as noted, all the material contained in the workshop is examinable. There is a formative assessment of short answer questions on MyPlace which you should complete as part of the workshop.",
+    "crumbs": [
+      "Preface to {{< var ay >}} BM214 Workshop 2: Sequence Searching"
+    ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "1.1 Why do we care about biological sequence similarity?\nIt may be surprising, but we do not know what all genes in an organism do. In some organisms, we may not even know what most genes do, or even whether we know all the genes that are present.\nIn general, the more similar two protein sequences are, the more likely they are to share the same functional activity, and to perform the same job for the organism they are found in. So, if we have a biological sequence of unknown function, and we can find a protein whose function we know whose sequence is similar enough to our sequence, then we can hypothesise that they have the same function.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#why-do-we-care-about-biological-sequence-similarity",
+    "href": "intro.html#why-do-we-care-about-biological-sequence-similarity",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Warning\n\n\n\nModel organisms, such as Escherichia coli, are possibly the forms of life we understand best. But even the genome of E. coli O157:H7 - maybe the best-understood genome we know - contains 756 coding sequences (CDS) annotated as hypothetical protein, which means we have no evidence of what its function is. This is 756/5067 ≈ 15% of the predicted proteome.\n\n\n\n\n\n\n\n\n\nFunctional Annotation Transfer\n\n\n\n\n\nAssigning a proposed function on the basis of sequence similarity to another sequence that has an annotated function is called functional annotation transfer. The vast majority of genes and gene products in public databases have functions assigned by this approach, and not by direct experiment. New sequences are added to these databases at a rate that far exceeds our ability to characterise their products experimentally.\nThe Critical Assessment of Functional Annotation (CAFA) is series of experiments and challenges designed to understand how well our computational methods of functional annotation match experimental reality (Zhou et al. (2019)).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#why-does-sequence-similarity-imply-functional-similarity",
+    "href": "intro.html#why-does-sequence-similarity-imply-functional-similarity",
+    "title": "1  Introduction",
+    "section": "1.2 Why does sequence similarity imply functional similarity?",
+    "text": "1.2 Why does sequence similarity imply functional similarity?\nIf two proteins have the exact same sequence of amino acids, then they are essentially “the same thing.” We would expect them both to fold into the same structure, and to interact with the same molecules in the same ways. But the more changes we make to one of the sequences, the more likely it is that we will introduce a difference that results in a change to the structure or the functional activity of the molecule.\n\n\n\n\n\n\nIt is not true that the number of sequence differences between two proteins is proportional to the difference in function.\n\n\n\n\n\nFor example, the activity of an enzyme like chymotrypsin relies on the exact placement of three amino acid residues in a catalytic triad (Figure 1.1). If any one of these residues is substituted inappropriately, the enzyme no longer acts to catalyse the reaction that processes its substrate. However, several simultaneous substitutions can be tolerated elsewhere on the protein structure with no significant loss of catalytic function.\n\n\n\n\n\n\nFigure 1.1: The 1CBW structure of bovine chymptrypsin (transparent space-filling model), complexed with the inhibitor BPTI (rainbow-coloured cartoon). The catalytic triad Asp102-His57-Ser195 is shown in ball-and-stick representation. Changing any member of the catalytic triad for another residue would prevent chymotrypsin from working as an enzyme.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#how-similar-is-similar-enough",
+    "href": "intro.html#how-similar-is-similar-enough",
+    "title": "1  Introduction",
+    "section": "1.3 How similar is similar enough?",
+    "text": "1.3 How similar is similar enough?\nThere is no single value of “similar” short of 100% exact similarity that is guaranteed to be “similar enough.” What might qualify as “similar enough” depends on the scientific question you are asking, and will vary if you are asking questions like:\n\nAre these two biological sequences from the same organism?\nDo these two biological sequences share a single ancestor?\nDo these two enzymes share the same catalytic function?\nDo these two enzymes catalyse the same reaction for the same substrate?\nDo these two proteins fold into the same structure?\n\n\n\n\n\n\n\nTip\n\n\n\nThere are some heuristics (rules of thumb) that can guide you in how confident you should be in, say, assigning functional annotation or common structure on the basis of sequence identity. The table in Figure 1.2 (Punta and Ofran (2008)) outlines some guidelines for interpreting functional similarity from sequence identity.\n\n\n\n\n\n\nFigure 1.2: Table relating protein sequence identity to expected functional similarity at a number of levels, reproduced from (Punta and Ofran (2008)\n\n\n\nSimilarly, we can often consider proteins sharing at least 40% amino acid identity to also have a similar alpha carbon backbone structure. Proteins sharing less than 20% identity are likely to have dissimilar structures, and the range 20-40% identity is considered a twilight zone where it is difficult to predict whether two proteins have a common structure (Figure 1.3).\n\n\n\n\n\n\nFigure 1.3: A plot of pairwise protein structure dissimilarity (rmsd) against pairwise protein sequence identity for a set of membrane-spanning proteins, reproduced from Olivella et al. (2013)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#where-can-we-go-to-find-similar-sequences",
+    "href": "intro.html#where-can-we-go-to-find-similar-sequences",
+    "title": "1  Introduction",
+    "section": "1.4 Where can we go to find similar sequences?",
+    "text": "1.4 Where can we go to find similar sequences?\nThere are many publicly-available biological sequence reference databases available. Each has different contents, and may focus on one aspect of biology.\n\n\n\n\n\n\nTip\n\n\n\nAlways choose an appropriate sequence database for your biological question.\n\n\n\n1.4.1 INSDC\nAs a condition of publishing papers that describe new biological sequences - whether nucleotide or protein - those sequences must be deposited in a central public resource. For nucleotide sequence data, this is managed under the International Sequence Database Collaboration (INSDC), which is a collaboration between Japanese, US, and European organisations:\n\nDDBJ - the DNA Data Bank of Japan\nEMBL-EBI - the European Molecular Biology Laboratory - European Bioinformatics Institute\nNCBI - the National Center for Biotechnology Information, USA\n\n\n\n1.4.2 GenBank\nThe GenBank database contains the annotated collection of all publicly available DNA sequences, and is provided by NCBI as part of the INSDC. The initial release of GenBank in December 1982 contained 606 nucleotide sequences. As of December 2023, GenBank contains 249,060,436 nucleotide sequences, and 2,863,228,552 additional sequences deriving from whole-genome sequencing. The number of bases in GenBank doubles approximately every 18 months.\n\n\n1.4.3 RefSeq\nNCBI also provides the RefSeq (NCBI Reference Sequence Database), which provides a comprehensive, integrated, non-redundant, consistently annotated set of reference nucleotide, transcript, and protein sequences.\n\n\n1.4.4 UniProt\nUniProt is a resource for protein sequence and annotation data. It comprises three databases:\n\nUniProt Knowledgebase (UniProtKB)\nUniProt Reference Clusters (UniRef)\nUniProt Archive (UniParc)\n\nThe main database of proteins is UniProtKB, and this is supported by UniRef - which clusters sequences on the basis of sequence identity - and UniParc, the archive of new, revised and obsolete sequences.\nUniProtKB is itself comprised of two databases:\n\nSwiss-Prot, a manually annotated and reviewed set of sequences where every annotation has been checked by a human\nTrEMBL, the remaining set of known sequences, whose annotations were dervied by automated assignment, and have not been reviewed by a human\n\n\n\n\n\n\n\nNote\n\n\n\nManual annotation is time-consuming, and most proteins in UniProt have not been manually reviewed. As at 22nd February 2024:\n\nSwiss-Prot contains 570,830 manually-reviewed protein sequences\nTrEMBL contains 249,751,891 automatically annotated protein sequences\n\nThe current statistics can be found at UniProtKB\n\n\n\n\n1.4.5 InterPro\nInterpro is a service providing functional analysis of proteins by querying their sequences against a set of signature databases that contain patterns characteristic of particular functions or protein structures (Figure 1.4).\n\n\n\n\n\n\nFigure 1.4: The InterPro website allows simultaneous sequence-based search of several signature databases, to help annotate and classify protein sequences.\n\n\n\n\n\n\n\nOlivella, Mireia, Angel Gonzalez, Leonardo Pardo, and Xavier Deupi. 2013. “Relation Between Sequence and Structure in Membrane Proteins.” Bioinformatics 29 (13): 1589–92.\n\n\nPunta, Marco, and Yanay Ofran. 2008. “The Rough Guide to in Silico Function Prediction, or How to Use Sequence and Structure Information to Predict Protein Function.” PLoS Comput. Biol. 4 (10): e1000160.\n\n\nZhou, Naihui, Yuxiang Jiang, Timothy R Bergquist, Alexandra J Lee, Balint Z Kacsoh, Alex W Crocker, Kimberley A Lewis, et al. 2019. “The CAFA Challenge Reports Improved Protein Function Prediction and New Functional Annotations for Hundreds of Genes Through Experimental Screens.” Genome Biol. 20 (1): 244.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
     "title": "2  Summary",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Accession Number\nAn accession number is the unique identifier for an entry, such as a biological sequence record, in a database.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#accession-number",
     "href": "glossary.html#accession-number",
     "title": "Glossary",
-    "section": "Accession Number",
-    "text": "Accession Number\nAn accession number is the unique identifier for an entry, such as a biological sequence record, in a database.\n\n\n\n\n\n\nNote\n\n\n\nIf the same sequence is present in more than one database (e.g. GenBank, RefSeq, UniProt, Ensembl, etc.) it will usually have a different accession number in each database.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe online interface to a BLAST search may allow you to simply paste the accession number into a tool to carry out your search."
+    "section": "",
+    "text": "Note\n\n\n\nIf the same sequence is present in more than one database (e.g. GenBank, RefSeq, UniProt, Ensembl, etc.) it will usually have a different accession number in each database.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe online interface to a BLAST search may allow you to simply paste the accession number into a tool to carry out your search.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#alignment",
     "href": "glossary.html#alignment",
     "title": "Glossary",
     "section": "Alignment",
-    "text": "Alignment\nSequence alignment is the process of optimally matching the symbols between two biological sequences to obtain a maximum level of similarity between those sequences.\nThe result of that process is also called a sequence alignment. This is often used synonymously with match, even though a single match may comprise more than one alignment."
+    "text": "Alignment\nSequence alignment is the process of optimally matching the symbols between two biological sequences to obtain a maximum level of similarity between those sequences.\nThe result of that process is also called a sequence alignment. This is often used synonymously with match, even though a single match may comprise more than one alignment.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#bit-score",
     "href": "glossary.html#bit-score",
     "title": "Glossary",
     "section": "Bit Score",
-    "text": "Bit Score\nA sequence alignment and/or match is associated with a bit score that statistically represents the extent of similarity between the query sequence and the match/alignment, using the specified scoring scheme. A larger bit score indicates greater similarity between the sequences.\n\n\n\n\n\n\nTip\n\n\n\nBit scores are normalised to the scoring scheme, so searches with the same search tool against different databases can be compared by bit score (but not by E-value)"
+    "text": "Bit Score\nA sequence alignment and/or match is associated with a bit score that statistically represents the extent of similarity between the query sequence and the match/alignment, using the specified scoring scheme. A larger bit score indicates greater similarity between the sequences.\n\n\n\n\n\n\nTip\n\n\n\nBit scores are normalised to the scoring scheme, so searches with the same search tool against different databases can be compared by bit score (but not by E-value)",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#blast-basic-local-alignment-search-tool",
     "href": "glossary.html#blast-basic-local-alignment-search-tool",
     "title": "Glossary",
     "section": "BLAST (Basic Local Alignment Search Tool)",
-    "text": "BLAST (Basic Local Alignment Search Tool)\nBLAST is a family of software tools that compares one or more query biological sequences against a database of sequences, or against a file containing one or more sequences.\nBLAST is also the name given to the sequence search algorithm originally implemented in the BLAST software.\n\n\n\n\n\n\nNote\n\n\n\nThe original BLAST software suite was replaced by the completely rewritten BLAST+ in 2008. The underlying algorithms were changed in some cases (e.g. for BLASTN), so results obtained using the two versions can differ, and in some cases the BLAST tools no longer use the BLAST algorithm."
+    "text": "BLAST (Basic Local Alignment Search Tool)\nBLAST is a family of software tools that compares one or more query biological sequences against a database of sequences, or against a file containing one or more sequences.\nBLAST is also the name given to the sequence search algorithm originally implemented in the BLAST software.\n\n\n\n\n\n\nNote\n\n\n\nThe original BLAST software suite was replaced by the completely rewritten BLAST+ in 2008. The underlying algorithms were changed in some cases (e.g. for BLASTN), so results obtained using the two versions can differ, and in some cases the BLAST tools no longer use the BLAST algorithm.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#blastn",
     "href": "glossary.html#blastn",
     "title": "Glossary",
     "section": "blastn",
-    "text": "blastn\nblastn is the BLAST suite tool for searching with a query nucleic acid sequence against a database containing nucleic acid sequences - for example when querying a 16S rDNA sequence against a genome sequence database."
+    "text": "blastn\nblastn is the BLAST suite tool for searching with a query nucleic acid sequence against a database containing nucleic acid sequences - for example when querying a 16S rDNA sequence against a genome sequence database.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#blastp",
     "href": "glossary.html#blastp",
     "title": "Glossary",
     "section": "blastp",
-    "text": "blastp\nblastp is the BLAST suite tool for searching with a query amino acid sequence against a database containing amino acid sequences - for example when querying an enzyme’s protein sequence against a database of all proteins made by an organism."
+    "text": "blastp\nblastp is the BLAST suite tool for searching with a query amino acid sequence against a database containing amino acid sequences - for example when querying an enzyme’s protein sequence against a database of all proteins made by an organism.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#coverage-percent-coverage",
     "href": "glossary.html#coverage-percent-coverage",
     "title": "Glossary",
     "section": "Coverage (percent coverage)",
-    "text": "Coverage (percent coverage)\nCoverage is the proportion of symbols in a sequence that participate in an alignment.\n\n\n\n\n\n\nNote\n\n\n\nThe best alignment of two sequences may not include the full length of either the query or subject sequence. The query coverage expresses the proportion of the query sequence involved in the alignment as a percentage, and the subject coverage expresses the proportion of the subject sequence (usually a database sequence) involved in the alignment as a percentage.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThe query coverage and subject coverage are not always equal."
+    "text": "Coverage (percent coverage)\nCoverage is the proportion of symbols in a sequence that participate in an alignment.\n\n\n\n\n\n\nNote\n\n\n\nThe best alignment of two sequences may not include the full length of either the query or subject sequence. The query coverage expresses the proportion of the query sequence involved in the alignment as a percentage, and the subject coverage expresses the proportion of the subject sequence (usually a database sequence) involved in the alignment as a percentage.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThe query coverage and subject coverage are not always equal.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#e-value-expectation-value",
     "href": "glossary.html#e-value-expectation-value",
     "title": "Glossary",
     "section": "E-value (expectation value)",
-    "text": "E-value (expectation value)\nThe E-value for a returned match/alignment is an estimate of the number of alignments with the same bitscore or higher (i.e. alignments of equal quality or better) that would be expected if you were to search a database of the same size that contained completely random sequences.\n\n\n\n\n\n\nImportant\n\n\n\nThe E-value is not a probability, and E-values should not be used to compare between searches of different databases. Use the alignment bitscore to compare results between databases."
+    "text": "E-value (expectation value)\nThe E-value for a returned match/alignment is an estimate of the number of alignments with the same bitscore or higher (i.e. alignments of equal quality or better) that would be expected if you were to search a database of the same size that contained completely random sequences.\n\n\n\n\n\n\nImportant\n\n\n\nThe E-value is not a probability, and E-values should not be used to compare between searches of different databases. Use the alignment bitscore to compare results between databases.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#fasta-format",
     "href": "glossary.html#fasta-format",
     "title": "Glossary",
     "section": "FASTA Format",
-    "text": "FASTA Format\nFASTA is a common file format used to describe sequence data. The FASTA record for a sequence has a header line that begins with a right-angled bracket (&gt;), e.g: &gt;NC_000913.3:223903-225030. The corresponding sequence begins on the following line.\n\n\n\n\n\n\nAn example FASTA format file\n\n\n\n\n\n&gt;MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken\nMADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTID\nFPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREA\nDIDGDGQVNYEEFVQMMTAK*"
+    "text": "FASTA Format\nFASTA is a common file format used to describe sequence data. The FASTA record for a sequence has a header line that begins with a right-angled bracket (&gt;), e.g: &gt;NC_000913.3:223903-225030. The corresponding sequence begins on the following line.\n\n\n\n\n\n\nAn example FASTA format file\n\n\n\n\n\n&gt;MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken\nMADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTID\nFPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREA\nDIDGDGQVNYEEFVQMMTAK*",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#homology",
     "href": "glossary.html#homology",
     "title": "Glossary",
     "section": "Homology",
-    "text": "Homology\nHomology is the state of being related by descent from a common ancestor. Two sequences are homologous if they share a common ancestor.\n\n\n\n\n\n\nImportant\n\n\n\nThere are not degrees of homology: sequences are either homologous or not homologous."
+    "text": "Homology\nHomology is the state of being related by descent from a common ancestor. Two sequences are homologous if they share a common ancestor.\n\n\n\n\n\n\nImportant\n\n\n\nThere are not degrees of homology: sequences are either homologous or not homologous.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#identity-percentage-identity",
     "href": "glossary.html#identity-percentage-identity",
     "title": "Glossary",
     "section": "Identity (percentage identity)",
-    "text": "Identity (percentage identity)\nSequence identity is the proportion of symbols (nucleotides or amino acids) that are identical and aligned in both sequences of an alignment or match.\n\n\n\n\n\n\nWarning\n\n\n\nNote that an alignment or match may not extend for the full length of either the query or subject sequence, so it is not always useful to assume that higher sequence identity implies a better sequence match. See coverage."
+    "text": "Identity (percentage identity)\nSequence identity is the proportion of symbols (nucleotides or amino acids) that are identical and aligned in both sequences of an alignment or match.\n\n\n\n\n\n\nWarning\n\n\n\nNote that an alignment or match may not extend for the full length of either the query or subject sequence, so it is not always useful to assume that higher sequence identity implies a better sequence match. See coverage.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#match",
     "href": "glossary.html#match",
     "title": "Glossary",
     "section": "Match",
-    "text": "Match\nA match is a sequence returned from the database being searched that has appreciable sequence similarity with the query sequence. “Match” is often used synonymously with alignment, though a single match may comprise more than one alignment."
+    "text": "Match\nA match is a sequence returned from the database being searched that has appreciable sequence similarity with the query sequence. “Match” is often used synonymously with alignment, though a single match may comprise more than one alignment.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#query-sequence",
     "href": "glossary.html#query-sequence",
     "title": "Glossary",
     "section": "Query Sequence",
-    "text": "Query Sequence\nThe biological sequence used as a search term."
+    "text": "Query Sequence\nThe biological sequence used as a search term.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#scoring-scheme",
     "href": "glossary.html#scoring-scheme",
     "title": "Glossary",
     "section": "Scoring Scheme",
-    "text": "Scoring Scheme\nThe scoring scheme for a database search is a quantitative representation of how the search tool rates similarities between two sequences.\n\n\n\n\n\n\nNote\n\n\n\nThe scoring scheme is often a substitution scoring matrix of values indicating how likely we expect one symbol (e.g. amino acid) to be substituted by a different symbol in a sequence alignment. These values are often derived from observations of substitutions in blocks of aligned sequences.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe choice of scoring scheme affects the alignment, bit score, and E-value. Some scoring schemes are suited to finding more distant, or more recent, relationships between sequences."
+    "text": "Scoring Scheme\nThe scoring scheme for a database search is a quantitative representation of how the search tool rates similarities between two sequences.\n\n\n\n\n\n\nNote\n\n\n\nThe scoring scheme is often a substitution scoring matrix of values indicating how likely we expect one symbol (e.g. amino acid) to be substituted by a different symbol in a sequence alignment. These values are often derived from observations of substitutions in blocks of aligned sequences.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThe choice of scoring scheme affects the alignment, bit score, and E-value. Some scoring schemes are suited to finding more distant, or more recent, relationships between sequences.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "glossary.html#subject-sequence",
     "href": "glossary.html#subject-sequence",
     "title": "Glossary",
     "section": "Subject Sequence",
-    "text": "Subject Sequence\nA subject sequence is a specific match returned by the database search."
+    "text": "Subject Sequence\nA subject sequence is a specific match returned by the database search.",
+    "crumbs": [
+      "Glossary"
+    ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Olivella, Mireia, Angel Gonzalez, Leonardo Pardo, and Xavier Deupi.\n2013. “Relation Between Sequence and Structure in Membrane\nProteins.” Bioinformatics 29 (13): 1589–92.\n\n\nPunta, Marco, and Yanay Ofran. 2008. “The Rough Guide to in Silico\nFunction Prediction, or How to Use Sequence and Structure Information to\nPredict Protein Function.” PLoS Comput. Biol. 4 (10):\ne1000160.\n\n\nZhou, Naihui, Yuxiang Jiang, Timothy R Bergquist, Alexandra J Lee,\nBalint Z Kacsoh, Alex W Crocker, Kimberley A Lewis, et al. 2019.\n“The CAFA Challenge Reports Improved Protein Function\nPrediction and New Functional Annotations for Hundreds of Genes Through\nExperimental Screens.” Genome Biol. 20 (1): 244.",
+    "crumbs": [
+      "References"
+    ]
   }
 ]
