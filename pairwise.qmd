@@ -11,7 +11,7 @@ COELACANTH
 
 so that the `E`, `L`, `C`, `A`, and `N` letters are in the same columns. The only differences are then the matching of the `O` of `COELACANTH` with the `P` of `PELICAN`, and the need to insert _gaps_ (`-` characters) to indicate where there is no corresponding letter, in the shorter word.
 
-::: { .callout-caution collapse="true"}
+::: { .callout-caution collapse="true" }
 ## Is there another way to align these words?
 
 What if we were to align the words `COELACANTH` and `PELICAN` differently, like this?
@@ -29,11 +29,19 @@ Is this a better or worse alignment of those two words? Why do you think this? W
 Pairwise sequence alignment is a solved mathematical problem. What that means is that, if we are given:
 
 - two sequences
-- a scoring scheme for matching symbols 
+- a scoring scheme for matching symbols, such as: 
   - a _match_ scores `+1` (e.g. `A` and `A` are in the same column)
   - a _mismatch_ scores `0` (e.g. `C` and `G` are in the same column)
   
-we can **guarantee** to find the alignment with the largest possible score, using an _algorithm_ (i.e. a set of reproducible mathematical steps). Such algorithms find one of two kinds of optimal alignment: either a _global_ or a _local_ optimal alignment.
+we can **guarantee** to find the alignment with the largest possible score, using an _algorithm_ (i.e. a set of reproducible mathematical steps). This is considered the _optimal_ alignment. Such algorithms find one of two kinds of optimal alignment: either a _global_ or a _local_ optimal alignment.
+
+::: { .callout-caution collapse="true" }
+## Is the optimal alignment biologically "real"?
+
+Given that we can find an alignment with a maximum score - the _optimal_ alignment - why should we believe that this is the best _biological_ alignment?
+
+If we change the scoring scheme we might change the alignment, so what features of a scoring scheme might make it a better or worse representation of biological "reality"?
+:::
 
 ::: { .callout-important }
 On this page you will carry out two pairwise alignments, one _global_ and one _local_, of the same input sequences, to examine the differences between the two approaches. You will use the tools `Needle` and `Water` from the `EMBOSS` suite of sequence analysis tools (@Madeira2022-ii).
@@ -105,8 +113,8 @@ sequence_1        47 -----------------     46
 sequence_2        27 TTTAGAGGCTTGCTCAC     43
 ```
 
-::: { .callout-note }
-There are several things to note about the alignment.
+::: { .callout-caution collapse="true" }
+## What do you notice about the alignment?
 
 - All bases from both sequences are represented in the alignment, even though the sequences are different lengths, and most bases are not found to align.
 - Some bases in one sequence are aligned to the same base in the other - an _identity_ - as indicated by the pipe symbol (`|`)
@@ -118,11 +126,15 @@ There are several things to note about the alignment.
 **Local sequence alignment** finds the optimal (i.e. _highest scoring_) alignment between two _subregions_ of each input sequence.
 
 ::: { .callout-caution }
-Local alignment **does not** attempt to align all bases between the two sequences. Instead, it compares segments of all possible lengths between the two sequences to optimise the similarity score that it calculates.
+Local alignment **does not** attempt to align all bases between the two sequences. Instead, it compares segments of all possible lengths between the two sequences to optimise the similarity score that it calculates. Only the best-matching regions are aligned.
 :::
 
 ::: { .callout-note }
-Given a scoring scheme, the [Smith-Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) is guaranteed to find an optimal global alignment between two sequences.
+Given a scoring scheme, the [Smith-Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) is guaranteed to find an optimal local alignment between two sequences.
+:::
+
+::: { .callout-important title="Exercise 2"}
+Using the same two DNA sequences as before, find their optimal local alignment using the `EMBOSS Water` program at [`EMBL-EBI`](https://www.ebi.ac.uk/jdispatcher/psa/emboss_water).
 :::
 
 ### Open the `EMBOSS Water` webpage
@@ -165,8 +177,8 @@ sequence_1        27 ACTTTAGAGGCTTGCAACCA     46
 sequence_2         3 ACTTTAGAGGCTTGCAACCA     22
 ```
 
-::: { .callout-note }
-There are several things to note about the alignment.
+::: { .callout-caution collapse="true" }
+## What do you notice about the alignment?
 
 - Although the input sequences were the same, the alignment is quite different: it is _much shorter_.
 - Not all bases from either sequence are represented in the alignment - only bases `27` to `46` of `sequence_1` and bases `3` to `22` of `sequence_2`.
