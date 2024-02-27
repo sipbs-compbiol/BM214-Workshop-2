@@ -263,13 +263,30 @@ P-ELICAN--</code></pre>
 <p>Pairwise sequence alignment is a solved mathematical problem. What that means is that, if we are given:</p>
 <ul>
 <li>two sequences</li>
-<li>a scoring scheme for matching symbols
+<li>a scoring scheme for matching symbols, such as:
 <ul>
 <li>a <em>match</em> scores <code>+1</code> (e.g.&nbsp;<code>A</code> and <code>A</code> are in the same column)</li>
 <li>a <em>mismatch</em> scores <code>0</code> (e.g.&nbsp;<code>C</code> and <code>G</code> are in the same column)</li>
 </ul></li>
 </ul>
-<p>we can <strong>guarantee</strong> to find the alignment with the largest possible score, using an <em>algorithm</em> (i.e.&nbsp;a set of reproducible mathematical steps). Such algorithms find one of two kinds of optimal alignment: either a <em>global</em> or a <em>local</em> optimal alignment.</p>
+<p>we can <strong>guarantee</strong> to find the alignment with the largest possible score, using an <em>algorithm</em> (i.e.&nbsp;a set of reproducible mathematical steps). This is considered the <em>optimal</em> alignment. Such algorithms find one of two kinds of optimal alignment: either a <em>global</em> or a <em>local</em> optimal alignment.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Is the optimal alignment biologically “real”?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Given that we can find an alignment with a maximum score - the <em>optimal</em> alignment - why should we believe that this is the best <em>biological</em> alignment?</p>
+<p>If we change the scoring scheme we might change the alignment, so what features of a scoring scheme might make it a better or worse representation of biological “reality”?</p>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -404,22 +421,24 @@ sequence_2         1 --------------------TC----ACTTTAGAGGCTTGCAACCAGTAC     26
 sequence_1        47 -----------------     46
                                       
 sequence_2        27 TTTAGAGGCTTGCTCAC     43</code></pre>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+What do you notice about the alignment?
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>There are several things to note about the alignment.</p>
 <ul>
 <li>All bases from both sequences are represented in the alignment, even though the sequences are different lengths, and most bases are not found to align.</li>
 <li>Some bases in one sequence are aligned to the same base in the other - an <em>identity</em> - as indicated by the pipe symbol (<code>|</code>)</li>
 <li>Some bases in the upper sequence are not aligned to any bases in the lower sequence, and <em>vice versa</em>. Where this happens, the other sequence is padded out with <em>gaps</em> (<code>-</code>). In those regions, the runs of bases may be referred to as <em>insertions</em>, and the missing sections represented as gaps may be called <em>deletions</em>.</li>
 </ul>
+</div>
 </div>
 </div>
 </section>
@@ -437,7 +456,7 @@ Caution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Local alignment <strong>does not</strong> attempt to align all bases between the two sequences. Instead, it compares segments of all possible lengths between the two sequences to optimise the similarity score that it calculates.</p>
+<p>Local alignment <strong>does not</strong> attempt to align all bases between the two sequences. Instead, it compares segments of all possible lengths between the two sequences to optimise the similarity score that it calculates. Only the best-matching regions are aligned.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -450,7 +469,20 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Given a scoring scheme, the <a href="https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm">Smith-Waterman</a> is guaranteed to find an optimal global alignment between two sequences.</p>
+<p>Given a scoring scheme, the <a href="https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm">Smith-Waterman</a> is guaranteed to find an optimal local alignment between two sequences.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Exercise 2">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using the same two DNA sequences as before, find their optimal local alignment using the <code>EMBOSS Water</code> program at <a href="https://www.ebi.ac.uk/jdispatcher/psa/emboss_water"><code>EMBL-EBI</code></a>.</p>
 </div>
 </div>
 <section id="open-the-emboss-water-webpage" class="level3" data-number="2.3.1">
@@ -536,22 +568,24 @@ Figure&nbsp;2.12: <code>EMBOSS Water</code> results window.
 <pre class="text"><code>sequence_1        27 ACTTTAGAGGCTTGCAACCA     46
                      ||||||||||||||||||||
 sequence_2         3 ACTTTAGAGGCTTGCAACCA     22</code></pre>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+What do you notice about the alignment?
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>There are several things to note about the alignment.</p>
 <ul>
 <li>Although the input sequences were the same, the alignment is quite different: it is <em>much shorter</em>.</li>
 <li>Not all bases from either sequence are represented in the alignment - only bases <code>27</code> to <code>46</code> of <code>sequence_1</code> and bases <code>3</code> to <code>22</code> of <code>sequence_2</code>.</li>
 <li>Not all bases aligned in the global pairwise alignment are aligned in the local alignment.</li>
 </ul>
+</div>
 </div>
 </div>
 </section>
