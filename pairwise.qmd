@@ -1,0 +1,192 @@
+# Pairwise Sequence Alignment
+
+> Most sequence database search programs depend to some extent on _pairwise sequence alignment_ - the process of identifying the mathematically optimal way to line up the symbols of two sequences _in order_ so that they are as similar as possible.
+
+Consider the two words `COELACANTH` and `PELICAN`. The words are obviously different, but they are also similar enough that we can shift their letters about to make an alignment between them. For instance, we might align the words as:
+
+```text
+COELACANTH
+-PELICAN--
+```
+
+so that the `E`, `L`, `C`, `A`, and `N` letters are in the same columns. The only differences are then the matching of the `O` of `COELACANTH` with the `P` of `PELICAN`, and the need to insert _gaps_ (`-` characters) to indicate where there is no corresponding letter, in the shorter word.
+
+::: { .callout-caution collapse="true"}
+## Is there another way to align these words?
+
+What if we were to align the words `COELACANTH` and `PELICAN` differently, like this?
+
+```text
+COELACANTH
+P-ELICAN--
+```
+
+Is this a better or worse alignment of those two words? Why do you think this? What kind of rule would you devise to make a choice of which was the better alignment?
+:::
+
+## Pairwise Alignment is a Solved Problem
+
+Pairwise sequence alignment is a solved mathematical problem. What that means is that, if we are given:
+
+- two sequences
+- a scoring scheme for matching symbols 
+  - a _match_ scores `+1` (e.g. `A` and `A` are in the same column)
+  - a _mismatch_ scores `0` (e.g. `C` and `G` are in the same column)
+  
+we can **guarantee** to find the alignment with the largest possible score, using an _algorithm_ (i.e. a set of reproducible mathematical steps). Such algorithms find one of two kinds of optimal alignment: either a _global_ or a _local_ optimal alignment.
+
+::: { .callout-important }
+On this page you will carry out two pairwise alignments, one _global_ and one _local_, of the same input sequences, to examine the differences between the two approaches. You will use the tools `Needle` and `Water` from the `EMBOSS` suite of sequence analysis tools (@Madeira2022-ii).
+:::
+
+## Exercise 1: Global Pairwise Alignment
+
+**Global sequence alignment** finds the optimal alignment along the full lengths of both sequences being aligned.
+
+::: { .callout-note }
+Given a scoring scheme, the [Needleman-Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm) is guaranteed to find an optimal global alignment between two sequences.
+:::
+
+::: { .callout-important title="Exercise 1"}
+Using the two DNA sequences below, find their optimal global alignment using the `EMBOSS Needle` program at [`EMBL-EBI`](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle).
+
+```text
+>sequence_1
+ACTACTAGATTACTTACGGATCAGGTACTTTAGAGGCTTGCAACCA
+```
+
+```text
+>sequence_2
+TCACTTTAGAGGCTTGCAACCAGTACTTTAGAGGCTTGCTCAC
+```
+:::
+
+### Open the `EMBOSS Needle` webpage
+
+Open the page [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle) in a web browser, to reach the landing page (@fig-emboss-water)
+
+![The `EMBOSS Needle` landing page.](assets/images/emboss-needle.png){#fig-emboss-needle  width="80%"}
+
+### Enter the input sequences
+
+Paste the two sequences given above into the two sequence input boxes, as shown in @fig-emboss-needle-seq.
+
+![The `EMBOSS Needle` page with two input sequences provided.](assets/images/emboss-needle-seq.png){#fig-emboss-needle-seq width="80%"}
+
+### Set appropriate parameters
+
+The two sequences you have entered are DNA sequences, so check the radio button marked `DNA` (@fig-emboss-needle-params)
+
+![`EMBOSS Needle` input parameter set to `DNA`.](assets/images/emboss-needle-params.png){#fig-emboss-needle-params width="80%"}
+
+### Run the alignment
+
+Click on the `Submit` button at the bottom of the page to run the alignment. You can give your job a title, if you like (@fig-emboss-needle-title).
+
+![`EMBOSS Needle` submit button.](assets/images/emboss-needle-submit.png){#fig-emboss-needle-title width="80%"}
+
+A holding window will appear while the job runs (@fig-emboss-needle-running), and after a short wait you will be presented with the results page (@fig-emboss-needle-results).
+
+![`EMBOSS Needle` holding window.](assets/images/emboss-needle-running.png){#fig-emboss-needle-running width="80%"}
+
+![`EMBOSS Needle` results window.](assets/images/emboss-needle-results.png){#fig-emboss-needle-results width="80%"}
+
+### Interpret the results
+
+The key result returned by `Needle` is, of course, the overall sequence alignment, which is provided at the foot of the results page:
+
+```text
+sequence_1         1 ACTACTAGATTACTTACGGATCAGGTACTTTAGAGGCTTGCAACCA----     46
+                                         ||    ||||||||||||||||||||    
+sequence_2         1 --------------------TC----ACTTTAGAGGCTTGCAACCAGTAC     26
+
+sequence_1        47 -----------------     46
+                                      
+sequence_2        27 TTTAGAGGCTTGCTCAC     43
+```
+
+::: { .callout-note }
+There are several things to note about the alignment.
+
+- All bases from both sequences are represented in the alignment, even though the sequences are different lengths, and most bases are not found to align.
+- Some bases in one sequence are aligned to the same base in the other - an _identity_ - as indicated by the pipe symbol (`|`)
+- Some bases in the upper sequence are not aligned to any bases in the lower sequence, and _vice versa_. Where this happens, the other sequence is padded out with _gaps_ (`-`). In those regions, the runs of bases may be referred to as _insertions_, and the missing sections represented as gaps may be called _deletions_.
+:::
+
+## Exercise 2: Local Pairwise Alignment
+
+**Local sequence alignment** finds the optimal (i.e. _highest scoring_) alignment between two _subregions_ of each input sequence.
+
+::: { .callout-caution }
+Local alignment **does not** attempt to align all bases between the two sequences. Instead, it compares segments of all possible lengths between the two sequences to optimise the similarity score that it calculates.
+:::
+
+::: { .callout-note }
+Given a scoring scheme, the [Smith-Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) is guaranteed to find an optimal global alignment between two sequences.
+:::
+
+### Open the `EMBOSS Water` webpage
+
+Open the page [https://www.ebi.ac.uk/jdispatcher/psa/emboss_water](https://www.ebi.ac.uk/jdispatcher/psa/emboss_water) in a web browser, to reach the landing page (@fig-emboss-water)
+
+![The `EMBOSS Water` landing page.](assets/images/emboss-water.png){#fig-emboss-water  width="80%"}
+
+### Enter the input sequences
+
+Paste the two sequences you used for the `Needle` global alignment above into the two sequence input boxes, as shown in @fig-emboss-water-seq.
+
+![The `EMBOSS Water` page with two input sequences provided.](assets/images/emboss-water-seq.png){#fig-emboss-water-seq width="80%"}
+
+### Set appropriate parameters
+
+The two sequences you have entered are DNA sequences, so check the radio button marked `DNA` (@fig-emboss-water-params)
+
+![`EMBOSS Water` input parameter set to `DNA`.](assets/images/emboss-water-params.png){#fig-emboss-water-params width="80%"}
+
+### Run the alignment
+
+Click on the `Submit` button at the bottom of the page to run the alignment. You can give your job a title, if you like (@fig-emboss-water-title).
+
+![`EMBOSS Water` submit button.](assets/images/emboss-water-submit.png){#fig-emboss-water-title width="80%"}
+
+A holding window will appear while the job runs (@fig-emboss-water-running), and after a short wait you will be presented with the results page (@fig-emboss-water-results).
+
+![`EMBOSS Water` holding window.](assets/images/emboss-water-running.png){#fig-emboss-water-running width="80%"}
+
+![`EMBOSS Water` results window.](assets/images/emboss-water-results.png){#fig-emboss-water-results width="80%"}
+
+### Interpret the results
+
+The key result returned by `Water` is again the overall sequence alignment, which once more is provided at the foot of the results page:
+
+```text
+sequence_1        27 ACTTTAGAGGCTTGCAACCA     46
+                     ||||||||||||||||||||
+sequence_2         3 ACTTTAGAGGCTTGCAACCA     22
+```
+
+::: { .callout-note }
+There are several things to note about the alignment.
+
+- Although the input sequences were the same, the alignment is quite different: it is _much shorter_.
+- Not all bases from either sequence are represented in the alignment - only bases `27` to `46` of `sequence_1` and bases `3` to `22` of `sequence_2`.
+- Not all bases aligned in the global pairwise alignment are aligned in the local alignment.
+:::
+
+## Questions
+
+::: { .callout-important }
+Please complete the answers in the formative quiz on MyPlace
+:::
+
+1. What is the reported percentage [_sequence identity_](glossary.qmd#identity-percentage-identity) for the `Needle` global alignment?
+2. What is the reported percentage [_sequence identity_](glossary.qmd#identity-percentage-identity) for the `Water` local alignment?
+3. Which alignment - _global_ or _local_ - do you think does the best job of aligning these sequences? Justify your answer with one or two sentences.
+
+## Summary
+
+::: { .callout-tip title="Let's try a sequence search"}
+Now you are familiar with pairwise sequence alignment, and the difference between a _global_ and a _local_ pairwise alignment, we can move on to using `BLAST`, which uses _local_ sequence alignments to search large databases of reference sequences to find the best matches to an input query sequence.
+
+[Next section](blast.qmd)
+:::

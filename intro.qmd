@@ -106,3 +106,11 @@ The current statistics can be found at [UniProtKB](https://www.uniprot.org/unipr
 [Interpro](https://www.ebi.ac.uk/interpro/) is a service providing functional analysis of proteins by querying their sequences against a set of _signature_ databases that contain patterns characteristic of particular functions or protein structures (@fig-interpro).
 
 ![The [InterPro website](https://www.ebi.ac.uk/interpro/) allows simultaneous sequence-based search of several signature databases, to help annotate and classify protein sequences.](assets/images/member_db.png){#fig-interpro}
+
+## Summary
+
+::: { .callout-tip title="What you know so far…"}
+After reading through this section and following the links you should understand why it is important to be able identify similar sequences. You also know about some of the major sequence databases that help us use sequence similarity to understand the possible origins and functions of biological sequences. Now you are ready to start using some of the bioinformatic tools for determining sequence similarity.
+
+[Next section](pairwise.qmd)
+:::
