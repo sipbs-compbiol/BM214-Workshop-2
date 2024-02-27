@@ -8,7 +8,7 @@
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 2&nbsp; BLAST</title>
+<title>BM214 Workshop 2: Sequence Searching - 3&nbsp; BLAST</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -52,7 +52,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./summary.html" rel="next">
-<link href="./intro.html" rel="prev">
+<link href="./pairwise.html" rel="prev">
 <link href="./icon_32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -103,7 +103,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./blast.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">BLAST</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./blast.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -150,14 +150,20 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./pairwise.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pairwise Sequence Alignment</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./blast.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">BLAST</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -182,14 +188,14 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#performing-a-blast-search" id="toc-performing-a-blast-search" class="nav-link active" data-scroll-target="#performing-a-blast-search"><span class="header-section-number">2.1</span> Performing a <code>BLAST</code> search</a>
+  <li><a href="#performing-a-blast-search" id="toc-performing-a-blast-search" class="nav-link active" data-scroll-target="#performing-a-blast-search"><span class="header-section-number">3.1</span> Performing a <code>BLAST</code> search</a>
   <ul class="collapse">
-  <li><a href="#navigate-to-the-ncbi-blast-webserver" id="toc-navigate-to-the-ncbi-blast-webserver" class="nav-link" data-scroll-target="#navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">2.1.1</span> Navigate to the NCBI <code>BLAST</code> webserver</a></li>
-  <li><a href="#select-the-blast-tool-you-want-to-use" id="toc-select-the-blast-tool-you-want-to-use" class="nav-link" data-scroll-target="#select-the-blast-tool-you-want-to-use"><span class="header-section-number">2.1.2</span> Select the <code>BLAST</code> tool you want to use</a></li>
-  <li><a href="#enter-the-query-sequence" id="toc-enter-the-query-sequence" class="nav-link" data-scroll-target="#enter-the-query-sequence"><span class="header-section-number">2.1.3</span> Enter the query sequence</a></li>
-  <li><a href="#set-appropriate-parameter-choices" id="toc-set-appropriate-parameter-choices" class="nav-link" data-scroll-target="#set-appropriate-parameter-choices"><span class="header-section-number">2.1.4</span> Set appropriate parameter choices</a></li>
-  <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">2.1.5</span> Run the <code>BLAST</code> search</a></li>
-  <li><a href="#wait-for-the-search-to-complete" id="toc-wait-for-the-search-to-complete" class="nav-link" data-scroll-target="#wait-for-the-search-to-complete"><span class="header-section-number">2.1.6</span> Wait for the search to complete</a></li>
+  <li><a href="#navigate-to-the-ncbi-blast-webserver" id="toc-navigate-to-the-ncbi-blast-webserver" class="nav-link" data-scroll-target="#navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">3.1.1</span> Navigate to the NCBI <code>BLAST</code> webserver</a></li>
+  <li><a href="#select-the-blast-tool-you-want-to-use" id="toc-select-the-blast-tool-you-want-to-use" class="nav-link" data-scroll-target="#select-the-blast-tool-you-want-to-use"><span class="header-section-number">3.1.2</span> Select the <code>BLAST</code> tool you want to use</a></li>
+  <li><a href="#enter-the-query-sequence" id="toc-enter-the-query-sequence" class="nav-link" data-scroll-target="#enter-the-query-sequence"><span class="header-section-number">3.1.3</span> Enter the query sequence</a></li>
+  <li><a href="#set-appropriate-parameter-choices" id="toc-set-appropriate-parameter-choices" class="nav-link" data-scroll-target="#set-appropriate-parameter-choices"><span class="header-section-number">3.1.4</span> Set appropriate parameter choices</a></li>
+  <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">3.1.5</span> Run the <code>BLAST</code> search</a></li>
+  <li><a href="#wait-for-the-search-to-complete" id="toc-wait-for-the-search-to-complete" class="nav-link" data-scroll-target="#wait-for-the-search-to-complete"><span class="header-section-number">3.1.6</span> Wait for the search to complete</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/blast.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -199,7 +205,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">BLAST</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST</span></h1>
 </div>
 
 
@@ -267,8 +273,8 @@ Important
 <p><strong>In the exercises that follow, you will carry out BLAST searches using the provided sequences, and use the results to answer the formative assessment on MyPlace.</strong></p>
 </div>
 </div>
-<section id="performing-a-blast-search" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="performing-a-blast-search"><span class="header-section-number">2.1</span> Performing a <code>BLAST</code> search</h2>
+<section id="performing-a-blast-search" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="performing-a-blast-search"><span class="header-section-number">3.1</span> Performing a <code>BLAST</code> search</h2>
 <p>This section descbribes a general <code>BLAST</code> query using the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST server</a>. It is intended as a reference guide for you to return to as you get used to querying <code>BLAST</code> through this interface.</p>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -283,16 +289,16 @@ Caution
 <p>There are implementations of <code>BLAST</code> or other sequence search methods at many other databases, and they may present a different interface and choice of options, or even a totally different search method. For example, the <code>RCSB-PDB</code> protein structure database offers a <a href="https://www.rcsb.org/search/advanced/sequence">sequence search page</a> which uses the <code>mmseqs2</code> search algorithm (<span class="citation" data-cites="Steinegger2017-sy">Steinegger and Söding (<a href="references.html#ref-Steinegger2017-sy" role="doc-biblioref">2017</a>)</span>).</p>
 </div>
 </div>
-<section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="2.1.1">
-<h3 data-number="2.1.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">2.1.1</span> Navigate to the NCBI <code>BLAST</code> webserver</h3>
-<p>Open a web browser and navigate to the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST webserver</a>. You should see a landing page that resembles <a href="#fig-ncbi-blast-landing" class="quarto-xref">Figure&nbsp;<span>2.1</span></a>.</p>
+<section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">3.1.1</span> Navigate to the NCBI <code>BLAST</code> webserver</h3>
+<p>Open a web browser and navigate to the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST webserver</a>. You should see a landing page that resembles <a href="#fig-ncbi-blast-landing" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>.</p>
 <div id="fig-ncbi-blast-landing" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-landing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-landing.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-landing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.1: The landing page of the NCBI <code>BLAST</code> webserver.
+Figure&nbsp;3.1: The landing page of the NCBI <code>BLAST</code> webserver.
 </figcaption>
 </figure>
 </div>
@@ -316,13 +322,13 @@ You can use an NCBI account to save searches
 </div>
 </div>
 </section>
-<section id="select-the-blast-tool-you-want-to-use" class="level3" data-number="2.1.2">
-<h3 data-number="2.1.2" class="anchored" data-anchor-id="select-the-blast-tool-you-want-to-use"><span class="header-section-number">2.1.2</span> Select the <code>BLAST</code> tool you want to use</h3>
+<section id="select-the-blast-tool-you-want-to-use" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="select-the-blast-tool-you-want-to-use"><span class="header-section-number">3.1.2</span> Select the <code>BLAST</code> tool you want to use</h3>
 <p>The <code>BLAST</code> suite provides search tools for finding matches to a query in a database. The query can be either a nucleotide or a protein sequence, and the database being searched can contain either protein sequences or nucleotide sequences. <code>BLAST</code> provides four different programs to carry out these combinations of search.</p>
 <div id="tbl-blast-programs" class="striped hover quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-blast-programs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2.1: The four main <code>BLAST</code> programs, and the combination of query/database sequence type they are used for
+Table&nbsp;3.1: The four main <code>BLAST</code> programs, and the combination of query/database sequence type they are used for
 </figcaption>
 <div aria-describedby="tbl-blast-programs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table-striped table-hover table">
@@ -361,35 +367,35 @@ Specialised <code>BLAST</code> tools
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The NCBI <code>BLAST</code> webserver provides specialised search options with specific combinations of parameters and databases pre-selected to support particular kinds of search (<a href="#fig-blast-specialised" class="quarto-xref">Figure&nbsp;<span>2.2</span></a>).</p>
+<p>The NCBI <code>BLAST</code> webserver provides specialised search options with specific combinations of parameters and databases pre-selected to support particular kinds of search (<a href="#fig-blast-specialised" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>).</p>
 <div id="fig-blast-specialised" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-blast-specialised-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/blast-specialised.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-blast-specialised-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.2: Specialised <code>BLAST</code> search options are available at the NCBI <code>BLAST</code> webserver
+Figure&nbsp;3.2: Specialised <code>BLAST</code> search options are available at the NCBI <code>BLAST</code> webserver
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<p>Select <code>Nucleotide BLAST</code> from the NCBI landing page, to get to the <code>blastn</code> search page (<a href="#fig-ncbi-blastn" class="quarto-xref">Figure&nbsp;<span>2.3</span></a>).</p>
+<p>Select <code>Nucleotide BLAST</code> from the NCBI landing page, to get to the <code>blastn</code> search page (<a href="#fig-ncbi-blastn" class="quarto-xref">Figure&nbsp;<span>3.3</span></a>).</p>
 <div id="fig-ncbi-blastn" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blastn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blastn.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blastn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.3: The NCBI <code>blastn</code> webservice search page
+Figure&nbsp;3.3: The NCBI <code>blastn</code> webservice search page
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="enter-the-query-sequence" class="level3" data-number="2.1.3">
-<h3 data-number="2.1.3" class="anchored" data-anchor-id="enter-the-query-sequence"><span class="header-section-number">2.1.3</span> Enter the query sequence</h3>
-<p>Copy the DNA sequence below, and paste it into the box marked <strong> Enter accession number(s), gi(s), or FASTA sequence(s)</strong> at the NCBI search page (<a href="#fig-ncbi-blastn-query" class="quarto-xref">Figure&nbsp;<span>2.4</span></a>).</p>
+<section id="enter-the-query-sequence" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="enter-the-query-sequence"><span class="header-section-number">3.1.3</span> Enter the query sequence</h3>
+<p>Copy the DNA sequence below, and paste it into the box marked <strong> Enter accession number(s), gi(s), or FASTA sequence(s)</strong> at the NCBI search page (<a href="#fig-ncbi-blastn-query" class="quarto-xref">Figure&nbsp;<span>3.4</span></a>).</p>
 <pre class="text"><code>ATGCGTCGAGGGCGTCTGCTGGAGATCGCCCTGGGATTTACCGTGCT
 TTTAGCGTCCTACACGAGCCATGGGGCGGACGCCAATTTGGAGGC
 TGGGAACGTGAAGGAAACCAGAGCCAGTCGGGCC</code></pre>
@@ -399,13 +405,13 @@ TGGGAACGTGAAGGAAACCAGAGCCAGTCGGGCC</code></pre>
 <img src="assets/images/ncbi-blastn-query.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blastn-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.4: The NCBI <code>blastn</code> search page with a query sequence pasted into the query sequence field.
+Figure&nbsp;3.4: The NCBI <code>blastn</code> search page with a query sequence pasted into the query sequence field.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="set-appropriate-parameter-choices" class="level3" data-number="2.1.4">
-<h3 data-number="2.1.4" class="anchored" data-anchor-id="set-appropriate-parameter-choices"><span class="header-section-number">2.1.4</span> Set appropriate parameter choices</h3>
+<section id="set-appropriate-parameter-choices" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="set-appropriate-parameter-choices"><span class="header-section-number">3.1.4</span> Set appropriate parameter choices</h3>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -432,78 +438,78 @@ Improving your searches by changing parameters
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>You can make your <code>BLAST</code> searches quicker, and more relevant to your biological question, if you can use information about your sequence and the type of organism you want to search.</p>
-<p>NCBI <code>BLAST</code> offers a number of smaller specialised databases with particular sequence types (e.g.&nbsp;RNA databases, sequences of protein structures, etc.) (<a href="#fig-ncbi-specialised-db" class="quarto-xref">Figure&nbsp;<span>2.5</span></a>).</p>
+<p>NCBI <code>BLAST</code> offers a number of smaller specialised databases with particular sequence types (e.g.&nbsp;RNA databases, sequences of protein structures, etc.) (<a href="#fig-ncbi-specialised-db" class="quarto-xref">Figure&nbsp;<span>3.5</span></a>).</p>
 <div id="fig-ncbi-specialised-db" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-specialised-db.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.5: A list of specialised sequence databases offered by the NCBI <code>BLAST</code> webserver
+Figure&nbsp;3.5: A list of specialised sequence databases offered by the NCBI <code>BLAST</code> webserver
 </figcaption>
 </figure>
 </div>
-<p>You can also narrow down the search by specifying an organism, or other taxonomic rank, using the <code>Organism</code> field (<a href="#fig-ncbi-organism" class="quarto-xref">Figure&nbsp;<span>2.6</span></a>).</p>
+<p>You can also narrow down the search by specifying an organism, or other taxonomic rank, using the <code>Organism</code> field (<a href="#fig-ncbi-organism" class="quarto-xref">Figure&nbsp;<span>3.6</span></a>).</p>
 <div id="fig-ncbi-organism" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-organism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/fig-ncbi-organism.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-organism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.6: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Pseudomonas”
+Figure&nbsp;3.6: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Pseudomonas”
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<p>Restrict the sequences being searched by typing “Homo sapiens” in the <code>Organism</code> field and selecting the appropriate option from the drop-down list (<a href="#fig-ncbi-homo-sapiens" class="quarto-xref">Figure&nbsp;<span>2.7</span></a>).</p>
+<p>Restrict the sequences being searched by typing “Homo sapiens” in the <code>Organism</code> field and selecting the appropriate option from the drop-down list (<a href="#fig-ncbi-homo-sapiens" class="quarto-xref">Figure&nbsp;<span>3.7</span></a>).</p>
 <div id="fig-ncbi-homo-sapiens" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-homo-sapiens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-homo-sapiens.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-homo-sapiens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.7: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Homo sapiens”
+Figure&nbsp;3.7: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Homo sapiens”
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="run-the-blast-search" class="level3" data-number="2.1.5">
-<h3 data-number="2.1.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">2.1.5</span> Run the <code>BLAST</code> search</h3>
-<p>Click on the <code>BLAST</code> button (<a href="#fig-ncbi-blast-button" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>).</p>
+<section id="run-the-blast-search" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">3.1.5</span> Run the <code>BLAST</code> search</h3>
+<p>Click on the <code>BLAST</code> button (<a href="#fig-ncbi-blast-button" class="quarto-xref">Figure&nbsp;<span>3.8</span></a>).</p>
 <div id="fig-ncbi-blast-button" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-button-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-button-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.8: The NCBI <code>BLAST</code> webserver <code>BLAST</code> button. Click this to start the search.
+Figure&nbsp;3.8: The NCBI <code>BLAST</code> webserver <code>BLAST</code> button. Click this to start the search.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="wait-for-the-search-to-complete" class="level3" data-number="2.1.6">
-<h3 data-number="2.1.6" class="anchored" data-anchor-id="wait-for-the-search-to-complete"><span class="header-section-number">2.1.6</span> Wait for the search to complete</h3>
-<p>While the search runs, you will see a holding page that updates you with progress (<a href="#fig-ncbi-blast-progress" class="quarto-xref">Figure&nbsp;<span>2.9</span></a>)</p>
+<section id="wait-for-the-search-to-complete" class="level3" data-number="3.1.6">
+<h3 data-number="3.1.6" class="anchored" data-anchor-id="wait-for-the-search-to-complete"><span class="header-section-number">3.1.6</span> Wait for the search to complete</h3>
+<p>While the search runs, you will see a holding page that updates you with progress (<a href="#fig-ncbi-blast-progress" class="quarto-xref">Figure&nbsp;<span>3.9</span></a>)</p>
 <div id="fig-ncbi-blast-progress" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-progress-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-progress.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-progress-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.9: An NCBI <code>BLAST</code> webserver progress page.
+Figure&nbsp;3.9: An NCBI <code>BLAST</code> webserver progress page.
 </figcaption>
 </figure>
 </div>
-<p>When the search is complete, you will see the <code>blastn</code> results page (<a href="#fig-ncbi-blast-results" class="quarto-xref">Figure&nbsp;<span>2.10</span></a>).</p>
+<p>When the search is complete, you will see the <code>blastn</code> results page (<a href="#fig-ncbi-blast-results" class="quarto-xref">Figure&nbsp;<span>3.10</span></a>).</p>
 <div id="fig-ncbi-blast-results" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-results.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.10: An NCBI <code>BLAST</code> results page, for a <code>blastn</code> query.
+Figure&nbsp;3.10: An NCBI <code>BLAST</code> results page, for a <code>blastn</code> query.
 </figcaption>
 </figure>
 </div>
@@ -919,13 +925,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      <a href="./pairwise.html" class="pagination-link" aria-label="Pairwise Sequence Alignment">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pairwise Sequence Alignment</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
