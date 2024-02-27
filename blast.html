@@ -8,7 +8,7 @@
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 1&nbsp; Introduction</title>
+<title>BM214 Workshop 2: Sequence Searching - 2&nbsp; BLAST</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,8 +51,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./blast.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./summary.html" rel="next">
+<link href="./intro.html" rel="prev">
 <link href="./icon_32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -103,7 +103,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./blast.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">BLAST</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -144,13 +144,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blast.html" class="sidebar-item-text sidebar-link">
+  <a href="./blast.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">BLAST</span></span></a>
   </div>
 </li>
@@ -182,26 +182,24 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#why-do-we-care-about-biological-sequence-similarity" id="toc-why-do-we-care-about-biological-sequence-similarity" class="nav-link active" data-scroll-target="#why-do-we-care-about-biological-sequence-similarity"><span class="header-section-number">1.1</span> Why do we care about biological sequence similarity?</a></li>
-  <li><a href="#why-does-sequence-similarity-imply-functional-similarity" id="toc-why-does-sequence-similarity-imply-functional-similarity" class="nav-link" data-scroll-target="#why-does-sequence-similarity-imply-functional-similarity"><span class="header-section-number">1.2</span> Why does sequence similarity imply functional similarity?</a></li>
-  <li><a href="#how-similar-is-similar-enough" id="toc-how-similar-is-similar-enough" class="nav-link" data-scroll-target="#how-similar-is-similar-enough"><span class="header-section-number">1.3</span> How similar is similar enough?</a></li>
-  <li><a href="#where-can-we-go-to-find-similar-sequences" id="toc-where-can-we-go-to-find-similar-sequences" class="nav-link" data-scroll-target="#where-can-we-go-to-find-similar-sequences"><span class="header-section-number">1.4</span> Where can we go to find similar sequences?</a>
+  <li><a href="#performing-a-blast-search" id="toc-performing-a-blast-search" class="nav-link active" data-scroll-target="#performing-a-blast-search"><span class="header-section-number">2.1</span> Performing a <code>BLAST</code> search</a>
   <ul class="collapse">
-  <li><a href="#insdc" id="toc-insdc" class="nav-link" data-scroll-target="#insdc"><span class="header-section-number">1.4.1</span> INSDC</a></li>
-  <li><a href="#genbank" id="toc-genbank" class="nav-link" data-scroll-target="#genbank"><span class="header-section-number">1.4.2</span> GenBank</a></li>
-  <li><a href="#refseq" id="toc-refseq" class="nav-link" data-scroll-target="#refseq"><span class="header-section-number">1.4.3</span> RefSeq</a></li>
-  <li><a href="#uniprot" id="toc-uniprot" class="nav-link" data-scroll-target="#uniprot"><span class="header-section-number">1.4.4</span> UniProt</a></li>
-  <li><a href="#interpro" id="toc-interpro" class="nav-link" data-scroll-target="#interpro"><span class="header-section-number">1.4.5</span> InterPro</a></li>
+  <li><a href="#navigate-to-the-ncbi-blast-webserver" id="toc-navigate-to-the-ncbi-blast-webserver" class="nav-link" data-scroll-target="#navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">2.1.1</span> Navigate to the NCBI <code>BLAST</code> webserver</a></li>
+  <li><a href="#select-the-blast-tool-you-want-to-use" id="toc-select-the-blast-tool-you-want-to-use" class="nav-link" data-scroll-target="#select-the-blast-tool-you-want-to-use"><span class="header-section-number">2.1.2</span> Select the <code>BLAST</code> tool you want to use</a></li>
+  <li><a href="#enter-the-query-sequence" id="toc-enter-the-query-sequence" class="nav-link" data-scroll-target="#enter-the-query-sequence"><span class="header-section-number">2.1.3</span> Enter the query sequence</a></li>
+  <li><a href="#set-appropriate-parameter-choices" id="toc-set-appropriate-parameter-choices" class="nav-link" data-scroll-target="#set-appropriate-parameter-choices"><span class="header-section-number">2.1.4</span> Set appropriate parameter choices</a></li>
+  <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">2.1.5</span> Run the <code>BLAST</code> search</a></li>
+  <li><a href="#wait-for-the-search-to-complete" id="toc-wait-for-the-search-to-complete" class="nav-link" data-scroll-target="#wait-for-the-search-to-complete"><span class="header-section-number">2.1.6</span> Wait for the search to complete</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/intro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/blast.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">BLAST</span></h1>
 </div>
 
 
@@ -219,165 +217,8 @@ div.csl-indent {
 
 
 <blockquote class="blockquote">
-<p>If two biological sequences are similar enough to each other, then we can hypothesise that they - or their products, in the case of coding sequences - perform the same biological function, or adopt the same structural conformation.</p>
+<p>The <code>BLAST</code> (Basic Local Alignment Search Tool) software suite provides a set of tools for comparing a biological <a href="./glossary.html#query-sequence">query sequence</a> to the sequences in a database, and returning all those sequences from the database that resemble the query sequence above a defined threshold similarity level.</p>
 </blockquote>
-<section id="why-do-we-care-about-biological-sequence-similarity" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="why-do-we-care-about-biological-sequence-similarity"><span class="header-section-number">1.1</span> Why do we care about biological sequence similarity?</h2>
-<p>It may be surprising, but we do not know what all genes in an organism do. In some organisms, we may not even know what <em>most</em> genes do, or even whether we know all the genes that are present.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Model organisms, such as <em>Escherichia coli</em>, are possibly the forms of life we understand best. But even the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_002695.2">genome of <em>E. coli</em> O157:H7</a> - maybe the best-understood genome we know - contains 756 coding sequences (CDS) annotated as <code>hypothetical protein</code>, which means we have no evidence of what its function is. This is 756/5067 ≈ 15% of the predicted proteome.</p>
-</div>
-</div>
-<p>In general, the more similar two protein sequences are, the more likely they are to share the same functional activity, and to perform the same job for the organism they are found in. So, if we have a biological sequence of unknown function, and we can find a protein whose function we know whose sequence is similar <em>enough</em> to our sequence, then we can hypothesise that they have the same function.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Functional Annotation Transfer
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Assigning a proposed function on the basis of sequence similarity to another sequence that has an annotated function is called <strong>functional annotation transfer</strong>. The vast majority of genes and gene products in public databases have functions assigned by this approach, and not by direct experiment. New sequences are added to these databases at a rate that far exceeds our ability to characterise their products experimentally.</p>
-<p>The <a href="https://biofunctionprediction.org/cafa/">Critical Assessment of Functional Annotation</a> (CAFA) is series of experiments and challenges designed to understand how well our computational methods of functional annotation match experimental reality (<span class="citation" data-cites="Zhou2019-ny">Zhou et al. (<a href="references.html#ref-Zhou2019-ny" role="doc-biblioref">2019</a>)</span>).</p>
-</div>
-</div>
-</div>
-</section>
-<section id="why-does-sequence-similarity-imply-functional-similarity" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="why-does-sequence-similarity-imply-functional-similarity"><span class="header-section-number">1.2</span> Why does sequence similarity imply functional similarity?</h2>
-<p>If two proteins have the exact same sequence of amino acids, then they are essentially “the same thing.” We would expect them both to fold into the same structure, and to interact with the same molecules in the same ways. But the more changes we make to one of the sequences, the more likely it is that we will introduce a difference that results in a change to the structure or the functional activity of the molecule.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-It is not true that the number of sequence differences between two proteins is <em>proportional to</em> the difference in function.
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>For example, the activity of an enzyme like chymotrypsin relies on the exact placement of three amino acid residues in a <em>catalytic triad</em> (<a href="#fig-chymotrypsin" class="quarto-xref">Figure&nbsp;<span>1.1</span></a>). If any one of these residues is substituted inappropriately, the enzyme no longer acts to catalyse the reaction that processes its substrate. However, several simultaneous substitutions can be tolerated elsewhere on the protein structure with no significant loss of catalytic function.</p>
-<div id="fig-chymotrypsin" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-chymotrypsin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/1cbw.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chymotrypsin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.1: The <a href="https://www.rcsb.org/structure/1CBW">1CBW</a> structure of bovine chymptrypsin (transparent space-filling model), complexed with the inhibitor BPTI (rainbow-coloured cartoon). The catalytic triad Asp102-His57-Ser195 is shown in ball-and-stick representation. Changing any member of the catalytic triad for another residue would prevent chymotrypsin from working as an enzyme.
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="how-similar-is-similar-enough" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="how-similar-is-similar-enough"><span class="header-section-number">1.3</span> How similar is similar enough?</h2>
-<p>There is no single value of “similar” short of 100% exact similarity that is guaranteed to be “similar enough.” What might qualify as “similar enough” depends on the scientific question you are asking, and will vary if you are asking questions like:</p>
-<ul>
-<li>Are these two biological sequences from the same organism?</li>
-<li>Do these two biological sequences share a single ancestor?</li>
-<li>Do these two enzymes share the same catalytic function?</li>
-<li>Do these two enzymes catalyse the same reaction for the same substrate?</li>
-<li>Do these two proteins fold into the same structure?</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>There are some <em>heuristics</em> (rules of thumb) that can guide you in how confident you should be in, say, assigning functional annotation or common structure on the basis of sequence identity. The table in <a href="#fig-similarity-table" class="quarto-xref">Figure&nbsp;<span>1.2</span></a> (<span class="citation" data-cites="Punta2008-gq">Punta and Ofran (<a href="references.html#ref-Punta2008-gq" role="doc-biblioref">2008</a>)</span>) outlines some guidelines for interpreting functional similarity from sequence identity.</p>
-<div id="fig-similarity-table" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-similarity-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/pcbi.1000160.t001.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-similarity-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.2: Table relating protein sequence identity to expected functional similarity at a number of levels, reproduced from (<span class="citation" data-cites="Punta2008-gq">Punta and Ofran (<a href="references.html#ref-Punta2008-gq" role="doc-biblioref">2008</a>)</span>
-</figcaption>
-</figure>
-</div>
-<p>Similarly, we can often consider proteins sharing at least 40% amino acid identity to also have a similar alpha carbon backbone structure. Proteins sharing less than 20% identity are likely to have dissimilar structures, and the range 20-40% identity is considered a <em>twilight zone</em> where it is difficult to predict whether two proteins have a common structure (<a href="#fig-rmsd_vs_identity" class="quarto-xref">Figure&nbsp;<span>1.3</span></a>).</p>
-<div id="fig-rmsd_vs_identity" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-rmsd_vs_identity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/bioinformatics_29_13_1589_f1.jpeg" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rmsd_vs_identity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.3: A plot of pairwise protein structure dissimilarity (rmsd) against pairwise protein sequence identity for a set of membrane-spanning proteins, reproduced from <span class="citation" data-cites="Olivella2013-rm">Olivella et al. (<a href="references.html#ref-Olivella2013-rm" role="doc-biblioref">2013</a>)</span>
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="where-can-we-go-to-find-similar-sequences" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="where-can-we-go-to-find-similar-sequences"><span class="header-section-number">1.4</span> Where can we go to find similar sequences?</h2>
-<p>There are many publicly-available biological sequence reference databases available. Each has different contents, and may focus on one aspect of biology.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Always choose an appropriate sequence database for your biological question.</p>
-</div>
-</div>
-<section id="insdc" class="level3" data-number="1.4.1">
-<h3 data-number="1.4.1" class="anchored" data-anchor-id="insdc"><span class="header-section-number">1.4.1</span> INSDC</h3>
-<p>As a condition of publishing papers that describe new biological sequences - whether nucleotide or protein - those sequences must be deposited in a central public resource. For nucleotide sequence data, this is managed under the <a href="https://www.insdc.org/">International Sequence Database Collaboration</a> (INSDC), which is a collaboration between Japanese, US, and European organisations:</p>
-<ul>
-<li><a href="https://www.ddbj.nig.ac.jp/index-e.html">DDBJ</a> - the DNA Data Bank of Japan</li>
-<li><a href="https://www.ebi.ac.uk/">EMBL-EBI</a> - the European Molecular Biology Laboratory - European Bioinformatics Institute</li>
-<li><a href="https://www.ncbi.nlm.nih.gov/">NCBI</a> - the National Center for Biotechnology Information, USA</li>
-</ul>
-</section>
-<section id="genbank" class="level3" data-number="1.4.2">
-<h3 data-number="1.4.2" class="anchored" data-anchor-id="genbank"><span class="header-section-number">1.4.2</span> GenBank</h3>
-<p>The <a href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank</a> database contains the annotated collection of all publicly available DNA sequences, and is provided by NCBI as part of the INSDC. The initial release of GenBank in December 1982 contained 606 nucleotide sequences. As of December 2023, GenBank contains 249,060,436 nucleotide sequences, and 2,863,228,552 additional sequences deriving from whole-genome sequencing. The number of bases in GenBank <a href="https://www.ncbi.nlm.nih.gov/genbank/statistics/">doubles approximately every 18 months</a>.</p>
-</section>
-<section id="refseq" class="level3" data-number="1.4.3">
-<h3 data-number="1.4.3" class="anchored" data-anchor-id="refseq"><span class="header-section-number">1.4.3</span> RefSeq</h3>
-<p>NCBI also provides the <a href="https://www.ncbi.nlm.nih.gov/refseq/">RefSeq</a> (NCBI Reference Sequence Database), which provides a comprehensive, integrated, non-redundant, consistently annotated set of reference nucleotide, transcript, and protein sequences.</p>
-</section>
-<section id="uniprot" class="level3" data-number="1.4.4">
-<h3 data-number="1.4.4" class="anchored" data-anchor-id="uniprot"><span class="header-section-number">1.4.4</span> UniProt</h3>
-<p><a href="https://www.uniprot.org">UniProt</a> is a resource for protein sequence and annotation data. It comprises three databases:</p>
-<ul>
-<li><a href="https://www.uniprot.org/help/uniprotkb">UniProt Knowledgebase</a> (UniProtKB)</li>
-<li><a href="https://www.uniprot.org/help/uniref">UniProt Reference Clusters</a> (UniRef)</li>
-<li><a href="https://www.uniprot.org/help/uniparc">UniProt Archive</a> (UniParc)</li>
-</ul>
-<p>The main database of proteins is UniProtKB, and this is supported by UniRef - which clusters sequences on the basis of sequence identity - and UniParc, the archive of new, revised and obsolete sequences.</p>
-<p>UniProtKB is itself comprised of two databases:</p>
-<ul>
-<li><a href="https://www.uniprot.org/uniprotkb?query=reviewed:true">Swiss-Prot</a>, a manually annotated and reviewed set of sequences where every annotation has been checked by a human</li>
-<li><a href="">TrEMBL</a>, the remaining set of known sequences, whose annotations were dervied by automated assignment, and have not been reviewed by a human</li>
-</ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -388,39 +229,301 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Manual annotation is time-consuming, and most proteins in UniProt have not been manually reviewed. As at 22nd February 2024:</p>
+<p>The original <code>BLAST</code> paper is one of the most highly cited publications of all time, and has <a href="https://scholar.google.co.uk/scholar?cites=13256359684734893683&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en">over 110,000 citations in the literature</a>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+A brief history of the <code>BLAST</code> software suite
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <ul>
-<li>Swiss-Prot contains 570,830 manually-reviewed protein sequences</li>
-<li>TrEMBL contains 249,751,891 automatically annotated protein sequences</li>
+<li>1990: <code>BLAST</code> is first described (<span class="citation" data-cites="Altschul1990-ar">Altschul et al. (<a href="references.html#ref-Altschul1990-ar" role="doc-biblioref">1990</a>)</span>).</li>
+<li>1997: A refined version of <code>BLAST</code> is published, introducing a new way of managing gapped alignments and <code>PSI-BLAST</code> - a method of compiling a <em>profile</em> of similar sequences to make searching more sensitive (<span class="citation" data-cites="Altschul1997-vt">Altschul et al. (<a href="references.html#ref-Altschul1997-vt" role="doc-biblioref">1997</a>)</span>).</li>
+<li>2000: The <code>MegaBLAST</code> algorithm for fast alignment-based searching of large nucleotide sequences is proposed, and incorporated into the <code>BLAST</code> suite (<span class="citation" data-cites="Zhang2000-wn">Zhang et al. (<a href="references.html#ref-Zhang2000-wn" role="doc-biblioref">2000</a>)</span>).</li>
+<li>2009: A completely rewritten version of the software suite, <code>BLAST+</code> is released. This improved performance and changed many features of the algorithms used for searching and building databases (<span class="citation" data-cites="Camacho2009-za">Camacho et al. (<a href="references.html#ref-Camacho2009-za" role="doc-biblioref">2009</a>)</span>).</li>
 </ul>
-<p>The current statistics can be found at <a href="https://www.uniprot.org/uniprotkb">UniProtKB</a></p>
+<p>The latest updates to the <code>BLAST</code> software are described on the <a href="https://blast.ncbi.nlm.nih.gov/doc/blast-news/2023-BLAST-News.html">BLAST news page</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>In the exercises that follow, you will carry out BLAST searches using the provided sequences, and use the results to answer the formative assessment on MyPlace.</strong></p>
+</div>
+</div>
+<section id="performing-a-blast-search" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="performing-a-blast-search"><span class="header-section-number">2.1</span> Performing a <code>BLAST</code> search</h2>
+<p>This section descbribes a general <code>BLAST</code> query using the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST server</a>. It is intended as a reference guide for you to return to as you get used to querying <code>BLAST</code> through this interface.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>There are implementations of <code>BLAST</code> or other sequence search methods at many other databases, and they may present a different interface and choice of options, or even a totally different search method. For example, the <code>RCSB-PDB</code> protein structure database offers a <a href="https://www.rcsb.org/search/advanced/sequence">sequence search page</a> which uses the <code>mmseqs2</code> search algorithm (<span class="citation" data-cites="Steinegger2017-sy">Steinegger and Söding (<a href="references.html#ref-Steinegger2017-sy" role="doc-biblioref">2017</a>)</span>).</p>
+</div>
+</div>
+<section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">2.1.1</span> Navigate to the NCBI <code>BLAST</code> webserver</h3>
+<p>Open a web browser and navigate to the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST webserver</a>. You should see a landing page that resembles <a href="#fig-ncbi-blast-landing" class="quarto-xref">Figure&nbsp;<span>2.1</span></a>.</p>
+<div id="fig-ncbi-blast-landing" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-blast-landing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-blast-landing.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-landing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: The landing page of the NCBI <code>BLAST</code> webserver.
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+You can use an NCBI account to save searches
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Note that there is a <code>Log in</code> button at the top right of the landing page. If you have a suitable account with NCBI/NIH, NCBI maintains a record of your searches and history so you can store your searches and retrieve them later.</p>
+<ul>
+<li><a href="https://account.ncbi.nlm.nih.gov/signup/">Sign up</a> for a free NCBI account</li>
+</ul>
+</div>
 </div>
 </div>
 </section>
-<section id="interpro" class="level3" data-number="1.4.5">
-<h3 data-number="1.4.5" class="anchored" data-anchor-id="interpro"><span class="header-section-number">1.4.5</span> InterPro</h3>
-<p><a href="https://www.ebi.ac.uk/interpro/">Interpro</a> is a service providing functional analysis of proteins by querying their sequences against a set of <em>signature</em> databases that contain patterns characteristic of particular functions or protein structures (<a href="#fig-interpro" class="quarto-xref">Figure&nbsp;<span>1.4</span></a>).</p>
-<div id="fig-interpro" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-interpro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/member_db.png" class="img-fluid figure-img">
+<section id="select-the-blast-tool-you-want-to-use" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="select-the-blast-tool-you-want-to-use"><span class="header-section-number">2.1.2</span> Select the <code>BLAST</code> tool you want to use</h3>
+<p>The <code>BLAST</code> suite provides search tools for finding matches to a query in a database. The query can be either a nucleotide or a protein sequence, and the database being searched can contain either protein sequences or nucleotide sequences. <code>BLAST</code> provides four different programs to carry out these combinations of search.</p>
+<div id="tbl-blast-programs" class="striped hover quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-blast-programs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2.1: The four main <code>BLAST</code> programs, and the combination of query/database sequence type they are used for
+</figcaption>
+<div aria-describedby="tbl-blast-programs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover table">
+<thead>
+<tr class="header">
+<th>Query type</th>
+<th style="text-align: center;">nucleotideDB</th>
+<th style="text-align: center;">proteinDB</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>nucleotide</td>
+<td style="text-align: center;"><code>blastn</code></td>
+<td style="text-align: center;"><code>blastx</code></td>
+</tr>
+<tr class="even">
+<td>protein</td>
+<td style="text-align: center;"><code>tblastn</code></td>
+<td style="text-align: center;"><code>blastp</code></td>
+</tr>
+</tbody>
+</table>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-interpro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.4: The <a href="https://www.ebi.ac.uk/interpro/">InterPro website</a> allows simultaneous sequence-based search of several signature databases, to help annotate and classify protein sequences.
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Specialised <code>BLAST</code> tools
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The NCBI <code>BLAST</code> webserver provides specialised search options with specific combinations of parameters and databases pre-selected to support particular kinds of search (<a href="#fig-blast-specialised" class="quarto-xref">Figure&nbsp;<span>2.2</span></a>).</p>
+<div id="fig-blast-specialised" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-blast-specialised-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/blast-specialised.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-blast-specialised-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.2: Specialised <code>BLAST</code> search options are available at the NCBI <code>BLAST</code> webserver
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Select <code>Nucleotide BLAST</code> from the NCBI landing page, to get to the <code>blastn</code> search page (<a href="#fig-ncbi-blastn" class="quarto-xref">Figure&nbsp;<span>2.3</span></a>).</p>
+<div id="fig-ncbi-blastn" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-blastn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-blastn.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blastn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.3: The NCBI <code>blastn</code> webservice search page
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="enter-the-query-sequence" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="enter-the-query-sequence"><span class="header-section-number">2.1.3</span> Enter the query sequence</h3>
+<p>Copy the DNA sequence below, and paste it into the box marked <strong> Enter accession number(s), gi(s), or FASTA sequence(s)</strong> at the NCBI search page (<a href="#fig-ncbi-blastn-query" class="quarto-xref">Figure&nbsp;<span>2.4</span></a>).</p>
+<pre class="text"><code>ATGCGTCGAGGGCGTCTGCTGGAGATCGCCCTGGGATTTACCGTGCT
+TTTAGCGTCCTACACGAGCCATGGGGCGGACGCCAATTTGGAGGC
+TGGGAACGTGAAGGAAACCAGAGCCAGTCGGGCC</code></pre>
+<div id="fig-ncbi-blastn-query" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-blastn-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-blastn-query.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blastn-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.4: The NCBI <code>blastn</code> search page with a query sequence pasted into the query sequence field.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="set-appropriate-parameter-choices" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="set-appropriate-parameter-choices"><span class="header-section-number">2.1.4</span> Set appropriate parameter choices</h3>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you make no more changes to the parameter settings for your search, the default options will be used. Your query will be made against the <code>nr/nt</code> complete nucleotide collection, a very large database. Due to the size of the database, the search may take a relatively long time.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Improving your searches by changing parameters
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>You can make your <code>BLAST</code> searches quicker, and more relevant to your biological question, if you can use information about your sequence and the type of organism you want to search.</p>
+<p>NCBI <code>BLAST</code> offers a number of smaller specialised databases with particular sequence types (e.g.&nbsp;RNA databases, sequences of protein structures, etc.) (<a href="#fig-ncbi-specialised-db" class="quarto-xref">Figure&nbsp;<span>2.5</span></a>).</p>
+<div id="fig-ncbi-specialised-db" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-specialised-db.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.5: A list of specialised sequence databases offered by the NCBI <code>BLAST</code> webserver
+</figcaption>
+</figure>
+</div>
+<p>You can also narrow down the search by specifying an organism, or other taxonomic rank, using the <code>Organism</code> field (<a href="#fig-ncbi-organism" class="quarto-xref">Figure&nbsp;<span>2.6</span></a>).</p>
+<div id="fig-ncbi-organism" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-organism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/fig-ncbi-organism.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-organism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.6: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Pseudomonas”
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Restrict the sequences being searched by typing “Homo sapiens” in the <code>Organism</code> field and selecting the appropriate option from the drop-down list (<a href="#fig-ncbi-homo-sapiens" class="quarto-xref">Figure&nbsp;<span>2.7</span></a>).</p>
+<div id="fig-ncbi-homo-sapiens" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-homo-sapiens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-homo-sapiens.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-homo-sapiens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.7: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Homo sapiens”
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="run-the-blast-search" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">2.1.5</span> Run the <code>BLAST</code> search</h3>
+<p>Click on the <code>BLAST</code> button (<a href="#fig-ncbi-blast-button" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>).</p>
+<div id="fig-ncbi-blast-button" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-blast-button-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-button-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.8: The NCBI <code>BLAST</code> webserver <code>BLAST</code> button. Click this to start the search.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="wait-for-the-search-to-complete" class="level3" data-number="2.1.6">
+<h3 data-number="2.1.6" class="anchored" data-anchor-id="wait-for-the-search-to-complete"><span class="header-section-number">2.1.6</span> Wait for the search to complete</h3>
+<p>While the search runs, you will see a holding page that updates you with progress (<a href="#fig-ncbi-blast-progress" class="quarto-xref">Figure&nbsp;<span>2.9</span></a>)</p>
+<div id="fig-ncbi-blast-progress" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-blast-progress-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-blast-progress.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-progress-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.9: An NCBI <code>BLAST</code> webserver progress page.
+</figcaption>
+</figure>
+</div>
+<p>When the search is complete, you will see the <code>blastn</code> results page (<a href="#fig-ncbi-blast-results" class="quarto-xref">Figure&nbsp;<span>2.10</span></a>).</p>
+<div id="fig-ncbi-blast-results" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ncbi-blast-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/ncbi-blast-results.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.10: An NCBI <code>BLAST</code> results page, for a <code>blastn</code> query.
 </figcaption>
 </figure>
 </div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-Olivella2013-rm" class="csl-entry" role="listitem">
-Olivella, Mireia, Angel Gonzalez, Leonardo Pardo, and Xavier Deupi. 2013. <span>“Relation Between Sequence and Structure in Membrane Proteins.”</span> <em>Bioinformatics</em> 29 (13): 1589–92.
+<div id="ref-Altschul1990-ar" class="csl-entry" role="listitem">
+Altschul, S F, W Gish, W Miller, E W Myers, and D J Lipman. 1990. <span>“Basic Local Alignment Search Tool.”</span> <em>J. Mol. Biol.</em> 215 (3): 403–10.
 </div>
-<div id="ref-Punta2008-gq" class="csl-entry" role="listitem">
-Punta, Marco, and Yanay Ofran. 2008. <span>“The Rough Guide to in Silico Function Prediction, or How to Use Sequence and Structure Information to Predict Protein Function.”</span> <em>PLoS Comput. Biol.</em> 4 (10): e1000160.
+<div id="ref-Altschul1997-vt" class="csl-entry" role="listitem">
+Altschul, S F, T L Madden, A A Schäffer, J Zhang, Z Zhang, W Miller, and D J Lipman. 1997. <span>“Gapped <span>BLAST</span> and <span>PSI-BLAST</span>: A New Generation of Protein Database Search Programs.”</span> <em>Nucleic Acids Res.</em> 25 (17): 3389–3402.
 </div>
-<div id="ref-Zhou2019-ny" class="csl-entry" role="listitem">
-Zhou, Naihui, Yuxiang Jiang, Timothy R Bergquist, Alexandra J Lee, Balint Z Kacsoh, Alex W Crocker, Kimberley A Lewis, et al. 2019. <span>“The <span>CAFA</span> Challenge Reports Improved Protein Function Prediction and New Functional Annotations for Hundreds of Genes Through Experimental Screens.”</span> <em>Genome Biol.</em> 20 (1): 244.
+<div id="ref-Camacho2009-za" class="csl-entry" role="listitem">
+Camacho, Christiam, George Coulouris, Vahram Avagyan, Ning Ma, Jason Papadopoulos, Kevin Bealer, and Thomas L Madden. 2009. <span>“<span>BLAST+</span>: Architecture and Applications.”</span> <em>BMC Bioinformatics</em> 10 (1): 421.
+</div>
+<div id="ref-Steinegger2017-sy" class="csl-entry" role="listitem">
+Steinegger, Martin, and Johannes Söding. 2017. <span>“<span>MMseqs2</span> Enables Sensitive Protein Sequence Searching for the Analysis of Massive Data Sets.”</span> <em>Nat. Biotechnol.</em> 35 (11): 1026–28.
+</div>
+<div id="ref-Zhang2000-wn" class="csl-entry" role="listitem">
+Zhang, Z, S Schwartz, L Wagner, and W Miller. 2000. <span>“A Greedy Algorithm for Aligning <span>DNA</span> Sequences.”</span> <em>J. Comput. Biol.</em> 7 (1-2): 203–14.
 </div>
 </div>
 </section>
@@ -816,13 +919,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Preface to {{< var ay >}} BM214 Workshop 2: Sequence Searching">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface to 2023-24 BM214 Workshop 2: Sequence Searching</span>
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./blast.html" class="pagination-link" aria-label="BLAST">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">BLAST</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -834,7 +937,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/intro.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/blast.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
