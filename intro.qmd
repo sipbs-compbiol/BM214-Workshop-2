@@ -7,7 +7,7 @@
 It may be surprising, but we do not know what all genes in an organism do. In some organisms, we may not even know what _most_ genes do, or even whether we know all the genes that are present.
 
 ::: { .callout-warning }
-Model organisms, such as _Escherichia coli_, are possibly the forms of life we understand best. But even the genome of _E. coli_ O157:H7 - maybe the best-understood genome we know - contains 756 coding sequences (CDS) annotated as `hypothetical protein`, which means we have no evidence of what its function is. This is 756/5067 ≈ 15% of the predicted proteome.
+Model organisms, such as _Escherichia coli_, are possibly the forms of life we understand best. But even the [genome of _E. coli_ O157:H7](https://www.ncbi.nlm.nih.gov/nuccore/NC_002695.2) - maybe the best-understood genome we know - contains 756 coding sequences (CDS) annotated as `hypothetical protein`, which means we have no evidence of what its function is. This is 756/5067 ≈ 15% of the predicted proteome.
 :::
 
 In general, the more similar two protein sequences are, the more likely they are to share the same functional activity, and to perform the same job for the organism they are found in. So, if we have a biological sequence of unknown function, and we can find a protein whose function we know whose sequence is similar _enough_ to our sequence, then we can hypothesise that they have the same function.
