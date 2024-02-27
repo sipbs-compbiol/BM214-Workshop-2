@@ -1,9 +1,108 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+> If two biological sequences are similar enough to each other, then we can hypothesise that they - or their products, in the case of coding sequences - perform the same biological function, or adopt the same structural conformation.
 
-See @knuth84 for additional discussion of literate programming.
+## Why do we care about biological sequence similarity?
 
-```{r}
-1 + 1
-```
+It may be surprising, but we do not know what all genes in an organism do. In some organisms, we may not even know what _most_ genes do, or even whether we know all the genes that are present.
+
+::: { .callout-warning }
+Model organisms, such as _Escherichia coli_, are possibly the forms of life we understand best. But even the genome of _E. coli_ O157:H7 - maybe the best-understood genome we know - contains 756 coding sequences (CDS) annotated as `hypothetical protein`, which means we have no evidence of what its function is. This is 756/5067 ≈ 15% of the predicted proteome.
+:::
+
+In general, the more similar two protein sequences are, the more likely they are to share the same functional activity, and to perform the same job for the organism they are found in. So, if we have a biological sequence of unknown function, and we can find a protein whose function we know whose sequence is similar _enough_ to our sequence, then we can hypothesise that they have the same function.
+
+::: { .callout-note collapse="true"}
+## Functional Annotation Transfer
+
+Assigning a proposed function on the basis of sequence similarity to another sequence that has an annotated function is called **functional annotation transfer**. The vast majority of genes and gene products in public databases have functions assigned by this approach, and not by direct experiment. New sequences are added to these databases at a rate that far exceeds our ability to characterise their products experimentally.
+
+The [Critical Assessment of Functional Annotation](https://biofunctionprediction.org/cafa/) (CAFA) is series of experiments and challenges designed to understand how well our computational methods of functional annotation match experimental reality (@Zhou2019-ny).
+:::
+
+## Why does sequence similarity imply functional similarity?
+
+If two proteins have the exact same sequence of amino acids, then they are essentially "the same thing." We would expect them both to fold into the same structure, and to interact with the same molecules in the same ways. But the more changes we make to one of the sequences, the more likely it is that we will introduce a difference that results in a change to the structure or the functional activity of the molecule.
+
+::: { .callout-important collapse="true"}
+## It is not true that the number of sequence differences between two proteins is _proportional to_ the difference in function.
+
+For example, the activity of an enzyme like chymotrypsin relies on the exact placement of three amino acid residues in a _catalytic triad_ (@fig-chymotrypsin). If any one of these residues is substituted inappropriately, the enzyme no longer acts to catalyse the reaction that processes its substrate. However, several simultaneous substitutions can be tolerated elsewhere on the protein structure with no significant loss of catalytic function.
+
+![The [1CBW](https://www.rcsb.org/structure/1CBW) structure of bovine chymptrypsin (transparent space-filling model), complexed with the inhibitor BPTI (rainbow-coloured cartoon). The catalytic triad Asp102-His57-Ser195 is shown in ball-and-stick representation. Changing any member of the catalytic triad for another residue would prevent chymotrypsin from working as an enzyme.](assets/images/1cbw.png){#fig-chymotrypsin}
+:::
+
+
+## How similar is similar enough?
+
+There is no single value of "similar" short of 100% exact similarity that is guaranteed to be "similar enough." What might qualify as "similar enough" depends on the scientific question you are asking, and will vary if you are asking questions like:
+
+- Are these two biological sequences from the same organism?
+- Do these two biological sequences share a single ancestor?
+- Do these two enzymes share the same catalytic function?
+- Do these two enzymes catalyse the same reaction for the same substrate?
+- Do these two proteins fold into the same structure?
+
+::: { .callout-tip }
+There are some _heuristics_ (rules of thumb) that can guide you in how confident you should be in, say, assigning functional annotation or common structure on the basis of sequence identity. The table in @fig-similarity-table (@Punta2008-gq) outlines some guidelines for interpreting functional similarity from sequence identity.
+
+![Table relating protein sequence identity to expected functional similarity at a number of levels, reproduced from (@Punta2008-gq](assets/images/pcbi.1000160.t001.png){#fig-similarity-table}
+
+Similarly, we can often consider proteins sharing at least 40% amino acid identity to also have a similar alpha carbon backbone structure. Proteins sharing less than 20% identity are likely to have dissimilar structures, and the range 20-40% identity is considered a _twilight zone_ where it is difficult to predict whether two proteins have a common structure (@fig-rmsd_vs_identity).
+
+![A plot of pairwise protein structure dissimilarity (rmsd) against pairwise protein sequence identity for a set of membrane-spanning proteins, reproduced from @Olivella2013-rm](assets/images/bioinformatics_29_13_1589_f1.jpeg){#fig-rmsd_vs_identity}
+:::
+
+## Where can we go to find similar sequences?
+
+There are many publicly-available biological sequence reference databases available. Each has different contents, and may focus on one aspect of biology.
+
+::: { .callout-tip }
+Always choose an appropriate sequence database for your biological question.
+:::
+
+### INSDC
+
+As a condition of publishing papers that describe new biological sequences - whether nucleotide or protein - those sequences must be deposited in a central public resource. For nucleotide sequence data, this is managed under the [International Sequence Database Collaboration](https://www.insdc.org/) (INSDC), which is a collaboration between Japanese, US, and European organisations:
+
+- [DDBJ](https://www.ddbj.nig.ac.jp/index-e.html) - the DNA Data Bank of Japan
+- [EMBL-EBI](https://www.ebi.ac.uk/) - the European Molecular Biology Laboratory - European Bioinformatics Institute
+- [NCBI](https://www.ncbi.nlm.nih.gov/) - the National Center for Biotechnology Information, USA
+
+### GenBank
+
+The [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) database contains the annotated collection of all publicly available DNA sequences, and is provided by NCBI as part of the INSDC. The initial release of GenBank in December 1982 contained 606 nucleotide sequences. As of December 2023, GenBank contains 249,060,436 nucleotide sequences, and 2,863,228,552 additional sequences deriving from whole-genome sequencing. The number of bases in GenBank [doubles approximately every 18 months](https://www.ncbi.nlm.nih.gov/genbank/statistics/).
+
+### RefSeq
+
+NCBI also provides the [RefSeq](https://www.ncbi.nlm.nih.gov/refseq/) (NCBI Reference Sequence Database), which provides a comprehensive, integrated, non-redundant, consistently annotated set of reference nucleotide, transcript, and protein sequences.
+
+### UniProt
+
+[UniProt](https://www.uniprot.org) is a resource for protein sequence and annotation data. It comprises three databases:
+
+- [UniProt Knowledgebase](https://www.uniprot.org/help/uniprotkb) (UniProtKB)
+- [UniProt Reference Clusters](https://www.uniprot.org/help/uniref) (UniRef)
+- [UniProt Archive](https://www.uniprot.org/help/uniparc) (UniParc)
+
+The main database of proteins is UniProtKB, and this is supported by UniRef - which clusters sequences on the basis of sequence identity - and UniParc, the archive of new, revised and obsolete sequences.
+
+UniProtKB is itself comprised of two databases:
+
+- [Swiss-Prot](https://www.uniprot.org/uniprotkb?query=reviewed:true), a manually annotated and reviewed set of sequences where every annotation has been checked by a human
+- [TrEMBL](), the remaining set of known sequences, whose annotations were dervied by automated assignment, and have not been reviewed by a human
+
+::: { .callout-note }
+Manual annotation is time-consuming, and most proteins in UniProt have not been manually reviewed. As at 22nd February 2024:
+
+- Swiss-Prot contains 570,830 manually-reviewed protein sequences 
+- TrEMBL contains 249,751,891 automatically annotated protein sequences
+
+The current statistics can be found at [UniProtKB](https://www.uniprot.org/uniprotkb)
+:::
+
+### InterPro
+
+[Interpro](https://www.ebi.ac.uk/interpro/) is a service providing functional analysis of proteins by querying their sequences against a set of _signature_ databases that contain patterns characteristic of particular functions or protein structures (@fig-interpro).
+
+![The [InterPro website](https://www.ebi.ac.uk/interpro/) allows simultaneous sequence-based search of several signature databases, to help annotate and classify protein sequences.](assets/images/member_db.png){#fig-interpro}
