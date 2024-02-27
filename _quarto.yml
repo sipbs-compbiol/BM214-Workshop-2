@@ -25,6 +25,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - blast.qmd
     - summary.qmd
     - glossary.qmd
     - references.qmd
