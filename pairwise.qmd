@@ -180,7 +180,7 @@ sequence_2         3 ACTTTAGAGGCTTGCAACCA     22
 ::: { .callout-caution collapse="true" }
 ## What do you notice about the alignment?
 
-- Although the input sequences were the same, the alignment is quite different: it is _much shorter_.
+- Although the input sequences are the same ones that were used for global alignment, the local alignment is quite different: it is _much shorter_.
 - Not all bases from either sequence are represented in the alignment - only bases `27` to `46` of `sequence_1` and bases `3` to `22` of `sequence_2`.
 - Not all bases aligned in the global pairwise alignment are aligned in the local alignment.
 :::

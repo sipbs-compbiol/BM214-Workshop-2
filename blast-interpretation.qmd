@@ -1,0 +1,3 @@
+# BLAST: Interpreting a Report
+
+In this chapter, we'll go into some detail about the contents of a `BLAST` output report, and how to interpret it. Understanding the content and structure of a `BLAST` report will help you get the most relevant information about your search quickly, and avoid overinterpretation of `BLAST` search results.

@@ -1,6 +1,6 @@
-# BLAST
+# BLAST: Introduction
 
-> The `BLAST` (Basic Local Alignment Search Tool) software suite provides a set of tools for comparing a biological [query sequence](glossary.qmd#query-sequence) to the sequences in a database, and returning all those sequences from the database that resemble the query sequence above a defined threshold similarity level.
+> The [`BLAST` (Basic Local Alignment Search Tool) software suite](https://blast.ncbi.nlm.nih.gov/Blast.cgi) provides a set of tools for comparing a biological [query sequence](glossary.qmd#query-sequence) to the sequences in a database, and returning those sequences from the database that resemble the query sequence above a defined threshold similarity level.
 
 ::: { .callout-note }
 The original `BLAST` paper is one of the most highly cited publications of all time, and has [over 110,000 citations in the literature](https://scholar.google.co.uk/scholar?cites=13256359684734893683&as_sdt=2005&sciodt=0,5&hl=en).
@@ -23,7 +23,7 @@ The latest updates to the `BLAST` software are described on the [BLAST news page
 
 ## Performing a `BLAST` search
 
-This section descbribes a general `BLAST` query using the [NCBI BLAST server](https://blast.ncbi.nlm.nih.gov/Blast.cgi). It is intended as a reference guide for you to return to as you get used to querying `BLAST` through this interface.
+This section describes a general `BLAST` query using the [NCBI BLAST server](https://blast.ncbi.nlm.nih.gov/Blast.cgi). It is intended as a reference guide for you to return to as you get used to querying `BLAST` through this interface.
 
 ::: { .callout-caution }
 There are implementations of `BLAST` or other sequence search methods at many other databases, and they may present a different interface and choice of options, or even a totally different search method. For example, the `RCSB-PDB` protein structure database offers a [sequence search page](https://www.rcsb.org/search/advanced/sequence) which uses the `mmseqs2` search algorithm (@Steinegger2017-sy).
@@ -33,7 +33,7 @@ There are implementations of `BLAST` or other sequence search methods at many ot
 
 Open a web browser and navigate to the [NCBI BLAST webserver](https://blast.ncbi.nlm.nih.gov/Blast.cgi). You should see a landing page that resembles @fig-ncbi-blast-landing.
 
-![The landing page of the NCBI `BLAST` webserver.](assets/images/ncbi-blast-landing.png){#fig-ncbi-blast-landing}
+![The landing page of the NCBI `BLAST` webserver.](assets/images/ncbi-blast-landing.png){#fig-ncbi-blast-landing width="80%"}
 
 ::: { .callout-tip collapse="true" }
 ## You can use an NCBI account to save searches
@@ -59,13 +59,13 @@ The `BLAST` suite provides search tools for finding matches to a query in a data
 
 The NCBI `BLAST` webserver provides specialised search options with specific combinations of parameters and databases pre-selected to support particular kinds of search (@fig-blast-specialised).
 
-![Specialised `BLAST` search options are available at the NCBI `BLAST` webserver](assets/images/blast-specialised.png){#fig-blast-specialised}
+![Specialised `BLAST` search options are available at the NCBI `BLAST` webserver](assets/images/blast-specialised.png){#fig-blast-specialised width="80%"}
 
 :::
 
 Select `Nucleotide BLAST` from the NCBI landing page, to get to the `blastn` search page (@fig-ncbi-blastn).
 
-![The NCBI `blastn` webservice search page](assets/images/ncbi-blastn.png){#fig-ncbi-blastn}
+![The NCBI `blastn` webservice search page](assets/images/ncbi-blastn.png){#fig-ncbi-blastn width="80%"}
 
 ### Enter the query sequence
 
@@ -78,7 +78,7 @@ TTTAGCGTCCTACACGAGCCATGGGGCGGACGCCAATTTGGAGGC
 TGGGAACGTGAAGGAAACCAGAGCCAGTCGGGCC
 ```
 
-![The NCBI `blastn` search page with a query sequence pasted into the query sequence field.](assets/images/ncbi-blastn-query.png){#fig-ncbi-blastn-query}
+![The NCBI `blastn` search page with a query sequence pasted into the query sequence field.](assets/images/ncbi-blastn-query.png){#fig-ncbi-blastn-query width="80%"}
 
 ### Set appropriate parameter choices
 
@@ -93,29 +93,29 @@ You can make your `BLAST` searches quicker, and more relevant to your biological
 
 NCBI `BLAST` offers a number of smaller specialised databases with particular sequence types (e.g. RNA databases, sequences of protein structures, etc.) (@fig-ncbi-specialised-db).
 
-![A list of specialised sequence databases offered by the NCBI `BLAST` webserver](assets/images/ncbi-specialised-db.png){#fig-ncbi-specialised-db}
+![A list of specialised sequence databases offered by the NCBI `BLAST` webserver](assets/images/ncbi-specialised-db.png){#fig-ncbi-specialised-db width="80%"}
 
 You can also narrow down the search by specifying an organism, or other taxonomic rank, using the `Organism` field (@fig-ncbi-organism).
 
-![Taxonomic options offered by the NCBI `BLAST` search organism field, for "Pseudomonas"](assets/images/fig-ncbi-organism.png){#fig-ncbi-organism}
+![Taxonomic options offered by the NCBI `BLAST` search organism field, for "Pseudomonas"](assets/images/fig-ncbi-organism.png){#fig-ncbi-organism width="80%"}
 :::
 
 Restrict the sequences being searched by typing "Homo sapiens" in the `Organism` field and selecting the appropriate option from the drop-down list (@fig-ncbi-homo-sapiens).
 
-![Taxonomic options offered by the NCBI `BLAST` search organism field, for "Homo sapiens"](assets/images/ncbi-homo-sapiens.png){#fig-ncbi-homo-sapiens}
+![Taxonomic options offered by the NCBI `BLAST` search organism field, for "Homo sapiens"](assets/images/ncbi-homo-sapiens.png){#fig-ncbi-homo-sapiens width="80%"}
 
 ### Run the `BLAST` search
 
 Click on the `BLAST` button (@fig-ncbi-blast-button).
 
-![The NCBI `BLAST` webserver `BLAST` button. Click this to start the search.](assets/images/ncbi-blast-button.png){#fig-ncbi-blast-button}
+![The NCBI `BLAST` webserver `BLAST` button. Click this to start the search.](assets/images/ncbi-blast-button.png){#fig-ncbi-blast-button width="80%"}
 
 ### Wait for the search to complete
 
 While the search runs, you will see a holding page that updates you with progress (@fig-ncbi-blast-progress)
 
-![An NCBI `BLAST` webserver progress page.](assets/images/ncbi-blast-progress.png){#fig-ncbi-blast-progress}
+![An NCBI `BLAST` webserver progress page.](assets/images/ncbi-blast-progress.png){#fig-ncbi-blast-progress width="80%"}
 
 When the search is complete, you will see the `blastn` results page (@fig-ncbi-blast-results).
 
-![An NCBI `BLAST` results page, for a `blastn` query.](assets/images/ncbi-blast-results.png){#fig-ncbi-blast-results}
+![An NCBI `BLAST` results page, for a `blastn` query.](assets/images/ncbi-blast-results.png){#fig-ncbi-blast-results width="80%"}

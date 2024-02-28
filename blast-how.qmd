@@ -1,0 +1,4 @@
+# BLAST: How It Works
+
+In this section, we will briefly discuss how the `BLAST` algorithm works, to find matches to a query sequence in a biological sequence database. Understanding how `BLAST` works will help you compose and refine your own sequence searches.
+

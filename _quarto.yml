@@ -27,8 +27,11 @@ book:
     - intro.qmd
     - pairwise.qmd
     - blast.qmd
+    - blast-how.qmd
+    - blast-interpretation.qmd
     - summary.qmd
     - glossary.qmd
+    - resources.qmd
     - references.qmd
 
 bibliography: references.bib
