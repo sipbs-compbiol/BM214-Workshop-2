@@ -1,0 +1,16 @@
+# Additional Resources { .unnumbered }
+
+This page lists some additional resources relating to sequence searching that may be useful.
+
+## `BLAST`
+
+- `BLAST` Results: Expect Values Part 1 [video](https://www.youtube.com/watch?v=ZN3RrXAe0uM)
+- `BLAST` Results: Expect Values Part 2 [video](https://www.youtube.com/watch?v=dzRq-5BrGD4)
+- MIT OpenCourseWare - Local Alignment (`BLAST`) and Statistics [video](https://www.youtube.com/watch?v=6Udqou3vmng)
+- NCBI's Introduction to BLAST [link](https://www.ncbi.nlm.nih.gov/books/NBK52639/)
+- NCBI Minute: Using `BLAST` Well [video](https://www.youtube.com/watch?v=2FW1dk5YQ3I)
+- UC Berkeley introduction to `NCBI-BLAST` [link](https://guides.lib.berkeley.edu/ncbi/blast)
+
+## Sequence Alignment
+
+- MIT OpenCourseWare - Global Alignment of Protein Sequences [video](https://www.youtube.com/watch?v=PdyARRNwi7I)
