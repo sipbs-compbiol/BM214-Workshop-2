@@ -1,0 +1,2981 @@
+RID: XYSF9RDP016	
+Job Title:Protein Sequence				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1: unnamed protein product Query ID: lcl|Query_11835992 Length: 258
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+enterotoxin CtxA [Vibrio phage CTXphi]                            Vibrio phage... NA              2785247    539    539   100%  0.0    100.00 258        YP_004286240.1   
+CtxA [Vibrio virus CTXphi] [Affertcholeramvirus CTXphi]           Affertcholer... NA              141904     538    538   100%  0.0    99.61  258        AHY24961.1       
+CtxA [Affertcholeramvirus CTXphi]                                 Affertcholer... NA              141904     535    535   100%  0.0    99.22  258        AAM74170.1       
+Heat labile toxin subunit A precursor [Plasmid ENTR]              Plasmid ENTR    NA              2462       440    440   100%  9e-155 79.84  258        AAA24791.1       
+non toxic mutant of heat labile enterotoxin A subunit precurso... Musa acuminata  dwarf banana    4641       439    439   100%  4e-154 79.46  258        CAJ13819.1       
+heat-labile enterotoxin subunit A [Plasmid EWD 299]               Plasmid EWD 299 NA              2464       415    415   93%   6e-145 80.83  240        AAB59161.1       
+cholera toxin A subunit [Vibrio virus CTXphi]...                  Affertcholer... NA              141904     404    404   74%   2e-141 100.00 192        BAG06738.1       
+cholera toxin A subunit [Vibrio virus CTXphi]...                  Affertcholer... NA              141904     375    375   68%   2e-130 100.00 178        BAG66065.1       
+heat-labile enterotoxin IIa A chain precursor [Escherichia pha... Escherichia ... NA              1759531    261    261   93%   3e-84  52.08  259        ALP46881.1       
+type II heat-labile enterotoxin ADP-ribosyltransferase catalyt... Escherichia ... NA              1759532    261    261   100%  5e-84  51.32  263        ALP46935.1       
+TPA: Heat-labile enterotoxin alpha chain [Caudoviricetes sp.]     Caudoviricet... NA              2832643    261    261   100%  5e-84  50.38  259        DAJ97268.1       
+Heat-labile enterotoxin IIA, A chain [Curvularia clavata]         Curvularia c... NA              95742      136    136   80%   2e-35  38.76  233        USP75001.1       
+heat-labile enterotoxin alpha chain-domain-containing protein...  Phaeosphaeri... NA              1770614    134    134   84%   2e-34  37.55  282        KAH8731823.1     
+ADP-ribosylation [Corynespora cassiicola Philippines]             Corynespora ... NA              1448308    132    132   82%   7e-34  38.81  232        PSN59974.1       
+hypothetical protein LA080_012813 [Diaporthe eres]                Diaporthe eres  NA              83184      132    132   87%   3e-33  36.29  294        KAI7772962.1     
+cholera a subunit [Colletotrichum musicola]                       Colletotrich... NA              2175873    129    129   84%   7e-33  38.53  239        KAF6823945.1     
+cholera enterotoxin subunit A2 [Colletotrichum orchidophilum]     Colletotrich... NA              1209926    128    128   69%   1e-32  40.00  211        XP_022468225.1   
+uncharacterized protein BDP81DRAFT_286892 [Colletotrichum...      Colletotrich... NA              359342     127    127   67%   1e-32  43.18  174        XP_060443716.1   
+heat-labile enterotoxin alpha chain-domain-containing protein...  Colletotrich... NA              1209918    127    127   68%   6e-32  40.34  245        XP_060434774.1   
+unnamed protein product [Colletotrichum noveboracense]            Colletotrich... NA              2664923    125    125   69%   1e-31  39.67  217        CAI0655369.1     
+cholera a subunit [Colletotrichum plurivorum]                     Colletotrich... NA              2175906    126    126   84%   1e-31  37.44  239        KAF6827725.1     
+hypothetical protein K4K55_007293 [Colletotrichum sp. SAR 10_96]  Colletotrich... NA              2838802    125    125   75%   3e-31  36.55  248        KAI8243757.1     
+Cholera enterotoxin subunit A [Colletotrichum fructicola Nara...  Colletotrich... NA              1213859    125    125   69%   4e-31  39.23  230        KAF4478211.1     
+uncharacterized protein COL516b_000238 [Colletotrichum fioriniae] Colletotrich... NA              710243     125    125   74%   5e-31  37.11  245        XP_053054834.1   
+heat-labile enterotoxin alpha chain-domain-containing protein...  Colletotrich... NA              1209918    125    125   74%   5e-31  38.86  241        XP_060428721.1   
+uncharacterized protein CGMCC3_g16002 [Colletotrichum fructicola] Colletotrich... NA              690256     125    125   75%   5e-31  36.55  248        XP_031877405.1   
+uncharacterized protein COL26b_002118 [Colletotrichum...          Colletotrich... NA              1836956    125    125   75%   5e-31  36.55  248        XP_053040992.1   
+cholera enterotoxin subunit A2 [Colletotrichum fioriniae PJ7]     Colletotrich... NA              1445577    125    125   74%   5e-31  37.11  245        EXF82999.1       
+heat-labile enterotoxin alpha chain-domain-containing protein...  Colletotrich... NA              27357      125    125   74%   5e-31  38.14  245        XP_060363165.1   
+hypothetical protein Brms1b_012151 [Colletotrichum noveboracense] Colletotrich... NA              2664923    125    125   75%   6e-31  36.55  248        KAJ0302104.1     
+Cholera enterotoxin subunit A [Colletotrichum siamense]           Colletotrich... NA              690259     124    124   69%   6e-31  39.23  231        XP_036487791.1   
+hypothetical protein COL940_012433 [Colletotrichum noveboracense] Colletotrich... NA              2664923    125    125   75%   6e-31  36.55  248        KAJ0269455.1     
+cholera enterotoxin subunit A2 [Colletotrichum nymphaeae SA-01]   Colletotrich... NA              1460502    124    124   74%   7e-31  37.63  245        KXH48645.1       
+cholera enterotoxin subunit A2 [Colletotrichum scovillei]         Colletotrich... NA              1209932    124    124   74%   8e-31  37.63  245        XP_035335068.1   
+cholera a subunit [Colletotrichum karsti]                         Colletotrich... NA              1095194    124    124   75%   8e-31  40.10  238        XP_038744520.1   
+cholera a subunit [Colletotrichum kahawae]                        Colletotrich... NA              34407      124    124   75%   9e-31  36.55  248        KAK2774930.1     
+cholera enterotoxin subunit A2 [Colletotrichum simmondsii]        Colletotrich... NA              703756     124    124   75%   1e-30  37.44  245        KXH50713.1       
+hypothetical protein K4K52_006637 [Colletotrichum sp. SAR 10_76]  Colletotrich... NA              2838799    124    124   75%   1e-30  37.06  248        KAI8202229.1     
+uncharacterized protein CGMCC3_g17823 [Colletotrichum fructicola] Colletotrich... NA              690256     124    124   69%   2e-30  39.23  278        XP_031875545.1   
+cholera enterotoxin subunit A2 [Colletotrichum costaricense]      Colletotrich... NA              1209916    123    123   68%   2e-30  39.20  245        XP_060316510.1   
+heat-labile enterotoxin alpha chain-domain-containing protein...  Colletotrich... NA              145971     123    123   68%   2e-30  39.20  245        KAK1709542.1     
+cholera enterotoxin subunit A2 [Colletotrichum filicis]           Colletotrich... NA              2940390    123    123   68%   2e-30  39.20  245        KAI3527605.1     
+cholera enterotoxin subunit A2 [Colletotrichum lupini]            Colletotrich... NA              145971     122    122   68%   3e-30  39.20  230        XP_049141041.1   
+cholera enterotoxin subunit A2 [Colletotrichum paranaense]        Colletotrich... NA              1914294    123    123   68%   3e-30  39.20  245        XP_060347941.1   
+Cholera enterotoxin subunit A2 [Colletotrichum truncatum]         Colletotrich... NA              5467       123    123   81%   3e-30  38.57  241        XP_036574896.1   
+Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR...   Colletotrich... NA              2838798    122    122   75%   4e-30  36.04  248        KAI8185178.1     
+Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]    Colletotrich... NA              690259     122    122   75%   4e-30  36.04  248        XP_036502096.1   
+hypothetical protein K456DRAFT_1809183 [Colletotrichum...         Colletotrich... NA              1314770    120    120   67%   5e-30  38.64  173        KAH9244014.1     
+hypothetical protein QQS21_002297 [Conoideocrella luteorostrata]  Conoideocrel... NA              1105319    128    128   96%   5e-30  34.39  551        KAK2609215.1     
+uncharacterized protein COL516b_005453 [Colletotrichum fioriniae] Colletotrich... NA              710243     122    122   76%   7e-30  38.07  241        XP_053050178.1   
+cholera enterotoxin subunit A2 [Colletotrichum costaricense]      Colletotrich... NA              1209916    122    122   76%   7e-30  38.07  241        XP_060317222.1   
+cholera enterotoxin subunit A2 [Colletotrichum lupini]            Colletotrich... NA              145971     122    122   76%   7e-30  38.07  241        XP_049137710.1   
+heat-labile enterotoxin alpha chain-domain-containing protein...  Colletotrich... NA              359342     122    122   68%   8e-30  39.20  245        XP_060439723.1   
+cholera enterotoxin subunit A2 [Colletotrichum paranaense]        Colletotrich... NA              1914294    122    122   76%   8e-30  38.07  241        XP_060353328.1   
+cholera enterotoxin subunit A2 [Colletotrichum limetticola]       Colletotrich... NA              1209924    122    122   76%   8e-30  38.07  241        KAK0375516.1     
+uncharacterized protein CGMCC3_g18022 [Colletotrichum fructicola] Colletotrich... NA              690256     122    122   69%   9e-30  39.23  278        XP_031875346.1   
+cholera enterotoxin subunit A2 [Colletotrichum filicis]           Colletotrich... NA              2940390    121    121   76%   9e-30  38.07  241        KAI3549299.1     
+heat-labile enterotoxin alpha chain-domain-containing protein...  Leotiomycete... NA              2138324    121    121   88%   1e-29  35.62  241        KAH7411379.1     
+putative heat-labile enterotoxin a chain [Diaporthe ampelina]     Diaporthe am... NA              1214573    121    121   75%   1e-29  37.06  244        KKY29438.1       
+cholera enterotoxin subunit A2 [Colletotrichum simmondsii]        Colletotrich... NA              703756     121    121   76%   2e-29  38.07  241        KXH31960.1       
+heat-labile enterotoxin alpha chain-domain-containing protein...  Diaporthacea... NA              2614600    121    121   74%   2e-29  37.24  245        KAH8767234.1     
+cholera enterotoxin subunit A2 [Colletotrichum sublineola]        Colletotrich... NA              1173701    121    121   86%   2e-29  36.40  265        KAK1952037.1     
+hypothetical protein COL922a_002534 [Colletotrichum nupharicola]  Colletotrich... NA              1215361    120    120   76%   2e-29  38.19  237        KAJ0387294.1     
+uncharacterized protein CGMCC3_g13019 [Colletotrichum fructicola] Colletotrich... NA              690256     120    120   76%   3e-29  38.69  237        XP_031880415.1   
+Heat-labile enterotoxin IIA, A chain [Colletotrichum sp....       Colletotrich... NA              2838813    120    120   75%   3e-29  35.53  248        KAI8304428.1     
+Heat-labile enterotoxin IIA, A chain [Colletotrichum aenigma]     Colletotrich... NA              1215731    120    120   68%   3e-29  37.85  247        XP_037184794.1   
+Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR...   Colletotrich... NA              2838794    120    120   76%   3e-29  38.19  238        KAI8170591.1     
+Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]    Colletotrich... NA              690259     120    120   76%   3e-29  38.69  238        KAF4870120.1     
+Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]    Colletotrich... NA              690259     120    120   76%   3e-29  38.19  237        KAF4843529.1     
+uncharacterized protein COL26b_006605 [Colletotrichum...          Colletotrich... NA              1836956    120    120   76%   3e-29  38.19  237        XP_053036697.1   
+Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]    Colletotrich... NA              690259     120    120   76%   3e-29  38.19  238        KAF4821977.1     
+Cholera enterotoxin subunit A [Colletotrichum aenigma]            Colletotrich... NA              1215731    119    119   67%   4e-29  40.23  203        XP_037171182.1   
+Cholera enterotoxin subunit A2 [Colletotrichum tofieldiae]        Colletotrich... NA              708197     120    120   76%   4e-29  39.20  240        KZL74718.1       
+cholera a subunit [Colletotrichum chrysophilum]                   Colletotrich... NA              1836956    119    119   69%   5e-29  40.00  216        KAK1855312.1     
+hypothetical protein N8I77_005220 [Diaporthe amygdali]            Diaporthe am... NA              1214568    119    119   74%   5e-29  36.92  245        KAK2611903.1     
+NAD(+)--arginine ADP-ribosyltransferase Chelt [Colletotrichum...  Colletotrich... NA              474922     119    119   75%   5e-29  39.70  238        XP_045266419.1   
+hypothetical protein N0V92_006379 [Colletotrichum tropicale]      Colletotrich... NA              912113     119    119   75%   5e-29  39.20  237        KAJ3957066.1     
+cholera enterotoxin subunit A2 [Diaporthe amygdali]               Diaporthe am... NA              1214568    119    119   74%   6e-29  37.24  245        XP_052996863.1   
+hypothetical protein K4K59_010865 [Colletotrichum sp. SAR11_240]  Colletotrich... NA              2838811    119    119   75%   9e-29  39.70  237        KAI8307493.1     
+Heat-labile enterotoxin IIA, A chain [Colletotrichum tropicale]   Colletotrich... NA              912113     119    119   68%   1e-28  37.29  247        KAF4828240.1     
+hypothetical protein diail_3400 [Diaporthe ilicicola]             Diaporthe il... NA              2419934    118    118   74%   1e-28  35.90  245        KAI3400383.1     
+uncharacterized protein INS49_004363 [Diaporthe citri]            Diaporthe citri NA              83186      118    118   68%   2e-28  38.98  245        XP_043017867.1   
+Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]    Colletotrich... NA              690259     119    119   75%   2e-28  39.70  294        XP_036490749.1   
+Heat-labile enterotoxin IIA, A chain [Colletotrichum tropicale]   Colletotrich... NA              912113     117    117   75%   3e-28  38.69  237        KAF4822930.1     
+hypothetical protein BDP67DRAFT_374993 [Colletotrichum lupini]    Colletotrich... NA              145971     115    115   69%   4e-28  39.11  175        KAK1708381.1     
+Heat-labile enterotoxin IIB, A chain [Colletotrichum tanaceti]    Colletotrich... NA              1306861    117    117   80%   5e-28  37.50  239        KAJ0162096.1     
+hypothetical protein K4K52_000187 [Colletotrichum sp. SAR 10_76]  Colletotrich... NA              2838799    117    117   69%   6e-28  40.00  237        KAI8214682.1     
+hypothetical protein IFR05_003009 [Cadophora sp. M221]            Cadophora sp... NA              2774352    117    117   82%   6e-28  35.29  241        KAG4441482.1     
+hypothetical protein F5X68DRAFT_233526 [Plectosphaerella...       Plectosphaer... NA              936078     116    116   91%   7e-28  31.95  242        KAH6685098.1     
+hypothetical protein K4K50_005015 [Colletotrichum sp. SAR 10_71]  Colletotrich... NA              2838797    116    116   69%   9e-28  40.00  237        KAI8167935.1     
+hypothetical protein CSAL01_03978 [Colletotrichum salicis]        Colletotrich... NA              1209931    122    122   74%   1e-27  38.34  673        KXH43816.1       
+Heat-labile enterotoxin IIA, A chain [Colletotrichum aenigma]     Colletotrich... NA              1215731    116    116   75%   1e-27  39.20  238        XP_037174319.1   
+hypothetical protein CcaCcLH18_13755 [Colletotrichum camelliae]   Colletotrich... NA              538528     119    119   69%   1e-27  38.33  414        KAH0420892.1     
+hypothetical protein B0T11DRAFT_330950 [Plectosphaerella...       Plectosphaer... NA              40658      115    115   88%   2e-27  33.33  244        KAH7359254.1     
+cholera a subunit [Colletotrichum asianum]                        Colletotrich... NA              702518     115    115   69%   2e-27  39.44  237        KAF0321627.1     
+cholera enterotoxin subunit A2 [Colletotrichum gloeosporioides... Colletotrich... NA              1237896    115    115   75%   3e-27  39.20  238        EQB45953.1       
+heat-labile enterotoxin alpha chain-domain-containing protein...  Dactylonectr... NA              307937     115    115   75%   3e-27  35.53  244        KAH7177122.1     
+major facilitator superfamily domain-containing protein...        Colletotrich... NA              27357      120    120   76%   4e-27  38.07  664        XP_060369042.1   
+hypothetical protein BB8028_0007g03580 [Beauveria bassiana]       Beauveria ba... NA              176275     120    120   75%   4e-27  37.13  685        PQK17160.1       
+NAD(+)--arginine ADP-ribosyltransferase Chelt [Beauveria...       Beauveria ba... NA              1245745    120    120   75%   4e-27  37.13  685        KGQ07179.1       
+
+
+Alignments:
+
+>enterotoxin CtxA [Vibrio phage CTXphi]
+Sequence ID: YP_004286240.1 Length: 258
+>CtxA [Affertcholeramvirus CTXphi]
+Sequence ID: AAL09681.1 Length: 258
+>cholera toxin subunit A [Vibrio phage pre-CTX]
+Sequence ID: AMR44199.1 Length: 258 
+Range 1: 1 to 258
+
+Score:539 bits(1389), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:258/258(100%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>CtxA [Vibrio virus CTXphi] [Affertcholeramvirus CTXphi]
+Sequence ID: AHY24961.1 Length: 258
+Range 1: 1 to 258
+
+Score:538 bits(1386), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/258(99%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>CtxA [Affertcholeramvirus CTXphi]
+Sequence ID: AAM74170.1 Length: 258
+Range 1: 1 to 258
+
+Score:535 bits(1379), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:256/258(99%), Positives:256/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AY PHPDEQEVS LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYRPHPDEQEVSGLGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>Heat labile toxin subunit A precursor [Plasmid ENTR]
+Sequence ID: AAA24791.1 Length: 258
+>Heat-labile toxin subunit A precursor [Plasmid ENT]
+Sequence ID: AAA24793.1 Length: 258
+>heat-labile enterotoxin subunit A [Plasmid P307]
+Sequence ID: AAA98202.1 Length: 258 
+Range 1: 1 to 258
+
+Score:440 bits(1132), Expect:9e-155, 
+Method:Compositional matrix adjust., 
+Identities:206/258(80%), Positives:232/258(89%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            M  I F+FFI L+S  YAN D+LYRADSRPPDEIK+SGGLMPRG +EYFDRGTQMNINLY
+Sbjct  1    MKNITFIFFILLASPLYANGDRLYRADSRPPDEIKRSGGLMPRGHNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVR+DDGYVSTS+SLRSAHL GQ+ILSG+STYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRYDDGYVSTSLSLRSAHLAGQSILSGYSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSPHP EQEVSALGGIPYSQIYGWYRV+FGV+DE+LHRNR YRDRYY NL+IAPA DGY
+Sbjct  121  VYSPHPYEQEVSALGGIPYSQIYGWYRVNFGVIDERLHRNREYRDRYYRNLNIAPAEDGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+             LAGFPP+H+AWREEPWIHHAP GCGN+ R+   +TC+E+TQ+L   +L EYQSKVKRQI
+Sbjct  181  RLAGFPPDHQAWREEPWIHHAPQGCGNSSRTITGDTCNEETQNLSTIYLREYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FS YQS++D +NRI+DEL
+Sbjct  241  FSDYQSEVDIYNRIRDEL  258
+
+
+
+
+>non toxic mutant of heat labile enterotoxin A subunit precursot [Musa acuminata]
+Sequence ID: CAJ13819.1 Length: 258
+Range 1: 1 to 258
+
+Score:439 bits(1128), Expect:4e-154, 
+Method:Compositional matrix adjust., 
+Identities:205/258(79%), Positives:231/258(89%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            M  I F+FFI L+S  YAN D+LYRADSRPPDEIK+SGGLMPRG +EYFDRGTQMNINLY
+Sbjct  1    MKNITFIFFILLASPLYANGDRLYRADSRPPDEIKRSGGLMPRGHNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVR+DDGYVST +SLRSAHL GQ+ILSG+STYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRYDDGYVSTKLSLRSAHLAGQSILSGYSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSPHP EQEVSALGGIPYSQIYGWYRV+FGV+DE+LHRNR YRDRYY NL+IAPA DGY
+Sbjct  121  VYSPHPYEQEVSALGGIPYSQIYGWYRVNFGVIDERLHRNREYRDRYYRNLNIAPAEDGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+             LAGFPP+H+AWREEPWIHHAP GCGN+ R+   +TC+E+TQ+L   +L EYQSKVKRQI
+Sbjct  181  RLAGFPPDHQAWREEPWIHHAPQGCGNSSRTITGDTCNEETQNLSTIYLREYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FS YQS++D +NRI+DEL
+Sbjct  241  FSDYQSEVDIYNRIRDEL  258
+
+
+
+
+>heat-labile enterotoxin subunit A, partial [Plasmid EWD 299]
+Sequence ID: AAB59161.1 Length: 240
+Range 1: 1 to 240
+
+Score:415 bits(1066), Expect:6e-145, 
+Method:Compositional matrix adjust., 
+Identities:194/240(81%), Positives:219/240(91%), Gaps:0/240(0%)
+
+Query  19   NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  78
+            N D+LYRADSRPPDEIK+SGGLMPRG +EYFDRGTQMNINLYDHARGTQTGFVR+DDGYV
+Sbjct  1    NGDRLYRADSRPPDEIKRSGGLMPRGHNEYFDRGTQMNINLYDHARGTQTGFVRYDDGYV  60
+
+Query  79   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  138
+            STS+SLRSAHL GQ+ILSG+STYYIYVIATAPNMFNVNDVLG YSPHP EQ+VSALGGIP
+Sbjct  61   STSLSLRSAHLAGQSILSGYSTYYIYVIATAPNMFNVNDVLGVYSPHPYEQKVSALGGIP  120
+
+Query  139  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  198
+            YSQIYGWYRV+FGV+DE+LH NR YRDRYY NL+IAPA DGY LAGFPP+H+AWREEPWI
+Sbjct  121  YSQIYGWYRVNFGVIDERLHGNREYRDRYYRNLNIAPAEDGYRLAGFPPDHQAWREEPWI  180
+
+Query  199  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            HHAP GCGN+ R+   +TC+E+TQ+L   +L EYQSKVKRQIFS YQS++D +NRI+DEL
+Sbjct  181  HHAPQGCGNSSRTITGDTCNEETQNLSTIYLREYQSKVKRQIFSDYQSEVDIYNRIRDEL  240
+
+
+
+
+>cholera toxin A subunit [Vibrio virus CTXphi] [Affertcholeramvirus CTXphi]
+Sequence ID: BAG06738.1 Length: 192
+Range 1: 1 to 192
+
+Score:404 bits(1037), Expect:2e-141, 
+Method:Compositional matrix adjust., 
+Identities:192/192(100%), Positives:192/192(100%), Gaps:0/192(0%)
+
+Query  67   QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHP  126
+            QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHP
+Sbjct  1    QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHP  60
+
+Query  127  DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP  186
+            DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP
+Sbjct  61   DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP  120
+
+Query  187  PEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            PEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS
+Sbjct  121  PEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  180
+
+Query  247  DIDTHNRIKDEL  258
+            DIDTHNRIKDEL
+Sbjct  181  DIDTHNRIKDEL  192
+
+
+
+
+>cholera toxin A subunit [Vibrio virus CTXphi] [Affertcholeramvirus CTXphi]
+Sequence ID: BAG66065.1 Length: 178
+Range 1: 1 to 178
+
+Score:375 bits(964), Expect:2e-130, 
+Method:Compositional matrix adjust., 
+Identities:178/178(100%), Positives:178/178(100%), Gaps:0/178(0%)
+
+Query  81   SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  140
+            SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS
+Sbjct  1    SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  60
+
+Query  141  QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  200
+            QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH
+Sbjct  61   QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  120
+
+Query  201  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  121  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  178
+
+
+
+
+>heat-labile enterotoxin IIa A chain precursor [Escherichia phage Rac-SA53]
+Sequence ID: ALP46881.1 Length: 259
+Range 1: 1 to 238
+
+Score:261 bits(668), Expect:3e-84, 
+Method:Compositional matrix adjust., 
+Identities:125/240(52%), Positives:163/240(67%), Gaps:2/240(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            M+K + +FF+F+S    AND   +RADSR PDEI+++GGL+PRGQ E ++RGT +NINLY
+Sbjct  1    MIKHVLLFFVFISFSVSAND--FFRADSRTPDEIRRAGGLLPRGQQEAYERGTPININLY  58
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            +HARGT TG  R++DGYVST+++LR AHL+GQ IL  ++ YYIYV+A APN+F+VN VLG
+Sbjct  59   EHARGTVTGNTRYNDGYVSTTVTLRQAHLIGQNILGSYNEYYIYVVAPAPNLFDVNGVLG  118
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSP+P E E +ALGGIP SQI GWYRV FG ++  + RNR YR   +  L +AP  DGY
+Sbjct  119  RYSPYPSENEFAALGGIPLSQIIGWYRVSFGAIEGGMQRNRDYRGDLFRGLTVAPNEDGY  178
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+             LAGFP    AWRE PW   AP  C    +      C   T  L    L  ++  +KR++
+Sbjct  179  QLAGFPSNFPAWREMPWSTFAPEQCVPNNKEFKGGVCISATNVLSKYDLMNFKKLLKRRL  238
+
+
+
+
+>type II heat-labile enterotoxin ADP-ribosyltransferase catalytic subunit [Escherichia phage SerU-LTIIb]
+Sequence ID: ALP46935.1 Length: 263
+Range 1: 1 to 263
+
+Score:261 bits(667), Expect:5e-84, 
+Method:Compositional matrix adjust., 
+Identities:136/265(51%), Positives:174/265(65%), Gaps:9/265(3%)
+
+Query  1    MVKIIFVFF-IFLSSFS-YANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNIN  58
+            M K+I  F  +FL SF  YAND   +RADSR PDE+++SGGL+PRGQ E ++RGT +NIN
+Sbjct  1    MAKVISFFISLFLISFPLYAND--YFRADSRTPDEVRRSGGLIPRGQDEAYERGTPININ  58
+
+Query  59   LYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDV  118
+            LYDHARGT TG  R++DGYVST+ +LR AHL+GQ +L G++ YYIYV+A APN+F+VN V
+Sbjct  59   LYDHARGTATGNTRYNDGYVSTTTTLRQAHLLGQNMLGGYNEYYIYVVAAAPNLFDVNGV  118
+
+Query  119  LGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAAD  178
+            LG YSP+P E E +ALGGIP SQI GWYRV FG ++  +HRNR YR   +  L  AP  D
+Sbjct  119  LGRYSPYPSENEYAALGGIPLSQIIGWYRVSFGAIEGGMHRNRDYRRDLFRGLSAAPNED  178
+
+Query  179  GYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKR  238
+            GY +AGFP    AW E PW   AP  C    ++S   TC   T  L    L +++  +KR
+Sbjct  179  GYRIAGFPDGFPAWEEVPWREFAPNSCLPNNKASSDTTCASLTNKLSQHDLADFKKYIKR  238
+
+Query  239  Q-----IFSGYQSDIDTHNRIKDEL  258
+            +     + S       ++N  KDEL
+Sbjct  239  KFTLMTLLSINNDGFFSNNGGKDEL  263
+
+
+
+
+>MAG TPA: Heat-labile enterotoxin alpha chain [Caudoviricetes sp.]
+Sequence ID: DAJ97268.1 Length: 259
+Range 1: 1 to 259
+
+Score:261 bits(667), Expect:5e-84, 
+Method:Compositional matrix adjust., 
+Identities:132/262(50%), Positives:171/262(65%), Gaps:7/262(2%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            M+K + +FF+F+S    AND   +RADSR PDEI+++GGL+PRGQ E ++RGT +NINLY
+Sbjct  1    MIKHVLLFFVFISFSVSAND--FFRADSRTPDEIRRAGGLLPRGQQEAYERGTPININLY  58
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGT TG  R++DGYVST+ +LR AHL+GQ +L  ++ YYIYV+A APN+F+VN VLG
+Sbjct  59   DHARGTVTGNTRYNDGYVSTTTTLRQAHLIGQNLLGSYNEYYIYVVAPAPNLFDVNGVLG  118
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSP+P E E +ALGGIP SQI GWYRV FGV++  + RNR YR   +  L +AP  DGY
+Sbjct  119  RYSPYPSENEFAALGGIPLSQIIGWYRVSFGVIEGGMQRNRHYRRDLFQGLSVAPNHDGY  178
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG----VKFLDEYQSKV  236
+             LAGFP    AWRE PW   AP  C +     + + CD  T  +     V F    + + 
+Sbjct  179  HLAGFPDGFAAWRELPWSAFAPAACEHDYMVRILDACDSYTNRISQNDLVAFKRFMRIRS  238
+
+Query  237  KRQIFSGYQSDIDTHNRIKDEL  258
+               I    + D+   N  KDEL
+Sbjct  239  SLMILQSIEDDLQD-NENKDEL  259
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Curvularia clavata]
+Sequence ID: USP75001.1 Length: 233
+Range 1: 1 to 199
+
+Score:136 bits(343), Expect:2e-35, 
+Method:Compositional matrix adjust., 
+Identities:81/209(39%), Positives:118/209(56%), Gaps:12/209(5%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKL-YRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINL  59
+            M+  +F FF+FLS ++  +   L YRADSR P  IK +GG + +G S+        +I+L
+Sbjct  1    MIGKMF-FFLFLSLWASLSGAALVYRADSRAPSTIKSAGGFLSKGTSK--AGAVAPDISL  57
+
+Query  60   YDHARG-TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDV  118
+            ++H  G   +GF R +DGYVST+  L  A      +L G+   Y+Y I  APNM +  ++
+Sbjct  58   WNHVNGDPSSGFSRENDGYVSTTTDLALATSWVTRLLGGNG--YVYQIQVAPNMIDCQEI  115
+
+Query  119  LGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAAD  178
+            L  Y+P P+E+E +ALGGIPY+QI GW +V    +   + +N+ Y  + +       A  
+Sbjct  116  LKQYNPFPEEKEYAALGGIPYNQIVGWSKVTNRKVGA-VEKNKDYNKKLFKR--STHATG  172
+
+Query  179  GYGLAGFPPEHRAWREEPWIHHAPPGCGN  207
+             Y LA FPP HRAW + PW  +A   C N
+Sbjct  173  QYQLAAFPPGHRAWSQSPWNAYA--ACTN  199
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Phaeosphaeriaceae sp. PMI808]
+Sequence ID: KAH8731823.1 Length: 282
+Range 1: 56 to 270
+
+Score:134 bits(338), Expect:2e-34, 
+Method:Compositional matrix adjust., 
+Identities:86/229(38%), Positives:119/229(51%), Gaps:24/229(10%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  65
+            F+F +F    S  N   LYRADSR P+ IK +GG  P+GQS         +I+L++H  G
+Sbjct  56   FLFLVFTLWSSLCNAADLYRADSRTPEAIKSAGGFRPKGQSTI--GSASPDISLWNHVVG  113
+
+Query  66   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  125
+              +G  + +DGYVST+ +L+ A       L G+   Y+Y I  APNM +    LG ++P+
+Sbjct  114  APSGTSKDNDGYVSTTSNLKVAESWVMDNLGGNG--YVYRIHAAPNMIDCKATLGDFNPY  171
+
+Query  126  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDR---YYSNLDIAPAADG--Y  180
+              E+E +ALGGI Y QI  W  +        +++ +G   +   Y S L     A G  Y
+Sbjct  172  KKEEEFAALGGIKYEQIVSWTPI--------VNKKKGAETKNTAYNSKLFKKQVAGGAQY  223
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGN----APRSSMSN-TCDEKTQSL  224
+             LAGFP  HRAW E PWI++A   C N    A R  +   TC  K  +L
+Sbjct  224  QLAGFPAGHRAWSETPWINYA--SCSNPKIRAARGLLQRATCKPKKTNL  270
+
+
+
+
+>ADP-ribosylation [Corynespora cassiicola Philippines]
+Sequence ID: PSN59974.1 Length: 232
+Range 1: 24 to 229
+
+Score:132 bits(331), Expect:7e-34, 
+Method:Compositional matrix adjust., 
+Identities:85/219(39%), Positives:119/219(54%), Gaps:18/219(8%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+            ++YRADSR PD I+ +GG  PRG +         +I+L++H  G   GF R DDGYVST+
+Sbjct  24   QVYRADSRSPDNIRGAGGFQPRGGAIG---AVPADISLWNHVNGAANGFSRMDDGYVSTT  80
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+                 A    +    G+   +IY IA APNM +    LG ++P P+E+E++A+GGI Y Q
+Sbjct  81   TDRNLADSWVRNNFGGNG--WIYRIALAPNMIDCQATLGTFNPFPNEREMAAIGGIRYEQ  138
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            I GW ++  G    ++  N GY    Y+ L  A A     LA FP  HRAW + PW  +A
+Sbjct  139  IIGWSQMVGGTRQAEVA-NPGYNGARYNGLRGAGAQP--SLAAFPANHRAWSQAPW--NA  193
+
+Query  202  PPGCGNAPRSSMSNTCDEKTQSLG-----VKFLDEYQSK  235
+               C N PR +  +   EK QS G     V+F +EY ++
+Sbjct  194  FSTCTN-PRRAARDF--EKRQSCGPRQSNVQFANEYMAR  229
+
+
+
+
+>hypothetical protein LA080_012813 [Diaporthe eres]
+Sequence ID: KAI7772962.1 Length: 294
+Range 1: 56 to 285
+
+Score:132 bits(331), Expect:3e-33, 
+Method:Compositional matrix adjust., 
+Identities:86/237(36%), Positives:124/237(52%), Gaps:17/237(7%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IF+  +     +  N   +++RAD+R P E++ +G   PRG S+        N+++Y+HA
+Sbjct  56   IFILLVLNLWTALCNAQFRVWRADTRTPTEMRAAGLFAPRGASQILQ--ILPNVSMYNHA  113
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSA-HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAY  122
+             G + G  R +DGYVST+ S  +A + +GQ + +G+   Y+Y IA A N   V+  LG +
+Sbjct  114  VGAENGASRDNDGYVSTTASETTAINFLGQ-MFNGNG--YVYEIAAAANFIQVSGTLGQF  170
+
+Query  123  SPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYG  181
+            SP+P+EQE +ALGG  + Q+  W     GV D   L  N  Y  R Y+NL   P      
+Sbjct  171  SPYPNEQEYAALGGFSWDQVIRWRHYTNGVEDSAGLQDNNDYEGRIYNNLR--PTNGEPR  228
+
+Query  182  LAGFPPEHRAWREEPWIHHAP--PGCGNAPRSSM---SNTC--DEKTQSLGVKFLDE  231
+            LAGFP  H+AW   PW   A   PGCG +   S+     TC   E       +F+DE
+Sbjct  229  LAGFPSSHQAWSMSPWNAFAQGGPGCGGSSARSLHSRQGTCTPTEDAFKTAQRFIDE  285
+
+
+
+
+>cholera a subunit [Colletotrichum musicola]
+Sequence ID: KAF6823945.1 Length: 239
+Range 1: 11 to 214
+
+Score:129 bits(325), Expect:7e-33, 
+Method:Compositional matrix adjust., 
+Identities:84/218(39%), Positives:112/218(51%), Gaps:14/218(6%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  65
+            F  F   S    A D  LYRADSRP   I+ S G +P+GQS  F   T  + +L++H  G
+Sbjct  11   FFLFSLWSLLCQALD--LYRADSRPYSTIQASKGFLPKGQST-FGVATP-DTSLWNHVNG  66
+
+Query  66   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  125
+               GF + +DGYVST+  +  A    +  L G+   +IY I +APNM +    LG Y+P+
+Sbjct  67   ASNGFSKDEDGYVSTTTDINLARTWVRQFLGGNG--FIYRIHSAPNMIDCQATLGKYNPY  124
+
+Query  126  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  185
+            P E+E +ALGGI  +QI GW  V   V   +  +N  Y+   Y N+    A     LA F
+Sbjct  125  PQEKEFAALGGIKDNQIIGWIPVRNNVAAAE-QKNPFYQANIYGNMGTGGAQP--KLAAF  181
+
+Query  186  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQS  223
+            PP H AWRE PW   +     + PR S  +   EK Q 
+Sbjct  182  PPGHAAWREAPWSQFS-----SCPRRSARDFFIEKRQC  214
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum orchidophilum]
+Sequence ID: XP_022468225.1 Length: 211
+>cholera enterotoxin subunit A2 [Colletotrichum orchidophilum]
+Sequence ID: OHE91051.1 Length: 211 
+Range 1: 31 to 201
+
+Score:128 bits(322), Expect:1e-32, 
+Method:Compositional matrix adjust., 
+Identities:72/180(40%), Positives:101/180(56%), Gaps:9/180(5%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            +YR D R P EIK+ GG +P+GQ+ +  + T  +I+L++H +GT+    R +DGYVSTS 
+Sbjct  31   VYRGDKRSPGEIKRLGGFLPKGQTSFGLQTT--DISLFNHMKGTRDIKSRDEDGYVSTST  88
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+            S R    V  T + G ++ ++Y I   PNM ++   LG Y    +E E +ALGGI Y QI
+Sbjct  89   SER----VAATFVYGKASAFVYKIHVTPNMIDIVSTLGKYGDFDEELEFAALGGIKYEQI  144
+
+Query  143  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  202
+              W  +  G    +   N+ +  R Y +         Y LAGFPP H+AWREEPW  H P
+Sbjct  145  VSWGPLK-GFNLGKSTMNKDFDKRKYGS--AVAGGVQYQLAGFPPNHQAWREEPWKSHKP  201
+
+
+
+
+>uncharacterized protein BDP81DRAFT_286892, partial [Colletotrichum phormii]
+Sequence ID: XP_060443716.1 Length: 174
+>hypothetical protein BDP81DRAFT_286892, partial [Colletotrichum phormii]
+Sequence ID: KAK1635109.1 Length: 174 
+Range 1: 1 to 168
+
+Score:127 bits(318), Expect:1e-32, 
+Method:Compositional matrix adjust., 
+Identities:76/176(43%), Positives:97/176(55%), Gaps:9/176(5%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            LYRADSRP   I+ S G +P+GQS +       + +L++H  G  TGF + DDGYVST+ 
+Sbjct  1    LYRADSRPYATIQASKGFLPKGQSNF--GVAAPDTSLWNHVNGASTGFSKDDDGYVSTTS  58
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+                A       LSG+   ++Y I +APNM +    L  Y+P PDE+E +ALGGI  +QI
+Sbjct  59   DRDLAETWVNRYLSGNG--FVYRIHSAPNMIDCQGTLKKYNPFPDEEEFAALGGIKENQI  116
+
+Query  143  YGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+             GW  +  GV   EQL  N  Y    YSN+        Y LA FPP H AW E PW
+Sbjct  117  IGWTPISGGVKGKEQL--NPFYEGNIYSNMGT--GGSQYKLAAFPPNHPAWSEAPW  168
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum godetiae]
+Sequence ID: XP_060434774.1 Length: 245
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum godetiae]
+Sequence ID: KAK1691079.1 Length: 245 
+Range 1: 25 to 194
+
+Score:127 bits(319), Expect:6e-32, 
+Method:Compositional matrix adjust., 
+Identities:71/176(40%), Positives:96/176(54%), Gaps:6/176(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  25   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGADNGASRDNDGYVSTT  82
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      +  G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  83   ASETTAIGFLNNMFRGNG--YVYEIAAAANFIQVSGTLGEFSPYPNEQEYAALGGFSWDQ  140
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D  L  NR Y  R Y+NL   P      LAGFP  HRAW   PW
+Sbjct  141  VIRWRHYTNGVEDGSLEDNREYEGRIYNNLR--PTNTMPSLAGFPAGHRAWTLSPW  194
+
+
+
+
+>unnamed protein product, partial [Colletotrichum noveboracense]
+Sequence ID: CAI0655369.1 Length: 217
+Range 1: 31 to 201
+
+Score:125 bits(315), Expect:1e-31, 
+Method:Compositional matrix adjust., 
+Identities:73/184(40%), Positives:102/184(55%), Gaps:17/184(9%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQ-MNINLYDHARGTQTGFVRHDDGYVSTS  81
+            +YR D+R P EIK+ GG +P+GQ+ +   G Q  + +L++H +GT     R +DG+VSTS
+Sbjct  31   VYRGDTRSPGEIKRLGGFLPKGQTRF---GLQNADTSLFNHMKGTHNIQSRDEDGFVSTS  87
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S      V  T + G  + ++Y I   PNM +    LG YS   +E E +ALGGI Y Q
+Sbjct  88   TS----ESVAATFVYGKPSAFVYKIHVTPNMIDTVGTLGKYSDFDEELEFAALGGIKYEQ  143
+
+Query  142  IYGWYRV---HFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  198
+            I  W ++   +FG    +   N+ +  R Y +   A     Y LAGFPP H+AWREEPW 
+Sbjct  144  IVSWRQLKGRNFG----KSTMNKDFDKRKYGS--AAAGGVQYQLAGFPPNHKAWREEPWK  197
+
+Query  199  HHAP  202
+             H P
+Sbjct  198  SHKP  201
+
+
+
+
+>cholera a subunit [Colletotrichum plurivorum]
+Sequence ID: KAF6827725.1 Length: 239
+Range 1: 11 to 214
+
+Score:126 bits(316), Expect:1e-31, 
+Method:Compositional matrix adjust., 
+Identities:82/219(37%), Positives:111/219(50%), Gaps:16/219(7%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQM-NINLYDHAR  64
+            +  F   S    A D  LYRADSRP   I+ S G +P+GQS     G    + +L++H  
+Sbjct  11   YFLFSLWSILCQALD--LYRADSRPYSTIQASKGFLPKGQSTI---GVATPDTSLWNHVN  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G   GF + +DGYVST+  +  A    +  L G+   +IY I +APNM +    LG Y+P
+Sbjct  66   GASNGFSKDEDGYVSTTTDINLARTWVRQFLGGNG--FIYRIHSAPNMIDCQATLGKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P E+E +ALGGI  +QI GW  V   V   +  +N  Y+   Y N+    A     LA 
+Sbjct  124  YPQEKEFAALGGIKDNQIIGWIPVRNNVAAAE-QKNPFYQANIYGNMGTGGAQP--KLAA  180
+
+Query  185  FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQS  223
+            FPP H AWRE PW   +     + PR S  +   EK Q 
+Sbjct  181  FPPGHAAWREAPWSQFS-----SCPRRSARDFFIEKRQC  214
+
+
+
+
+>hypothetical protein K4K55_007293 [Colletotrichum sp. SAR 10_96]
+Sequence ID: KAI8243757.1 Length: 248
+>hypothetical protein K4K56_000480 [Colletotrichum sp. SAR 10_98]
+Sequence ID: KAI8277794.1 Length: 248
+>hypothetical protein K4K57_005690 [Colletotrichum sp. SAR 10_99]
+Sequence ID: KAJ5018260.1 Length: 248 
+Range 1: 5 to 195
+
+Score:125 bits(315), Expect:3e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/197(37%), Positives:107/197(54%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I++ F+     +  N   +++RAD+R P E++ +G   PRG S + +     N+++Y+
+Sbjct  5    KNIYILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      +  G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAESGASRDNDGYVSTTASEDTAVRFLTQMFGGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  Y  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMEDNNVYEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>Cholera enterotoxin subunit A [Colletotrichum fructicola Nara gc5]
+Sequence ID: KAF4478211.1 Length: 230
+Range 1: 31 to 201
+
+Score:125 bits(313), Expect:4e-31, 
+Method:Compositional matrix adjust., 
+Identities:71/181(39%), Positives:99/181(54%), Gaps:11/181(6%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQM-NINLYDHARGTQTGFVRHDDGYVSTS  81
+            +YR D+R P EIK+ GG + +GQ+ +   G Q  + +L++H +GT     R +DG+VSTS
+Sbjct  31   VYRGDTRSPGEIKRLGGFLAKGQTRF---GLQTADTSLFNHMKGTHNIKSRDEDGFVSTS  87
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S      V  T + G  + ++Y I   PNM +    LG YS   +E E +ALGGI Y Q
+Sbjct  88   TS----ETVAATFVYGKPSAFVYKIHVTPNMIDTVGTLGKYSDFDEELEFAALGGIKYEQ  143
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            I  W ++    L +    N+ +  R Y +   A     Y LAGFPP H+AWREEPW  H 
+Sbjct  144  IVSWRQLKGRNLGKST-MNKDFDKRKYGS--AAAGGVQYQLAGFPPNHKAWREEPWKSHK  200
+
+Query  202  P  202
+            P
+Sbjct  201  P  201
+
+
+
+
+>uncharacterized protein COL516b_000238 [Colletotrichum fioriniae]
+Sequence ID: XP_053054834.1 Length: 245
+>hypothetical protein COL516b_000238 [Colletotrichum fioriniae]
+Sequence ID: KAJ0313305.1 Length: 245
+>hypothetical protein COL5a_004149 [Colletotrichum fioriniae]
+Sequence ID: KAJ0329585.1 Length: 245
+>hypothetical protein N0V96_002631 [Colletotrichum fioriniae]
+Sequence ID: KAJ3948382.1 Length: 245 
+Range 1: 7 to 194
+
+Score:125 bits(313), Expect:5e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/194(37%), Positives:101/194(52%), Gaps:7/194(3%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            +FV  +     +  N    ++RAD+R P E++ +G   PRG S+        N+++Y+HA
+Sbjct  7    LFVVLVLQLWTAVCNAQFSVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG +S
+Sbjct  65   VGADNGASRDNDGYVSTTASESTAVGFLSNMFNGNG--YVYEIAAAANFIQVSGTLGEFS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            P+P+EQE +ALGG  + Q+  W     GV D  L  N  Y  R Y+ L   P      LA
+Sbjct  123  PYPNEQEYAALGGFSWDQVIRWRHYTNGVADGSLQDNNEYEGRIYNGLR--PTNSMPSLA  180
+
+Query  184  GFPPEHRAWREEPW  197
+            GFP  HRAW   PW
+Sbjct  181  GFPAGHRAWTLSPW  194
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum godetiae]
+Sequence ID: XP_060428721.1 Length: 241
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum godetiae]
+Sequence ID: KAK1674718.1 Length: 241 
+Range 1: 13 to 193
+
+Score:125 bits(313), Expect:5e-31, 
+Method:Compositional matrix adjust., 
+Identities:75/193(39%), Positives:101/193(52%), Gaps:12/193(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSRP   I+ S G +P+GQS +       + +L++H  
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRPYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVN  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  TGF + +DGYVST+     A       L G+   ++Y I +APNM +    L  Y+P
+Sbjct  66   GASTGFSKDEDGYVSTTSDRNLAETWVNRFLGGNG--FVYRIHSAPNMIDCQGTLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+        Y LA 
+Sbjct  124  YPQEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGT--GGSQYKLAA  180
+
+Query  185  FPPEHRAWREEPW  197
+            FPP H AW E PW
+Sbjct  181  FPPNHPAWGEAPW  193
+
+
+
+
+>uncharacterized protein CGMCC3_g16002 [Colletotrichum fructicola]
+Sequence ID: XP_031877405.1 Length: 248
+>cholera enterotoxin subunit A2 [Colletotrichum gloeosporioides Cg-14]
+Sequence ID: EQB49828.1 Length: 248
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum fructicola Nara gc5]
+Sequence ID: KAF4492395.1 Length: 248
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: KAF4852607.1 Length: 248
+>hypothetical protein K4K50_009825 [Colletotrichum sp. SAR 10_71]
+Sequence ID: KAI8165743.1 Length: 248
+>hypothetical protein K4K49_010279 [Colletotrichum sp. SAR 10_70]
+Sequence ID: KAI8193945.1 Length: 248
+>hypothetical protein KHU50_008232 [Colletotrichum sp. SAR 10_65]
+Sequence ID: KAI8198995.1 Length: 248
+>hypothetical protein K4K58_001198 [Colletotrichum sp. SAR11_239]
+Sequence ID: KAI8269530.1 Length: 248
+>hypothetical protein K4K60_004047 [Colletotrichum sp. SAR11_57]
+Sequence ID: KAI8290902.1 Length: 248
+>hypothetical protein K4K48_007384 [Colletotrichum sp. SAR 10_66]
+Sequence ID: KAJ5005397.1 Length: 248 
+Range 1: 5 to 195
+
+Score:125 bits(313), Expect:5e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/197(37%), Positives:106/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S + +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      +  G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAESGASRDNDGYVSTTASEDTAVRFLTQMFGGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  Y  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMEDNNVYEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>uncharacterized protein COL26b_002118 [Colletotrichum chrysophilum]
+Sequence ID: XP_053040992.1 Length: 248
+>hypothetical protein KNSL1_005114 [Colletotrichum chrysophilum]
+Sequence ID: KAJ0348881.1 Length: 248
+>hypothetical protein COL154_002666 [Colletotrichum chrysophilum]
+Sequence ID: KAJ0368383.1 Length: 248
+>hypothetical protein COL26b_002118 [Colletotrichum chrysophilum]
+Sequence ID: KAJ0379608.1 Length: 248
+>cholera a subunit [Colletotrichum chrysophilum]
+Sequence ID: KAK1842976.1 Length: 248 
+Range 1: 5 to 195
+
+Score:125 bits(313), Expect:5e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/197(37%), Positives:106/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S + +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      +  G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAESGASRDNDGYVSTTASEDTAVRFLTQMFGGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  Y  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMEDNNVYEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum fioriniae PJ7]
+Sequence ID: EXF82999.1 Length: 245
+Range 1: 7 to 194
+
+Score:125 bits(313), Expect:5e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/194(37%), Positives:101/194(52%), Gaps:7/194(3%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            +FV  +     +  N    ++RAD+R P E++ +G   PRG S+        N+++Y+HA
+Sbjct  7    LFVVLVLQLWTAVCNAQFSVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG +S
+Sbjct  65   VGADNGASRDNDGYVSTTASESTAVGFLSNMFNGNG--YVYEIAAAANFIQVSGTLGEFS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            P+P+EQE +ALGG  + Q+  W     GV D  L  N  Y  R Y+ L   P      LA
+Sbjct  123  PYPNEQEYAALGGFSWDQVIRWRHYTNGVADGSLQDNNEYEGRIYNGLR--PTNSMPSLA  180
+
+Query  184  GFPPEHRAWREEPW  197
+            GFP  HRAW   PW
+Sbjct  181  GFPTGHRAWTLSPW  194
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum acutatum]
+Sequence ID: XP_060363165.1 Length: 245
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum acutatum]
+Sequence ID: KAK1723110.1 Length: 245 
+Range 1: 7 to 194
+
+Score:125 bits(313), Expect:5e-31, 
+Method:Compositional matrix adjust., 
+Identities:74/194(38%), Positives:101/194(52%), Gaps:7/194(3%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IFV  I     +  N    ++RAD+R P E++ +G   PRG S+        N+++Y+HA
+Sbjct  7    IFVVLIIQLWTAVCNAQFSVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG +S
+Sbjct  65   VGADNGASRDNDGYVSTTASEDTAVGFLTNMFNGNG--YVYEIAAAANFIQVSGTLGEFS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            P+P+EQE +ALGG  + Q+  W     GV D  L  N  Y  R Y+ L   P      LA
+Sbjct  123  PYPNEQEYAALGGFSWDQVIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSLA  180
+
+Query  184  GFPPEHRAWREEPW  197
+            GFP  HRAW   PW
+Sbjct  181  GFPAGHRAWTLSPW  194
+
+
+
+
+>hypothetical protein Brms1b_012151 [Colletotrichum noveboracense]
+Sequence ID: KAJ0302104.1 Length: 248
+Range 1: 5 to 195
+
+Score:125 bits(313), Expect:6e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/197(37%), Positives:106/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S + +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      +  G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAIGAESGTSRDNDGYVSTTASEDTAVRFLTQMFGGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  Y  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMEDNNVYEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>Cholera enterotoxin subunit A [Colletotrichum siamense]
+Sequence ID: XP_036487791.1 Length: 231
+>Cholera enterotoxin subunit A [Colletotrichum siamense]
+Sequence ID: KAF5482813.1 Length: 231 
+Range 1: 31 to 201
+
+Score:124 bits(312), Expect:6e-31, 
+Method:Compositional matrix adjust., 
+Identities:71/181(39%), Positives:99/181(54%), Gaps:11/181(6%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQM-NINLYDHARGTQTGFVRHDDGYVSTS  81
+            +YR D+R P EIK+ GG + +GQ+ +   G Q  + +L++H +GT     R +DG+VSTS
+Sbjct  31   VYRGDTRSPGEIKRLGGFLAKGQTRF---GLQTADTSLFNHMKGTHNIKSRDEDGFVSTS  87
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S      V  T + G  + ++Y I   PNM +    LG YS   +E E +ALGGI Y Q
+Sbjct  88   TS----ETVAATFVYGKPSAFVYKIHVTPNMIDTVGTLGKYSDFDEELEFAALGGIKYEQ  143
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            I  W ++    L +    N+ +  R Y +   A     Y LAGFPP H+AWREEPW  H 
+Sbjct  144  IVSWRQLKGRNLGKST-MNKDFDKRKYGS--AAAGGVQYQLAGFPPNHKAWREEPWKSHK  200
+
+Query  202  P  202
+            P
+Sbjct  201  P  201
+
+
+
+
+>hypothetical protein COL940_012433 [Colletotrichum noveboracense]
+Sequence ID: KAJ0269455.1 Length: 248
+>hypothetical protein CBS470a_011757 [Colletotrichum nupharicola]
+Sequence ID: KAJ0274489.1 Length: 248
+>unnamed protein product [Colletotrichum noveboracense]
+Sequence ID: CAI0646696.1 Length: 248 
+Range 1: 5 to 195
+
+Score:125 bits(313), Expect:6e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/197(37%), Positives:106/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S + +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      +  G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAIGAESGASRDNDGYVSTTASEDTAVRFLTQMFGGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  Y  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMEDNNVYEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum nymphaeae SA-01]
+Sequence ID: KXH48645.1 Length: 245
+Range 1: 7 to 194
+
+Score:124 bits(312), Expect:7e-31, 
+Method:Compositional matrix adjust., 
+Identities:73/194(38%), Positives:101/194(52%), Gaps:7/194(3%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IFV  +     +  N    ++RAD+R P E++ +G   PRG S+        N+++Y+HA
+Sbjct  7    IFVVLVIQLWTAVCNAQFSVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG +S
+Sbjct  65   VGADNGASRDNDGYVSTTASEDTAVGFLSNMFNGNG--YVYEIAAAANFIQVSGTLGEFS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            P+P+EQE +ALGG  + Q+  W     GV D  L  N  Y  R Y+ L   P      LA
+Sbjct  123  PYPNEQEYAALGGFSWDQVIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSLA  180
+
+Query  184  GFPPEHRAWREEPW  197
+            GFP  HRAW   PW
+Sbjct  181  GFPAGHRAWTLSPW  194
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum scovillei]
+Sequence ID: XP_035335068.1 Length: 245
+>cholera enterotoxin subunit A2 [Colletotrichum scovillei]
+Sequence ID: KAF4782065.1 Length: 245
+>Heat-labile enterotoxin IIA [Colletotrichum scovillei]
+Sequence ID: KAG7050053.1 Length: 245
+>Heat-labile enterotoxin IIA [Colletotrichum scovillei]
+Sequence ID: KAG7069092.1 Length: 245
+>Heat-labile enterotoxin IIA [Colletotrichum scovillei]
+Sequence ID: KAG7073044.1 Length: 245 
+Range 1: 7 to 194
+
+Score:124 bits(312), Expect:8e-31, 
+Method:Compositional matrix adjust., 
+Identities:73/194(38%), Positives:101/194(52%), Gaps:7/194(3%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IFV  +     +  N    ++RAD+R P E++ +G   PRG S+        N+++Y+HA
+Sbjct  7    IFVVLVIQLWTAVCNAQFSVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG +S
+Sbjct  65   VGADNGASRDNDGYVSTTASEDTAVGFLSNMFNGNG--YVYEIAAAANFIQVSGTLGEFS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            P+P+EQE +ALGG  + Q+  W     GV D  L  N  Y  R Y+ L   P      LA
+Sbjct  123  PYPNEQEYAALGGFSWDQVIRWRHYTNGVADGGLQDNSEYEGRIYNGLR--PTNSMPSLA  180
+
+Query  184  GFPPEHRAWREEPW  197
+            GFP  HRAW   PW
+Sbjct  181  GFPAGHRAWTLSPW  194
+
+
+
+
+>cholera a subunit [Colletotrichum karsti]
+Sequence ID: XP_038744520.1 Length: 238
+>cholera a subunit [Colletotrichum karsti]
+Sequence ID: KAF9875059.1 Length: 238 
+Range 1: 7 to 193
+
+Score:124 bits(311), Expect:8e-31, 
+Method:Compositional matrix adjust., 
+Identities:79/197(40%), Positives:105/197(53%), Gaps:13/197(6%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            ++F FF+F       N   LYRADSRP   I+ S G +P+GQS  F   T  + +L++H 
+Sbjct  7    LVFGFFLFSLWSLLCNAVDLYRADSRPYTTIQASKGFLPKGQST-FGVATP-DTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A       L+G+   YIY I +APNM +    LG Y+
+Sbjct  65   NGASNGFSKDEDGYVSTTSDPALAERWVTQFLNGNG--YIYRIHSAPNMIDCPGTLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNL---DIAPAADGY  180
+            P+P+E E +ALGGI  +QI GW  V  GV  ++   N  Y    Y N+    I P     
+Sbjct  123  PYPEEAEFAALGGIKDNQIIGWTPVRNGVKGKE-ELNPFYSKAIYGNMGTGGIQPK----  177
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LA FP  H AW+E PW
+Sbjct  178  -LAAFPAGHPAWKEAPW  193
+
+
+
+
+>cholera a subunit [Colletotrichum kahawae]
+Sequence ID: KAK2774930.1 Length: 248
+Range 1: 5 to 195
+
+Score:124 bits(312), Expect:9e-31, 
+Method:Compositional matrix adjust., 
+Identities:72/197(37%), Positives:104/197(52%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N    ++RAD+R P E++ +G   PRG S + +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFSIWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      +  G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAESGASRDNDGYVSTTASEDTAVRFLTQMFGGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  Y  R Y+ L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMEDNNVYEGRIYNTLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum simmondsii]
+Sequence ID: KXH50713.1 Length: 245
+Range 1: 6 to 194
+
+Score:124 bits(311), Expect:1e-30, 
+Method:Compositional matrix adjust., 
+Identities:73/195(37%), Positives:100/195(51%), Gaps:6/195(3%)
+
+Query  3    KIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDH  62
+             I  V  I L +        ++RAD+R P E++ +G   PRG S+        N+++Y+H
+Sbjct  6    NIFIVLVIQLWTAVCNAQFSVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNH  63
+
+Query  63   ARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAY  122
+            A G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG +
+Sbjct  64   AVGADNGASRDNDGYVSTTASEDTAVGFLTNMFNGNG--YVYEIAAAANFIQVSGTLGEF  121
+
+Query  123  SPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            SP+P+EQE +ALGG  + Q+  W     GV D  L  N  Y  R Y+ L   P      L
+Sbjct  122  SPYPNEQEYAALGGFSWDQVIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSL  179
+
+Query  183  AGFPPEHRAWREEPW  197
+            AGFP  HRAW   PW
+Sbjct  180  AGFPAGHRAWTLSPW  194
+
+
+
+
+>hypothetical protein K4K52_006637 [Colletotrichum sp. SAR 10_76]
+Sequence ID: KAI8202229.1 Length: 248
+Range 1: 5 to 195
+
+Score:124 bits(310), Expect:1e-30, 
+Method:Compositional matrix adjust., 
+Identities:73/197(37%), Positives:106/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S   +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASRILE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      +  G  T Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAESGASRDNDGYVSTTASEDTAVRFLTQMFGG--TGYVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLD-EQLHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D + +  N  Y  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADADGMEDNTLYDGRLYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPASHRAWTLSPW  195
+
+
+
+
+>uncharacterized protein CGMCC3_g17823 [Colletotrichum fructicola]
+Sequence ID: XP_031875545.1 Length: 278
+>hypothetical protein CGMCC3_g17823 [Colletotrichum fructicola]
+Sequence ID: KAE9565997.1 Length: 278 
+Range 1: 31 to 201
+
+Score:124 bits(312), Expect:2e-30, 
+Method:Compositional matrix adjust., 
+Identities:71/181(39%), Positives:99/181(54%), Gaps:11/181(6%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQM-NINLYDHARGTQTGFVRHDDGYVSTS  81
+            +YR D+R P EIK+ GG + +GQ+ +   G Q  + +L++H +GT     R +DG+VSTS
+Sbjct  31   VYRGDTRSPGEIKRLGGFLAKGQTRF---GLQTADTSLFNHMKGTHNIKSRDEDGFVSTS  87
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S      V  T + G  + ++Y I   PNM +    LG YS   +E E +ALGGI Y Q
+Sbjct  88   TS----ETVAATFVYGKPSAFVYKIHVTPNMIDTVGTLGKYSDFDEELEFAALGGIKYEQ  143
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            I  W ++    L +    N+ +  R Y +   A     Y LAGFPP H+AWREEPW  H 
+Sbjct  144  IVSWRQLKGRNLGKSTM-NKDFDKRKYGS--AAAGGVQYQLAGFPPNHKAWREEPWKSHK  200
+
+Query  202  P  202
+            P
+Sbjct  201  P  201
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum costaricense]
+Sequence ID: XP_060316510.1 Length: 245
+>cholera enterotoxin subunit A2 [Colletotrichum tamarilloi]
+Sequence ID: XP_060372542.1 Length: 245
+>cholera enterotoxin subunit A2 [Colletotrichum tamarilloi]
+Sequence ID: KAK1470238.1 Length: 245
+>cholera enterotoxin subunit A2 [Colletotrichum costaricense]
+Sequence ID: KAK1532387.1 Length: 245 
+Range 1: 25 to 194
+
+Score:123 bits(309), Expect:2e-30, 
+Method:Compositional matrix adjust., 
+Identities:69/176(39%), Positives:95/176(53%), Gaps:6/176(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  25   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGADNGASRDNDGYVSTT  82
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      + +G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  83   ASEDTAVGFLSNMFNGNG--YVYEIAAAANFIQVSGTLGEFSPYPNEQEYAALGGFSWDQ  140
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D  L  N  Y  R Y+ L   P      LAGFP  HRAW   PW
+Sbjct  141  VIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSLAGFPAGHRAWTLSPW  194
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum lupini]
+Sequence ID: KAK1709542.1 Length: 245
+Range 1: 25 to 194
+
+Score:123 bits(309), Expect:2e-30, 
+Method:Compositional matrix adjust., 
+Identities:69/176(39%), Positives:95/176(53%), Gaps:6/176(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  25   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGADNGASRDNDGYVSTT  82
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      + +G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  83   ASEDTAVGFLTNMFNGNG--YVYEIAAAANFIQVSGTLGEFSPYPNEQEYAALGGFSWDQ  140
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D  L  N  Y  R Y+ L   P      LAGFP  HRAW   PW
+Sbjct  141  VIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSLAGFPAGHRAWTLSPW  194
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum filicis]
+Sequence ID: KAI3527605.1 Length: 245
+Range 1: 25 to 194
+
+Score:123 bits(309), Expect:2e-30, 
+Method:Compositional matrix adjust., 
+Identities:69/176(39%), Positives:95/176(53%), Gaps:6/176(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  25   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGADNGASRDNDGYVSTT  82
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      + +G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  83   ASEDTAVGFLSNMFNGNG--YVYEIAAAANFIQVSGTLGEFSPYPNEQEYAALGGFSWDQ  140
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D  L  N  Y  R Y+ L   P      LAGFP  HRAW   PW
+Sbjct  141  VIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSLAGFPAGHRAWTLSPW  194
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum lupini]
+Sequence ID: XP_049141041.1 Length: 230
+>cholera enterotoxin subunit A2 [Colletotrichum lupini]
+Sequence ID: UQC79409.1 Length: 230 
+Range 1: 10 to 179
+
+Score:122 bits(307), Expect:3e-30, 
+Method:Compositional matrix adjust., 
+Identities:69/176(39%), Positives:95/176(53%), Gaps:6/176(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  10   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGADNGASRDNDGYVSTT  67
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      + +G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  68   ASEDTAVGFLTNMFNGNG--YVYEIAAAANFIQVSGTLGEFSPYPNEQEYAALGGFSWDQ  125
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D  L  N  Y  R Y+ L   P      LAGFP  HRAW   PW
+Sbjct  126  VIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSLAGFPAGHRAWTLSPW  179
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum paranaense]
+Sequence ID: XP_060347941.1 Length: 245
+>cholera enterotoxin subunit A2 [Colletotrichum limetticola]
+Sequence ID: KAK0381835.1 Length: 245
+>cholera enterotoxin subunit A2 [Colletotrichum melonis]
+Sequence ID: KAK1464199.1 Length: 245
+>cholera enterotoxin subunit A2 [Colletotrichum paranaense]
+Sequence ID: KAK1536004.1 Length: 245 
+Range 1: 25 to 194
+
+Score:123 bits(308), Expect:3e-30, 
+Method:Compositional matrix adjust., 
+Identities:69/176(39%), Positives:95/176(53%), Gaps:6/176(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  25   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGADNGASRDNDGYVSTT  82
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      + +G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  83   ASEDTAVGFLTNMFNGNG--YVYEIAAAANFIQVSGTLGEFSPYPNEQEYAALGGFSWDQ  140
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D  L  N  Y  R Y+ L   P      LAGFP  HRAW   PW
+Sbjct  141  VIRWRHYTNGVADGGLQDNNEYEGRIYNGLR--PTNSMPSLAGFPAGHRAWTLSPW  194
+
+
+
+
+>Cholera enterotoxin subunit A2 [Colletotrichum truncatum]
+Sequence ID: XP_036574896.1 Length: 241
+>Cholera enterotoxin subunit A2 [Colletotrichum truncatum]
+Sequence ID: KAF6781381.1 Length: 241 
+Range 1: 8 to 206
+
+Score:123 bits(308), Expect:3e-30, 
+Method:Compositional matrix adjust., 
+Identities:81/210(39%), Positives:113/210(53%), Gaps:12/210(5%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            ++ +F + L SF     D LYRADSR P  I+ +GG +P+G S         +I+L++H 
+Sbjct  8    VLGLFIVSLWSFLCYGID-LYRADSRSPAAIESAGGFLPKGLSTV--GAVSADISLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G  +G  + +DGYVST+     A       L G+   YIY I  APNM +    LG ++
+Sbjct  65   HGAPSGASKDNDGYVSTTSDPGLAARWVTNFLRGNG--YIYRIHAAPNMIDCEATLGRFN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+PDE+E +A+GGI  +QI GW  V  GV   EQL  N  +    YS +  A A   Y L
+Sbjct  123  PYPDEKEFAAIGGIKNAQIIGWTPVKNGVKGKEQL--NPFFSSHIYSQMGNAGAQ--YKL  178
+
+Query  183  AGFPPEHRAWREEPWIHHAPPGCGNAPRSS  212
+            A FP  H+AW E+PW  ++   C   P+ S
+Sbjct  179  AAFPAGHQAWSEDPWKAYS--SCNAHPKRS  206
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR 10_75]
+Sequence ID: KAI8185178.1 Length: 248
+Range 1: 5 to 195
+
+Score:122 bits(307), Expect:4e-30, 
+Method:Compositional matrix adjust., 
+Identities:71/197(36%), Positives:106/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S   +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASGILE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAESGASRDNDGYVSTTASEDTAVRFLTQMFNGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  +  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMQDNNEFEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: XP_036502096.1 Length: 248
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR 10_86]
+Sequence ID: KAI8231164.1 Length: 248
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR 10_77]
+Sequence ID: KAI8246839.1 Length: 248
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR11_240]
+Sequence ID: KAI8302584.1 Length: 248
+>hypothetical protein N0V92_006821 [Colletotrichum tropicale]
+Sequence ID: KAJ3956623.1 Length: 248
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: KAF4824790.1 Length: 248 
+Range 1: 5 to 195
+
+Score:122 bits(307), Expect:4e-30, 
+Method:Compositional matrix adjust., 
+Identities:71/197(36%), Positives:106/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S   +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASGILE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G ++G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAESGASRDNDGYVSTTASEDTAVRFLTQMFNGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE +ALGG  + Q+  W     GV D   +  N  +  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAALGGFSWDQVIRWRHYTNGVADAAGMQDNNEFEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPAGHRAWTLSPW  195
+
+
+
+
+>hypothetical protein K456DRAFT_1809183, partial [Colletotrichum gloeosporioides 23]
+Sequence ID: KAH9244014.1 Length: 173
+Range 1: 1 to 170
+
+Score:120 bits(301), Expect:5e-30, 
+Method:Compositional matrix adjust., 
+Identities:68/176(39%), Positives:98/176(55%), Gaps:7/176(3%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            ++RAD+R P E++ +G   PRG S + +     N+++Y+HA G ++G  R +DGYVST+ 
+Sbjct  1    VWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYNHAIGAESGASRDNDGYVSTTA  58
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+            S  +A      +  G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q+
+Sbjct  59   SEDTAVRFLTQMFGGNG--YVYEIAAAGNFIQVSGTLGQFSPYPNEQEYAALGGFSWDQV  116
+
+Query  143  YGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+              W     GV D   +  N  Y  R Y++L   P      LAGFP  HRAW   PW
+Sbjct  117  IRWRHYTNGVADAAGMEDNNVYEGRIYNSLR--PNNGQPSLAGFPAGHRAWTLSPW  170
+
+
+
+
+>hypothetical protein QQS21_002297 [Conoideocrella luteorostrata]
+Sequence ID: KAK2609215.1 Length: 551
+Range 1: 8 to 253
+
+Score:128 bits(321), Expect:5e-30, 
+Method:Compositional matrix adjust., 
+Identities:87/253(34%), Positives:123/253(48%), Gaps:11/253(4%)
+
+Query  4    IIFVFFIFLS-SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDH  62
+             + +  +FL  ++S      +YRAD   PD++K     +PRG+          +I+LY+H
+Sbjct  8    FVLLLCLFLGVAYSQNEPTIVYRADRLSPDDLKLQRKFLPRGEDGTRPNQLAPSISLYNH  67
+
+Query  63   ARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAY  122
+              GT TG  RHD GYVST+ SL  A    Q IL G    YIY I  + N  +    L  +
+Sbjct  68   VSGTVTGTSRHDSGYVSTTTSLAFARRFLQLILGGRG--YIYRIHVSGNFVDAAASLRQF  125
+
+Query  123  SPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY-G  181
+              H DE E +ALGGI Y+Q+ GW     GV   ++  NR Y  R+    D+  A+ G   
+Sbjct  126  YIHTDEAEFAALGGIHYTQVLGWTEFRQGVERTEVC-NRDYDRRF----DLMRASGGQPQ  180
+
+Query  182  LAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSL--GVKFLDEYQSKVKRQ  239
+            LAGFPP HRAW  +PW   A     ++ +      C  K  ++   + FL E   + K Q
+Sbjct  181  LAGFPPNHRAWALDPWTEFADCKQSSSRKRHDEADCQPKKTAVAFALDFLTELYLEHKYQ  240
+
+Query  240  IFSGYQSDIDTHN  252
+            +++  Q   D H 
+Sbjct  241  LYNCGQDKFDQHK  253
+
+
+
+
+>uncharacterized protein COL516b_005453 [Colletotrichum fioriniae]
+Sequence ID: XP_053050178.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum tamarilloi]
+Sequence ID: XP_060386625.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum abscissum]
+Sequence ID: XP_060391165.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum fioriniae PJ7]
+Sequence ID: EXF79486.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum scovillei]
+Sequence ID: KAG7043968.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum melonis]
+Sequence ID: KAK1447623.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum nymphaeae SA-01]
+Sequence ID: KXH48578.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum scovillei]
+Sequence ID: KAG7046069.1 Length: 241 
+Range 1: 13 to 197
+
+Score:122 bits(305), Expect:7e-30, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:105/197(53%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRNYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVK  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  66   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+    A   Y LA 
+Sbjct  124  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAA  180
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  181  FPPNHQAWGEAPWSQFA  197
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum costaricense]
+Sequence ID: XP_060317222.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum costaricense]
+Sequence ID: KAK1533100.1 Length: 241 
+Range 1: 13 to 197
+
+Score:122 bits(305), Expect:7e-30, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:105/197(53%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRNYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVK  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  66   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+    A   Y LA 
+Sbjct  124  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAA  180
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  181  FPPSHQAWGEAPWSQFA  197
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum lupini]
+Sequence ID: XP_049137710.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum lupini]
+Sequence ID: UQC76067.1 Length: 241 
+Range 1: 13 to 197
+
+Score:122 bits(305), Expect:7e-30, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:105/197(53%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRNYATIQTSKGFLPKGQSTFGVAAP--DTSLWNHVK  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  66   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+    A   Y LA 
+Sbjct  124  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAA  180
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  181  FPPNHQAWGEAPWSQFA  197
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum phormii]
+Sequence ID: XP_060439723.1 Length: 245
+>heat-labile enterotoxin alpha chain-domain-containing protein [Colletotrichum phormii]
+Sequence ID: KAK1623728.1 Length: 245 
+Range 1: 25 to 194
+
+Score:122 bits(305), Expect:8e-30, 
+Method:Compositional matrix adjust., 
+Identities:69/176(39%), Positives:94/176(53%), Gaps:6/176(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  25   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGADNGASRDNDGYVSTT  82
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      +  G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  83   ASETTAIGFLNNMFRGNG--YVYEIAAAANFIQVSGTLGEFSPYPNEQEYAALGGFSWDQ  140
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D  L  NR Y    Y+ L   P      LAGFP  HRAW   PW
+Sbjct  141  VIRWRHYTNGVEDGSLEDNREYEGGIYNGLR--PTNTMPSLAGFPAGHRAWTLSPW  194
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum paranaense]
+Sequence ID: XP_060353328.1 Length: 241
+>cholera enterotoxin subunit A2 [Colletotrichum paranaense]
+Sequence ID: KAK1544209.1 Length: 241 
+Range 1: 13 to 197
+
+Score:122 bits(305), Expect:8e-30, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:105/197(53%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRNYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVK  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  66   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+    A   Y LA 
+Sbjct  124  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAA  180
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  181  FPPNHQAWGEAPWSQFA  197
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum limetticola]
+Sequence ID: KAK0375516.1 Length: 241
+Range 1: 13 to 197
+
+Score:122 bits(305), Expect:8e-30, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:105/197(53%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRNYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVK  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  66   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+    A   Y LA 
+Sbjct  124  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAA  180
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  181  FPPNHQAWGEAPWSQFA  197
+
+
+
+
+>uncharacterized protein CGMCC3_g18022 [Colletotrichum fructicola]
+Sequence ID: XP_031875346.1 Length: 278
+>hypothetical protein CGMCC3_g18022 [Colletotrichum fructicola]
+Sequence ID: KAE9565797.1 Length: 278
+>Cholera enterotoxin subunit A [Colletotrichum fructicola Nara gc5]
+Sequence ID: KAF4477373.1 Length: 278
+>Cholera enterotoxin subunit A [Colletotrichum fructicola Nara gc5]
+Sequence ID: KAF4480776.1 Length: 278 
+Range 1: 31 to 201
+
+Score:122 bits(307), Expect:9e-30, 
+Method:Compositional matrix adjust., 
+Identities:71/181(39%), Positives:98/181(54%), Gaps:11/181(6%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQM-NINLYDHARGTQTGFVRHDDGYVSTS  81
+            +YR D+R P EIK+ GG + +GQ+ +   G Q  + +L++H +GT     R +DG+VSTS
+Sbjct  31   VYRGDTRSPGEIKRLGGFLAKGQTRF---GLQTADTSLFNHMKGTHDIKSRDEDGFVSTS  87
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S      V  T + G  + ++Y I   PNM +    LG YS    E E +ALGGI Y Q
+Sbjct  88   TS----ETVAATFVYGKPSAFVYKIHVTPNMVDTVGTLGKYSDFDGELEFAALGGIKYEQ  143
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            I  W ++    L +    N+ +  R Y +   A     Y LAGFPP H+AWREEPW  H 
+Sbjct  144  IVSWRQLKGRNLGKSTM-NKDFDKRKYGS--AAAGGVQYQLAGFPPNHKAWREEPWKSHK  200
+
+Query  202  P  202
+            P
+Sbjct  201  P  201
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum filicis]
+Sequence ID: KAI3549299.1 Length: 241
+Range 1: 13 to 197
+
+Score:121 bits(304), Expect:9e-30, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:105/197(53%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRNYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVK  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  66   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+    A   Y LA 
+Sbjct  124  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAA  180
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  181  FPPNHQAWGEAPWSQFA  197
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Leotiomycetes sp. MPI-SDFR-AT-0126]
+Sequence ID: KAH7411379.1 Length: 241
+Range 1: 8 to 233
+
+Score:121 bits(304), Expect:1e-29, 
+Method:Compositional matrix adjust., 
+Identities:83/233(36%), Positives:110/233(47%), Gaps:12/233(5%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            ++F      +SF Y    ++YRAD+R P+E++Q GG MPRG           N+++Y+HA
+Sbjct  8    LVFYLLTLWASFCYG-QTRVYRADTRGPEELRQVGGFMPRGLGGALQ--VAPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RG   G     DGYVST+I+   A    +  L G    Y+Y IA A N   V+  LG YS
+Sbjct  65   RGAANGQSTDSDGYVSTTITEARAIRFLEENLGGRG--YVYTIAGARNFVQVSGTLGQYS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFG----VLDEQLHRNRGYRDRYYSNLDIAPAADG  179
+            P+ DE E +ALGG  +S++ GW +        V       N  Y    Y N D     D 
+Sbjct  123  PYVDEVEYAALGGFHWSRVIGWAQYQGSPSGPVQVGPFISNEDYDPTRYGN-DAVNQGD-  180
+
+Query  180  YGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQ-SLGVKFLDE  231
+              LAGFP  H  W   PW   A   CG   R   +N     T  +L   FLD+
+Sbjct  181  PSLAGFPGGHPGWSLSPWNAFANGNCGRKLRLRQTNCNSASTAVALAQAFLDK  233
+
+
+
+
+>putative heat-labile enterotoxin a chain [Diaporthe ampelina]
+Sequence ID: KKY29438.1 Length: 244
+Range 1: 5 to 195
+
+Score:121 bits(304), Expect:1e-29, 
+Method:Compositional matrix adjust., 
+Identities:73/197(37%), Positives:104/197(52%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K IF+  +     +  N   +++RAD+R P E++ +G   PRG S Y +     NI++Y+
+Sbjct  5    KNIFILLVLNLWTTLCNAQFRVWRADTRSPTEMRAAGVFAPRGASRYLE--IVPNISMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G  TG  R +DGYVST+++  +A    +  L+G+   Y+Y IA + N   V   LG 
+Sbjct  63   HALGAPTGVSRGNDGYVSTTVTESTAVEFLRNQLNGNG--YVYEIAASANFIQVAGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            ++P P E E +ALGG  + Q+  W     G  D   L  N  Y  R Y+ L   P+A   
+Sbjct  121  FNPFPQELEYAALGGFNWDQVIRWRHYTNGRADASGLQDNNEYDARVYNTLR--PSAGEP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFPP H AW   PW
+Sbjct  179  RLAGFPPNHEAWGMAPW  195
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum simmondsii]
+Sequence ID: KXH31960.1 Length: 241
+Range 1: 13 to 197
+
+Score:121 bits(303), Expect:2e-29, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:104/197(52%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  13   LIAFWAFL-----CNGLDLYRADSRNYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVK  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  66   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y    YSN+    A   Y LA 
+Sbjct  124  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYSRNIYSNMGTGGAQ--YKLAA  180
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  181  FPPNHQAWGEAPWSQFA  197
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Diaporthaceae sp. PMI_573]
+Sequence ID: KAH8767234.1 Length: 245
+Range 1: 7 to 195
+
+Score:121 bits(303), Expect:2e-29, 
+Method:Compositional matrix adjust., 
+Identities:73/196(37%), Positives:104/196(53%), Gaps:10/196(5%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IF+  +     +  N    ++RAD+R P E++ +G   PRG S+        N ++Y+HA
+Sbjct  7    IFMLLVLNLWTALCNAQFSVWRADTRTPTEMRAAGLFAPRGASQILQ--VLPNTSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSA-HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAY  122
+             G   G  R +DGYVST+ S  +A   +GQ + +G+   Y+Y IA A N   V+  LG +
+Sbjct  65   VGAPNGASRDNDGYVSTTASEDTAIRFLGQ-MFNGNG--YVYEIAAAANFIQVSGTLGQF  121
+
+Query  123  SPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYG  181
+            SP+P+EQE +ALGG  + Q+  W     G+ D   +  N  Y  R Y+NL   P      
+Sbjct  122  SPYPNEQEYAALGGFSWDQVIRWTHYTNGIADAAGMQDNNAYEGRIYNNLR--PTNGEPR  179
+
+Query  182  LAGFPPEHRAWREEPW  197
+            LAGFP  HRAW   PW
+Sbjct  180  LAGFPSNHRAWTMSPW  195
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum sublineola]
+Sequence ID: KAK1952037.1 Length: 265
+>putative cholera enterotoxin subunit A2 [Colletotrichum sublineola]
+Sequence ID: KDN60200.1 Length: 265 
+Range 1: 8 to 240
+
+Score:121 bits(303), Expect:2e-29, 
+Method:Compositional matrix adjust., 
+Identities:87/239(36%), Positives:116/239(48%), Gaps:23/239(9%)
+
+Query  1    MVKIIFVFFIFLS---SFSYANDDK-LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMN  56
+            +V      F FLS   +FS   D K +YR D RPP  IK++GG +P+G +         N
+Sbjct  8    LVFFYLASFWFLSGEAAFSSWTDPKFVYRGDDRPPKRIKEAGGFLPKGLTTV--GVVTPN  65
+
+Query  57   INLYDHAR--------GTQTGF--VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVI  106
+            I+LY+H          G Q G      DDGYVS + S   A         G +TY IY +
+Sbjct  66   ISLYNHVDVPEEFDEDGNQIGLGSTPDDDGYVSFTKSFILALGYAFYSRKGDTTY-IYKV  124
+
+Query  107  ATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDR  166
+             + PNM +V   LG Y+ + +E E SALGG+ + QI  WY+V    L       RG R+ 
+Sbjct  125  KSTPNMIDVAKTLGKYNLYGEEDEFSALGGVKWDQIVSWYKVDRNNL-HSFSWLRGIRNE  183
+
+Query  167  YYSNLDIAPAADG---YGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQ  222
+             Y+ +       G   Y LAGFPP+H+AW EEPW    P  C    R+S     D+K +
+Sbjct  184  DYNGVRYRGFRTGGAQYSLAGFPPDHKAWDEEPWKQFRP--CSEESRTSSDKENDKKAR  240
+
+
+
+
+>hypothetical protein COL922a_002534 [Colletotrichum nupharicola]
+Sequence ID: KAJ0387294.1 Length: 237
+Range 1: 7 to 197
+
+Score:120 bits(301), Expect:2e-29, 
+Method:Compositional matrix adjust., 
+Identities:76/199(38%), Positives:102/199(51%), Gaps:9/199(4%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F FF+F       +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLFSLWSILGSAVDLYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW ++  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>uncharacterized protein CGMCC3_g13019 [Colletotrichum fructicola]
+Sequence ID: XP_031880415.1 Length: 237
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum fructicola Nara gc5]
+Sequence ID: KAF4480381.1 Length: 237
+>hypothetical protein K4K60_000285 [Colletotrichum sp. SAR11_57]
+Sequence ID: KAI8286578.1 Length: 237
+>hypothetical protein CGMCC3_g13019 [Colletotrichum fructicola]
+Sequence ID: KAE9570867.1 Length: 237
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum fructicola]
+Sequence ID: KAF4412598.1 Length: 237
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum fructicola]
+Sequence ID: KAF4896558.1 Length: 237 
+Range 1: 7 to 197
+
+Score:120 bits(301), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:77/199(39%), Positives:102/199(51%), Gaps:9/199(4%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F FF+F       +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLFSLWSILGSAVDLYRADSRAFSTIQASKGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW +V  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQVKNGVEGKEQL--NPFYRSDIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR11_59]
+Sequence ID: KAI8304428.1 Length: 248
+Range 1: 5 to 195
+
+Score:120 bits(302), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:70/197(36%), Positives:105/197(53%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K I + F+     +  N   +++RAD+R P E++ +G   PRG S   +     N+++Y+
+Sbjct  5    KNILILFVLNLWTALCNAQFRVWRADTRTPTEMRAAGNFAPRGASGILE--VTPNVSMYN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA GT++G  R +DGY ST+ S  +A      + +G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGTESGASRDNDGYFSTTASEDTAVRFLTQMFNGNG--YVYEIAAAGNFIQVSGTLGQ  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP+P+EQE + LGG  + Q+  W     GV D   +  N  +  R Y++L   P     
+Sbjct  121  FSPYPNEQEYAVLGGFSWDQVIRWRHYTNGVADAAGMQDNNEFEGRIYNSLR--PNNGQP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP  HRAW   PW
+Sbjct  179  SLAGFPSGHRAWTLSPW  195
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum aenigma]
+Sequence ID: XP_037184794.1 Length: 247
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum aenigma]
+Sequence ID: KAF5527159.1 Length: 247 
+Range 1: 24 to 194
+
+Score:120 bits(301), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:67/177(38%), Positives:97/177(54%), Gaps:7/177(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+            +++RAD+R P E++ +G   PRG S + +     N+++Y+HA G   G  R +DGYVST+
+Sbjct  24   RVWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYNHAVGADNGASRDNDGYVSTT  81
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      + +G+   Y+Y IA   N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  82   ASEDTAVRFLTQMFNGNG--YVYEIAAVGNFIQVSGTLGQFSPYPNEQEYAALGGFSWDQ  139
+
+Query  142  IYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D   +  N  Y  R Y++L   P      LAGFP  HRAW   PW
+Sbjct  140  VIRWRHYTNGVADAAGMQDNNEYEGRIYNSLR--PNNGQPSLAGFPSGHRAWTLSPW  194
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR 10_65]
+Sequence ID: KAI8170591.1 Length: 238
+Range 1: 7 to 197
+
+Score:120 bits(301), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:76/199(38%), Positives:102/199(51%), Gaps:9/199(4%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F FF+F       +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLFSLWSILGSAVDLYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW ++  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: KAF4870120.1 Length: 238
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR 10_96]
+Sequence ID: KAI8239024.1 Length: 238
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR 10_98]
+Sequence ID: KAI8289578.1 Length: 238
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR 10_99]
+Sequence ID: KAJ5009472.1 Length: 238 
+Range 1: 7 to 197
+
+Score:120 bits(301), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:77/199(39%), Positives:102/199(51%), Gaps:9/199(4%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F FF+F       +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLFSLWSILGSAVDLYRADSRAFSTIQASKGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW +V  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQVKNGVEGKEQL--NPFYRSDIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: KAF4843529.1 Length: 237
+>hypothetical protein K456DRAFT_1727386 [Colletotrichum gloeosporioides 23]
+Sequence ID: KAH9231044.1 Length: 237
+>hypothetical protein COL940_012725 [Colletotrichum noveboracense]
+Sequence ID: KAJ0269134.1 Length: 237
+>hypothetical protein CBS470a_005707 [Colletotrichum nupharicola]
+Sequence ID: KAJ0286826.1 Length: 237
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: KAF4863445.1 Length: 237 
+Range 1: 7 to 197
+
+Score:120 bits(301), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:76/199(38%), Positives:102/199(51%), Gaps:9/199(4%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F FF+F       +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLFSLWSILGSAVDLYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW ++  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>uncharacterized protein COL26b_006605 [Colletotrichum chrysophilum]
+Sequence ID: XP_053036697.1 Length: 237
+>hypothetical protein KNSL1_013707 [Colletotrichum chrysophilum]
+Sequence ID: KAJ0333911.1 Length: 237
+>hypothetical protein COL154_013806 [Colletotrichum chrysophilum]
+Sequence ID: KAJ0347923.1 Length: 237
+>hypothetical protein COL26b_006605 [Colletotrichum chrysophilum]
+Sequence ID: KAJ0375231.1 Length: 237
+>cholera a subunit [Colletotrichum chrysophilum]
+Sequence ID: KAK1846317.1 Length: 237 
+Range 1: 7 to 197
+
+Score:120 bits(301), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:76/199(38%), Positives:102/199(51%), Gaps:9/199(4%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F FF+F       +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLFSLWSILGSAVDLYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW ++  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: KAF4821977.1 Length: 238
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum sp. SAR11_239]
+Sequence ID: KAI8255948.1 Length: 238 
+Range 1: 7 to 197
+
+Score:120 bits(301), Expect:3e-29, 
+Method:Compositional matrix adjust., 
+Identities:76/199(38%), Positives:102/199(51%), Gaps:9/199(4%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F FF+F       +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLFSLWSILGSAVDLYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW ++  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: XP_037171182.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: XP_037171218.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: XP_037171245.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: XP_037171284.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: XP_037171314.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: XP_037171327.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: KAF5482971.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: KAF5483094.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: KAF5483122.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: KAF5483161.1 Length: 203
+>Cholera enterotoxin subunit A [Colletotrichum aenigma]
+Sequence ID: KAF5486599.1 Length: 203 
+Range 1: 2 to 166
+
+Score:119 bits(297), Expect:4e-29, 
+Method:Compositional matrix adjust., 
+Identities:70/174(40%), Positives:95/174(54%), Gaps:9/174(5%)
+
+Query  29   RPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAH  88
+            RPP EIK+ GG +P+GQ+ +  +    N +L++H +GT     R DDG+VSTS S     
+Sbjct  2    RPPKEIKRLGGFLPKGQTGF--QSQPPNTSLFNHMKGTPNIQSRDDDGFVSTSAS----E  55
+
+Query  89   LVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRV  148
+             V  T +    + ++Y I   PNM +    LG YS    E+E +ALGGI Y QI  W  +
+Sbjct  56   PVAATFVYKKPSAFVYKIHATPNMVDTVGTLGKYSDFDAEEEFAALGGIKYDQIVSWRTL  115
+
+Query  149  HFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  202
+                L +    N+ +  R YS+  +A     Y LAGFPP H+AWREEPW  H P
+Sbjct  116  DGRNLGKSTP-NKDFDRRKYSS-SVAGGVQ-YQLAGFPPNHKAWREEPWKKHKP  166
+
+
+
+
+>Cholera enterotoxin subunit A2 [Colletotrichum tofieldiae]
+Sequence ID: KZL74718.1 Length: 240
+>cholera enterotoxin subunit A2 [Colletotrichum tofieldiae]
+Sequence ID: GKT60144.1 Length: 240 
+Range 1: 8 to 197
+
+Score:120 bits(300), Expect:4e-29, 
+Method:Compositional matrix adjust., 
+Identities:78/199(39%), Positives:111/199(55%), Gaps:10/199(5%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            +  +F I L SF + +   +YRAD+RP   I+ S G++P+GQS         +I+L++H 
+Sbjct  8    VFGLFLISLWSF-FCHAIDVYRADTRPFSTIQASKGMLPKGQSTV--GVVSPDISLWNHC  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RG   G+ R +DGYVST+   R+  L   T      T YIY I + PNM +    LG ++
+Sbjct  65   RGAADGYSRDNDGYVSTTWD-RNLALKWTTGFPDR-TGYIYRIHSGPNMIDCEATLGDHN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+PDE+E +A+GGI  +QI GW  V  GV   EQL  N  Y+   YSN+ +  A     L
+Sbjct  123  PYPDEKEYAAIGGIKTNQIIGWTLVKNGVQGKEQL--NPFYQASVYSNMGVGGAQP--QL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FP  H AW + PW  ++
+Sbjct  179  AAFPAGHVAWSQAPWSQYS  197
+
+
+
+
+>cholera a subunit [Colletotrichum chrysophilum]
+Sequence ID: KAK1855312.1 Length: 216
+Range 1: 31 to 201
+
+Score:119 bits(298), Expect:5e-29, 
+Method:Compositional matrix adjust., 
+Identities:72/180(40%), Positives:99/180(55%), Gaps:9/180(5%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            +YR D+R P EIK  GG +P+GQ+  F   TQ + +L++H +GT +   R +DGYVSTS 
+Sbjct  31   VYRGDTRSPKEIKMLGGFLPKGQAS-FGLQTQ-DTSLFNHMKGTHSIGSRDEDGYVSTS-  87
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+               S+  V    + G  + Y+Y I   PN+ +    LG YS   +E E +ALGGI Y QI
+Sbjct  88   ---SSESVAAVFVYGKPSAYVYKIHVTPNLIDTVGTLGKYSEFDEESEWAALGGIKYEQI  144
+
+Query  143  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  202
+              W  ++   L     +N+ Y D+    L +      Y LAGFPP H AW EEPW +H P
+Sbjct  145  VSWRPLNGRKLGSTT-KNKDY-DKAKYGLALNGGVQ-YQLAGFPPNHEAWDEEPWKNHKP  201
+
+
+
+
+>hypothetical protein N8I77_005220 [Diaporthe amygdali]
+Sequence ID: KAK2611903.1 Length: 245
+Range 1: 7 to 195
+
+Score:119 bits(299), Expect:5e-29, 
+Method:Compositional matrix adjust., 
+Identities:72/195(37%), Positives:103/195(52%), Gaps:8/195(4%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IF+  I     +  N   +++RAD+R P E++ +G   PRG S+        N+++Y+HA
+Sbjct  7    IFMLLILNLWTALCNAQFRVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   G  R +DGYVST+ S  +A    + + +G+   Y+Y IA + N   V+  LG +S
+Sbjct  65   VGAPNGASRDNDGYVSTTASETTAVSFLRQMFNGNG--YVYEIAASANFIQVSGTLGQFS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P+EQE +ALGG  + Q+  W     GV D   L  N  Y  R Y+ L   P      L
+Sbjct  123  PYPNEQEYAALGGFSWDQVIRWRHYTNGVADASGLQDNNEYEGRIYNGLR--PTNGEPRL  180
+
+Query  183  AGFPPEHRAWREEPW  197
+            AGFP  HRAW   PW
+Sbjct  181  AGFPSSHRAWGVSPW  195
+
+
+
+
+>NAD(+)--arginine ADP-ribosyltransferase Chelt [Colletotrichum gloeosporioides]
+Sequence ID: XP_045266419.1 Length: 238
+>NAD(+)--arginine ADP-ribosyltransferase Chelt [Colletotrichum gloeosporioides]
+Sequence ID: KAF3807260.1 Length: 238 
+Range 1: 7 to 197
+
+Score:119 bits(299), Expect:5e-29, 
+Method:Compositional matrix adjust., 
+Identities:79/199(40%), Positives:103/199(51%), Gaps:11/199(5%)
+
+Query  6    FVFFIFLSSF--SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            FVF +FL S      +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGLFLFSLWSILGSAVDLYRADSRAFSTIQASKGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW +V  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQVKNGVEGKEQL--NPFYRSDIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>hypothetical protein N0V92_006379 [Colletotrichum tropicale]
+Sequence ID: KAJ3957066.1 Length: 237
+Range 1: 7 to 197
+
+Score:119 bits(299), Expect:5e-29, 
+Method:Compositional matrix adjust., 
+Identities:78/199(39%), Positives:103/199(51%), Gaps:11/199(5%)
+
+Query  6    FVFFIFLSSF--SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            FVF +FL S      +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGLFLFSLWSILGSAVDLYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW ++  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>cholera enterotoxin subunit A2 [Diaporthe amygdali]
+Sequence ID: XP_052996863.1 Length: 245
+>cholera enterotoxin subunit A2 [Diaporthe amygdali]
+Sequence ID: KAJ0120406.1 Length: 245 
+Range 1: 7 to 195
+
+Score:119 bits(299), Expect:6e-29, 
+Method:Compositional matrix adjust., 
+Identities:73/196(37%), Positives:107/196(54%), Gaps:10/196(5%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IF+  +     +  N   +++RAD+R P E++ +G   PRG S+  +     N+++Y+HA
+Sbjct  7    IFMLLVLNLWTALCNAQFRVWRADTRTPTEMRAAGLFSPRGASQILE--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSA-HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAY  122
+             G   G  R +DGYVST+ S  +A + +GQ + +G+   Y+Y IA + N   V+  LG +
+Sbjct  65   VGAPNGASRDNDGYVSTTASETTAVNFLGQ-MFNGNG--YVYEIAASANFIQVSGTLGQF  121
+
+Query  123  SPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYG  181
+            SP+P+EQE +ALGG  + Q+  W     GV D   L  N  Y  R Y+ L   P      
+Sbjct  122  SPYPNEQEYAALGGFSWDQVIRWRHYTNGVADASGLQDNNEYEGRIYNGLR--PTNGEPR  179
+
+Query  182  LAGFPPEHRAWREEPW  197
+            LAGFP  HRAW   PW
+Sbjct  180  LAGFPSSHRAWGMSPW  195
+
+
+
+
+>hypothetical protein K4K59_010865 [Colletotrichum sp. SAR11_240]
+Sequence ID: KAI8307493.1 Length: 237
+Range 1: 7 to 197
+
+Score:119 bits(297), Expect:9e-29, 
+Method:Compositional matrix adjust., 
+Identities:79/199(40%), Positives:102/199(51%), Gaps:11/199(5%)
+
+Query  6    FVFFIFLSSF--SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            FVF  FL S      +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGFFLISLWSILGSAVDLYRADSRAFSTIQASKGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW +V  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQVKNGVEGKEQL--NPFYRSDIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum tropicale]
+Sequence ID: KAF4828240.1 Length: 247
+Range 1: 24 to 194
+
+Score:119 bits(298), Expect:1e-28, 
+Method:Compositional matrix adjust., 
+Identities:66/177(37%), Positives:96/177(54%), Gaps:7/177(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+            +++RAD+R P E++ +G   PRG S + +     N+++Y+HA G   G  R +DGYVST+
+Sbjct  24   RVWRADTRTPTEMRAAGNFAPRGASRFLE--VTPNVSMYNHAVGADNGASRDNDGYVSTT  81
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A      + +G+   Y+Y IA   N   V+  LG +SP+P+EQE +ALGG  +  
+Sbjct  82   ASEATAVRFLTQMFNGNG--YVYEIAAVGNFIQVSGTLGEFSPYPNEQEYAALGGFSWDS  139
+
+Query  142  IYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D   +  N  Y  R Y++L   P      LAGFP  HRAW   PW
+Sbjct  140  VIRWRHYTNGVADAAGMQDNNEYEGRIYNSLR--PNNGQPSLAGFPAGHRAWTLSPW  194
+
+
+
+
+>hypothetical protein diail_3400 [Diaporthe ilicicola]
+Sequence ID: KAI3400383.1 Length: 245
+Range 1: 7 to 195
+
+Score:118 bits(296), Expect:1e-28, 
+Method:Compositional matrix adjust., 
+Identities:70/195(36%), Positives:101/195(51%), Gaps:8/195(4%)
+
+Query  5    IFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            IF+  +     +  N   +++RAD+R P E++ +G   PRG S         N+++Y+HA
+Sbjct  7    IFILLVLNLWAALCNAQFRVWRADTRTPTEMRAAGLFSPRGASRILQ--IVPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA + N   V   LG +S
+Sbjct  65   VGAPNGASRDNDGYVSTTASETTAVDFLNRMFNGNG--YVYEIAASANFIQVTGTLGQFS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLD-EQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P+E E +ALGG  + Q+  W     GV D E +  N  Y  R Y   D+ P      L
+Sbjct  123  PYPNELEYAALGGFSWDQVIRWRHYTRGVADAEGMEDNYEYEGRIYD--DLRPTNGEPSL  180
+
+Query  183  AGFPPEHRAWREEPW  197
+            AGFPP+H AW   PW
+Sbjct  181  AGFPPDHEAWTMSPW  195
+
+
+
+
+>uncharacterized protein INS49_004363 [Diaporthe citri]
+Sequence ID: XP_043017867.1 Length: 245
+>hypothetical protein INS49_004363 [Diaporthe citri]
+Sequence ID: KAG6354346.1 Length: 245 
+Range 1: 25 to 195
+
+Score:118 bits(296), Expect:2e-28, 
+Method:Compositional matrix adjust., 
+Identities:69/177(39%), Positives:96/177(54%), Gaps:7/177(3%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+             ++RAD+R P E++ +G   PRG S+        N+++Y+HA G   G  R +DGYVST+
+Sbjct  25   SVWRADTRTPTEMRAAGLFAPRGASQILQ--IVPNVSMYNHAVGAPNGASRDNDGYVSTT  82
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+             S  +A    + + +G+   Y+Y IA A N   V+  LG +SP+P+EQE +ALGG  + Q
+Sbjct  83   ASETTAVNFLRQMFNGNG--YVYEIAAAANFIQVSGTLGQFSPYPNEQEYAALGGFSWDQ  140
+
+Query  142  IYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            +  W     GV D   L  N  Y    Y+NL   P      LAGFP  HRAW   PW
+Sbjct  141  VIRWRHYTNGVEDSSGLQDNSDYEGSIYNNLR--PTNGEPRLAGFPSNHRAWGMSPW  195
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: XP_036490749.1 Length: 294
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum siamense]
+Sequence ID: KAF5489557.1 Length: 294 
+Range 1: 7 to 197
+
+Score:119 bits(298), Expect:2e-28, 
+Method:Compositional matrix adjust., 
+Identities:79/199(40%), Positives:103/199(51%), Gaps:11/199(5%)
+
+Query  6    FVFFIFLSSFS--YANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            FVF +FL S      +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGLFLFSLWSILGSAVDLYRADSRAYSTIQASKGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW +V  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQVKNGVEGKEQL--NPFYRSDIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum tropicale]
+Sequence ID: KAF4822930.1 Length: 237
+Range 1: 7 to 197
+
+Score:117 bits(293), Expect:3e-28, 
+Method:Compositional matrix adjust., 
+Identities:77/199(39%), Positives:102/199(51%), Gaps:11/199(5%)
+
+Query  6    FVFFIFLSSF--SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            FV  +FL S      +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVLGLFLFSLWSILGSAVDLYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW ++  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FPP H AW E PW   A
+Sbjct  179  AAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>hypothetical protein BDP67DRAFT_374993, partial [Colletotrichum lupini]
+Sequence ID: KAK1708381.1 Length: 175
+Range 1: 1 to 172
+
+Score:115 bits(288), Expect:4e-28, 
+Method:Compositional matrix adjust., 
+Identities:70/179(39%), Positives:98/179(54%), Gaps:7/179(3%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            LYRADSR    I+ S G +P+GQS +       + +L++H +G  +G  + +DGYVST+ 
+Sbjct  1    LYRADSRNYATIQTSKGFLPKGQSTFGVAAP--DTSLWNHVKGAPSGASKDEDGYVSTTS  58
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+              + A       L G+   +IY I +APNM +    L  Y+P+P+E E +ALGGI  +QI
+Sbjct  59   DPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNPYPEEAEFAALGGIKDNQI  116
+
+Query  143  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+             GW  V  GV  ++   N  Y+   YSN+    A   Y LA FP  H+AW E PW   A
+Sbjct  117  IGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAAFPANHQAWGEAPWSQFA  172
+
+
+
+
+>Heat-labile enterotoxin IIB, A chain [Colletotrichum tanaceti]
+Sequence ID: KAJ0162096.1 Length: 239
+>Heat-labile enterotoxin IIB, A chain [Colletotrichum tanaceti]
+Sequence ID: TKW52618.1 Length: 239 
+Range 1: 7 to 204
+
+Score:117 bits(292), Expect:5e-28, 
+Method:Compositional matrix adjust., 
+Identities:78/208(38%), Positives:104/208(50%), Gaps:11/208(5%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQM-NINLYDH  62
+            + F FF+F           LYRADSR P +I+ + G +PRGQS +   G    + +L++H
+Sbjct  7    LTFGFFLFSLWSLLCQAVDLYRADSRTPAQIQAAQGFLPRGQSTF---GVAAPDTSLWNH  63
+
+Query  63   ARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAY  122
+              G   GF R DDGYVST+     A    + +L G+   Y+Y I +APNM +    L  Y
+Sbjct  64   VEGDAQGFSRMDDGYVSTTSDRNLAVNWIRDMLGGNG--YVYRIHSAPNMIDCKATLDKY  121
+
+Query  123  SPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+                 E+E +ALGGI  +QI GW R        +  RN  Y+   Y N+    +     L
+Sbjct  122  YRFEHEKEFAALGGIKDNQIIGWTRFTNNRAGSE-ERNPFYQANIYGNMGTGGSQP--SL  178
+
+Query  183  AGFPPEHRAWREEPWIHHAPPGCGNAPR  210
+            A FPP H AWRE PW   +   C N PR
+Sbjct  179  AAFPPGHPAWRESPWNQFST--CRNNPR  204
+
+
+
+
+>hypothetical protein K4K52_000187 [Colletotrichum sp. SAR 10_76]
+Sequence ID: KAI8214682.1 Length: 237
+>hypothetical protein K4K53_008593 [Colletotrichum sp. SAR 10_77]
+Sequence ID: KAI8218739.1 Length: 237 
+Range 1: 26 to 197
+
+Score:117 bits(292), Expect:6e-28, 
+Method:Compositional matrix adjust., 
+Identities:72/180(40%), Positives:95/180(52%), Gaps:9/180(5%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            LYRADSR    I+ S G + +GQS         + +L++H  G   GF + +DGYVST+ 
+Sbjct  26   LYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHVNGADNGFSKDEDGYVSTTS  83
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+                A    +  L  +   YIY I +APNM +    LG Y+P+P E+E +ALGGI  +QI
+Sbjct  84   DKNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYNPYPQEKEFAALGGIKDNQI  141
+
+Query  143  YGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+             GW ++  GV   EQL  N  YR   Y N+    +     LA FPP H AW E PW   A
+Sbjct  142  IGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KLAAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>hypothetical protein IFR05_003009 [Cadophora sp. M221]
+Sequence ID: KAG4441482.1 Length: 241
+Range 1: 8 to 217
+
+Score:117 bits(292), Expect:6e-28, 
+Method:Compositional matrix adjust., 
+Identities:78/221(35%), Positives:103/221(46%), Gaps:19/221(8%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            ++F      +SF Y    ++YRAD+R PD+++  GG MPRG           N+++Y+HA
+Sbjct  8    LVFYLLTLWASFCYG-QTRVYRADTRSPDQLRTVGGFMPRGLGGALQ--VAPNVSMYNHA  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RG   G     DGYVST+I+   A    +  L G    Y+Y +A A N   V+  LG YS
+Sbjct  65   RGAVNGQSTDSDGYVSTTITEARAIQFLEESLGGSG--YVYTVAGARNFVQVSGTLGQYS  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGW--YR------VHFGVLDEQLHRNRGYRDRYYSNLDIAP  175
+            P+ DE E +ALGG  +S++ GW  YR      V  G        N  Y    Y N  +  
+Sbjct  123  PYVDELEYAALGGFHWSRVIGWAQYRGDPSGPVQVGAFIS----NEDYDPTRYGNDAVNQ  178
+
+Query  176  AADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNT  216
+                  LAGFP  H  W   PW   A   CG   R   SN 
+Sbjct  179  GEP--SLAGFPGGHAGWSLAPWNAFANGNCGRKLRLRQSNC  217
+
+
+
+
+>hypothetical protein F5X68DRAFT_233526 [Plectosphaerella plurivora]
+Sequence ID: KAH6685098.1 Length: 242
+Range 1: 8 to 239
+
+Score:116 bits(291), Expect:7e-28, 
+Method:Compositional matrix adjust., 
+Identities:77/241(32%), Positives:108/241(44%), Gaps:13/241(5%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             I  F     S  +A     +R D R P EI+ +GG + RG       G   ++++++HA
+Sbjct  8    FIAAFLQVWISLCFAQGQNFFRGDGRTPAEIRSAGGFLARGAVRLL--GIVGDVSMFNHA  65
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RG   G    + GYVST+     A         G    YIY I   PN  NV + L  ++
+Sbjct  66   RGAANGGATSESGYVSTTTDRNVALRFVNNNAGGDG--YIYEIQATPNFVNVQETLLDWN  123
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            P+PDE E +ALGG  + Q++ +  +  G    ++  N  +   +  N   A       LA
+Sbjct  124  PYPDEVEYAALGGFGWDQVFAYQEIRGGRAGPRVT-NPDFNTVF--NSARATTRGEPRLA  180
+
+Query  184  GFPPEHRAWREEPWIHHAPPGCGNAPRSSM----SNTCDEKTQSLGVKFLDEYQSKVKRQ  239
+            GF   H AWR  PW   AP GCG  PR S+    + TCD   Q     F+D  Q+   RQ
+Sbjct  181  GFDASHPAWRSLPWSAFAPGGCGGLPRRSLITRQAQTCDNFNQLYAEGFMD--QNCAGRQ  238
+
+Query  240  I  240
+             
+Sbjct  239  C  239
+
+
+
+
+>hypothetical protein K4K50_005015 [Colletotrichum sp. SAR 10_71]
+Sequence ID: KAI8167935.1 Length: 237
+>hypothetical protein K4K51_003188 [Colletotrichum sp. SAR 10_75]
+Sequence ID: KAI8179818.1 Length: 237
+>hypothetical protein K4K49_000241 [Colletotrichum sp. SAR 10_70]
+Sequence ID: KAI8201469.1 Length: 237
+>hypothetical protein K4K54_009136 [Colletotrichum sp. SAR 10_86]
+Sequence ID: KAI8219801.1 Length: 237
+>hypothetical protein K4K48_003893 [Colletotrichum sp. SAR 10_66]
+Sequence ID: KAJ5006424.1 Length: 237 
+Range 1: 26 to 197
+
+Score:116 bits(290), Expect:9e-28, 
+Method:Compositional matrix adjust., 
+Identities:72/180(40%), Positives:95/180(52%), Gaps:9/180(5%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            LYRADSR    I+ S G + +GQS         + +L++H  G   GF + +DGYVST+ 
+Sbjct  26   LYRADSRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHVNGADNGFSKDEDGYVSTTS  83
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+                A    +  L  +   YIY I +APNM +    LG Y+P+P E+E +ALGGI  +QI
+Sbjct  84   DRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYNPYPQEKEFAALGGIKDNQI  141
+
+Query  143  YGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+             GW ++  GV   EQL  N  YR   Y N+    +     LA FPP H AW E PW   A
+Sbjct  142  IGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KLAAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>hypothetical protein CSAL01_03978 [Colletotrichum salicis]
+Sequence ID: KXH43816.1 Length: 673
+Range 1: 13 to 193
+
+Score:122 bits(306), Expect:1e-27, 
+Method:Compositional matrix adjust., 
+Identities:74/193(38%), Positives:101/193(52%), Gaps:12/193(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   L+RADSRP   I+ S G +P+GQS +       + +L++H  
+Sbjct  13   LIAFWAFL-----CNSLDLHRADSRPYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVN  65
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  TGF + +DGYVST+     A       L G+   ++Y I +APNM +    L  Y+P
+Sbjct  66   GASTGFSKDEDGYVSTTSDRNLAETWVNRFLGGNG--FVYRIHSAPNMIDCQGTLQKYNP  123
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+        Y LA 
+Sbjct  124  YPQEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNM--GTGGSQYKLAA  180
+
+Query  185  FPPEHRAWREEPW  197
+            FPP H AW E PW
+Sbjct  181  FPPNHPAWGEAPW  193
+
+
+
+
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum aenigma]
+Sequence ID: XP_037174319.1 Length: 238
+>Heat-labile enterotoxin IIA, A chain [Colletotrichum aenigma]
+Sequence ID: KAF5512564.1 Length: 238 
+Range 1: 7 to 197
+
+Score:116 bits(290), Expect:1e-27, 
+Method:Compositional matrix adjust., 
+Identities:78/199(39%), Positives:102/199(51%), Gaps:11/199(5%)
+
+Query  6    FVFFIFLSSF--SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            FVF +FL S      +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGLFLFSLWSILGSAVDLYRADSRAFSTIQASKGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW +V  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQVKNGVEGKEQL--NPFYRSDIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FP  H AW E PW   A
+Sbjct  179  AAFPANHIAWSEAPWSEFA  197
+
+
+
+
+>hypothetical protein CcaCcLH18_13755 [Colletotrichum camelliae]
+Sequence ID: KAH0420892.1 Length: 414
+Range 1: 208 to 372
+
+Score:119 bits(299), Expect:1e-27, 
+Method:Compositional matrix adjust., 
+Identities:69/180(38%), Positives:101/180(56%), Gaps:15/180(8%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            +YR D+R P+E+K+ GG +P+GQ+  F+  T  +I+L++H +GT +   R +DG+VSTS 
+Sbjct  208  VYRGDTRLPEEVKKHGGFLPKGQTS-FELQTP-DISLFNHMKGTHSIGSRDEDGFVSTS-  264
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+               S+  V  T +    + ++Y I   PN+ +    LG YS      E +ALGGI Y QI
+Sbjct  265  ---SSEPVAATFVYRKPSAFVYKIHVTPNLIDTVGTLGKYS------EFAALGGIKYEQI  315
+
+Query  143  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  202
+              W  ++   L + + RN+ +  R Y +         Y LAGFPP H AWREEPW  H P
+Sbjct  316  VSWRPLNGRTLGKPI-RNKDFEKRKYGS--AVAGGVQYQLAGFPPNHEAWREEPWKSHKP  372
+
+
+
+
+>hypothetical protein B0T11DRAFT_330950 [Plectosphaerella cucumerina]
+Sequence ID: KAH7359254.1 Length: 244
+Range 1: 5 to 234
+
+Score:115 bits(289), Expect:2e-27, 
+Method:Compositional matrix adjust., 
+Identities:79/237(33%), Positives:109/237(45%), Gaps:15/237(6%)
+
+Query  3    KIIFVFFIF--LSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            K +F+  I     S  YA     YR D R P EI+ +GG + RG       G   +++++
+Sbjct  5    KSLFIAAILHVWISLCYAQGQIYYRGDGRSPAEIRAAGGFLGRGAVRLL--GIVGDVSMF  62
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            +HARG   G    + GYVST+     A         G+   YIY I   PN  NV + L 
+Sbjct  63   NHARGAANGGATSESGYVSTTTDRNIAVRFVNNNAGGNG--YIYEIQGTPNFVNVQETLL  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             ++P+PDE E +ALGG  + Q++ +  +  G    ++  N  +   +  N   A      
+Sbjct  121  DWNPYPDEVEYAALGGFGWDQVFAYQEIRNGRAGPRVT-NPDFNTVF--NSARATTRGEP  177
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMS------NTCDEKTQSLGVKFLDE  231
+             LAGF   H AWR+ PW   AP GCG  PRS  S       TCD   Q     F+DE
+Sbjct  178  RLAGFDAAHPAWRQLPWSAFAPGGCGGLPRSRRSLITRQAQTCDNFNQLYAESFMDE  234
+
+
+
+
+>cholera a subunit [Colletotrichum asianum]
+Sequence ID: KAF0321627.1 Length: 237
+Range 1: 26 to 197
+
+Score:115 bits(289), Expect:2e-27, 
+Method:Compositional matrix adjust., 
+Identities:71/180(39%), Positives:95/180(52%), Gaps:9/180(5%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            LYRA+SR    I+ S G + +GQS         + +L++H  G   GF + +DGYVST+ 
+Sbjct  26   LYRAESRAFSTIQASQGFLAKGQSNI--GVVSPDTSLWNHVNGADNGFSKEEDGYVSTTS  83
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+                A    +  L  +   YIY I +APNM +    LG Y+P+P E+E +ALGGI  +QI
+Sbjct  84   DRNLARTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYNPYPQEKEFAALGGIKDNQI  141
+
+Query  143  YGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+             GW ++  GV   EQL  N  YR   Y N+    +     LA FPP H AW E PW   A
+Sbjct  142  IGWTQIKNGVEGKEQL--NPFYRSNIYGNMGTGGSQP--KLAAFPPNHAAWSEAPWSEFA  197
+
+
+
+
+>cholera enterotoxin subunit A2 [Colletotrichum gloeosporioides Cg-14]
+Sequence ID: EQB45953.1 Length: 238
+Range 1: 7 to 197
+
+Score:115 bits(287), Expect:3e-27, 
+Method:Compositional matrix adjust., 
+Identities:78/199(39%), Positives:102/199(51%), Gaps:11/199(5%)
+
+Query  6    FVFFIFLSSF--SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            FVF +FL S      +   LYRADSR    I+ S G + +GQS         + +L++H 
+Sbjct  7    FVFGLFLFSLWSILGSAVDLYRADSRAFSTIQASKGFLAKGQSNI--GVVSPDTSLWNHV  64
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+             G   GF + +DGYVST+     A    +  L  +   YIY I +APNM +    LG Y+
+Sbjct  65   NGADNGFSKDEDGYVSTTSDRNLACTWVRQFLGNNG--YIYRIHSAPNMIDCQATLGKYN  122
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVL-DEQLHRNRGYRDRYYSNLDIAPAADGYGL  182
+            P+P E+E +ALGGI  +QI GW +V  GV   EQL  N  YR   Y N+    +     L
+Sbjct  123  PYPQEKEFAALGGIKDNQIIGWTQVKNGVEGKEQL--NPFYRSDIYGNMGTGGSQP--KL  178
+
+Query  183  AGFPPEHRAWREEPWIHHA  201
+            A FP  H AW E PW   A
+Sbjct  179  AAFPLNHAAWGEAPWSEFA  197
+
+
+
+
+>heat-labile enterotoxin alpha chain-domain-containing protein [Dactylonectria macrodidyma]
+Sequence ID: KAH7177122.1 Length: 244
+Range 1: 5 to 195
+
+Score:115 bits(287), Expect:3e-27, 
+Method:Compositional matrix adjust., 
+Identities:70/197(36%), Positives:103/197(52%), Gaps:8/197(4%)
+
+Query  3    KIIFVFFIFLSSFSYANDD-KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            K IF+ F+     +  N    ++RAD+R   E++ +G   PRG S+  +      +++++
+Sbjct  5    KNIFILFVLNLWNALCNAQFSVWRADTRTSTEMRAAGVFAPRGASQILE--ITPKVSMFN  62
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HA G   G  R +DGYVST+ S  +A      + +G+   Y+Y IA A N   V+  LG 
+Sbjct  63   HAVGAPNGASRDNDGYVSTTASEATAVTFLTQMFNGNG--YVYEIAAAGNFIQVSGTLGE  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQ-LHRNRGYRDRYYSNLDIAPAADGY  180
+            +SP P+E E +ALGG  + Q+  W     GV D   L  N  Y  R Y++L   P+    
+Sbjct  121  FSPFPNEHEYAALGGFSWDQVIRWRHYTNGVADAAGLQDNNEYEGRIYNSLR--PSNGEP  178
+
+Query  181  GLAGFPPEHRAWREEPW  197
+             LAGFP +HRAW   PW
+Sbjct  179  RLAGFPSDHRAWGISPW  195
+
+
+
+
+>major facilitator superfamily domain-containing protein [Colletotrichum acutatum]
+Sequence ID: XP_060369042.1 Length: 664
+>major facilitator superfamily domain-containing protein [Colletotrichum acutatum]
+Sequence ID: KAK1728987.1 Length: 664 
+Range 1: 12 to 196
+
+Score:120 bits(301), Expect:4e-27, 
+Method:Compositional matrix adjust., 
+Identities:75/197(38%), Positives:105/197(53%), Gaps:12/197(6%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +  F+ FL      N   LYRADSR    I+ S G +P+GQS +       + +L++H +
+Sbjct  12   LIAFWAFL-----CNGLDLYRADSRNYATIQASKGFLPKGQSTFGVAAP--DTSLWNHVK  64
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            G  +G  + +DGYVST+   + A       L G+   +IY I +APNM +    L  Y+P
+Sbjct  65   GAPSGASKDEDGYVSTTSDPKLAESWVSRFLGGNG--FIYRIHSAPNMIDCQATLQKYNP  122
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            +P+E E +ALGGI  +QI GW  V  GV  ++   N  Y+   YSN+    A   Y LA 
+Sbjct  123  YPEEAEFAALGGIKDNQIIGWTPVRGGVKGKE-ELNPFYQGNIYSNMGTGGAQ--YKLAA  179
+
+Query  185  FPPEHRAWREEPWIHHA  201
+            FPP H+AW E PW   A
+Sbjct  180  FPPNHQAWGEAPWSQFA  196
+
+
+
+
+>hypothetical protein BB8028_0007g03580 [Beauveria bassiana]
+Sequence ID: PQK17160.1 Length: 685
+Range 1: 4 to 198
+
+Score:120 bits(301), Expect:4e-27, 
+Method:Compositional matrix adjust., 
+Identities:75/202(37%), Positives:103/202(50%), Gaps:13/202(6%)
+
+Query  2    VKIIFVFFIFLSS-----FSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMN  56
+            +KI+  +  F+        S +    +YR D   P+++K  GG +PRG+          +
+Sbjct  4    LKILLWWLAFICCGPSAVLSQSPPTVVYRGDMLTPEDLKLQGGFLPRGEDGTRPNQPPAS  63
+
+Query  57   INLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVN  116
+            ++LY+H  G+ TG  R+D GYVST+ SL SA     T+L GH   YIY I  + N  +V 
+Sbjct  64   LSLYNHVEGSPTGTGRYDTGYVSTTTSLDSARRFVSTVLGGHG--YIYRIHVSANFIDVA  121
+
+Query  117  DVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAP-  175
+              L  +  H DE EV++LG I  SQ+ GW  V  G    ++ RN  Y  R+    D A  
+Sbjct  122  GTLRQFYRHTDEAEVASLGRIQLSQVLGWTEVINGAEQSEV-RNPQYDSRF----DTASW  176
+
+Query  176  AADGYGLAGFPPEHRAWREEPW  197
+                  LAGFPP HRAW  EPW
+Sbjct  177  GGSQPQLAGFPPNHRAWTLEPW  198
+
+
+
+
+>NAD(+)--arginine ADP-ribosyltransferase Chelt [Beauveria bassiana D1-5]
+Sequence ID: KGQ07179.1 Length: 685
+Range 1: 4 to 198
+
+Score:120 bits(301), Expect:4e-27, 
+Method:Compositional matrix adjust., 
+Identities:75/202(37%), Positives:103/202(50%), Gaps:13/202(6%)
+
+Query  2    VKIIFVFFIFLSS-----FSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMN  56
+            +KI+  +  F+        S +    +YR D   P+++K  GG +PRG+          +
+Sbjct  4    LKILLWWLAFICCGPSAVLSQSPPTVVYRGDMLTPEDLKLQGGFLPRGEDGTRPNQPPAS  63
+
+Query  57   INLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVN  116
+            ++LY+H  G+ TG  R+D GYVST+ SL SA     T+L GH   YIY I  + N  +V 
+Sbjct  64   LSLYNHVEGSPTGTGRYDTGYVSTTTSLDSARRFVSTVLGGHG--YIYRIHVSANFIDVA  121
+
+Query  117  DVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAP-  175
+              L  +  H DE EV++LG I  SQ+ GW  V  G    ++ RN  Y  R+    D A  
+Sbjct  122  GTLRQFYRHTDEAEVASLGRIQLSQVLGWTEVINGAEQSEV-RNPQYDSRF----DTASW  176
+
+Query  176  AADGYGLAGFPPEHRAWREEPW  197
+                  LAGFPP HRAW  EPW
+Sbjct  177  GGSQPQLAGFPPNHRAWTLEPW  198
+
+
+
+
+
+
+
+		
+
+

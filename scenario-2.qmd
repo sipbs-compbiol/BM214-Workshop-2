@@ -95,3 +95,151 @@ Click on the `BLAST` button.
 
 ![NCBI `BLAST` button](assets/images/ncbi-blast-button.png){#fig-scenario-2-button-1 width="80%"}
 :::
+
+### Interpret the `BLAST` report (**MyPlace Questions**)
+
+It is not unusual to find that a query matches many proteins in the database. By identifying those most closely-related to the query sequence, you should be able to establish a likely function for your protein, and  a candidate identity for the organism it originates from.
+
+::: { .callout-important title="Your assignment"}
+**Answer the questions below in the formative quiz on MyPlace.**
+
+Clicking on the box for each question should give you a hint to the answer, or where to find it.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the accession number of the best match to your query?
+
+Check the `Accession` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What organism provides the best match to your query?
+
+Check the `Description` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the total score for the best matching alignment?
+
+Check the `Total Score` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the query coverage against the best matching alignment?
+
+Check the `Query Cover` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the alignment percentage identity for the best matching alignment?
+
+Check the `Per. Ident` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the gene product encoded by the best match?
+
+Click on the accession number for the best match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/product` that can be found just above the sequence data. If you cannot see it, search for `/product` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## Where was the best-matching organism isolated?
+
+If it is not already open, click on the accession number for the best match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/country` that can be found just above the sequence data. If you cannot see it, search for `/country` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## What kind of environment was the best-matching organism isolated from?
+
+If it is not already open, click on the accession number for the best match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/host` that can be found just above the sequence data. If you cannot see it, search for `/host` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## From what other species does `BLAST` report a hit?
+
+Scroll down the table in the `Descriptions` tab, or use the `Taxonomy` tab to find other organisms
+:::
+
+::: { .callout-tip collapse="true"}
+## What conserved domain superfamily does this protein belong to?
+
+Use the `Graphic Summary` tab to visualise the pairwise alignments, and examine the superfamily information in the graphic at the top of the page.
+:::
+
+## Stretch Activities
+
+These activities are not necessary for the assessment, but provide more information relevant to interpreting your `BLAST` results. Open the orange boxes to see the questions, and use the green boxes to find some answers.
+
+### Find out more about your protein's function
+
+::: { .callout-caution title="Click on the `Graphic Summary` tab in the report" collapse="true"}
+`BLAST` reports often link to external sources of data and information that can help you interpret your results. At the top of the `Graphic Summary` tab there is a clickable graphical indicator of a putative conserved domain in your protein. Click on the green box. This will open an entry in the [NCBI Conserved Domain Database](https://www.ncbi.nlm.nih.gov/cdd/) (CDD).
+
+Click on the small `[+]` symbol at the left of the entry to see an alignment of your protein against the canonical sequence for the conserved domain.
+
+Conserved domains are usually associated with Protein Family (PFam) domain records. This is also true for the matches to your protein. Click on the link to the PFam entry (in the `Accession` column of the CDD record) to be taken to a multiple sequence alignment of representative sequences for this domain, which opens in a new tab.
+
+To see the PFam record itself, click on the `Source: pfam` link in the `Links` box at the top of this page. This opens the InterPro PFam page with more information about the function and structure of the conserved domain in your protein.
+:::
+
+### Inspect the match taxonomy
+
+::: { .callout-tip collapse="true"}
+## Hints: `Taxonomy`
+
+1. Yes they are consistent, and the total count of matches to each taxonomic group is given.
+:::
+
+---
+
+::: { .callout-caution title="Click on the `Distance tree of results` link in the report" collapse="true"}
+The `Distance tree of results` link will open a new tab containing a phylogenetic tree, showing the placement of your sequence in relation to the matching sequences. Some questions to consider:
+
+1. Are the results in the tree consistent with the results in the `Descriptions` tab? Is there any extra information here that is not found in the `Descriptions` tab?
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: `Distance tree`
+
+1. Yes, they are consistent. The tree gives us evolutionary information about the order of divergence of each organism's sequences, when they diverged, and also which organisms' sequences are more similar to each other.
+:::
+
+### Repeat the search with different parameters
+
+::: { .callout-caution title="Exclude bacterial sequences from the search" collapse="true"}
+Return to your `BLAST` query by clicking on the `Edit Search` button at the top of the report.
+
+![`BLAST` report `Edit Search` button](assets/images/blast-edit-search.png){#fig-scenario-2-edit width="80%"}
+
+Check the `Exclude` box next to the `Organism` field, to exclude bacterial sequences from your `BLAST` search.
+
+![Excluding a taxon from the `BLAST` search](assets/images/blast-exclude-bacteria.png){#fig-scenario-2-exclude width="80%"}
+
+Click on the `BLAST` button.
+
+![NCBI `BLAST` button](assets/images/ncbi-blast-button.png){#fig-scenario-2-button-2 width="80%"}
+
+1. Are there any exact matches to your query sequence in the `BLAST` results?
+2. If there are exact matches to your query, what kind of organism are they found in?
+3. Why might this protein sequence be associated with that kind of organism?
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: Excluding bacterial sequences
+
+1. Yes, there is one exact match to a non-bacterial sequence.
+2. The sequence is found in a virus (and very similar sequences are also found in other viruses)
+3. Pathogen virulence genes are often transferred between bacteria by viruses or phage infection in a process called horizontal gene transfer (HGT).
+:::
+
+## Summary
+
+::: { .callout-note title="Well done!"}
+In this scenario, you have used a protein sequence search to **identify the putative function of a protein** and the **most likely organism from which it comes**. You have used the `BLAST` result to **identify the protein's conserved protein domain classification** and you may have **used links to external sites to learn more** about its evolution and function. You have **used the database taxon filtering options** to refine your search to a set of target organisms, and you may have also used the same filter to **exclude organisms** from your search.
+:::

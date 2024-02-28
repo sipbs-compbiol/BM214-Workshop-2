@@ -1,0 +1,3223 @@
+RID: XYM9BVD6013	
+Job Title:Protein Sequence				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_291461 Length: 258
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+cholera enterotoxin, A subunit [Vibrio cholerae O1 str....        Vibrio chole... NA              914149     541    541   100%  0.0    100.00 285        AET26557.1       
+cholera enterotoxin subunit A2 [Vibrio cholerae]                  Vibrio cholerae NA              666        540    540   100%  0.0    100.00 271        KKP16024.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        539    539   100%  0.0    100.00 258        WP_001881225.1   
+CtxA [Vibrio cholerae]                                            Vibrio cholerae NA              666        538    538   100%  0.0    99.61  258        ARK08040.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio]               Vibrio          NA              662        538    538   100%  0.0    99.61  258        WP_001888508.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        538    538   100%  0.0    99.61  258        HAS5322725.1     
+unnamed protein product [Vibrio cholerae]                         Vibrio cholerae NA              666        538    538   100%  0.0    99.61  258        CAA24995.1       
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        538    538   99%   0.0    100.00 257        HAS7223210.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio choler... Vibrio chole... NA              127906     538    538   100%  0.0    99.61  258        HAT7621581.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        537    537   99%   0.0    100.00 257        WP_254784049.1   
+cholera toxin A subunit [Vibrio cholerae O27]                     Vibrio chole... NA              185331     537    537   100%  0.0    99.61  258        AAM22586.1       
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        535    535   100%  0.0    98.84  258        HDL9513879.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio mimicus]       Vibrio mimicus  NA              674        535    535   100%  0.0    98.84  258        WP_005514365.1   
+cholera toxin A subunit [Vibrio mimicus]                          Vibrio mimicus  NA              674        534    534   100%  0.0    98.84  258        BBG62269.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        534    534   98%   0.0    100.00 255        WP_179875822.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        533    533   98%   0.0    99.61  255        HAS3816761.1     
+CtxA [Vibrio cholerae]                                            Vibrio cholerae NA              666        532    532   98%   0.0    100.00 254        ADG44926.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        532    532   100%  0.0    98.45  258        WP_001911232.1   
+cholera toxin A subunit [Vibrio cholerae]                         Vibrio cholerae NA              666        532    532   100%  0.0    98.84  258        ACU00910.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        531    531   98%   0.0    99.61  254        EGR4414988.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        529    529   98%   0.0    100.00 253        HAS2434191.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        527    527   97%   0.0    100.00 252        ELJ8676339.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        526    526   100%  0.0    96.90  258        HDZ3705404.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        525    525   98%   0.0    98.04  255        HBN6905058.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        525    525   97%   0.0    100.00 251        ELU0092256.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        524    524   100%  0.0    96.51  258        WP_071919595.1   
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae O1... Vibrio chole... NA              686        523    523   98%   0.0    98.81  253        KAE8435177.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        523    523   96%   0.0    100.00 250        EJL6935108.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        522    522   96%   0.0    100.00 250        WP_159372129.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        521    521   98%   0.0    98.42  253        HBN6940636.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        521    521   98%   0.0    97.64  254        HBN6965732.1     
+enterotoxin subunit A [Vibrio cholerae]                           Vibrio cholerae NA              666        521    521   100%  0.0    96.51  258        CAE11218.1       
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        520    520   96%   0.0    100.00 249        HAS7184951.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        519    519   97%   0.0    98.41  252        HBN6816269.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        519    519   96%   0.0    99.60  249        HAS7169778.1     
+mmCTA [Vibrio cholerae]                                           Vibrio cholerae NA              666        519    519   100%  0.0    96.12  258        AMQ67862.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        519    519   96%   0.0    100.00 248        WP_258265755.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        516    516   95%   0.0    100.00 247        HCG1896829.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        516    516   95%   0.0    100.00 247        WP_033085031.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        515    515   96%   0.0    98.40  250        HBN6848849.1     
+cholera enterotoxin subunit A2 [Vibrio cholerae]                  Vibrio cholerae NA              666        514    514   95%   0.0    100.00 246        MVD10244.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        514    514   95%   0.0    100.00 246        EKM9476568.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        514    514   98%   0.0    97.23  253        MBD1201843.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        513    513   94%   0.0    100.00 245        WP_165457439.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        513    513   94%   0.0    100.00 245        HAS3263143.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        509    509   96%   0.0    96.80  250        HDZ3782369.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        509    509   95%   0.0    98.38  247        HBN6819492.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        509    509   94%   0.0    100.00 243        HAS3266844.1     
+cholera enterotoxin%2C A subunit [Vibrio cholerae]                Vibrio cholerae NA              666        508    508   100%  0.0    95.75  259        CSC80806.1       
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        507    507   94%   0.0    99.59  243        HAS7637873.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        507    507   93%   0.0    100.00 242        HAS3273832.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        505    505   94%   2e-180 98.37  245        HBN6915739.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        505    505   98%   2e-180 95.29  252        RXT04248.1       
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        504    504   93%   9e-180 100.00 247        WP_053043630.1   
+Chain A, Cholera enterotoxin, A chain precursor [Vibrio cholerae] Vibrio cholerae NA              666        503    503   93%   1e-179 100.00 240        1S5E_A           
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        501    501   92%   8e-179 100.00 239        HAS7154010.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        501    501   94%   1e-178 98.35  243        HBN6997698.1     
+Chain A, Cholera enterotoxin, A chain precursor [Vibrio cholerae] Vibrio cholerae NA              666        501    501   93%   1e-178 99.58  240        1S5B_A           
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        501    501   93%   1e-178 99.58  240        HBN7001334.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        499    499   93%   3e-178 98.35  242        HBN6871881.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        499    499   92%   6e-178 100.00 238        HAS7257636.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        498    498   92%   8e-178 100.00 238        HAS7751853.1     
+heat-labile enterotoxin alpha chain family protein [Vibrio...     Vibrio chole... NA              991924     499    499   94%   1e-177 97.94  259        EKK82634.1       
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        497    497   91%   3e-177 100.00 237        HAS7200312.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        497    497   91%   4e-177 100.00 237        HAS3674861.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        496    496   91%   7e-177 100.00 237        HBC2090490.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        496    496   91%   1e-176 100.00 237        HAS7664576.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        494    494   91%   3e-176 100.00 236        EJP6288844.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        493    493   91%   1e-175 99.58  236        HBJ8458484.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        489    489   90%   5e-174 100.00 233        EKF9696752.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        488    488   90%   8e-174 100.00 233        HBC2101476.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        487    487   89%   2e-173 100.00 232        EGQ9202722.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        486    486   89%   4e-173 100.00 232        HAS7280282.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        485    485   89%   1e-172 100.00 231        HCI4729224.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio choler... Vibrio chole... NA              127906     484    484   89%   5e-172 100.00 231        HAT7629019.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        483    483   90%   7e-172 98.29  234        HBN6922862.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        483    483   89%   8e-172 100.00 230        HAS3828549.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        482    482   90%   2e-171 98.29  234        HBN7008475.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        481    481   88%   4e-171 100.00 229        EJL6827667.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        481    481   90%   4e-171 98.28  233        HBN6958583.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        480    480   88%   1e-170 100.00 229        HAS7188892.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        479    479   88%   3e-170 100.00 228        WP_139182317.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        478    478   88%   5e-170 100.00 228        HAS7618905.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        478    478   88%   6e-170 100.00 228        HAS7093640.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        476    476   87%   3e-169 100.00 227        HAS3281075.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        475    475   87%   1e-168 100.00 226        HAS7733038.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        474    474   87%   2e-168 100.00 226        HAS3301781.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        474    474   87%   2e-168 100.00 226        HDZ9274753.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        473    473   87%   9e-168 99.56  226        WP_053048895.1   
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        472    472   87%   1e-167 100.00 225        HAS7192739.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        471    471   88%   3e-167 97.82  229        HDI3215583.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        468    468   86%   4e-166 100.00 223        HAS7458781.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        468    468   86%   4e-166 100.00 223        HAU8257834.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        466    466   86%   3e-165 100.00 222        HAS7120294.1     
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        465    465   85%   9e-165 100.00 221        WP_001976479.1   
+cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]      Vibrio cholerae NA              666        464    464   85%   1e-164 100.00 221        EGQ8468219.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        460    460   84%   5e-163 100.00 219        HAS3220482.1     
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        459    459   84%   9e-163 100.00 219        HBN6890547.1     
+cholera enterotoxin subunit A [Vibrio cholerae HC-49A2]           Vibrio chole... NA              991935     459    459   84%   2e-162 100.00 218        EGR02020.1       
+TPA: cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae] Vibrio cholerae NA              666        458    458   84%   4e-162 100.00 218        HAS3288212.1     
+
+
+Alignments:
+
+>cholera enterotoxin, A subunit [Vibrio cholerae O1 str. 2010EL-1786]
+Sequence ID: AET26557.1 Length: 285
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: KKP08163.1 Length: 285
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: KKP08288.1 Length: 285
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: KKP22171.1 Length: 285 
+Range 1: 28 to 285
+
+Score:541 bits(1394), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:258/258(100%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  28   MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  87
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  88   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  147
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  148  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  207
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  208  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  267
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  268  FSGYQSDIDTHNRIKDEL  285
+
+
+
+
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: KKP16024.1 Length: 271
+Range 1: 14 to 271
+
+Score:540 bits(1391), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:258/258(100%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  14   MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  73
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  74   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  133
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  134  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  193
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  194  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  253
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  254  FSGYQSDIDTHNRIKDEL  271
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: WP_001881225.1 Length: 258
+>RecName: Full=Cholera enterotoxin subunit A; AltName: Full=Cholera enterotoxin, A chain; Contains: RecName: Full=Cholera enterotoxin subunit A1; AltName: Full=Cholera enterotoxin A1 chain; AltName: Full=Cholera enterotoxin alpha chain; AltName: Full=NAD(+)--diphthamide ADP-ribosyltransferase; Contains: RecName: Full=Cholera enterotoxin subunit A2; AltName: Full=Cholera enterotoxin A2 chain; AltName: Full=Cholera enterotoxin gamma chain; Flags: Precursor [Vibrio cholerae O1 biovar El Tor str. N16961]
+Sequence ID: P01555.1 Length: 258
+>enterotoxin A subunit (NAD(+)--diphthamide ADP- ribosyltransferase) [Vibrio cholerae INDRE 91/1]
+Sequence ID: EEY50006.1 Length: 258
+>cholera enterotoxin subunit A2 [Vibrio cholerae O1 biovar El Tor str. L-3226]
+Sequence ID: EYC47277.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio sp. NO3-D2]
+Sequence ID: MDG6208018.1 Length: 258 
+Range 1: 1 to 258
+
+Score:539 bits(1389), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:258/258(100%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>CtxA [Vibrio cholerae]
+Sequence ID: ARK08040.1 Length: 258
+>CtxA [Vibrio cholerae]
+Sequence ID: ARK08049.1 Length: 258
+>CtxA [Vibrio cholerae]
+Sequence ID: ARK08058.1 Length: 258
+>CtxA [Vibrio cholerae]
+Sequence ID: ARK08067.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS4277726.1 Length: 258 
+Range 1: 1 to 258
+
+Score:538 bits(1386), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/258(99%), Positives:257/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGN PRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNTPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>MULTISPECIES: cholera enterotoxin catalytic subunit CtxA [Vibrio]
+Sequence ID: WP_001888508.1 Length: 258
+>CtxA [Vibrio cholerae]
+Sequence ID: AAL60525.1 Length: 258
+>CtxA [Vibrio cholerae]
+Sequence ID: AAL69944.1 Length: 258
+>CtxA [Vibrio cholerae]
+Sequence ID: AAL69945.1 Length: 258
+>cholera toxin subunit A [Vibrio cholerae]
+Sequence ID: ALF39427.1 Length: 258 
+Range 1: 1 to 258
+
+Score:538 bits(1386), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/258(99%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS5322725.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS5334067.1 Length: 258 
+Range 1: 1 to 258
+
+Score:538 bits(1386), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/258(99%), Positives:257/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  TYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>unnamed protein product [Vibrio cholerae]
+Sequence ID: CAA24995.1 Length: 258
+Range 1: 1 to 258
+
+Score:538 bits(1385), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/258(99%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSS+SNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSISNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7223210.1 Length: 257
+Range 1: 1 to 257
+
+Score:538 bits(1385), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/257(100%), Positives:257/257(100%), Gaps:0/257(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDE  257
+            FSGYQSDIDTHNRIKDE
+Sbjct  241  FSGYQSDIDTHNRIKDE  257
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae O1]
+Sequence ID: HAT7621581.1 Length: 258
+Range 1: 1 to 258
+
+Score:538 bits(1385), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/258(99%), Positives:257/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGN PRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNVPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_254784049.1 Length: 257
+Range 1: 1 to 257
+
+Score:537 bits(1384), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/257(100%), Positives:257/257(100%), Gaps:0/257(0%)
+
+Query  2    VKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  61
+            VKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD
+Sbjct  1    VKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYD  60
+
+Query  62   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  121
+            HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA
+Sbjct  61   HARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGA  120
+
+Query  122  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYG  181
+            YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYG
+Sbjct  121  YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYG  180
+
+Query  182  LAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIF  241
+            LAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIF
+Sbjct  181  LAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIF  240
+
+Query  242  SGYQSDIDTHNRIKDEL  258
+            SGYQSDIDTHNRIKDEL
+Sbjct  241  SGYQSDIDTHNRIKDEL  257
+
+
+
+
+>cholera toxin A subunit [Vibrio cholerae O27]
+Sequence ID: AAM22586.1 Length: 258
+Range 1: 1 to 258
+
+Score:537 bits(1384), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:257/258(99%), Positives:258/258(100%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRI+DEL
+Sbjct  241  FSGYQSDIDTHNRIEDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDL9513879.1 Length: 258
+Range 1: 1 to 258
+
+Score:535 bits(1379), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:255/258(99%), Positives:257/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGN PR+SMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNTPRASMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio mimicus]
+Sequence ID: WP_005514365.1 Length: 258
+>Cholera enterotoxin subunit A [Vibrio mimicus VM573]
+Sequence ID: EEW09053.1 Length: 258
+>cholera enterotoxin subunit A2 [Vibrio mimicus]
+Sequence ID: PNM64052.1 Length: 258
+>cholera enterotoxin subunit A2 [Vibrio mimicus]
+Sequence ID: PNM64060.1 Length: 258 
+Range 1: 1 to 258
+
+Score:535 bits(1377), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:255/258(99%), Positives:257/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera toxin A subunit [Vibrio mimicus]
+Sequence ID: BBG62269.1 Length: 258
+Range 1: 1 to 258
+
+Score:534 bits(1376), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:255/258(99%), Positives:257/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEH AWREEPW+HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHIAWREEPWVHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_179875822.1 Length: 255
+Range 1: 1 to 255
+
+Score:534 bits(1375), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:255/255(100%), Positives:255/255(100%), Gaps:0/255(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIK  255
+            FSGYQSDIDTHNRIK
+Sbjct  241  FSGYQSDIDTHNRIK  255
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3816761.1 Length: 255
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2230383.1 Length: 255 
+Range 1: 1 to 255
+
+Score:533 bits(1372), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:254/255(99%), Positives:255/255(100%), Gaps:0/255(0%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            +IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA
+Sbjct  1    MIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  60
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS
+Sbjct  61   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  120
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA
+Sbjct  121  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  180
+
+Query  184  GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  243
+            GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG
+Sbjct  181  GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  240
+
+Query  244  YQSDIDTHNRIKDEL  258
+            YQSDIDTHNRIKDEL
+Sbjct  241  YQSDIDTHNRIKDEL  255
+
+
+
+
+>CtxA, partial [Vibrio cholerae]
+Sequence ID: ADG44926.1 Length: 254
+>CtxA, partial [Vibrio cholerae]
+Sequence ID: AED88284.1 Length: 254 
+Range 1: 1 to 254
+
+Score:532 bits(1370), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:254/254(100%), Positives:254/254(100%), Gaps:0/254(0%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR
+Sbjct  1    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  60
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP
+Sbjct  61   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  120
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG
+Sbjct  121  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  180
+
+Query  185  FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  244
+            FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY
+Sbjct  181  FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  240
+
+Query  245  QSDIDTHNRIKDEL  258
+            QSDIDTHNRIKDEL
+Sbjct  241  QSDIDTHNRIKDEL  254
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: WP_001911232.1 Length: 258
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: APF75324.1 Length: 258
+>CtxA [Vibrio cholerae BX 330286]
+Sequence ID: EEO19462.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6812525.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6823109.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6830241.1 Length: 258 
+Range 1: 1 to 258
+
+Score:532 bits(1370), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:254/258(98%), Positives:256/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  PYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera toxin A subunit [Vibrio cholerae]
+Sequence ID: ACU00910.1 Length: 258
+Range 1: 1 to 258
+
+Score:532 bits(1370), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:255/258(99%), Positives:256/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFG LDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGGLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+             LAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  RLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EGR4414988.1 Length: 254
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EKF9685556.1 Length: 254
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7668351.1 Length: 254
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2257370.1 Length: 254
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBK7788382.1 Length: 254 
+Range 1: 1 to 254
+
+Score:531 bits(1367), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:253/254(99%), Positives:254/254(100%), Gaps:0/254(0%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR
+Sbjct  1    MFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  60
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP
+Sbjct  61   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  120
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG
+Sbjct  121  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  180
+
+Query  185  FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  244
+            FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY
+Sbjct  181  FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  240
+
+Query  245  QSDIDTHNRIKDEL  258
+            QSDIDTHNRIKDEL
+Sbjct  241  QSDIDTHNRIKDEL  254
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS2434191.1 Length: 253
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3858732.1 Length: 253
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7420361.1 Length: 253
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7511809.1 Length: 253
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6837657.1 Length: 253 
+Range 1: 1 to 253
+
+Score:529 bits(1363), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:253/253(100%), Positives:253/253(100%), Gaps:0/253(0%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  65
+            FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG
+Sbjct  1    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  60
+
+Query  66   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  125
+            TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH
+Sbjct  61   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  120
+
+Query  126  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  185
+            PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF
+Sbjct  121  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  180
+
+Query  186  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  240
+
+Query  246  SDIDTHNRIKDEL  258
+            SDIDTHNRIKDEL
+Sbjct  241  SDIDTHNRIKDEL  253
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: ELJ8676339.1 Length: 252
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7146996.1 Length: 252
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7717881.1 Length: 252 
+Range 1: 1 to 252
+
+Score:527 bits(1357), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:252/252(100%), Positives:252/252(100%), Gaps:0/252(0%)
+
+Query  7    VFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGT  66
+            VFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGT
+Sbjct  1    VFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGT  60
+
+Query  67   QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHP  126
+            QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHP
+Sbjct  61   QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHP  120
+
+Query  127  DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP  186
+            DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP
+Sbjct  121  DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP  180
+
+Query  187  PEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            PEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS
+Sbjct  181  PEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  240
+
+Query  247  DIDTHNRIKDEL  258
+            DIDTHNRIKDEL
+Sbjct  241  DIDTHNRIKDEL  252
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDZ3705404.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDZ3753147.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDZ3756997.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDZ3766921.1 Length: 258 
+Range 1: 1 to 258
+
+Score:526 bits(1355), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:250/258(97%), Positives:257/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYAN+DKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANNDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSG+STYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGYSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRV+FGV+DEQL+RNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVNFGVVDEQLYRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+             LAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFL+EYQSKVKRQI
+Sbjct  181  ALAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLEEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6905058.1 Length: 255
+Range 1: 1 to 255
+
+Score:525 bits(1351), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:250/255(98%), Positives:253/255(99%), Gaps:0/255(0%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            +IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHA
+Sbjct  1    MIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHA  60
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YS
+Sbjct  61   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYS  120
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA
+Sbjct  121  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  180
+
+Query  184  GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  243
+            GFPPEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSG
+Sbjct  181  GFPPEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSG  240
+
+Query  244  YQSDIDTHNRIKDEL  258
+            YQSDIDTHNRIKDEL
+Sbjct  241  YQSDIDTHNRIKDEL  255
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: ELU0092256.1 Length: 251
+Range 1: 1 to 251
+
+Score:525 bits(1351), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:251/251(100%), Positives:251/251(100%), Gaps:0/251(0%)
+
+Query  8    FFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQ  67
+            FFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQ
+Sbjct  1    FFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQ  60
+
+Query  68   TGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPD  127
+            TGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPD
+Sbjct  61   TGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPD  120
+
+Query  128  EQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPP  187
+            EQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPP
+Sbjct  121  EQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPP  180
+
+Query  188  EHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSD  247
+            EHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSD
+Sbjct  181  EHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSD  240
+
+Query  248  IDTHNRIKDEL  258
+            IDTHNRIKDEL
+Sbjct  241  IDTHNRIKDEL  251
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: WP_071919595.1 Length: 258
+>Cholera enterotoxin subunit A [Vibrio cholerae]
+Sequence ID: APF69888.1 Length: 258
+>Cholera enterotoxin subunit A [Vibrio cholerae]
+Sequence ID: APF69898.1 Length: 258
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: MVB16804.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: TVM21411.1 Length: 258
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: TVM32687.1 Length: 258 
+Range 1: 1 to 258
+
+Score:524 bits(1350), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:249/258(97%), Positives:256/258(99%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYAN+DKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANNDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSG+STYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGYSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRV+FGV+DEQL+RNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVNFGVVDEQLYRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+             LAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEK QSLGVKFL+EYQSKVKRQI
+Sbjct  181  ALAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKNQSLGVKFLEEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae O1 biovar El Tor]
+Sequence ID: KAE8435177.1 Length: 253
+Range 1: 1 to 253
+
+Score:523 bits(1347), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:250/253(99%), Positives:250/253(98%), Gaps:0/253(0%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  65
+               FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG
+Sbjct  1    MCVFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  60
+
+Query  66   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  125
+            TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH
+Sbjct  61   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  120
+
+Query  126  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  185
+            PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF
+Sbjct  121  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  180
+
+Query  186  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  240
+
+Query  246  SDIDTHNRIKDEL  258
+            SDIDTHNRIKDEL
+Sbjct  241  SDIDTHNRIKDEL  253
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EJL6935108.1 Length: 250
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EKM9278395.1 Length: 250
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBJ8413477.1 Length: 250
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6930016.1 Length: 250 
+Range 1: 1 to 250
+
+Score:523 bits(1346), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:250/250(100%), Positives:250/250(100%), Gaps:0/250(0%)
+
+Query  9    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT  68
+            FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT
+Sbjct  1    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT  60
+
+Query  69   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  128
+            GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE
+Sbjct  61   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  120
+
+Query  129  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  188
+            QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE
+Sbjct  121  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  180
+
+Query  189  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDI  248
+            HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDI
+Sbjct  181  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDI  240
+
+Query  249  DTHNRIKDEL  258
+            DTHNRIKDEL
+Sbjct  241  DTHNRIKDEL  250
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_159372129.1 Length: 250
+Range 1: 1 to 250
+
+Score:522 bits(1345), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:250/250(100%), Positives:250/250(100%), Gaps:0/250(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDT  250
+            FSGYQSDIDT
+Sbjct  241  FSGYQSDIDT  250
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6940636.1 Length: 253
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6962119.1 Length: 253 
+Range 1: 1 to 253
+
+Score:521 bits(1343), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:249/253(98%), Positives:251/253(99%), Gaps:0/253(0%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  65
+            FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARG
+Sbjct  1    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARG  60
+
+Query  66   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  125
+            TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPH
+Sbjct  61   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPH  120
+
+Query  126  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  185
+            PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF
+Sbjct  121  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  180
+
+Query  186  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            PPEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQ
+Sbjct  181  PPEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQ  240
+
+Query  246  SDIDTHNRIKDEL  258
+            SDIDTHNRIKDEL
+Sbjct  241  SDIDTHNRIKDEL  253
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6965732.1 Length: 254
+Range 1: 1 to 254
+
+Score:521 bits(1341), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:248/254(98%), Positives:252/254(99%), Gaps:0/254(0%)
+
+Query  5    IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHAR  64
+            +FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHAR
+Sbjct  1    MFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHAR  60
+
+Query  65   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSP  124
+            GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSP
+Sbjct  61   GTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSP  120
+
+Query  125  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  184
+            HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG
+Sbjct  121  HPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAG  180
+
+Query  185  FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  244
+            FPPEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGY
+Sbjct  181  FPPEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGY  240
+
+Query  245  QSDIDTHNRIKDEL  258
+            QSDIDTH+RIKDEL
+Sbjct  241  QSDIDTHSRIKDEL  254
+
+
+
+
+>enterotoxin subunit A [Vibrio cholerae]
+Sequence ID: CAE11218.1 Length: 258
+Range 1: 1 to 258
+
+Score:521 bits(1341), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:249/258(97%), Positives:253/258(98%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNL+IAPAADG+
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLNIAPAADGF  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEH+  RE+PWIHH PPGCGNAPRSSMSNTCDEK QSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHKTLREDPWIHHPPPGCGNAPRSSMSNTCDEKPQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGY SDIDTHNRIKDEL
+Sbjct  241  FSGYPSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7184951.1 Length: 249
+Range 1: 1 to 249
+
+Score:520 bits(1340), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:249/249(100%), Positives:249/249(100%), Gaps:0/249(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSDID  249
+            FSGYQSDID
+Sbjct  241  FSGYQSDID  249
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6816269.1 Length: 252
+Range 1: 1 to 252
+
+Score:519 bits(1337), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:248/252(98%), Positives:250/252(99%), Gaps:0/252(0%)
+
+Query  7    VFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGT  66
+            VFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGT
+Sbjct  1    VFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGT  60
+
+Query  67   QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHP  126
+            QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHP
+Sbjct  61   QTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHP  120
+
+Query  127  DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP  186
+            DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP
+Sbjct  121  DEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFP  180
+
+Query  187  PEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            PEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQS
+Sbjct  181  PEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQS  240
+
+Query  247  DIDTHNRIKDEL  258
+            DIDTHNRIKDEL
+Sbjct  241  DIDTHNRIKDEL  252
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7169778.1 Length: 249
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7393424.1 Length: 249
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7435520.1 Length: 249
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7729288.1 Length: 249
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7746511.1 Length: 249 
+Range 1: 1 to 249
+
+Score:519 bits(1337), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:248/249(99%), Positives:249/249(100%), Gaps:0/249(0%)
+
+Query  10   IFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG  69
+            +FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG
+Sbjct  1    MFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG  60
+
+Query  70   FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ  129
+            FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ
+Sbjct  61   FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ  120
+
+Query  130  EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH  189
+            EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH
+Sbjct  121  EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH  180
+
+Query  190  RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDID  249
+            RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDID
+Sbjct  181  RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDID  240
+
+Query  250  THNRIKDEL  258
+            THNRIKDEL
+Sbjct  241  THNRIKDEL  249
+
+
+
+
+>mmCTA [Vibrio cholerae]
+Sequence ID: AMQ67862.1 Length: 258
+Range 1: 1 to 258
+
+Score:519 bits(1337), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:248/258(96%), Positives:252/258(97%), Gaps:0/258(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCG++  +   +TCDEKTQSLGVKF DEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGDSSGTITGDTCDEKTQSLGVKFADEYQSKVKRQI  240
+
+Query  241  FSGYQSDIDTHNRIKDEL  258
+            FSGYQSDIDTHNRIKDEL
+Sbjct  241  FSGYQSDIDTHNRIKDEL  258
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_258265755.1 Length: 248
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: MCW3498412.1 Length: 248
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3291770.1 Length: 248
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3857586.1 Length: 248
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7150587.1 Length: 248
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2038763.1 Length: 248 
+Range 1: 1 to 248
+
+Score:519 bits(1336), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:248/248(100%), Positives:248/248(100%), Gaps:0/248(0%)
+
+Query  11   FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF  70
+            FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF
+Sbjct  1    FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF  60
+
+Query  71   VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQE  130
+            VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQE
+Sbjct  61   VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQE  120
+
+Query  131  VSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHR  190
+            VSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHR
+Sbjct  121  VSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHR  180
+
+Query  191  AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDT  250
+            AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDT
+Sbjct  181  AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDT  240
+
+Query  251  HNRIKDEL  258
+            HNRIKDEL
+Sbjct  241  HNRIKDEL  248
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HCG1896829.1 Length: 247
+Range 1: 1 to 247
+
+Score:516 bits(1330), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:247/247(100%), Positives:247/247(100%), Gaps:0/247(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSD  247
+            FSGYQSD
+Sbjct  241  FSGYQSD  247
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_033085031.1 Length: 247
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7160460.1 Length: 247
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7344817.1 Length: 247 
+Range 1: 1 to 247
+
+Score:516 bits(1330), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:247/247(100%), Positives:247/247(100%), Gaps:0/247(0%)
+
+Query  12   LSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFV  71
+            LSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFV
+Sbjct  1    LSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFV  60
+
+Query  72   RHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEV  131
+            RHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEV
+Sbjct  61   RHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEV  120
+
+Query  132  SALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRA  191
+            SALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRA
+Sbjct  121  SALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRA  180
+
+Query  192  WREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTH  251
+            WREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTH
+Sbjct  181  WREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTH  240
+
+Query  252  NRIKDEL  258
+            NRIKDEL
+Sbjct  241  NRIKDEL  247
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6848849.1 Length: 250
+Range 1: 1 to 250
+
+Score:515 bits(1327), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:246/250(98%), Positives:248/250(99%), Gaps:0/250(0%)
+
+Query  9    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT  68
+            FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQT
+Sbjct  1    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQT  60
+
+Query  69   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  128
+            GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHPDE
+Sbjct  61   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHPDE  120
+
+Query  129  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  188
+            QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE
+Sbjct  121  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  180
+
+Query  189  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDI  248
+            H AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQSDI
+Sbjct  181  HIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQSDI  240
+
+Query  249  DTHNRIKDEL  258
+            DTHNRIKDEL
+Sbjct  241  DTHNRIKDEL  250
+
+
+
+
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: MVD10244.1 Length: 246
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7537659.1 Length: 246 
+Range 1: 1 to 246
+
+Score:514 bits(1325), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:246/246(100%), Positives:246/246(100%), Gaps:0/246(0%)
+
+Query  13   SSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVR  72
+            SSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVR
+Sbjct  1    SSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVR  60
+
+Query  73   HDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVS  132
+            HDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVS
+Sbjct  61   HDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVS  120
+
+Query  133  ALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAW  192
+            ALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAW
+Sbjct  121  ALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAW  180
+
+Query  193  REEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHN  252
+            REEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHN
+Sbjct  181  REEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHN  240
+
+Query  253  RIKDEL  258
+            RIKDEL
+Sbjct  241  RIKDEL  246
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EKM9476568.1 Length: 246
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7356048.1 Length: 246
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae O1]
+Sequence ID: HAT7636254.1 Length: 246 
+Range 1: 1 to 246
+
+Score:514 bits(1325), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:246/246(100%), Positives:246/246(100%), Gaps:0/246(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQS  246
+            FSGYQS
+Sbjct  241  FSGYQS  246
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: MBD1201843.1 Length: 253
+Range 1: 1 to 253
+
+Score:514 bits(1323), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:246/253(97%), Positives:246/253(97%), Gaps:0/253(0%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  65
+               F FL   SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG
+Sbjct  1    MCVFYFLIIISYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  60
+
+Query  66   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  125
+            TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH
+Sbjct  61   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  120
+
+Query  126  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  185
+            PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF
+Sbjct  121  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  180
+
+Query  186  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  240
+
+Query  246  SDIDTHNRIKDEL  258
+            SDIDTHNRIKDEL
+Sbjct  241  SDIDTHNRIKDEL  253
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_165457439.1 Length: 245
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EGQ8257797.1 Length: 245
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7135362.1 Length: 245
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7679890.1 Length: 245
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae O1]
+Sequence ID: HAT7625456.1 Length: 245 
+Range 1: 1 to 245
+
+Score:513 bits(1321), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:245/245(100%), Positives:245/245(100%), Gaps:0/245(0%)
+
+Query  14   SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH  73
+            SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH
+Sbjct  1    SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH  60
+
+Query  74   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA  133
+            DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA
+Sbjct  61   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA  120
+
+Query  134  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR  193
+            LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR
+Sbjct  121  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR  180
+
+Query  194  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNR  253
+            EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNR
+Sbjct  181  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNR  240
+
+Query  254  IKDEL  258
+            IKDEL
+Sbjct  241  IKDEL  245
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3263143.1 Length: 245
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7177393.1 Length: 245
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7397622.1 Length: 245 
+Range 1: 1 to 245
+
+Score:513 bits(1321), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:245/245(100%), Positives:245/245(100%), Gaps:0/245(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQ  245
+            FSGYQ
+Sbjct  241  FSGYQ  245
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDZ3782369.1 Length: 250
+Range 1: 1 to 250
+
+Score:509 bits(1312), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:242/250(97%), Positives:249/250(99%), Gaps:0/250(0%)
+
+Query  9    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT  68
+            FIFLSSFSYAN+DKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQT
+Sbjct  1    FIFLSSFSYANNDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQT  60
+
+Query  69   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  128
+            GFVRHDDGYVSTSISLRSAHLVGQTILSG+STYYIYVIATAPNMFNVNDVLGAYSPHPDE
+Sbjct  61   GFVRHDDGYVSTSISLRSAHLVGQTILSGYSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  120
+
+Query  129  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  188
+            QEVSALGGIPYSQIYGWYRV+FGV+DEQL+RNRGYRDRYYSNLDIAPAADGY LAGFPPE
+Sbjct  121  QEVSALGGIPYSQIYGWYRVNFGVVDEQLYRNRGYRDRYYSNLDIAPAADGYALAGFPPE  180
+
+Query  189  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDI  248
+            HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFL+EYQSKVKRQIFSGYQSDI
+Sbjct  181  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLEEYQSKVKRQIFSGYQSDI  240
+
+Query  249  DTHNRIKDEL  258
+            DTHNRIKDEL
+Sbjct  241  DTHNRIKDEL  250
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6819492.1 Length: 247
+Range 1: 1 to 247
+
+Score:509 bits(1311), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:243/247(98%), Positives:245/247(99%), Gaps:0/247(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  PYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQI  240
+
+Query  241  FSGYQSD  247
+            FSGYQSD
+Sbjct  241  FSGYQSD  247
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3266844.1 Length: 243
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7485137.1 Length: 243
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7706506.1 Length: 243 
+Range 1: 1 to 243
+
+Score:509 bits(1310), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:243/243(100%), Positives:243/243(100%), Gaps:0/243(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FSG  243
+            FSG
+Sbjct  241  FSG  243
+
+
+
+
+>cholera enterotoxin%2C A subunit [Vibrio cholerae]
+Sequence ID: CSC80806.1 Length: 259
+Range 1: 1 to 259
+
+Score:508 bits(1308), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:248/259(96%), Positives:249/259(96%), Gaps:1/259(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAG-FPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQ  239
+            GLAG          +EPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQ
+Sbjct  181  GLAGXXXXXXXXXXKEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQ  240
+
+Query  240  IFSGYQSDIDTHNRIKDEL  258
+            IFSGYQSDIDTHNRIKDEL
+Sbjct  241  IFSGYQSDIDTHNRIKDEL  259
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7637873.1 Length: 243
+Range 1: 1 to 243
+
+Score:507 bits(1305), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:242/243(99%), Positives:243/243(100%), Gaps:0/243(0%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+            +IFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA
+Sbjct  1    MIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  60
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS
+Sbjct  61   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  120
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA
+Sbjct  121  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  180
+
+Query  184  GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  243
+            GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG
+Sbjct  181  GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  240
+
+Query  244  YQS  246
+            YQS
+Sbjct  241  YQS  243
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3273832.1 Length: 242
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBK0586686.1 Length: 242 
+Range 1: 1 to 242
+
+Score:507 bits(1305), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:242/242(100%), Positives:242/242(100%), Gaps:0/242(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+
+Query  241  FS  242
+            FS
+Sbjct  241  FS  242
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6915739.1 Length: 245
+Range 1: 1 to 245
+
+Score:505 bits(1301), Expect:2e-180, 
+Method:Compositional matrix adjust., 
+Identities:241/245(98%), Positives:243/245(99%), Gaps:0/245(0%)
+
+Query  14   SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH  73
+            SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQTGFVRH
+Sbjct  1    SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQTGFVRH  60
+
+Query  74   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA  133
+            DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHPDEQEVSA
+Sbjct  61   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHPDEQEVSA  120
+
+Query  134  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR  193
+            LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH AWR
+Sbjct  121  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHIAWR  180
+
+Query  194  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNR  253
+            EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQSDIDTHNR
+Sbjct  181  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQSDIDTHNR  240
+
+Query  254  IKDEL  258
+            IKDEL
+Sbjct  241  IKDEL  245
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: RXT04248.1 Length: 252
+Range 1: 3 to 252
+
+Score:505 bits(1301), Expect:2e-180, 
+Method:Compositional matrix adjust., 
+Identities:243/255(95%), Positives:246/255(96%), Gaps:5/255(1%)
+
+Query  4    IIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  63
+             +F + IF+      NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA
+Sbjct  3    FLFSYHIFI-----CNDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHA  57
+
+Query  64   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  123
+            RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS
+Sbjct  58   RGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYS  117
+
+Query  124  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  183
+            PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA
+Sbjct  118  PHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLA  177
+
+Query  184  GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  243
+            GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG
+Sbjct  178  GFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  237
+
+Query  244  YQSDIDTHNRIKDEL  258
+            YQSDIDTHNRIKDEL
+Sbjct  238  YQSDIDTHNRIKDEL  252
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: WP_053043630.1 Length: 247
+Range 1: 8 to 247
+
+Score:504 bits(1297), Expect:9e-180, 
+Method:Compositional matrix adjust., 
+Identities:240/240(100%), Positives:240/240(100%), Gaps:0/240(0%)
+
+Query  19   NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  78
+            NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV
+Sbjct  8    NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  67
+
+Query  79   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  138
+            STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP
+Sbjct  68   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  127
+
+Query  139  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  198
+            YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI
+Sbjct  128  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  187
+
+Query  199  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  188  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  247
+
+
+
+
+>Chain A, Cholera enterotoxin, A chain precursor [Vibrio cholerae]
+Sequence ID: 1S5E_A Length: 240
+>Chain B, Cholera enterotoxin, A chain precursor [Vibrio cholerae]
+Sequence ID: 1S5E_B Length: 240
+>Chain A, Cholera enterotoxin, A chain [Vibrio cholerae]
+Sequence ID: 1S5F_A Length: 240
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2218252.1 Length: 240 
+Range 1: 1 to 240
+
+Score:503 bits(1296), Expect:1e-179, 
+Method:Compositional matrix adjust., 
+Identities:240/240(100%), Positives:240/240(100%), Gaps:0/240(0%)
+
+Query  19   NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  78
+            NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV
+Sbjct  1    NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  60
+
+Query  79   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  138
+            STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP
+Sbjct  61   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  120
+
+Query  139  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  198
+            YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI
+Sbjct  121  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  180
+
+Query  199  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  240
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7154010.1 Length: 239
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7383070.1 Length: 239 
+Range 1: 1 to 239
+
+Score:501 bits(1290), Expect:8e-179, 
+Method:Compositional matrix adjust., 
+Identities:239/239(100%), Positives:239/239(100%), Gaps:0/239(0%)
+
+Query  20   DDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVS  79
+            DDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVS
+Sbjct  1    DDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVS  60
+
+Query  80   TSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPY  139
+            TSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPY
+Sbjct  61   TSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPY  120
+
+Query  140  SQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIH  199
+            SQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIH
+Sbjct  121  SQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIH  180
+
+Query  200  HAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            HAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  HAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  239
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6997698.1 Length: 243
+Range 1: 1 to 243
+
+Score:501 bits(1290), Expect:1e-178, 
+Method:Compositional matrix adjust., 
+Identities:239/243(98%), Positives:241/243(99%), Gaps:0/243(0%)
+
+Query  16   SYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDD  75
+            SYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQTGFVRHDD
+Sbjct  1    SYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQTGFVRHDD  60
+
+Query  76   GYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALG  135
+            GYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHPDEQEVSALG
+Sbjct  61   GYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHPDEQEVSALG  120
+
+Query  136  GIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREE  195
+            GIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH AWREE
+Sbjct  121  GIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHIAWREE  180
+
+Query  196  PWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIK  255
+            PWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQSDIDTHNRIK
+Sbjct  181  PWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQSDIDTHNRIK  240
+
+Query  256  DEL  258
+            DEL
+Sbjct  241  DEL  243
+
+
+
+
+>Chain A, Cholera enterotoxin, A chain precursor [Vibrio cholerae]
+Sequence ID: 1S5B_A Length: 240
+>Chain A, Cholera enterotoxin, A chain [Vibrio cholerae]
+Sequence ID: 1S5C_A Length: 240
+>Chain A, Cholera enterotoxin, A chain [Vibrio cholerae]
+Sequence ID: 1S5D_A Length: 240 
+Range 1: 1 to 240
+
+Score:501 bits(1289), Expect:1e-178, 
+Method:Compositional matrix adjust., 
+Identities:239/240(99%), Positives:239/240(99%), Gaps:0/240(0%)
+
+Query  19   NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  78
+            NDDKLYRADSRPPDEIKQSGGLMPRGQSE FDRGTQMNINLYDHARGTQTGFVRHDDGYV
+Sbjct  1    NDDKLYRADSRPPDEIKQSGGLMPRGQSESFDRGTQMNINLYDHARGTQTGFVRHDDGYV  60
+
+Query  79   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  138
+            STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP
+Sbjct  61   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  120
+
+Query  139  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  198
+            YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI
+Sbjct  121  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  180
+
+Query  199  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  240
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN7001334.1 Length: 240
+Range 1: 1 to 240
+
+Score:501 bits(1289), Expect:1e-178, 
+Method:Compositional matrix adjust., 
+Identities:239/240(99%), Positives:240/240(100%), Gaps:0/240(0%)
+
+Query  10   IFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG  69
+            +FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG
+Sbjct  1    MFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG  60
+
+Query  70   FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ  129
+            FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ
+Sbjct  61   FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ  120
+
+Query  130  EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH  189
+            EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH
+Sbjct  121  EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH  180
+
+Query  190  RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDID  249
+            RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDID
+Sbjct  181  RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDID  240
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6871881.1 Length: 242
+Range 1: 1 to 242
+
+Score:499 bits(1286), Expect:3e-178, 
+Method:Compositional matrix adjust., 
+Identities:238/242(98%), Positives:240/242(99%), Gaps:0/242(0%)
+
+Query  17   YANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDG  76
+            YANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQTGFVRHDDG
+Sbjct  1    YANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQTGFVRHDDG  60
+
+Query  77   YVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGG  136
+            YVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHPDEQEVSALGG
+Sbjct  61   YVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHPDEQEVSALGG  120
+
+Query  137  IPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEP  196
+            IPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH AWREEP
+Sbjct  121  IPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHIAWREEP  180
+
+Query  197  WIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKD  256
+            WIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQSDIDTHNRIKD
+Sbjct  181  WIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQSDIDTHNRIKD  240
+
+Query  257  EL  258
+            EL
+Sbjct  241  EL  242
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7257636.1 Length: 238
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7622637.1 Length: 238 
+Range 1: 1 to 238
+
+Score:499 bits(1284), Expect:6e-178, 
+Method:Compositional matrix adjust., 
+Identities:238/238(100%), Positives:238/238(100%), Gaps:0/238(0%)
+
+Query  21   DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST  80
+            DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST
+Sbjct  1    DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST  60
+
+Query  81   SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  140
+            SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS
+Sbjct  61   SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  120
+
+Query  141  QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  200
+            QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH
+Sbjct  121  QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  180
+
+Query  201  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  238
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7751853.1 Length: 238
+Range 1: 1 to 238
+
+Score:498 bits(1283), Expect:8e-178, 
+Method:Compositional matrix adjust., 
+Identities:238/238(100%), Positives:238/238(100%), Gaps:0/238(0%)
+
+Query  6    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  65
+            FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG
+Sbjct  1    FVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARG  60
+
+Query  66   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  125
+            TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH
+Sbjct  61   TQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPH  120
+
+Query  126  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  185
+            PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF
+Sbjct  121  PDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGF  180
+
+Query  186  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  243
+            PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG
+Sbjct  181  PPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSG  238
+
+
+
+
+>heat-labile enterotoxin alpha chain family protein [Vibrio cholerae CP1033(6)]
+Sequence ID: EKK82634.1 Length: 259
+Range 1: 1 to 243
+
+Score:499 bits(1285), Expect:1e-177, 
+Method:Compositional matrix adjust., 
+Identities:238/243(98%), Positives:239/243(98%), Gaps:0/243(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQI  240
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVK + 
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKDKY  240
+
+Query  241  FSG  243
+            F  
+Sbjct  241  FQA  243
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7200312.1 Length: 237
+Range 1: 1 to 237
+
+Score:497 bits(1280), Expect:3e-177, 
+Method:Compositional matrix adjust., 
+Identities:237/237(100%), Positives:237/237(100%), Gaps:0/237(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVK  237
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVK
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVK  237
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3674861.1 Length: 237
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3908498.1 Length: 237
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2119535.1 Length: 237 
+Range 1: 1 to 237
+
+Score:497 bits(1279), Expect:4e-177, 
+Method:Compositional matrix adjust., 
+Identities:237/237(100%), Positives:237/237(100%), Gaps:0/237(0%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+            KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS
+Sbjct  1    KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  60
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+            ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ
+Sbjct  61   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  120
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA
+Sbjct  121  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  180
+
+Query  202  PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  237
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2090490.1 Length: 237
+Range 1: 1 to 237
+
+Score:496 bits(1277), Expect:7e-177, 
+Method:Compositional matrix adjust., 
+Identities:237/237(100%), Positives:237/237(100%), Gaps:0/237(0%)
+
+Query  9    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT  68
+            FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT
+Sbjct  1    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT  60
+
+Query  69   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  128
+            GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE
+Sbjct  61   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  120
+
+Query  129  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  188
+            QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE
+Sbjct  121  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  180
+
+Query  189  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  237
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7664576.1 Length: 237
+Range 1: 1 to 237
+
+Score:496 bits(1276), Expect:1e-176, 
+Method:Compositional matrix adjust., 
+Identities:237/237(100%), Positives:237/237(100%), Gaps:0/237(0%)
+
+Query  11   FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF  70
+            FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF
+Sbjct  1    FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF  60
+
+Query  71   VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQE  130
+            VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQE
+Sbjct  61   VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQE  120
+
+Query  131  VSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHR  190
+            VSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHR
+Sbjct  121  VSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHR  180
+
+Query  191  AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSD  247
+            AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSD
+Sbjct  181  AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSD  237
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EJP6288844.1 Length: 236
+Range 1: 1 to 236
+
+Score:494 bits(1273), Expect:3e-176, 
+Method:Compositional matrix adjust., 
+Identities:236/236(100%), Positives:236/236(100%), Gaps:0/236(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKV  236
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKV
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKV  236
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBJ8458484.1 Length: 236
+Range 1: 1 to 236
+
+Score:493 bits(1268), Expect:1e-175, 
+Method:Compositional matrix adjust., 
+Identities:235/236(99%), Positives:236/236(100%), Gaps:0/236(0%)
+
+Query  10   IFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG  69
+            +FLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG
+Sbjct  1    MFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTG  60
+
+Query  70   FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ  129
+            FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ
+Sbjct  61   FVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQ  120
+
+Query  130  EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH  189
+            EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH
+Sbjct  121  EVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH  180
+
+Query  190  RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  RAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  236
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EKF9696752.1 Length: 233
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6969269.1 Length: 233 
+Range 1: 1 to 233
+
+Score:489 bits(1258), Expect:5e-174, 
+Method:Compositional matrix adjust., 
+Identities:233/233(100%), Positives:233/233(100%), Gaps:0/233(0%)
+
+Query  26   ADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLR  85
+            ADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLR
+Sbjct  1    ADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLR  60
+
+Query  86   SAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGW  145
+            SAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGW
+Sbjct  61   SAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGW  120
+
+Query  146  YRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGC  205
+            YRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGC
+Sbjct  121  YRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGC  180
+
+Query  206  GNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            GNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  GNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  233
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2101476.1 Length: 233
+Range 1: 1 to 233
+
+Score:488 bits(1256), Expect:8e-174, 
+Method:Compositional matrix adjust., 
+Identities:233/233(100%), Positives:233/233(100%), Gaps:0/233(0%)
+
+Query  14   SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH  73
+            SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH
+Sbjct  1    SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH  60
+
+Query  74   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA  133
+            DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA
+Sbjct  61   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA  120
+
+Query  134  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR  193
+            LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR
+Sbjct  121  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR  180
+
+Query  194  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS
+Sbjct  181  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  233
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EGQ9202722.1 Length: 232
+Range 1: 1 to 232
+
+Score:487 bits(1253), Expect:2e-173, 
+Method:Compositional matrix adjust., 
+Identities:232/232(100%), Positives:232/232(100%), Gaps:0/232(0%)
+
+Query  27   DSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRS  86
+            DSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRS
+Sbjct  1    DSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRS  60
+
+Query  87   AHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWY  146
+            AHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWY
+Sbjct  61   AHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWY  120
+
+Query  147  RVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCG  206
+            RVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCG
+Sbjct  121  RVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCG  180
+
+Query  207  NAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            NAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  NAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  232
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7280282.1 Length: 232
+Range 1: 1 to 232
+
+Score:486 bits(1252), Expect:4e-173, 
+Method:Compositional matrix adjust., 
+Identities:232/232(100%), Positives:232/232(100%), Gaps:0/232(0%)
+
+Query  14   SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH  73
+            SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH
+Sbjct  1    SFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRH  60
+
+Query  74   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA  133
+            DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA
+Sbjct  61   DDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSA  120
+
+Query  134  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR  193
+            LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR
+Sbjct  121  LGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWR  180
+
+Query  194  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  EEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  232
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HCI4729224.1 Length: 231
+Range 1: 1 to 231
+
+Score:485 bits(1248), Expect:1e-172, 
+Method:Compositional matrix adjust., 
+Identities:231/231(100%), Positives:231/231(100%), Gaps:0/231(0%)
+
+Query  28   SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA  87
+            SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA
+Sbjct  1    SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA  60
+
+Query  88   HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR  147
+            HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR
+Sbjct  61   HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR  120
+
+Query  148  VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN  207
+            VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN
+Sbjct  121  VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN  180
+
+Query  208  APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  231
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae O1]
+Sequence ID: HAT7629019.1 Length: 231
+Range 1: 1 to 231
+
+Score:484 bits(1245), Expect:5e-172, 
+Method:Compositional matrix adjust., 
+Identities:231/231(100%), Positives:231/231(100%), Gaps:0/231(0%)
+
+Query  12   LSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFV  71
+            LSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFV
+Sbjct  1    LSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFV  60
+
+Query  72   RHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEV  131
+            RHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEV
+Sbjct  61   RHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEV  120
+
+Query  132  SALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRA  191
+            SALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRA
+Sbjct  121  SALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRA  180
+
+Query  192  WREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS  242
+            WREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS
+Sbjct  181  WREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS  231
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6922862.1 Length: 234
+Range 1: 1 to 234
+
+Score:483 bits(1244), Expect:7e-172, 
+Method:Compositional matrix adjust., 
+Identities:230/234(98%), Positives:232/234(99%), Gaps:0/234(0%)
+
+Query  25   RADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISL  84
+            RADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISL
+Sbjct  1    RADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISL  60
+
+Query  85   RSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYG  144
+            RSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHPDEQEVSALGGIPYSQIYG
+Sbjct  61   RSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHPDEQEVSALGGIPYSQIYG  120
+
+Query  145  WYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPG  204
+            WYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH AWREEPWIHHAPPG
+Sbjct  121  WYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHIAWREEPWIHHAPPG  180
+
+Query  205  CGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            CGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  CGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  234
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3828549.1 Length: 230
+Range 1: 1 to 230
+
+Score:483 bits(1243), Expect:8e-172, 
+Method:Compositional matrix adjust., 
+Identities:230/230(100%), Positives:230/230(100%), Gaps:0/230(0%)
+
+Query  29   RPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAH  88
+            RPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAH
+Sbjct  1    RPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAH  60
+
+Query  89   LVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRV  148
+            LVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRV
+Sbjct  61   LVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRV  120
+
+Query  149  HFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNA  208
+            HFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNA
+Sbjct  121  HFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNA  180
+
+Query  209  PRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            PRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  PRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  230
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN7008475.1 Length: 234
+Range 1: 1 to 234
+
+Score:482 bits(1241), Expect:2e-171, 
+Method:Compositional matrix adjust., 
+Identities:230/234(98%), Positives:232/234(99%), Gaps:0/234(0%)
+
+Query  9    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQT  68
+            FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQT
+Sbjct  1    FIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQT  60
+
+Query  69   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDE  128
+            GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHPDE
+Sbjct  61   GFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHPDE  120
+
+Query  129  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  188
+            QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE
+Sbjct  121  QEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPE  180
+
+Query  189  HRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS  242
+            H AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFS
+Sbjct  181  HIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFS  234
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EJL6827667.1 Length: 229
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EKN8313491.1 Length: 229 
+Range 1: 1 to 229
+
+Score:481 bits(1239), Expect:4e-171, 
+Method:Compositional matrix adjust., 
+Identities:229/229(100%), Positives:229/229(100%), Gaps:0/229(0%)
+
+Query  30   PPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHL  89
+            PPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHL
+Sbjct  1    PPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHL  60
+
+Query  90   VGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVH  149
+            VGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVH
+Sbjct  61   VGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVH  120
+
+Query  150  FGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAP  209
+            FGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAP
+Sbjct  121  FGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAP  180
+
+Query  210  RSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            RSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  RSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  229
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6958583.1 Length: 233
+Range 1: 1 to 233
+
+Score:481 bits(1239), Expect:4e-171, 
+Method:Compositional matrix adjust., 
+Identities:229/233(98%), Positives:231/233(99%), Gaps:0/233(0%)
+
+Query  26   ADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLR  85
+            ADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLR
+Sbjct  1    ADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLR  60
+
+Query  86   SAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGW  145
+            SAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG YSPHPDEQEVSALGGIPYSQIYGW
+Sbjct  61   SAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGPYSPHPDEQEVSALGGIPYSQIYGW  120
+
+Query  146  YRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGC  205
+            YRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEH AWREEPWIHHAPPGC
+Sbjct  121  YRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHIAWREEPWIHHAPPGC  180
+
+Query  206  GNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            GNAPRSSMSNTCDEKTQSLG+KFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  GNAPRSSMSNTCDEKTQSLGIKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  233
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7188892.1 Length: 229
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7549645.1 Length: 229 
+Range 1: 1 to 229
+
+Score:480 bits(1235), Expect:1e-170, 
+Method:Compositional matrix adjust., 
+Identities:229/229(100%), Positives:229/229(100%), Gaps:0/229(0%)
+
+Query  18   ANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGY  77
+            ANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGY
+Sbjct  1    ANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGY  60
+
+Query  78   VSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGI  137
+            VSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGI
+Sbjct  61   VSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGI  120
+
+Query  138  PYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            PYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW
+Sbjct  121  PYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  180
+
+Query  198  IHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            IHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS
+Sbjct  181  IHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  229
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_139182317.1 Length: 228
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae O1]
+Sequence ID: HAT7632687.1 Length: 228
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2332600.1 Length: 228 
+Range 1: 1 to 228
+
+Score:479 bits(1233), Expect:3e-170, 
+Method:Compositional matrix adjust., 
+Identities:228/228(100%), Positives:228/228(100%), Gaps:0/228(0%)
+
+Query  31   PDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLV  90
+            PDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLV
+Sbjct  1    PDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLV  60
+
+Query  91   GQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHF  150
+            GQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHF
+Sbjct  61   GQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHF  120
+
+Query  151  GVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPR  210
+            GVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPR
+Sbjct  121  GVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPR  180
+
+Query  211  SSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            SSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  SSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  228
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7618905.1 Length: 228
+Range 1: 1 to 228
+
+Score:478 bits(1231), Expect:5e-170, 
+Method:Compositional matrix adjust., 
+Identities:228/228(100%), Positives:228/228(100%), Gaps:0/228(0%)
+
+Query  18   ANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGY  77
+            ANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGY
+Sbjct  1    ANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGY  60
+
+Query  78   VSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGI  137
+            VSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGI
+Sbjct  61   VSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGI  120
+
+Query  138  PYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  197
+            PYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW
+Sbjct  121  PYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPW  180
+
+Query  198  IHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            IHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  IHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  228
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7093640.1 Length: 228
+Range 1: 1 to 228
+
+Score:478 bits(1231), Expect:6e-170, 
+Method:Compositional matrix adjust., 
+Identities:228/228(100%), Positives:228/228(100%), Gaps:0/228(0%)
+
+Query  19   NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  78
+            NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV
+Sbjct  1    NDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYV  60
+
+Query  79   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  138
+            STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP
+Sbjct  61   STSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIP  120
+
+Query  139  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  198
+            YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI
+Sbjct  121  YSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWI  180
+
+Query  199  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS
+Sbjct  181  HHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  228
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3281075.1 Length: 227
+Range 1: 1 to 227
+
+Score:476 bits(1226), Expect:3e-169, 
+Method:Compositional matrix adjust., 
+Identities:227/227(100%), Positives:227/227(100%), Gaps:0/227(0%)
+
+Query  32   DEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVG  91
+            DEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVG
+Sbjct  1    DEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVG  60
+
+Query  92   QTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFG  151
+            QTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFG
+Sbjct  61   QTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFG  120
+
+Query  152  VLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRS  211
+            VLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRS
+Sbjct  121  VLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRS  180
+
+Query  212  SMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            SMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  SMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  227
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7733038.1 Length: 226
+Range 1: 1 to 226
+
+Score:475 bits(1222), Expect:1e-168, 
+Method:Compositional matrix adjust., 
+Identities:226/226(100%), Positives:226/226(100%), Gaps:0/226(0%)
+
+Query  27   DSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRS  86
+            DSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRS
+Sbjct  1    DSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRS  60
+
+Query  87   AHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWY  146
+            AHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWY
+Sbjct  61   AHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWY  120
+
+Query  147  RVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCG  206
+            RVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCG
+Sbjct  121  RVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCG  180
+
+Query  207  NAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHN  252
+            NAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHN
+Sbjct  181  NAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHN  226
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3301781.1 Length: 226
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3868649.1 Length: 226
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBC2369329.1 Length: 226 
+Range 1: 1 to 226
+
+Score:474 bits(1220), Expect:2e-168, 
+Method:Compositional matrix adjust., 
+Identities:226/226(100%), Positives:226/226(100%), Gaps:0/226(0%)
+
+Query  33   EIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQ  92
+            EIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQ
+Sbjct  1    EIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQ  60
+
+Query  93   TILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGV  152
+            TILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGV
+Sbjct  61   TILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGV  120
+
+Query  153  LDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSS  212
+            LDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSS
+Sbjct  121  LDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSS  180
+
+Query  213  MSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            MSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  MSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  226
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDZ9274753.1 Length: 226
+Range 1: 1 to 226
+
+Score:474 bits(1220), Expect:2e-168, 
+Method:Compositional matrix adjust., 
+Identities:226/226(100%), Positives:226/226(100%), Gaps:0/226(0%)
+
+Query  21   DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST  80
+            DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST
+Sbjct  1    DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST  60
+
+Query  81   SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  140
+            SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS
+Sbjct  61   SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  120
+
+Query  141  QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  200
+            QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH
+Sbjct  121  QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  180
+
+Query  201  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS
+Sbjct  181  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  226
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_053048895.1 Length: 226
+>cholera enterotoxin subunit A2, partial [Vibrio cholerae V52]
+Sequence ID: KNH50846.1 Length: 226 
+Range 1: 1 to 226
+
+Score:473 bits(1216), Expect:9e-168, 
+Method:Compositional matrix adjust., 
+Identities:225/226(99%), Positives:226/226(100%), Gaps:0/226(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGV  226
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGV
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGV  226
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7192739.1 Length: 225
+Range 1: 1 to 225
+
+Score:472 bits(1215), Expect:1e-167, 
+Method:Compositional matrix adjust., 
+Identities:225/225(100%), Positives:225/225(100%), Gaps:0/225(0%)
+
+Query  21   DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST  80
+            DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST
+Sbjct  1    DKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVST  60
+
+Query  81   SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  140
+            SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS
+Sbjct  61   SISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS  120
+
+Query  141  QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  200
+            QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH
+Sbjct  121  QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHH  180
+
+Query  201  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  APPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  225
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HDI3215583.1 Length: 229
+Range 1: 1 to 229
+
+Score:471 bits(1213), Expect:3e-167, 
+Method:Compositional matrix adjust., 
+Identities:224/229(98%), Positives:227/229(99%), Gaps:0/229(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYAN+DKLYRADSRPPDEIKQSGGLMPRGQ+EYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANNDKLYRADSRPPDEIKQSGGLMPRGQNEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+             YSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  PYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFL  229
+            GLAGFPPEH AWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLG+KFL
+Sbjct  181  GLAGFPPEHIAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGIKFL  229
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7458781.1 Length: 223
+Range 1: 1 to 223
+
+Score:468 bits(1205), Expect:4e-166, 
+Method:Compositional matrix adjust., 
+Identities:223/223(100%), Positives:223/223(100%), Gaps:0/223(0%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+            KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS
+Sbjct  1    KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  60
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+            ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ
+Sbjct  61   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  120
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA
+Sbjct  121  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  180
+
+Query  202  PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  244
+            PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY
+Sbjct  181  PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  223
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAU8257834.1 Length: 223
+Range 1: 1 to 223
+
+Score:468 bits(1205), Expect:4e-166, 
+Method:Compositional matrix adjust., 
+Identities:223/223(100%), Positives:223/223(100%), Gaps:0/223(0%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI
+Sbjct  1    LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  60
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+            SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI
+Sbjct  61   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  120
+
+Query  143  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  202
+            YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP
+Sbjct  121  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  180
+
+Query  203  PGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            PGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  PGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  223
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS7120294.1 Length: 222
+Range 1: 1 to 222
+
+Score:466 bits(1199), Expect:3e-165, 
+Method:Compositional matrix adjust., 
+Identities:222/222(100%), Positives:222/222(100%), Gaps:0/222(0%)
+
+Query  23   LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  82
+            LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI
+Sbjct  1    LYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSI  60
+
+Query  83   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  142
+            SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI
+Sbjct  61   SLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQI  120
+
+Query  143  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  202
+            YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP
+Sbjct  121  YGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAP  180
+
+Query  203  PGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  244
+            PGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY
+Sbjct  181  PGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGY  222
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA, partial [Vibrio cholerae]
+Sequence ID: WP_001976479.1 Length: 221
+>heat-labile enterotoxin alpha chain family protein, partial [Vibrio cholerae HC-50A2]
+Sequence ID: EKL09499.1 Length: 221 
+Range 1: 1 to 221
+
+Score:465 bits(1196), Expect:9e-165, 
+Method:Compositional matrix adjust., 
+Identities:221/221(100%), Positives:221/221(100%), Gaps:0/221(0%)
+
+Query  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+            MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY
+Sbjct  1    MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLY  60
+
+Query  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+            DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG
+Sbjct  61   DHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLG  120
+
+Query  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+            AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY
+Sbjct  121  AYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGY  180
+
+Query  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKT  221
+            GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKT
+Sbjct  181  GLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKT  221
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: EGQ8468219.1 Length: 221
+Range 1: 1 to 221
+
+Score:464 bits(1194), Expect:1e-164, 
+Method:Compositional matrix adjust., 
+Identities:221/221(100%), Positives:221/221(100%), Gaps:0/221(0%)
+
+Query  22   KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  81
+            KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS
+Sbjct  1    KLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTS  60
+
+Query  82   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  141
+            ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ
+Sbjct  61   ISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQ  120
+
+Query  142  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  201
+            IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA
+Sbjct  121  IYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHA  180
+
+Query  202  PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS  242
+            PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS
+Sbjct  181  PPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS  221
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3220482.1 Length: 219
+Range 1: 1 to 219
+
+Score:460 bits(1184), Expect:5e-163, 
+Method:Compositional matrix adjust., 
+Identities:219/219(100%), Positives:219/219(100%), Gaps:0/219(0%)
+
+Query  24   YRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSIS  83
+            YRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSIS
+Sbjct  1    YRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSIS  60
+
+Query  84   LRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIY  143
+            LRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIY
+Sbjct  61   LRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIY  120
+
+Query  144  GWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPP  203
+            GWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPP
+Sbjct  121  GWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPP  180
+
+Query  204  GCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS  242
+            GCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS
+Sbjct  181  GCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFS  219
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HBN6890547.1 Length: 219
+Range 1: 1 to 219
+
+Score:459 bits(1182), Expect:9e-163, 
+Method:Compositional matrix adjust., 
+Identities:219/219(100%), Positives:219/219(100%), Gaps:0/219(0%)
+
+Query  28   SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA  87
+            SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA
+Sbjct  1    SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA  60
+
+Query  88   HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR  147
+            HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR
+Sbjct  61   HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR  120
+
+Query  148  VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN  207
+            VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN
+Sbjct  121  VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN  180
+
+Query  208  APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  246
+            APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS
+Sbjct  181  APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQS  219
+
+
+
+
+>cholera enterotoxin subunit A [Vibrio cholerae HC-49A2]
+Sequence ID: EGR02020.1 Length: 218
+>cholera enterotoxin subunit A2 [Vibrio cholerae]
+Sequence ID: KFH39493.1 Length: 218 
+Range 1: 1 to 218
+
+Score:459 bits(1180), Expect:2e-162, 
+Method:Compositional matrix adjust., 
+Identities:218/218(100%), Positives:218/218(100%), Gaps:0/218(0%)
+
+Query  41   MPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHST  100
+            MPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHST
+Sbjct  1    MPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHST  60
+
+Query  101  YYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRN  160
+            YYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRN
+Sbjct  61   YYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRN  120
+
+Query  161  RGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEK  220
+            RGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEK
+Sbjct  121  RGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEK  180
+
+Query  221  TQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  258
+            TQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+Sbjct  181  TQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL  218
+
+
+
+
+>cholera enterotoxin catalytic subunit CtxA [Vibrio cholerae]
+Sequence ID: HAS3288212.1 Length: 218
+Range 1: 1 to 218
+
+Score:458 bits(1178), Expect:4e-162, 
+Method:Compositional matrix adjust., 
+Identities:218/218(100%), Positives:218/218(100%), Gaps:0/218(0%)
+
+Query  28   SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA  87
+            SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA
+Sbjct  1    SRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSA  60
+
+Query  88   HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR  147
+            HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR
+Sbjct  61   HLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYR  120
+
+Query  148  VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN  207
+            VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN
+Sbjct  121  VHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGN  180
+
+Query  208  APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  245
+            APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ
+Sbjct  181  APRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQ  218
+
+
+
+
+
+
+
+		
+
+
