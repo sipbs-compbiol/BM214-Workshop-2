@@ -8,7 +8,7 @@
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 3&nbsp; BLAST</title>
+<title>BM214 Workshop 2: Sequence Searching - 3&nbsp; BLAST: Introduction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -51,7 +51,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
+<link href="./blast-how.html" rel="next">
 <link href="./pairwise.html" rel="prev">
 <link href="./icon_32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -103,7 +103,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./blast.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./blast.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST: Introduction</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -157,19 +157,43 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./blast.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST: Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./blast-how.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./blast-interpretation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">BLAST: Interpreting a Report</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./scenario-1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glossary.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Additional Resources</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -205,7 +229,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST: Introduction</span></h1>
 </div>
 
 
@@ -223,7 +247,7 @@ div.csl-indent {
 
 
 <blockquote class="blockquote">
-<p>The <code>BLAST</code> (Basic Local Alignment Search Tool) software suite provides a set of tools for comparing a biological <a href="./glossary.html#query-sequence">query sequence</a> to the sequences in a database, and returning all those sequences from the database that resemble the query sequence above a defined threshold similarity level.</p>
+<p>The <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi"><code>BLAST</code> (Basic Local Alignment Search Tool) software suite</a> provides a set of tools for comparing a biological <a href="./glossary.html#query-sequence">query sequence</a> to the sequences in a database, and returning those sequences from the database that resemble the query sequence above a defined threshold similarity level.</p>
 </blockquote>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -275,7 +299,7 @@ Important
 </div>
 <section id="performing-a-blast-search" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="performing-a-blast-search"><span class="header-section-number">3.1</span> Performing a <code>BLAST</code> search</h2>
-<p>This section descbribes a general <code>BLAST</code> query using the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST server</a>. It is intended as a reference guide for you to return to as you get used to querying <code>BLAST</code> through this interface.</p>
+<p>This section describes a general <code>BLAST</code> query using the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST server</a>. It is intended as a reference guide for you to return to as you get used to querying <code>BLAST</code> through this interface.</p>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -295,7 +319,7 @@ Caution
 <div id="fig-ncbi-blast-landing" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-landing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-blast-landing.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-blast-landing.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-landing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.1: The landing page of the NCBI <code>BLAST</code> webserver.
@@ -371,7 +395,7 @@ Specialised <code>BLAST</code> tools
 <div id="fig-blast-specialised" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-blast-specialised-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/blast-specialised.png" class="img-fluid figure-img">
+<img src="assets/images/blast-specialised.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-blast-specialised-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.2: Specialised <code>BLAST</code> search options are available at the NCBI <code>BLAST</code> webserver
@@ -385,7 +409,7 @@ Figure&nbsp;3.2: Specialised <code>BLAST</code> search options are available at 
 <div id="fig-ncbi-blastn" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blastn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-blastn.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-blastn.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blastn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.3: The NCBI <code>blastn</code> webservice search page
@@ -402,7 +426,7 @@ TGGGAACGTGAAGGAAACCAGAGCCAGTCGGGCC</code></pre>
 <div id="fig-ncbi-blastn-query" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blastn-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-blastn-query.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-blastn-query.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blastn-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.4: The NCBI <code>blastn</code> search page with a query sequence pasted into the query sequence field.
@@ -442,7 +466,7 @@ Improving your searches by changing parameters
 <div id="fig-ncbi-specialised-db" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-specialised-db.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-specialised-db.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.5: A list of specialised sequence databases offered by the NCBI <code>BLAST</code> webserver
@@ -453,7 +477,7 @@ Figure&nbsp;3.5: A list of specialised sequence databases offered by the NCBI <c
 <div id="fig-ncbi-organism" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-organism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/fig-ncbi-organism.png" class="img-fluid figure-img">
+<img src="assets/images/fig-ncbi-organism.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-organism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.6: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Pseudomonas”
@@ -467,7 +491,7 @@ Figure&nbsp;3.6: Taxonomic options offered by the NCBI <code>BLAST</code> search
 <div id="fig-ncbi-homo-sapiens" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-homo-sapiens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-homo-sapiens.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-homo-sapiens.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-homo-sapiens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.7: Taxonomic options offered by the NCBI <code>BLAST</code> search organism field, for “Homo sapiens”
@@ -481,7 +505,7 @@ Figure&nbsp;3.7: Taxonomic options offered by the NCBI <code>BLAST</code> search
 <div id="fig-ncbi-blast-button" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-button-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-button-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.8: The NCBI <code>BLAST</code> webserver <code>BLAST</code> button. Click this to start the search.
@@ -495,7 +519,7 @@ Figure&nbsp;3.8: The NCBI <code>BLAST</code> webserver <code>BLAST</code> button
 <div id="fig-ncbi-blast-progress" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-progress-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-blast-progress.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-blast-progress.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-progress-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.9: An NCBI <code>BLAST</code> webserver progress page.
@@ -506,7 +530,7 @@ Figure&nbsp;3.9: An NCBI <code>BLAST</code> webserver progress page.
 <div id="fig-ncbi-blast-results" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/ncbi-blast-results.png" class="img-fluid figure-img">
+<img src="assets/images/ncbi-blast-results.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-blast-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3.10: An NCBI <code>BLAST</code> results page, for a <code>blastn</code> query.
@@ -930,8 +954,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./blast-how.html" class="pagination-link" aria-label="BLAST: How It Works">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
