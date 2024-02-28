@@ -1,0 +1,327 @@
+# Scenario 1: 16S Identification
+
+## Introduction
+
+You have been investigating a heavily-contaminated industrial site (@fig-industrial-site), where you identified a biofilm growing on some chemical waste. It is possible that bacteria in this biofilm may produce enzymes useful for bioremediation, so you would like to identify the species that might be present, so you can research more about their potential.
+
+![An industrial brownfield site. [Photograph](https://www.flickr.com/photos/cambridgeuniversity-engineering/5389529869/) by University of Cambridge Department of Engineering, CC BY-NC-ND 2.0](assets/images/contaminated_site.jpg){#fig-industrial-site width="80%"}
+
+To make this identification, you have used PCR to amplify 16S rDNA genes from the genomic DNA of a colony of bacteria you have isolated from a sample of that biofilm. You have had the resulting amplicon sequenced by Sanger sequencing, and this resulted in the `isolate_1_16S_rDNA` sequence shown below.
+
+::: { .callout-note collapse="true"}
+## 16S bacterial identification
+
+It is still common in microbiology to make an identification of bacteria by their 16S rDNA or rRNA sequence. For a pure isolate, this can be done using targeted PCR primers to amplify the gene from the organism's genomic DNA (gDNA), and comparing the sequence obtained to a database of 16S gene sequences from known organisms.
+
+16S rRNA has a sequence that is well-conserved across all bacteria, due to its essential role as a scaffold in the small ribosomal subunit that is necessary for gene translation. The conserved regions of the gene allow the use of "universal" primers for PCR amplification, whatever the bacteria being studied. However, there are regions of  variability where the sequence of nucleotides varies in a way that can be characteristic for a taxon.
+
+By focusing on these variable regions, we can usually place a bacterium correctly at genus level.
+:::
+
+```text
+>isolate_1_16S_rDNA
+ACTCTAGTGGCGAACGGGTGAGTAACACGTGGGCGACCTACCCCCAAGTACGGCATAACCCCGGGAAACC
+GGAGCTAATTCCGTATGTGCTCGTACCTCCTATGGTACGCGTAAAGATTTATCGCTTGGGGATGGGCCCG
+CGGCGCATCAGCTAGTTGGTAGGGTAACGGCCTACCAAGGCGACGACGCGTAGCCGACCTGAGAGGGTGA
+CCGGCCACAGGGGCACTGAGACACGGGCCCCACTCCTGCGGGAGGCAGCAGTTAGGAATCTTCGGCAATG
+GGCGCAAGCCTGACCGAGCGACACTGCTTGGAGGATGAAGGTTTTCGGATCGTAAACTCCTGAACGAGGG
+ACGAATAATGACGGTACCTCGCTAATAGCACCGGCTAACTCCGTGCCAGCAGCCGCGGTAATACGGAGGG
+TGCAAGCGTTATCCGGAATCACTGGGCGTAAAGGGCGCGTAGGCGGTTTATTAAGTCCGATGTTAAAGCG
+TGAGGCTCAACCTCATCACGGCGTTGGATACTGGCAAGCTGGACGGTTGGAGAGGAAGGTAGAATTACCA
+GTGTAGCGGTGGAATGCGTAGATACTGGTAGGAATACCCATTGCGAAGGCAGCCTTCTGGACAACACGTG
+ACGCTGAGGCGCGAAAGTGTGGGGAGCAAACCGGATTAGATACCCGGGTAGTCCACACCCTAAACGATGC
+ATACTTGGTGTCGGCCCGTTGGGGTCGGTGCCGGAGTTAACGCGTTAAGTATGCCGCCTGGGAAGTACGG
+CCGCAAGGTTGAAACTCAAAGGAATTGACGGGGACCCGCACAAGCGGTGGAGCATGTGGTTTAATTCGAA
+GCAACGCGAAGAACCTTACCAGGTCTTGACATGCTAGGAACCTCTAAGAGATTAGAGGGTGCCCTTCGGG
+GAACCTAGACACAGGTGCTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAAC
+GAGCGCAACCCTCGCTATTAGTTACCAGCACTTCGGGTGGGAACTCTAATAGGACTGCCTGTGAAAGCAG
+GAGGAAGGCGGGGGTGACGTCTAGTCAGCATGGTCCTTACGACCTGGGCTACACACGTGCTACAATGGCA
+GGTATAACGCGTCGCCAACTCGCGAGAGTGCGCTAATCGCTTAAAGCCTGTCCCAGTTCAGATTGTAGTC
+TGCAACTCGACTATATGAAGTTGGAATCGCTAGTAATCGCAGATCAGCATTGCTGCGGTGAATACGTTCC
+CGGGTCTTGTACACACCGCCCGTCAAACCATGGGAGTAGGTTGCACCCAAAGACGTAACGCTGCGTCAAT
+GCGGCTTGTGTTTAAGGTGTGGCTTATGACTGGGGTTAAGTCGTAACAAGGTAACTGTACCGGAAGGTGC
+GGTTGGATCACCTCCTTTCTAAGGAGTCAGTAAACAGGCTATTTCATCCCGGATTTTCATACCCCATATT
+TTGTGGGCGTTCGTCTA
+```
+
+::: { .callout-important title="Your assignment"}
+**To identify this organism, you want to `BLAST` the 16S sequence against a suitable database of 16S genes at NCBI. Carry out this search using the guide below** (using the hints if you need them) **and answer the questions in the formative quiz on MyPlace.**
+:::
+
+## Analysis Steps
+
+### Navigate to the NCBI `BLAST` Webserver
+
+- [NCBI `BLAST` Webserver](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+
+### Select the `BLAST` Tool
+
+::: { .callout-tip collapse="true"}
+## Hint: Which `BLAST` tool should I use?
+
+Your query sequence is a nucleotide sequence, and the 16S sequences of other organisms are also nucleotide sequences, so this is a **nucleotide vs nucleotide** search.
+
+For a reminder, see @tbl-blast-programs
+:::
+
+::: { .callout-warning collapse="true"}
+## Answer: The `BLAST` tool to use
+
+This is a **nucleotide vs nucleotide** search, so use the `Nucleotide BLAST` tool.
+
+![Nucleotide BLAST image](assets/images/nucleutide-blast-cover.png){#fig-nucleotide-blast-cover width="80%"}
+:::
+
+### Enter the query sequence
+
+::: { .callout-warning collapse="true"}
+## Answer: Entering the query sequence
+
+Paste the nucleotide sequence above into the `Enter Query Sequence` field.
+
+![Query sequence pasted into the query field](assets/images/scenario-1-query.png){#fig-scenario-1-query width="80%"}
+:::
+
+### Set appropriate parameter choices
+
+::: { .callout-tip collapse="true"}
+## Hint: Which database should I use?
+
+The NCBI `BLAST` webservice provides specialised databases for common, well-defined search tasks.
+
+You have a well-defined set of target sequences that you want to compare your query with: **they are all 16S sequences.** Can you see a database on the search page that might be suitable?
+:::
+
+::: { .callout-warning collapse="true"}
+## Answer: Which database to use
+
+The NCBI `BLAST` webservice provides specialised databases for common, well-defined search tasks, including searching for 16S or ITS (Internally-Transcribed Spacer) sequences when identifying unknown microorganisms.
+
+**Select the `rRNA/ITS databases` radio button, and ensure that the "Bacteria and Archaea" database is selected.**
+
+![NCBI BLAST 16S database choice](assets/images/scenario-1-database.png){#fig-scenario-1-database width="80%"}
+:::
+
+### Run the `BLAST` search
+
+::: { .callout-warning collapse="true"}
+## Answer: Running the `BLAST` search
+
+Click on the `BLAST` button.
+
+![NCBI `BLAST` button](assets/images/ncbi-blast-button.png){#fig-scenario-1-button-1 width="80%"}
+:::
+
+### Interpret the `BLAST` report
+
+It is common for 16S rDNA sequences to match many other bacterial sequences in the database. However, by identifying those most closely-related to the query sequence, you should be able to establish a likely identity for this organism.
+
+::: { .callout-important title="Your assignment"}
+**Answer the questions below in the formative quiz on MyPlace.**
+
+Clicking on the box for each question should give you a hint to the answer, or where to find it.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the accession number of the best match to your query?
+
+Check the `Accession` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What organism is the best match to your query?
+
+Check the `Description` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the total score for the best matching alignment?
+
+Check the `Total Score` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the query coverage against the best matching alignment?
+
+Check the `Query Cover` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the alignment percentage identity for the best matching alignment?
+
+Check the `Per. Ident` column under "Sequences producing significant alignments" in the report's `Descriptions` tab.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the gene product encoded by the best match?
+
+Click on the accession number for the best match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/product` that can be found just above the sequence data. If you cannot see it, search for `/product` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## Where was the best-matching organism isolated?
+
+If it is not already open, click on the accession number for the best match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/country` that can be found just above the sequence data. If you cannot see it, search for `/country` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## What kind of environment was the best-matching organism isolated from?
+
+If it is not already open, click on the accession number for the best match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/isolation_source` that can be found just above the sequence data. If you cannot see it, search for `/isolation_source` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## What organism (other than the one you have already identified) has the next-best match to your query?
+
+Look down the list of results under "Sequences producing significant alignments" until you find an organism that is not the same as the best match to your query.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the accession number for this organism's match to your query?
+
+Check the `Total Score` column.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the total score for this organism's match to your query?
+
+Check the `Total Score` column.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the query coverage for this alignment?
+
+Check the `Query Cover` column.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the percentage identity for this alignment?
+
+Check the `Per. Ident` column.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the gene product encoded by this match?
+
+Click on the accession number for this match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/product` that can be found just above the sequence data. If you cannot see it, search for `/product` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## Where was the organism for this match isolated?
+
+If it is not already open, click on the accession number for this match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/country` that can be found just above the sequence data. If you cannot see it, search for `/country` in the page.
+:::
+
+::: { .callout-tip collapse="true"}
+## What kind of environment was this organism isolated from?
+
+If it is not already open, click on the accession number for this match. This will open a new tab in your browser with the gene record.
+
+The gene record contains an annotation field called `/isolation_source` that can be found just above the sequence data. If you cannot see it, search for `/isolation_source` in the page.
+:::
+
+## Stretch Activities
+
+These activities are not necessary for the assessment, but provide more information relevant to interpreting your `BLAST` results. Open the orange boxes to see the questions, and use the green boxes to find some answers.
+
+### Inspect the matching sequence alignments
+
+::: { .callout-caution title="Click on the `Alignments` tab in the report" collapse="true"}
+The `Alignments` tab shows the pairwise sequence alignments for each match `BLAST` has found for your query sequence. Some questions to consider:
+
+1. How does the information in each pairwise alignment header relate to the table of results in the `Descriptions` tab? What extra information about the alignment can you find here, under this tab?
+2. Scroll down the list of pairwise alignments. Do you notice any patterns in the alignments - specifically, do you see any regions where disagreement between the `Query` and `Sbject` sequences seems to be more common? **Hint: try to find position 356 in the query sequence**
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: `Alignments`
+
+1. The pairwise alignment headers give additional information, such as the numbers of identities and gaps, not just overall percentages. The alignments themselves are visible, which gives precise information about which bases differ between sequences.
+2. There are regions where all the matched sequences seem to be similar, and regions where they all seem to vary. The region around position 356 in the query looks to be associated with an _insertion_ in many of the matches.
+:::
+
+---
+
+::: { .callout-caution title="Click on the `MSA viewer` link in the report" collapse="true"}
+The `MSA viewer` link will open a new tab containing a multiple sequence alignment of the matches to your sequence, showing differences in the matching sequences. Red marks indicate a base substitution, blue marks indicate an _insertion_ relative to the query. You can use the zoom tool to zoom in and see individual base differences.
+
+Some questions to consider:
+
+1. Are the results in the tree consistent with the results in the `Descriptions` tab? Is there any extra information here that is not found in the `Descriptions` tab?
+2. Do the sequences from the best match to your query differ in the sequence alignment? Where do they differ?
+3. Are there clear patterns of sequence conservation (grey) and variation (red/blue)? Do these look similar to the patterns you saw in the pairwise sequence alignments?
+4. Look at position 356 in the query sequence. How do most of the matches differ from the query here? Do the best matches differ from the query at this position in the same way?
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: `MSA viewer`
+
+1. Yes, they are consistent. The alignment gives information about the location and nature of sequence differences between the query and each match.
+2. Yes, the best match sequences differ, at a number of regions throughout the sequence length.
+3. Yes, there are clear patterns of conservation and variation. It was difficult to spot these with the pairwise sequence alignments.
+4. Most matches that are not the best-match organism have an insertion here.
+:::
+
+### Inspect the graphic summary
+
+::: { .callout-caution title="Click on the `Graphic Summary` tab in the report" collapse="true"}
+The `Graphic Summary` tab shows a visual representation of the pairwise sequence alignments for each match `BLAST` has found for your query sequence. Some questions to consider:
+
+1. Do all the subject sequences align to the same location on the query sequence?
+2. If the subject sequences do not all align to the same locations, are there any regions of the query sequence to which they all consistently align?
+3. Did you see any gaps in the pairwise alignments when you examined the results under the `Alignments` tab? If you did, can you see them in the `Graphic Summary`?
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: `Graphic Summary`
+
+1. No.
+2. All the matches appear to align to a core region spanning most of the centre of the query sequence.
+3. Any gaps don't seem to be visible - the lines indicating matches are continuous.
+:::
+
+### Inspect the match taxonomy
+
+::: { .callout-caution title="Click on the `Taxonomy` tab in the report" collapse="true"}
+The `Taxonomy` tab summarises the taxonomic assignments for each match `BLAST` has found for your query sequence. Some questions to consider:
+
+1. Are the results in the `Lineage` tab consistent with the results in the `Descriptions` tab? Is there any extra information here that is not found in the `Descriptions` tab?
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: `Taxonomy`
+
+1. Yes they are consistent, and the total count of matches to each individual taxon is given.
+:::
+
+---
+
+::: { .callout-caution title="Click on the `Distance tree of results` link in the report" collapse="true"}
+The `Distance tree of results` link will open a new tab containing a phylogenetic tree, showing the placement of your sequence in relation to the matching sequences. Some questions to consider:
+
+1. Are the results in the tree consistent with the results in the `Descriptions` tab? Is there any extra information here that is not found in the `Descriptions` tab?
+2. Do you think it is equally likely that your organism is related to the best match, as it is to the next most similar organism's sequence that you found?
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: `Distance tree`
+
+1. Yes, they are consistent. The tree gives us evolutionary information about the order of divergence of each organism's sequences, when they diverged, and also which organisms' sequences are more similar to each other.
+2. The best match organism appears to be distinct from (diverged separately from) the next-best matching organism, so the query looks to be more related to the best match's taxon than to that of the next-best match.
+:::
+
+## Summary
+
+::: { .callout-note title="Well done!"}
+In this scenario, you have **identified an unknown organism and its relatives** from a 16S sequence. You may have also inspected the corresponding **multiple sequence alignment** and **phylogenetic tree** to understand the relationships between them more clearly.
+:::
