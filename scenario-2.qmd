@@ -1,0 +1,97 @@
+# Scenario 2: Assigning Putative Protein Function
+
+## Introduction
+
+There has been an outbreak of diarrhoeal disease, suspected to be due to a transmissible bacterial pathogen. As you work in a clinical microbiology laboratory, you have been asked to help investigate. 
+
+![An anxious person in jeans, holding a toilet roll](assets/images/diarrhoea.jpeg){#fig-diarrhoea width="80%"}
+
+::: { .callout-note collapse="true"}
+## Faecal metaproteomics
+Just as metagenomic analysis identifies which organisms are present in a sample, and gives an indication of their relative abundance, metaproteomic analysis does a similar job for the proteins that are present in a sample.
+
+The human gut is a highly diverse microbial ecosystem populated by microbial communities that vary in composition along its length. Our understanding of these communities has been enhanced by metagenomic analyses that tell us which organisms are present in which communities, but also by _metaproteomic analyses_ (e.g. @Kolmeder2012-qa) which give insight into the molecular activities expressed by these communities.
+
+Knowing what the normal, stable, gut microbial community looks like allows us to identify _dysbioses_ - disturbances to the normal operation of these biological systems. MALDI-ToF (Matrix-Assisted Laser Desorption - Time of Flight mass spectrometry) is a valuable tool for identifying which organisms are present (e.g. @Feucherolles2019-lq) and also for identifying and quantifying disturbances due to disease as changes in the presence, absence, and abundances of proteins produced by the microbial communities (@Debyser2019-nj).
+:::
+
+Using MALDI-ToF, you have carried out a metaproteomic analysis of one of the faecal samples, obtaining the protein sequence below as a highly-abundant protein present in the sample.
+
+
+```text
+>seq1437_abd10275_rank7
+MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF
+VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS
+QIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPR
+SSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
+```
+
+::: { .callout-important title="Your assignment"}
+**To identify the potential function of this highly-abundant sequence, and the organism from which it comes, you want to `BLAST` the protein sequence against a suitable reference database at NCBI. Carry out this search using the guide below** (using the hints if you need them) **and answer the questions in the formative quiz on MyPlace.**
+:::
+
+## Analysis Steps
+
+Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
+
+### Navigate to the NCBI `BLAST` Webserver
+
+- [NCBI `BLAST` Webserver](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+
+### Select the `BLAST` Tool
+
+::: { .callout-tip collapse="true"}
+## Hint: Which `BLAST` tool should I use?
+
+Your query sequence is a protein sequence, and you want to identify other protein sequences that have functional annotations, so this is a **protein vs protein** search.
+
+For a reminder, see @tbl-blast-programs
+:::
+
+::: { .callout-warning collapse="true"}
+## Answer: The `BLAST` tool to use
+
+This is a **protein vs protein** search, so use the `Protein BLAST` tool.
+
+![Protein BLAST image](assets/images/protein-blast-cover.png){#fig-protein-blast-cover width="80%"}
+:::
+
+### Enter the query sequence
+
+::: { .callout-warning collapse="true"}
+## Answer: Entering the query sequence
+
+Paste the protein sequence above into the `Enter Query Sequence` field.
+
+![Query sequence pasted into the query field](assets/images/scenario-2-query.png){#fig-scenario-2-query width="80%"}
+:::
+
+### Set appropriate parameter choices
+
+::: { .callout-tip collapse="true"}
+## Hint: Which database should I use?
+
+The NCBI `BLAST` webserver allows you to restrict your searches by taxonomic group.
+
+The outbreak is thought to be caused by a transmissible bacterial pathogen, so perhaps you can restrict your search to a subset of a larger, comprehensive database?
+:::
+
+::: { .callout-warning collapse="true"}
+## Answer: Which database to use
+
+The NCBI `BLAST` webserver allows you to restrict your searches by taxonomic group. You can query within the comprehensive `nr` (non-redundant protein) database, while restricting your search only to proteins that come from bacteria.
+
+**Select the `nr` database, and select `Bacteria` from the Organism field**
+
+![NCBI BLAST `nr` database, filtering on bacteria](assets/images/scenario-2-database.png){#fig-scenario-2-database width="80%"}
+:::
+
+### Run the `BLAST` search
+
+::: { .callout-warning collapse="true"}
+## Answer: Running the `BLAST` search
+
+Click on the `BLAST` button.
+
+![NCBI `BLAST` button](assets/images/ncbi-blast-button.png){#fig-scenario-2-button-1 width="80%"}
+:::

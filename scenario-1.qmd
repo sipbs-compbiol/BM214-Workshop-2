@@ -50,6 +50,8 @@ TTGTGGGCGTTCGTCTA
 
 ## Analysis Steps
 
+Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
+
 ### Navigate to the NCBI `BLAST` Webserver
 
 - [NCBI `BLAST` Webserver](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
@@ -112,7 +114,7 @@ Click on the `BLAST` button.
 ![NCBI `BLAST` button](assets/images/ncbi-blast-button.png){#fig-scenario-1-button-1 width="80%"}
 :::
 
-### Interpret the `BLAST` report
+### Interpret the `BLAST` report (**MyPlace Questions**)
 
 It is common for 16S rDNA sequences to match many other bacterial sequences in the database. However, by identifying those most closely-related to the query sequence, you should be able to establish a likely identity for this organism.
 
@@ -185,7 +187,7 @@ Look down the list of results under "Sequences producing significant alignments"
 ::: { .callout-tip collapse="true"}
 ## What is the accession number for this organism's match to your query?
 
-Check the `Total Score` column.
+Check the `Accession` column.
 :::
 
 ::: { .callout-tip collapse="true"}
