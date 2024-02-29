@@ -1,0 +1,250 @@
+# Scenario 3: Annotating a Metagenomic Contig
+
+## Introduction
+
+You are working in a research group specialising in drug discovery. You have been investigating marine microbial communities using metagenomics in a search for sources of novel antibiotic candidates. You have carried out shotgun genome sequencing of an underwater microbial community and assembled a number of interesting contigs that likely contain novel genes. Now you need to annotate them. Today, you're looking to annotate the sequence at [this link](assets/sequences/metagenomic_contig.fasta).
+
+![A seabed much like the one you've been investigating. Photo credit: Petr Kratochvil CC0](assets/images/seabed-underwater-14436111451mk.jpg){#fig-seabed width="80%"}
+
+::: { .callout-warning title="Download the metagenome contig now."}
+Be sure to download the [metagenome contig](assets/sequences/metagenomic_contig.fasta) to your computer so that you can use it with NCBI `BLAST` to obtain a preliminary functional annotation.
+:::
+
+To annotate your contig, you're going to use NCBI `BLAST`'s database of model organisms to obtain a first draft annotation, to see if there might be some interesting functions present. 
+
+::: { .callout-note }
+We would normally use specialised genome annotation software tools to annotate sequences like this, but we can illustrate the principles of genome annotation, and the advanced use of `BLAST`, with an exercise like this.
+:::
+
+::: { .callout-important title="Your assignment"}
+**To annotate putative genes on this contig, you will `BLAST` its sequence against reference databases at NCBI. Carry out this search using the guide below** (using the hints if you need them) **and answer the questions in the formative quiz on MyPlace.**
+:::
+
+## Analysis Steps
+
+Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
+
+### Navigate to the NCBI `BLAST` Webserver
+
+- [NCBI `BLAST` Webserver](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+
+### Select the `BLAST` Tool
+
+::: { .callout-tip collapse="true"}
+## Hint: Which `BLAST` tool should I use?
+
+Your query sequence is a contig - a nucleotide sequence - and you want to identify protein sequences that have functional annotations and are similar to regions on the contig, so this is a **(translated) nucleotide vs protein** search.
+
+For a reminder, see @tbl-blast-programs
+:::
+
+::: { .callout-warning collapse="true"}
+## Answer: The `BLAST` tool to use
+
+This is a **(translated) nucleotide vs protein** search, so use the `BLASTX` tool.
+
+![BLASTX image](assets/images/blastx-arrow.png){#fig-blastx-arrow width="80%"}
+:::
+
+### Upload the query sequence
+
+::: { .callout-warning collapse="true"}
+## Answer: Uploading the query sequence
+
+Click on the `Browse…` button.
+
+![The empty BLASTX query field, showing the `Browse…` button](assets/images/scenario-3-query-1.png){#fig-scenario-3-query-1 width="80%"}
+
+ Navigate to where you saved the metagenome contig file, and select it.
+
+![The BLASTX query field, with the contig sequence loaded](assets/images/scenario-3-query-2.png){#fig-scenario-3-query-2 width="80%"}
+
+:::
+
+### Set appropriate parameter choices
+
+::: { .callout-tip collapse="true"}
+## Hint: Which database should I use?
+
+The NCBI `BLAST` webserver provides a database of sequences from model organisms.
+
+The model organism database is small and non-redundant (no repeated sequences), and contains proteomes from a wide taxonomic range of organisms, making it ideal for preliminary annotation. The small size of this dataset means that results are returned quickly and concisely.
+:::
+
+::: { .callout-warning collapse="true"}
+## Answer: Which database to use
+
+The NCBI `BLAST` webserver allows you to query against a small non-redundant database derived from model organisms (the `landmark` database). You should use this for preliminary annotation with `BLASTX`.
+
+**Select the `Model Organisms (landmark)` database**
+
+![NCBI BLAST `Model Organisms (landmark)` database](assets/images/scenario-3-database.png){#fig-scenario-3-database width="80%"}
+:::
+
+### Run the `BLAST` search
+
+::: { .callout-warning collapse="true"}
+## Answer: Running the `BLAST` search
+
+Click on the `BLAST` button.
+
+![NCBI `BLAST` button](assets/images/scenario-3-button.png){#fig-scenario-3-button-1 width="80%"}
+:::
+
+### Interpret the `BLAST` report (**MyPlace Questions**)
+
+Your metagenomic contig likely contains multiple genic or protein-coding regions. The matches to these will all be present in the report at the same time, so you will need to approach the interpretation of this report differently from those in scenarios 1 and 2. You may find it useful to start your interpretation by looking at the `Graphic Summary` tab.
+
+::: { .callout-important title="Your assignment"}
+**Answer the questions below in the formative quiz on MyPlace.**
+
+Clicking on the box for each question should give you a hint to the answer, or where to find it.
+:::
+
+::: { .callout-tip collapse="true"}
+## How many regions of your contig correspond to potential protein-coding regions?
+
+Check the `Graphic Summary` tab, and count the number of distinct regions of your query with matches in the database.
+:::
+
+::: { .callout-tip collapse="true"}
+## How many of these regions correspond to strong (alignment score >= 200) matches?
+
+Check the `Graphic Summary` tab, and count the number of distinct regions of your query with matches in the database, and the appropriate colour of annotation in the graphic.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the percentage identity of the top-scoring match?
+
+Check the `Descriptions` tab and identify the top hit.
+:::
+
+
+::: { .callout-tip collapse="true"}
+## What organism has the best match to the region spanning base 2500 in the query?
+
+Check the `Graphic Summary` tab, and click on the topmost alignment at the appropriate region. Click on the `Alignment` link in the box that appears.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the annotated function of this protein?
+
+Check the `Graphic Summary` tab, and click on the topmost alignment at the appropriate region. Click on the `Alignment` link in the box that appears.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the alignment percentage identity for this alignment?
+
+Check the `Graphic Summary` tab, and click on the topmost alignment at the appropriate region. Click on the `Alignment` link in the box that appears.
+:::
+
+::: { .callout-tip collapse="true"}
+## What is the most likely taxonomic classification for the organism this contig derives from?
+
+Check the `Taxonomy` tab, and make a judgement based on the `Score` and the number of hits in the report.
+:::
+
+## Stretch Activities
+
+These activities are not necessary for the assessment, but provide more information relevant to interpreting your `BLAST` results. Open the orange boxes to see the questions, and use the green boxes to find some answers.
+
+### Refine your search
+
+From your analysis above you will have identified a candidate taxonomic assignment for your organism. With this, you can repeat your query against the much more comprehensive `nr` database, but refining the search by filtering so that it only reports sequences from the corresponding kingdom. You can also refine your search against the `pdb` database of solved protein structures, to investigate the molecular function of your annotations.
+
+::: { .callout-caution title="Refine the search against `nr`" collapse="true"}
+
+Return to your `BLAST` query by clicking on the `Edit Search` button at the top of the report.
+
+![`BLAST` report `Edit Search` button](assets/images/scenario-3-edit-search.png){#fig-scenario-3-edit width="80%"}
+
+Select the `nr` database and restrict the taxon by entering the appropriate value into the `Organism` field.
+
+![Filtering taxa from the `BLASTX` search](assets/images/scenario-3-filter.png){#fig-scenario-3-filter width="80%"}
+
+Click on the `BLAST` button.
+
+![NCBI `BLAST` button](assets/images/scenario-3-button-2.png){#fig-scenario-3-button-2 width="80%"}
+
+1. What taxon did you enter in the `Organism` field?
+2. Do you find the same number of potential protein-coding regions as in the initial search?
+3. What is the percentage identity of the highest-scoring match?
+4. Are the annotations of the protein matches similar to the previous search?
+5. What is the most likely taxonomic classification for the query organism?
+6. What kinds of differences between the databases used for the searches have affected your results, and how has the quality of the results differed?
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: Refining the search against `nr`
+
+1. Archaea (taxid:2157)
+2. No - there are fewer: only four (4)
+3. 99.89%
+4. Some are, some are not. There is one match to the region spanning base 2500 in the query, not annotated the same way as the previous search. The regions spanning bases 5000, 7500, and 10000 have similar functional annotations.
+5. The precise taxonomy at genus or species level is not clear from this search. Most matches are to sequences only annotated at Phylum level: _Euryarchaeota_.
+6. There are several points to consider:
+  - The `Model Organisms (landmark)` database is small (it contains only 27 genomes), so is not very comprehensive, even though it contains representatives across the entire tree of life. We should not expect very close sequence matches as a result, but the search should be quick.
+  - The `nr` database, even filtered to provide results only for archaea, contains many more genomes and is much larger. As we have "tuned" the database to organisms similar to the query, we should expect many close matches at the expense of a slower search.
+  - The `Model Organisms (landmark)` database contains well-annotated genomes and we should expect clear indications of molecular function for the matches.
+  - The `nr` database contains all relevant sequences in the NCBI database, many of which have not been annotated. The annotated functions of matches may be less clear.
+  - The `Model Organisms (landmark)` database contains relatively few organisms so we should not expect an accurate prediction of taxonomy for our query.
+  - The `nr` database contains all relevant sequences in the NCBI database and is likely to place the taxonomy of our query organism more accurately.
+:::
+
+::: { .callout-caution title="Refine the search against `pdb`" collapse="true"}
+
+Return to your `BLAST` query by clicking on the `Edit Search` button at the top of the report.
+
+![`BLAST` report `Edit Search` button](assets/images/scenario-3-edit-search.png){#fig-scenario-3-edit-1 width="80%"}
+
+Select the `pdb` database and do not restrict the organism range.
+
+![Selecting the `pdb` database](assets/images/scenario-3-pdbdb.png){#fig-scenario-3-pdbdb width="80%"}
+
+Click on `Algorithm parameters` to reveal more options and modify the `Expect threshold` to read `1e-6` to include only strong matches.
+
+![Setting a less permissive `Expect` threshold](assets/images/scenario-3-expect.png){#fig-scenario-3-expect width="80%"}
+
+Click on the `BLAST` button.
+
+![NCBI `BLAST` button](assets/images/scenario-3-button-3.png){#fig-scenario-3-button-3 width="80%"}
+
+1. What is the molecular function of the top hit?
+2. What organism does the top hit come from?
+3. What is the percentage identity of the top hit?
+4. What is the PDB accession number of the top hit?
+
+Click on the accession number for the top hit to open the protein record for that page in a new tab. Click on the `Identify Conserved Domains` link under `Analyse this sequence` on the right-hand side of the page. This will take you to a prediction of the conserved domains 
+
+![The `Analyse this sequence` panel](assets/images/scenario-3-analyse.png){#fig-scenario-3-analyse width="80%"}
+
+5. What is the predicted domain superfamily?
+
+Click on the link at the top of the prediction page ("Conserved domains on [[gi|657231874|pdb|3WQY|A]](https://www.ncbi.nlm.nih.gov/protein/657231874)") to return to the protein description page. Then click on the thumbnail image under `Protein 3D Structure` on the right hand side of the page to open the protein structure page. Click on the `View in iCn3D` link for the top match.
+
+6. How many protein structures were available?
+7. What is the RCSB-PDB accession for the structure you are viewing?
+8. How many copies of the enzyme are visible in the structure?
+9. Are any other molecules visible in the structure? If so, what are they?
+
+:::
+
+::: { .callout-tip collapse="true"}
+## Hints: Refining the search against `pdb`
+
+1. Alanine-tRNA ligase
+2. Archaeoglobus fulgidus
+3. 42.74%
+4. 1WQY
+5. A-tRNA_syn_arch superfamily
+6. Four (4)
+7. 1WQZ
+8. Two copies of the enzyme are visible, as chains A and B.
+9. Yes. There is a 75bp RNA molecule (chain C), and two molecules of A5A ('5'-O-(N-(L-Alanyl)-Sulfamoyl)adenosine). There are also two zinc ions.
+:::
+
+## Summary
+
+::: { .callout-note title="Well done!"}
+In this scenario, you have used a `BLASTX` search to **provide a preliminary annotation of a metagenome contig** and a **likely organism from which it might come**. You may have **modified your search to use a more comprehensive database** to obtain a **more precise annotation**, and compared the effects of database choice. You may have **investigated the domain structure of one of your predicted proteins** and **used a database of sequences from solved protein structures identify a representative structure** for one of your annotations.
+:::

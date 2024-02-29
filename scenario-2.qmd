@@ -1,4 +1,4 @@
-# Scenario 2: Assigning Putative Protein Function
+# Scenario 2: Protein Identification
 
 ## Introduction
 

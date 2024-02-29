@@ -31,6 +31,7 @@ book:
     - blast-interpretation.qmd
     - scenario-1.qmd
     - scenario-2.qmd
+    - scenario-3.qmd
     - summary.qmd
     - glossary.qmd
     - resources.qmd
