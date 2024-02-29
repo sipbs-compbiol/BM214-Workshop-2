@@ -24,7 +24,7 @@ P-ELICAN--
 Is this a better or worse alignment of those two words than the one you originally saw? Why do you think this? What kind of rule would you devise to make a choice of which was the better alignment?
 :::
 
-![A penguin eyeing up a coelacanth for lunch](assets/images/penguin-coealacanth.jpg){#fig-penguin-coelacanth-cartoon width=80%}
+![A pelican eyeing up a coelacanth for lunch](assets/images/pelican-coealacanth.jpg){#fig-pelican-coelacanth-cartoon width=80%}
 
 ## Pairwise Alignment is a Solved Problem
 
