@@ -1,7 +1,50 @@
 # Summary
 
-In summary, this book has no content whatsoever.
+In these workshops, you have learned about pairwise sequence alignment, `BLAST` searches, and some of the many features of `BLAST` and related services at [NCBI](https://www.ncbi.nlm.nih.gov).
 
-```{r}
-1 + 1
-```
+By working through the pairwise sequence alignment exercises and `BLAST` search scenarios, you have been using the same research-level tools that biologists and bioinformaticians use in their day-to-day work.
+
+::: { .callout-tip title="Things you have learned" }
+By working through this material, you should now
+
+
+- understand the difference between _global_ and _local_ pairwise alignments, and how to interpret their results
+- know how to use the `EMBOSS` `Water` and `Needle` tools to obtain optimal pairwise alignments
+- be able to explain the output from the `Water` and `Needle` tools
+- be able to identify an unknown organism and its relatives from a 16S sequence
+- understand the main output from a `BLAST` search at NCBI
+- know how to use NCBI `BLAST` search output to find and use additional information about matching sequences
+- know how to identify the putative function of a protein and the organism from which it is likely to originate
+- be able to identify and name conserved domains of a protein, using the `BLAST` output
+- be able to use `BLAST` to obtain preliminary identifications for a section of genome
+
+and, if you worked through all the stretch activities, you should be able to
+
+
+- use the graphical summaries to interpret similarities between query sequences and the matches reported by `BLAST`
+- find and explain a `BLAST` result’s multiple sequence alignment
+- find and explain a `BLAST` result’s distance tree and taxonomy information
+- use the taxonomic information in an NCBI `BLAST` result to understand relationships between matching sequences
+- use `BLAST` output to obtain information about conserved protein domains, using the CDD database
+- modify your search parameters for the same query sequence, using taxon filters to exclude organisms from your search and identify biologically-useful information
+- explain how the choice of database affects the accuracy and comprehensiveness of your results
+- use `BLAST` results at NCBI to obtain domain and structural information relevant to your protein
+- use the NCBI `BLAST` service to help visualise structures of homologues to your protein
+:::
+
+::: { .callout-important }
+If you haven't already, please don't forget to complete the formative assessments. There is one for each scenario, and one for the pairwise sequence alignment exercises [on MyPlace]({{< var myplace.bm214 >}}).
+
+- [Pairwise Sequence Alignment Formative Quiz]({{< var myplace.quiz0 >}})
+- [Scenario 1 Formative Quiz]({{< var myplace.quiz1 >}})
+- [Scenario 2 Formative Quiz]({{< var myplace.quiz2 >}})
+- [Scenario 3 Formative Quiz]({{< var myplace.quiz3 >}})
+:::
+
+## That's it!
+
+Thank you for taking part in this workshop. We hope you enjoyed it!
+
+::: { .callout-caution title="Tell us about problems with the workshop, what you liked, or how you think it can be improved!"}
+We would be very grateful to hear feedback [by email](mailto:{{< var admin.email >}}) or through the [GitHub repository Issues page]({{< var github.issues >}}).
+:::

@@ -8,3 +8,10 @@ admin:
 github:
   repo: "https://github.com/sipbs-compbiol/BM214-Workshop-2"
   issues: "https://github.com/sipbs-compbiol/BM214-Workshop-2/issues"
+
+myplace:
+  bm214: "https://classes.myplace.strath.ac.uk/course/view.php?id=21632"
+  quiz0: "https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956398" # Pairwise alignment
+  quiz1: "https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956008" # Scenario 1
+  quiz2: "https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956134" # Scenario 2
+  quiz3: "https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956302" # Scenario 3

@@ -22,7 +22,7 @@ We would normally use specialised genome annotation software tools to annotate s
 
 ## Analysis Steps
 
-Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
+Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the `BLAST` introduction chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
 
 ### Navigate to the NCBI `BLAST` Webserver
 
@@ -95,10 +95,12 @@ Click on the `BLAST` button.
 
 Your metagenomic contig likely contains multiple genic or protein-coding regions. The matches to these will all be present in the report at the same time, so you will need to approach the interpretation of this report differently from those in scenarios 1 and 2. You may find it useful to start your interpretation by looking at the `Graphic Summary` tab.
 
-::: { .callout-important title="Your assignment"}
-**Answer the questions below in the formative quiz on MyPlace.**
+::: { .callout-important }
+**Please answer the questions below in the formative quiz on MyPlace**
 
-Clicking on the box for each question should give you a hint to the answer, or where to find it.
+- [MyPlace formative quiz]({{< var myplace.quiz3 >}})
+
+Clicking on the green box should give you a hint to the answer, or where to find it.
 :::
 
 ::: { .callout-tip collapse="true"}
@@ -146,11 +148,11 @@ Check the `Taxonomy` tab, and make a judgement based on the `Score` and the numb
 
 ## Stretch Activities
 
-These activities are not necessary for the assessment, but provide more information relevant to interpreting your `BLAST` results. Open the orange boxes to see the questions, and use the green boxes to find some answers.
+These activities are not necessary for the assessment, but use more features of the NCBI services to provide more information relevant to interpreting your `BLAST` results. Open the orange boxes to see the questions, and use the green boxes to find some answers.
 
 ### Refine your search
 
-From your analysis above you will have identified a candidate taxonomic assignment for your organism. With this, you can repeat your query against the much more comprehensive `nr` database, but refining the search by filtering so that it only reports sequences from the corresponding kingdom. You can also refine your search against the `pdb` database of solved protein structures, to investigate the molecular function of your annotations.
+From your analysis above you will have identified a candidate taxonomic assignment for your organism. With this, you can repeat your query against the much more comprehensive `nr` database, but refining the search by filtering so that it only reports sequences from the corresponding taxonomic Kingdom. You can also refine your search against the `pdb` database of solved protein structures, to investigate the molecular function of your annotations by predicting conserved domains and visualising representative structures.
 
 ::: { .callout-caution title="Refine the search against `nr`" collapse="true"}
 
@@ -246,5 +248,15 @@ Click on the link at the top of the prediction page ("Conserved domains on [[gi|
 ## Summary
 
 ::: { .callout-note title="Well done!"}
-In this scenario, you have used a `BLASTX` search to **provide a preliminary annotation of a metagenome contig** and a **likely organism from which it might come**. You may have **modified your search to use a more comprehensive database** to obtain a **more precise annotation**, and compared the effects of database choice. You may have **investigated the domain structure of one of your predicted proteins** and **used a database of sequences from solved protein structures identify a representative structure** for one of your annotations.
+After successfully working through this scenario, you should be able to
+
+- use `BLAST` to obtain preliminary identifications for a section of genome
+- identify the likely taxonomic origin of a genomic sequence using `BLAST`
+
+If you completed the [stretch activities](#stretch-activities) you should be able to
+
+- modify your search parameters for the same query, choosing the most appropriate database with or without taxon filters to answer a specific biological question
+- explain how the choice of database affects the accuracy and comprehensiveness of your results
+- use `BLAST` results at NCBI to obtain domain and structural information relevant to your protein
+- use the NCBI `BLAST` service to help visualise structures of homologues to your protein
 :::

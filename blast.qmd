@@ -7,18 +7,14 @@ The original `BLAST` paper is one of the most highly cited publications of all t
 :::
 
 ::: { .callout-tip collapse="true"}
-## A brief history of the `BLAST` software suite
+## A brief history of `BLAST`
 
 - 1990: `BLAST` is first described (@Altschul1990-ar).
 - 1997: A refined version of `BLAST` is published, introducing a new way of managing gapped alignments and `PSI-BLAST` - a method of compiling a _profile_ of similar sequences to make searching more sensitive (@Altschul1997-vt).
 - 2000: The `MegaBLAST` algorithm for fast alignment-based searching of large nucleotide sequences is proposed, and incorporated into the `BLAST` suite (@Zhang2000-wn).
 - 2009: A completely rewritten version of the software suite, `BLAST+` is released. This improved performance and changed many features of the algorithms used for searching and building databases (@Camacho2009-za).
 
-The latest updates to the `BLAST` software are described on the [BLAST news page](https://blast.ncbi.nlm.nih.gov/doc/blast-news/2023-BLAST-News.html)
-:::
-
-::: { .callout-important }
-**In the exercises that follow, you will carry out BLAST searches using the provided sequences, and use the results to answer the formative assessment on MyPlace.**
+**The latest updates to the `BLAST` software are described on the [BLAST news page](https://blast.ncbi.nlm.nih.gov/doc/blast-news/2023-BLAST-News.html)**
 :::
 
 ## Performing a `BLAST` search
@@ -52,7 +48,7 @@ The `BLAST` suite provides search tools for finding matches to a query in a data
 | nucleotide | `blastn` | `blastx` |
 | protein | `tblastn` | `blastp` |
 
-: The four main `BLAST` programs, and the combination of query/database sequence type they are used for {#tbl-blast-programs .striped .hover}
+: The four main `BLAST` programs, and the combination of query/database sequence type they are used for {#tbl-blast-programs .striped .hover tbl-width="75%"}
 
 ::: { .callout-note collapse="true" }
 ## Specialised `BLAST` tools
@@ -93,7 +89,7 @@ You can make your `BLAST` searches quicker, and more relevant to your biological
 
 NCBI `BLAST` offers a number of smaller specialised databases with particular sequence types (e.g. RNA databases, sequences of protein structures, etc.) (@fig-ncbi-specialised-db).
 
-![A list of specialised sequence databases offered by the NCBI `BLAST` webserver](assets/images/ncbi-specialised-db.png){#fig-ncbi-specialised-db width="80%"}
+![A list of specialised nucleotide sequence databases offered by the NCBI `BLAST` webserver](assets/images/ncbi-specialised-db.png){#fig-ncbi-specialised-db width="80%"}
 
 You can also narrow down the search by specifying an organism, or other taxonomic rank, using the `Organism` field (@fig-ncbi-organism).
 
@@ -119,3 +115,25 @@ While the search runs, you will see a holding page that updates you with progres
 When the search is complete, you will see the `blastn` results page (@fig-ncbi-blast-results).
 
 ![An NCBI `BLAST` results page, for a `blastn` query.](assets/images/ncbi-blast-results.png){#fig-ncbi-blast-results width="80%"}
+
+## Next Steps
+
+::: { .callout-note title="Well done!"}
+After completing this section you should:
+
+- be able to carry out a `BLAST` search at the NCBI `BLAST` service
+- be able to choose the correct database for your search type
+- be able to modify search parameters, suitable for your biological question
+
+Now you are ready to move on to using `BLAST`, which uses _local_ sequence alignments to search large databases of reference sequences to find the best matches to an input query sequence.
+:::
+
+You will next be presented with three scenarios, representing real uses of `BLAST` in research or clinical settings. Please work through the scenarios, completing the assessed sections and - if you have time - attempting the _stretch activities_.
+
+::: { .callout-important }
+There is a formative assessment [on MyPlace]({{< var myplace.bm214 >}}) for each scenario, which you should complete as part of the workshop.
+
+- [Scenario 1 Formative Quiz]({{< var myplace.quiz1 >}})
+- [Scenario 2 Formative Quiz]({{< var myplace.quiz2 >}})
+- [Scenario 3 Formative Quiz]({{< var myplace.quiz3 >}})
+:::

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There has been an outbreak of diarrhoeal disease, suspected to be due to a transmissible bacterial pathogen. As you work in a clinical microbiology laboratory, you have been asked to help investigate. 
+There has been an outbreak of diarrhoeal disease on a hospital ward, suspected to be due to a transmissible bacterial pathogen. You work in a clinical microbiology laboratory at the hospital, and you have been asked to help investigate. 
 
 ![An anxious person in jeans, holding a toilet roll](assets/images/diarrhoea.jpeg){#fig-diarrhoea width="80%"}
 
@@ -12,10 +12,10 @@ Just as metagenomic analysis identifies which organisms are present in a sample,
 
 The human gut is a highly diverse microbial ecosystem populated by microbial communities that vary in composition along its length. Our understanding of these communities has been enhanced by metagenomic analyses that tell us which organisms are present in which communities, but also by _metaproteomic analyses_ (e.g. @Kolmeder2012-qa) which give insight into the molecular activities expressed by these communities.
 
-Knowing what the normal, stable, gut microbial community looks like allows us to identify _dysbioses_ - disturbances to the normal operation of these biological systems. MALDI-ToF (Matrix-Assisted Laser Desorption - Time of Flight mass spectrometry) is a valuable tool for identifying which organisms are present (e.g. @Feucherolles2019-lq) and also for identifying and quantifying disturbances due to disease as changes in the presence, absence, and abundances of proteins produced by the microbial communities (@Debyser2019-nj).
+Knowing what the normal, stable, gut microbial community looks like allows us to identify _dysbioses_ - disturbances to the normal operation of these biological systems. MALDI-ToF (Matrix-Assisted Laser Desorption - Time of Flight mass spectrometry) is a valuable tool for identifying which organisms are present (e.g. @Feucherolles2019-lq) and also for identifying and quantifying disturbances due to disease and measured as changes in the presence, absence, and abundances of proteins produced by the microbial communities (@Debyser2019-nj).
 :::
 
-Using MALDI-ToF, you have carried out a metaproteomic analysis of one of the faecal samples, obtaining the protein sequence below as a highly-abundant protein present in the sample.
+Using MALDI-ToF, you have carried out a metaproteomic analysis of one of the faecal samples, obtaining the protein sequence below as a highly-abundant protein, present in the sample.
 
 
 ```text
@@ -32,7 +32,7 @@ SSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL
 
 ## Analysis Steps
 
-Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
+Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the `BLAST` introduction chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
 
 ### Navigate to the NCBI `BLAST` Webserver
 
@@ -100,10 +100,12 @@ Click on the `BLAST` button.
 
 It is not unusual to find that a query matches many proteins in the database. By identifying those most closely-related to the query sequence, you should be able to establish a likely function for your protein, and  a candidate identity for the organism it originates from.
 
-::: { .callout-important title="Your assignment"}
-**Answer the questions below in the formative quiz on MyPlace.**
+::: { .callout-important }
+**Please answer the questions below in the formative quiz on MyPlace**
 
-Clicking on the box for each question should give you a hint to the answer, or where to find it.
+- [MyPlace formative quiz]({{< var myplace.quiz2 >}})
+
+Clicking on the green box should give you a hint to the answer, or where to find it.
 :::
 
 ::: { .callout-tip collapse="true"}
@@ -190,14 +192,6 @@ To see the PFam record itself, click on the `Source: pfam` link in the `Links` b
 
 ### Inspect the match taxonomy
 
-::: { .callout-tip collapse="true"}
-## Hints: `Taxonomy`
-
-1. Yes they are consistent, and the total count of matches to each taxonomic group is given.
-:::
-
----
-
 ::: { .callout-caution title="Click on the `Distance tree of results` link in the report" collapse="true"}
 The `Distance tree of results` link will open a new tab containing a phylogenetic tree, showing the placement of your sequence in relation to the matching sequences. Some questions to consider:
 
@@ -241,5 +235,14 @@ Click on the `BLAST` button.
 ## Summary
 
 ::: { .callout-note title="Well done!"}
-In this scenario, you have used a protein sequence search to **identify the putative function of a protein** and the **most likely organism from which it comes**. You have used the `BLAST` result to **identify the protein's conserved protein domain classification** and you may have **used links to external sites to learn more** about its evolution and function. You have **used the database taxon filtering options** to refine your search to a set of target organisms, and you may have also used the same filter to **exclude organisms** from your search.
+After successfully working through this scenario, you should be able to
+
+- identify the putative function of a protein and the organism from which it is likely to originate
+- identify and name conserved domains of a protein, using the `BLAST` output
+
+If you completed the [stretch activities](#stretch-activities) you should be able to
+
+- use the graphic summary to identify more information about the conserved domains, using the CDD database
+- find and explain the `BLAST` result's phylogenetic tree and taxonomy information, and use it to understand the relationships between the matching sequences
+- modify your search parameters for the same query, using taxon filters to exclude organisms from your search and identify biologically-useful information
 :::

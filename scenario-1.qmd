@@ -2,11 +2,11 @@
 
 ## Introduction
 
-You have been investigating a heavily-contaminated industrial site (@fig-industrial-site), where you identified a biofilm growing on some chemical waste. It is possible that bacteria in this biofilm may produce enzymes useful for bioremediation, so you would like to identify the species that might be present, so you can research more about their potential.
+You have been investigating a heavily-contaminated industrial site (@fig-industrial-site), where you identified a biofilm growing on some chemical waste. It is possible that bacteria in this biofilm may produce enzymes useful for degrading toxic chemical waste and you would like to identify the species that might be present, so you can research more about their potential use in bioremediation of contaminated sites.
 
 ![An industrial brownfield site. [Photograph](https://www.flickr.com/photos/cambridgeuniversity-engineering/5389529869/) by University of Cambridge Department of Engineering, CC BY-NC-ND 2.0](assets/images/contaminated_site.jpg){#fig-industrial-site width="80%"}
 
-To make this identification, you have used PCR to amplify 16S rDNA genes from the genomic DNA of a colony of bacteria you have isolated from a sample of that biofilm. You have had the resulting amplicon sequenced by Sanger sequencing, and this resulted in the `isolate_1_16S_rDNA` sequence shown below.
+To make this identification, you have used PCR to amplify 16S rDNA genes from the genomic DNA of the colony of bacteria you isolated from a sample of that biofilm. 
 
 ::: { .callout-note collapse="true"}
 ## 16S bacterial identification
@@ -17,6 +17,8 @@ It is still common in microbiology to make an identification of bacteria by thei
 
 By focusing on these variable regions, we can usually place a bacterium correctly at genus level.
 :::
+
+You have had the resulting amplicon sequenced by Sanger sequencing, and this resulted in the `isolate_1_16S_rDNA` sequence shown below.
 
 ```text
 >isolate_1_16S_rDNA
@@ -50,7 +52,7 @@ TTGTGGGCGTTCGTCTA
 
 ## Analysis Steps
 
-Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
+Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the [example search](blast.qmd#performing-a-blast-search) in the `BLAST` introduction chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.
 
 ### Navigate to the NCBI `BLAST` Webserver
 
@@ -118,10 +120,12 @@ Click on the `BLAST` button.
 
 It is common for 16S rDNA sequences to match many other bacterial sequences in the database. However, by identifying those most closely-related to the query sequence, you should be able to establish a likely identity for this organism.
 
-::: { .callout-important title="Your assignment"}
-**Answer the questions below in the formative quiz on MyPlace.**
+::: { .callout-important }
+**Please answer the questions below in the formative quiz on MyPlace**
 
-Clicking on the box for each question should give you a hint to the answer, or where to find it.
+- [MyPlace formative quiz]({{< var myplace.quiz1 >}})
+
+Clicking on the green box should give you a hint to the answer, or where to find it.
 :::
 
 ::: { .callout-tip collapse="true"}
@@ -325,5 +329,15 @@ The `Distance tree of results` link will open a new tab containing a phylogeneti
 ## Summary
 
 ::: { .callout-note title="Well done!"}
-In this scenario, you have **identified an unknown organism and its relatives** from a 16S sequence. You may have also inspected the corresponding **multiple sequence alignment** and **phylogenetic tree** to understand the relationships between them more clearly.
+After successfully working through this scenario, you should be able to
+
+- identify an unknown organism and its relatives from a 16S sequence
+- interpret the main output from a `BLAST` search at NCBI
+- be able to use NCBI `BLAST` search output to find and use additional information about matching sequences
+
+If you completed the [stretch activities](#stretch-activities) you should be able to
+
+- use the graphic summary to interpret the similarities between the query sequence and the matches reported by `BLAST`
+- find and explain the `BLAST` result's multiple sequence alignment
+- find and explain the `BLAST` result's distance tree and taxonomy information, and use it to understand the relationships between the matching sequences
 :::

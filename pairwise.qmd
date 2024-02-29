@@ -2,7 +2,7 @@
 
 > Most sequence database search programs depend to some extent on _pairwise sequence alignment_ - the process of identifying the mathematically optimal way to line up the symbols of two sequences _in order_ so that they are as similar as possible.
 
-Consider the two words `COELACANTH` and `PELICAN`. The words are obviously different, but they are also similar enough that we can shift their letters about to make an alignment between them. For instance, we might align the words as:
+Consider the two words `COELACANTH` and `PELICAN`. These words are obviously different, but they are also similar enough that we can shift their letters about to make an alignment between them. For instance, we might align the words as:
 
 ```text
 COELACANTH
@@ -12,7 +12,7 @@ COELACANTH
 so that the `E`, `L`, `C`, `A`, and `N` letters are in the same columns. The only differences are then the matching of the `O` of `COELACANTH` with the `P` of `PELICAN`, and the need to insert _gaps_ (`-` characters) to indicate where there is no corresponding letter, in the shorter word.
 
 ::: { .callout-caution collapse="true" }
-## Is there another way to align these words?
+## Is there another - or a better - way to align these words?
 
 What if we were to align the words `COELACANTH` and `PELICAN` differently, like this?
 
@@ -21,8 +21,10 @@ COELACANTH
 P-ELICAN--
 ```
 
-Is this a better or worse alignment of those two words? Why do you think this? What kind of rule would you devise to make a choice of which was the better alignment?
+Is this a better or worse alignment of those two words than the one you originally saw? Why do you think this? What kind of rule would you devise to make a choice of which was the better alignment?
 :::
+
+![A penguin eyeing up a coelacanth for lunch](assets/images/penguin-coealacanth.jpg){#fig-penguin-coelacanth-cartoon width=80%}
 
 ## Pairwise Alignment is a Solved Problem
 
@@ -33,7 +35,7 @@ Pairwise sequence alignment is a solved mathematical problem. What that means is
   - a _match_ scores `+1` (e.g. `A` and `A` are in the same column)
   - a _mismatch_ scores `0` (e.g. `C` and `G` are in the same column)
   
-we can **guarantee** to find the alignment with the largest possible score, using an _algorithm_ (i.e. a set of reproducible mathematical steps). This is considered the _optimal_ alignment. Such algorithms find one of two kinds of optimal alignment: either a _global_ or a _local_ optimal alignment.
+we can **guarantee** to find the alignment with the largest possible score, using an _algorithm_ (i.e. a set of reproducible mathematical steps). The alignment with the largest score is considered the _optimal_ alignment. Such algorithms find one of two kinds of optimal alignment: either a _global_ or a _local_ optimal alignment.
 
 ::: { .callout-caution collapse="true" }
 ## Is the optimal alignment biologically "real"?
@@ -49,13 +51,13 @@ On this page you will carry out two pairwise alignments, one _global_ and one _l
 
 ## Exercise 1: Global Pairwise Alignment
 
-**Global sequence alignment** finds the optimal alignment along the full lengths of both sequences being aligned.
+**Global sequence alignment** finds the optimal alignment acriss the full lengths of both sequences being aligned.
 
 ::: { .callout-note }
-Given a scoring scheme, the [Needleman-Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm) is guaranteed to find an optimal global alignment between two sequences.
+Given a scoring scheme, the [Needleman-Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm) is **guaranteed** to find an optimal global alignment between two sequences.
 :::
 
-::: { .callout-important title="Exercise 1"}
+::: { .callout-important title="Exercise 1 task"}
 Using the two DNA sequences below, find their optimal global alignment using the `EMBOSS Needle` program at [`EMBL-EBI`](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle).
 
 ```text
@@ -71,7 +73,7 @@ TCACTTTAGAGGCTTGCAACCAGTACTTTAGAGGCTTGCTCAC
 
 ### Open the `EMBOSS Needle` webpage
 
-Open the page [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle) in a web browser, to reach the landing page (@fig-emboss-water)
+Open the link [https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle](https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle) in a web browser, to reach the landing page (@fig-emboss-water)
 
 ![The `EMBOSS Needle` landing page.](assets/images/emboss-needle.png){#fig-emboss-needle  width="80%"}
 
@@ -85,7 +87,7 @@ Paste the two sequences given above into the two sequence input boxes, as shown 
 
 The two sequences you have entered are DNA sequences, so check the radio button marked `DNA` (@fig-emboss-needle-params)
 
-![`EMBOSS Needle` input parameter set to `DNA`.](assets/images/emboss-needle-params.png){#fig-emboss-needle-params width="80%"}
+![`EMBOSS Needle` input parameter set to `DNA`.](assets/images/emboss-needle-params.png){#fig-emboss-needle-params width="30%"}
 
 ### Run the alignment
 
@@ -130,16 +132,16 @@ Local alignment **does not** attempt to align all bases between the two sequence
 :::
 
 ::: { .callout-note }
-Given a scoring scheme, the [Smith-Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) is guaranteed to find an optimal local alignment between two sequences.
+Given a scoring scheme, the [Smith-Waterman](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) is **guaranteed** to find an optimal local alignment between two sequences.
 :::
 
-::: { .callout-important title="Exercise 2"}
+::: { .callout-important title="Exercise 2 task"}
 Using the same two DNA sequences as before, find their optimal local alignment using the `EMBOSS Water` program at [`EMBL-EBI`](https://www.ebi.ac.uk/jdispatcher/psa/emboss_water).
 :::
 
 ### Open the `EMBOSS Water` webpage
 
-Open the page [https://www.ebi.ac.uk/jdispatcher/psa/emboss_water](https://www.ebi.ac.uk/jdispatcher/psa/emboss_water) in a web browser, to reach the landing page (@fig-emboss-water)
+Open the link [https://www.ebi.ac.uk/jdispatcher/psa/emboss_water](https://www.ebi.ac.uk/jdispatcher/psa/emboss_water) in a web browser, to reach the landing page (@fig-emboss-water)
 
 ![The `EMBOSS Water` landing page.](assets/images/emboss-water.png){#fig-emboss-water  width="80%"}
 
@@ -153,7 +155,7 @@ Paste the two sequences you used for the `Needle` global alignment above into th
 
 The two sequences you have entered are DNA sequences, so check the radio button marked `DNA` (@fig-emboss-water-params)
 
-![`EMBOSS Water` input parameter set to `DNA`.](assets/images/emboss-water-params.png){#fig-emboss-water-params width="80%"}
+![`EMBOSS Water` input parameter set to `DNA`.](assets/images/emboss-water-params.png){#fig-emboss-water-params width="30%"}
 
 ### Run the alignment
 
@@ -167,7 +169,7 @@ A holding window will appear while the job runs (@fig-emboss-water-running), and
 
 ![`EMBOSS Water` results window.](assets/images/emboss-water-results.png){#fig-emboss-water-results width="80%"}
 
-### Interpret the results
+### Interpret the results (MyPlace Questions)
 
 The key result returned by `Water` is again the overall sequence alignment, which once more is provided at the foot of the results page:
 
@@ -185,20 +187,42 @@ sequence_2         3 ACTTTAGAGGCTTGCAACCA     22
 - Not all bases aligned in the global pairwise alignment are aligned in the local alignment.
 :::
 
-## Questions
-
 ::: { .callout-important }
-Please complete the answers in the formative quiz on MyPlace
+**Please answer the questions below in the formative quiz on MyPlace**
+
+- [MyPlace formative quiz]({{< var myplace.quiz0 >}})
+
+Clicking on the green box should give you a hint to the answer, or where to find it.
 :::
 
-1. What is the reported percentage [_sequence identity_](glossary.qmd#identity-percentage-identity) for the `Needle` global alignment?
-2. What is the reported percentage [_sequence identity_](glossary.qmd#identity-percentage-identity) for the `Water` local alignment?
-3. Which alignment - _global_ or _local_ - do you think does the best job of aligning these sequences? Justify your answer with one or two sentences.
+
+::: { .callout-tip collapse="true" }
+## What is the reported percentage [_sequence identity_](glossary.qmd#identity-percentage-identity) for the `Needle` global alignment?
+
+Examine the second boxed section in the `Needle` output.
+:::
+
+::: { .callout-tip collapse="true" }
+## What is the reported percentage [_sequence identity_](glossary.qmd#identity-percentage-identity) for the `Water` local alignment?
+
+Examine the second boxed section in the `Water` output.
+:::
+
+::: { .callout-tip collapse="true" }
+## Which alignment - _global_ or _local_ - do you think does the best job of aligning these sequences? Justify your answer with one or two sentences.
+
+Consider the kinds of biological questions you might ask. When do you need to have the context of the full sequence information? When do you only need to know the best matching region? Which percentage identity result best represents the extent to which the two sequences actually resemble each other?
+:::
+
 
 ## Summary
 
-::: { .callout-tip title="Let's try a sequence search"}
-Now you are familiar with pairwise sequence alignment, and the difference between a _global_ and a _local_ pairwise alignment, we can move on to using `BLAST`, which uses _local_ sequence alignments to search large databases of reference sequences to find the best matches to an input query sequence.
+::: { .callout-note title="Well done!"}
+After completing this section you should:
 
-[Next section](blast.qmd)
+- understand the difference between _global_ and _local_ pairwise alignments, and how to interpret their results
+- know how to use the `EMBOSS` `Water` and `Needle` tools to obtain optimal pairwise alignments
+- be able to explain the output from the `Water` and `Needle` tools
+
+Now you are ready to move on to using `BLAST`, which uses _local_ sequence alignments to search large databases of reference sequences to find the best matches to an input query sequence.
 :::

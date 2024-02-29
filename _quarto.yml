@@ -20,15 +20,15 @@ book:
   repo-actions: [edit, issue]
   
   author: "Leighton Pritchard and Morgan Feeney"
-  date: "1st March 2024"
+  date: "2024-03-01"
   
   chapters:
     - index.qmd
     - intro.qmd
     - pairwise.qmd
     - blast.qmd
-    - blast-how.qmd
-    - blast-interpretation.qmd
+#    - blast-how.qmd
+#    - blast-interpretation.qmd
     - scenario-1.qmd
     - scenario-2.qmd
     - scenario-3.qmd

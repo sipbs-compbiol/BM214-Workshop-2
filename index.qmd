@@ -6,21 +6,30 @@ This year is the first presentation of the workshop material in this format, and
 
 ## Overview
 
-This workshop asks you to search for biological sequences _similar to_ a  [query sequence](glossary.qmd#query-sequence) in public sequence databases, using common bioinformatics tools.
+This workshop asks you to search for biological sequences _similar to_ a  [query sequence](glossary.qmd#query-sequence) that you provide, using public sequence databases and common bioinformatics research tools.
 
 ::: { .callout-warning title="Important Note" }
-There is new material in this workshop that is not covered in lectures, and this material is examinable. Please take care to reach the text in the expandable callout boxes, as well as that for the workshop activities, to be sure you have understood the topic and obtain full value from the exercise.
+There is new material in this workshop that is not covered in lectures, and this material is examinable. Please take care to reach the text in the expandable callout boxes, as well as that for the workshop activities, to be sure you have understood the topic and obtain full value from the exercises.
 :::
 
 ## Learning Objectives
 
 By the end of this workshop, students will be able to:
 
-- Explain how the BLAST search algorithm works
+- Explain the implications of sequence similarity for taxonomic and functional relatedness
 - Use common bioinformatics tools, such as BLAST, to identify matches to a [query sequence](glossary.qmd#query-sequence)
 - Interpret the output of common bioinformatics sequence search tools
-- Compare, and make informed judgements between, the outputs from searches using different tools and databases
+- Compare, and make informed biological judgements between, the outputs from searches using different tools and databases
 
 ## Assessment
 
-The workshop is not formally assessed although, as noted, all the material contained in the workshop is examinable. There is a formative assessment of short answer questions [on MyPlace](https://classes.myplace.strath.ac.uk/course/view.php?id=21632) which you should complete as part of the workshop.
+The workshop is not formally assessed although, as noted, all the material contained in the workshop is examinable. Three scenarios for using sequence search tools are presented for you to work through. Each scenario comprises an section to establish that you are able to use the bioinformatics tool (with associated MyPlace formative quiz), and an additional set of _stretch activities_ designed to introduce you to more advanced uses of these tools.
+
+::: { .callout-important }
+There are four formative assessments - one for each scenario, and one for the pairwise sequence alignment exercises - of short answer questions [on MyPlace]({{< var myplace.bm214 >}}) which you should complete as part of the workshop.
+
+- [Pairwise Sequence Alignment Formative Quiz]({{< var myplace.quiz0 >}})
+- [Scenario 1 Formative Quiz]({{< var myplace.quiz1 >}})
+- [Scenario 2 Formative Quiz]({{< var myplace.quiz2 >}})
+- [Scenario 3 Formative Quiz]({{< var myplace.quiz3 >}})
+:::
