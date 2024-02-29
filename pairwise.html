@@ -162,38 +162,26 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blast-how.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./blast-interpretation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">BLAST: Interpreting a Report</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./scenario-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -239,10 +227,9 @@ div.csl-indent {
   <li><a href="#enter-the-input-sequences-1" id="toc-enter-the-input-sequences-1" class="nav-link" data-scroll-target="#enter-the-input-sequences-1"><span class="header-section-number">2.3.2</span> Enter the input sequences</a></li>
   <li><a href="#set-appropriate-parameters-1" id="toc-set-appropriate-parameters-1" class="nav-link" data-scroll-target="#set-appropriate-parameters-1"><span class="header-section-number">2.3.3</span> Set appropriate parameters</a></li>
   <li><a href="#run-the-alignment-1" id="toc-run-the-alignment-1" class="nav-link" data-scroll-target="#run-the-alignment-1"><span class="header-section-number">2.3.4</span> Run the alignment</a></li>
-  <li><a href="#interpret-the-results-1" id="toc-interpret-the-results-1" class="nav-link" data-scroll-target="#interpret-the-results-1"><span class="header-section-number">2.3.5</span> Interpret the results</a></li>
+  <li><a href="#interpret-the-results-myplace-questions" id="toc-interpret-the-results-myplace-questions" class="nav-link" data-scroll-target="#interpret-the-results-myplace-questions"><span class="header-section-number">2.3.5</span> Interpret the results (MyPlace Questions)</a></li>
   </ul></li>
-  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions"><span class="header-section-number">2.4</span> Questions</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">2.5</span> Summary</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">2.4</span> Summary</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/pairwise.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -271,7 +258,7 @@ div.csl-indent {
 <blockquote class="blockquote">
 <p>Most sequence database search programs depend to some extent on <em>pairwise sequence alignment</em> - the process of identifying the mathematically optimal way to line up the symbols of two sequences <em>in order</em> so that they are as similar as possible.</p>
 </blockquote>
-<p>Consider the two words <code>COELACANTH</code> and <code>PELICAN</code>. The words are obviously different, but they are also similar enough that we can shift their letters about to make an alignment between them. For instance, we might align the words as:</p>
+<p>Consider the two words <code>COELACANTH</code> and <code>PELICAN</code>. These words are obviously different, but they are also similar enough that we can shift their letters about to make an alignment between them. For instance, we might align the words as:</p>
 <pre class="text"><code>COELACANTH
 -PELICAN--</code></pre>
 <p>so that the <code>E</code>, <code>L</code>, <code>C</code>, <code>A</code>, and <code>N</code> letters are in the same columns. The only differences are then the matching of the <code>O</code> of <code>COELACANTH</code> with the <code>P</code> of <code>PELICAN</code>, and the need to insert <em>gaps</em> (<code>-</code> characters) to indicate where there is no corresponding letter, in the shorter word.</p>
@@ -281,7 +268,7 @@ div.csl-indent {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Is there another way to align these words?
+Is there another - or a better - way to align these words?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -290,9 +277,19 @@ Is there another way to align these words?
 <p>What if we were to align the words <code>COELACANTH</code> and <code>PELICAN</code> differently, like this?</p>
 <pre class="text"><code>COELACANTH
 P-ELICAN--</code></pre>
-<p>Is this a better or worse alignment of those two words? Why do you think this? What kind of rule would you devise to make a choice of which was the better alignment?</p>
+<p>Is this a better or worse alignment of those two words than the one you originally saw? Why do you think this? What kind of rule would you devise to make a choice of which was the better alignment?</p>
 </div>
 </div>
+</div>
+<div id="fig-penguin-coelacanth-cartoon" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-penguin-coelacanth-cartoon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="assets/images/penguin-coealacanth.jpg" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-penguin-coelacanth-cartoon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: A penguin eyeing up a coelacanth for lunch
+</figcaption>
+</figure>
 </div>
 <section id="pairwise-alignment-is-a-solved-problem" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="pairwise-alignment-is-a-solved-problem"><span class="header-section-number">2.1</span> Pairwise Alignment is a Solved Problem</h2>
@@ -305,7 +302,7 @@ P-ELICAN--</code></pre>
 <li>a <em>mismatch</em> scores <code>0</code> (e.g.&nbsp;<code>C</code> and <code>G</code> are in the same column)</li>
 </ul></li>
 </ul>
-<p>we can <strong>guarantee</strong> to find the alignment with the largest possible score, using an <em>algorithm</em> (i.e.&nbsp;a set of reproducible mathematical steps). This is considered the <em>optimal</em> alignment. Such algorithms find one of two kinds of optimal alignment: either a <em>global</em> or a <em>local</em> optimal alignment.</p>
+<p>we can <strong>guarantee</strong> to find the alignment with the largest possible score, using an <em>algorithm</em> (i.e.&nbsp;a set of reproducible mathematical steps). The alignment with the largest score is considered the <em>optimal</em> alignment. Such algorithms find one of two kinds of optimal alignment: either a <em>global</em> or a <em>local</em> optimal alignment.</p>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -339,7 +336,7 @@ Important
 </section>
 <section id="exercise-1-global-pairwise-alignment" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="exercise-1-global-pairwise-alignment"><span class="header-section-number">2.2</span> Exercise 1: Global Pairwise Alignment</h2>
-<p><strong>Global sequence alignment</strong> finds the optimal alignment along the full lengths of both sequences being aligned.</p>
+<p><strong>Global sequence alignment</strong> finds the optimal alignment acriss the full lengths of both sequences being aligned.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -350,16 +347,16 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Given a scoring scheme, the <a href="https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm">Needleman-Wunsch algorithm</a> is guaranteed to find an optimal global alignment between two sequences.</p>
+<p>Given a scoring scheme, the <a href="https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm">Needleman-Wunsch algorithm</a> is <strong>guaranteed</strong> to find an optimal global alignment between two sequences.</p>
 </div>
 </div>
-<div class="callout callout-style-default callout-important callout-titled" title="Exercise 1">
+<div class="callout callout-style-default callout-important callout-titled" title="Exercise 1 task">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 1
+Exercise 1 task
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -372,67 +369,67 @@ TCACTTTAGAGGCTTGCAACCAGTACTTTAGAGGCTTGCTCAC</code></pre>
 </div>
 <section id="open-the-emboss-needle-webpage" class="level3" data-number="2.2.1">
 <h3 data-number="2.2.1" class="anchored" data-anchor-id="open-the-emboss-needle-webpage"><span class="header-section-number">2.2.1</span> Open the <code>EMBOSS Needle</code> webpage</h3>
-<p>Open the page <a href="https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle">https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle</a> in a web browser, to reach the landing page (<a href="#fig-emboss-water" class="quarto-xref">Figure&nbsp;<span>2.7</span></a>)</p>
+<p>Open the link <a href="https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle">https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle</a> in a web browser, to reach the landing page (<a href="#fig-emboss-water" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>)</p>
 <div id="fig-emboss-needle" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-needle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.1: The <code>EMBOSS Needle</code> landing page.
+Figure&nbsp;2.2: The <code>EMBOSS Needle</code> landing page.
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="enter-the-input-sequences" class="level3" data-number="2.2.2">
 <h3 data-number="2.2.2" class="anchored" data-anchor-id="enter-the-input-sequences"><span class="header-section-number">2.2.2</span> Enter the input sequences</h3>
-<p>Paste the two sequences given above into the two sequence input boxes, as shown in <a href="#fig-emboss-needle-seq" class="quarto-xref">Figure&nbsp;<span>2.2</span></a>.</p>
+<p>Paste the two sequences given above into the two sequence input boxes, as shown in <a href="#fig-emboss-needle-seq" class="quarto-xref">Figure&nbsp;<span>2.3</span></a>.</p>
 <div id="fig-emboss-needle-seq" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-seq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-seq.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-needle-seq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.2: The <code>EMBOSS Needle</code> page with two input sequences provided.
+Figure&nbsp;2.3: The <code>EMBOSS Needle</code> page with two input sequences provided.
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="set-appropriate-parameters" class="level3" data-number="2.2.3">
 <h3 data-number="2.2.3" class="anchored" data-anchor-id="set-appropriate-parameters"><span class="header-section-number">2.2.3</span> Set appropriate parameters</h3>
-<p>The two sequences you have entered are DNA sequences, so check the radio button marked <code>DNA</code> (<a href="#fig-emboss-needle-params" class="quarto-xref">Figure&nbsp;<span>2.3</span></a>)</p>
+<p>The two sequences you have entered are DNA sequences, so check the radio button marked <code>DNA</code> (<a href="#fig-emboss-needle-params" class="quarto-xref">Figure&nbsp;<span>2.4</span></a>)</p>
 <div id="fig-emboss-needle-params" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-params-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/emboss-needle-params.png" class="img-fluid figure-img" style="width:80.0%">
+<img src="assets/images/emboss-needle-params.png" class="img-fluid figure-img" style="width:30.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-needle-params-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.3: <code>EMBOSS Needle</code> input parameter set to <code>DNA</code>.
+Figure&nbsp;2.4: <code>EMBOSS Needle</code> input parameter set to <code>DNA</code>.
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="run-the-alignment" class="level3" data-number="2.2.4">
 <h3 data-number="2.2.4" class="anchored" data-anchor-id="run-the-alignment"><span class="header-section-number">2.2.4</span> Run the alignment</h3>
-<p>Click on the <code>Submit</code> button at the bottom of the page to run the alignment. You can give your job a title, if you like (<a href="#fig-emboss-needle-title" class="quarto-xref">Figure&nbsp;<span>2.4</span></a>).</p>
+<p>Click on the <code>Submit</code> button at the bottom of the page to run the alignment. You can give your job a title, if you like (<a href="#fig-emboss-needle-title" class="quarto-xref">Figure&nbsp;<span>2.5</span></a>).</p>
 <div id="fig-emboss-needle-title" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-title-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-submit.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-needle-title-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.4: <code>EMBOSS Needle</code> submit button.
+Figure&nbsp;2.5: <code>EMBOSS Needle</code> submit button.
 </figcaption>
 </figure>
 </div>
-<p>A holding window will appear while the job runs (<a href="#fig-emboss-needle-running" class="quarto-xref">Figure&nbsp;<span>2.5</span></a>), and after a short wait you will be presented with the results page (<a href="#fig-emboss-needle-results" class="quarto-xref">Figure&nbsp;<span>2.6</span></a>).</p>
+<p>A holding window will appear while the job runs (<a href="#fig-emboss-needle-running" class="quarto-xref">Figure&nbsp;<span>2.6</span></a>), and after a short wait you will be presented with the results page (<a href="#fig-emboss-needle-results" class="quarto-xref">Figure&nbsp;<span>2.7</span></a>).</p>
 <div id="fig-emboss-needle-running" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-running-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-running.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-needle-running-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.5: <code>EMBOSS Needle</code> holding window.
+Figure&nbsp;2.6: <code>EMBOSS Needle</code> holding window.
 </figcaption>
 </figure>
 </div>
@@ -442,7 +439,7 @@ Figure&nbsp;2.5: <code>EMBOSS Needle</code> holding window.
 <img src="assets/images/emboss-needle-results.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-needle-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.6: <code>EMBOSS Needle</code> results window.
+Figure&nbsp;2.7: <code>EMBOSS Needle</code> results window.
 </figcaption>
 </figure>
 </div>
@@ -505,16 +502,16 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Given a scoring scheme, the <a href="https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm">Smith-Waterman</a> is guaranteed to find an optimal local alignment between two sequences.</p>
+<p>Given a scoring scheme, the <a href="https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm">Smith-Waterman</a> is <strong>guaranteed</strong> to find an optimal local alignment between two sequences.</p>
 </div>
 </div>
-<div class="callout callout-style-default callout-important callout-titled" title="Exercise 2">
+<div class="callout callout-style-default callout-important callout-titled" title="Exercise 2 task">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exercise 2
+Exercise 2 task
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -523,67 +520,67 @@ Exercise 2
 </div>
 <section id="open-the-emboss-water-webpage" class="level3" data-number="2.3.1">
 <h3 data-number="2.3.1" class="anchored" data-anchor-id="open-the-emboss-water-webpage"><span class="header-section-number">2.3.1</span> Open the <code>EMBOSS Water</code> webpage</h3>
-<p>Open the page <a href="https://www.ebi.ac.uk/jdispatcher/psa/emboss_water">https://www.ebi.ac.uk/jdispatcher/psa/emboss_water</a> in a web browser, to reach the landing page (<a href="#fig-emboss-water" class="quarto-xref">Figure&nbsp;<span>2.7</span></a>)</p>
+<p>Open the link <a href="https://www.ebi.ac.uk/jdispatcher/psa/emboss_water">https://www.ebi.ac.uk/jdispatcher/psa/emboss_water</a> in a web browser, to reach the landing page (<a href="#fig-emboss-water" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>)</p>
 <div id="fig-emboss-water" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-water-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.7: The <code>EMBOSS Water</code> landing page.
+Figure&nbsp;2.8: The <code>EMBOSS Water</code> landing page.
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="enter-the-input-sequences-1" class="level3" data-number="2.3.2">
 <h3 data-number="2.3.2" class="anchored" data-anchor-id="enter-the-input-sequences-1"><span class="header-section-number">2.3.2</span> Enter the input sequences</h3>
-<p>Paste the two sequences you used for the <code>Needle</code> global alignment above into the two sequence input boxes, as shown in <a href="#fig-emboss-water-seq" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>.</p>
+<p>Paste the two sequences you used for the <code>Needle</code> global alignment above into the two sequence input boxes, as shown in <a href="#fig-emboss-water-seq" class="quarto-xref">Figure&nbsp;<span>2.9</span></a>.</p>
 <div id="fig-emboss-water-seq" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-seq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-seq.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-water-seq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.8: The <code>EMBOSS Water</code> page with two input sequences provided.
+Figure&nbsp;2.9: The <code>EMBOSS Water</code> page with two input sequences provided.
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="set-appropriate-parameters-1" class="level3" data-number="2.3.3">
 <h3 data-number="2.3.3" class="anchored" data-anchor-id="set-appropriate-parameters-1"><span class="header-section-number">2.3.3</span> Set appropriate parameters</h3>
-<p>The two sequences you have entered are DNA sequences, so check the radio button marked <code>DNA</code> (<a href="#fig-emboss-water-params" class="quarto-xref">Figure&nbsp;<span>2.9</span></a>)</p>
+<p>The two sequences you have entered are DNA sequences, so check the radio button marked <code>DNA</code> (<a href="#fig-emboss-water-params" class="quarto-xref">Figure&nbsp;<span>2.10</span></a>)</p>
 <div id="fig-emboss-water-params" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-params-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/emboss-water-params.png" class="img-fluid figure-img" style="width:80.0%">
+<img src="assets/images/emboss-water-params.png" class="img-fluid figure-img" style="width:30.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-water-params-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.9: <code>EMBOSS Water</code> input parameter set to <code>DNA</code>.
+Figure&nbsp;2.10: <code>EMBOSS Water</code> input parameter set to <code>DNA</code>.
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="run-the-alignment-1" class="level3" data-number="2.3.4">
 <h3 data-number="2.3.4" class="anchored" data-anchor-id="run-the-alignment-1"><span class="header-section-number">2.3.4</span> Run the alignment</h3>
-<p>Click on the <code>Submit</code> button at the bottom of the page to run the alignment. You can give your job a title, if you like (<a href="#fig-emboss-water-title" class="quarto-xref">Figure&nbsp;<span>2.10</span></a>).</p>
+<p>Click on the <code>Submit</code> button at the bottom of the page to run the alignment. You can give your job a title, if you like (<a href="#fig-emboss-water-title" class="quarto-xref">Figure&nbsp;<span>2.11</span></a>).</p>
 <div id="fig-emboss-water-title" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-title-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-submit.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-water-title-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.10: <code>EMBOSS Water</code> submit button.
+Figure&nbsp;2.11: <code>EMBOSS Water</code> submit button.
 </figcaption>
 </figure>
 </div>
-<p>A holding window will appear while the job runs (<a href="#fig-emboss-water-running" class="quarto-xref">Figure&nbsp;<span>2.11</span></a>), and after a short wait you will be presented with the results page (<a href="#fig-emboss-water-results" class="quarto-xref">Figure&nbsp;<span>2.12</span></a>).</p>
+<p>A holding window will appear while the job runs (<a href="#fig-emboss-water-running" class="quarto-xref">Figure&nbsp;<span>2.12</span></a>), and after a short wait you will be presented with the results page (<a href="#fig-emboss-water-results" class="quarto-xref">Figure&nbsp;<span>2.13</span></a>).</p>
 <div id="fig-emboss-water-running" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-running-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-running.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-water-running-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.11: <code>EMBOSS Water</code> holding window.
+Figure&nbsp;2.12: <code>EMBOSS Water</code> holding window.
 </figcaption>
 </figure>
 </div>
@@ -593,13 +590,13 @@ Figure&nbsp;2.11: <code>EMBOSS Water</code> holding window.
 <img src="assets/images/emboss-water-results.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-emboss-water-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.12: <code>EMBOSS Water</code> results window.
+Figure&nbsp;2.13: <code>EMBOSS Water</code> results window.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="interpret-the-results-1" class="level3" data-number="2.3.5">
-<h3 data-number="2.3.5" class="anchored" data-anchor-id="interpret-the-results-1"><span class="header-section-number">2.3.5</span> Interpret the results</h3>
+<section id="interpret-the-results-myplace-questions" class="level3" data-number="2.3.5">
+<h3 data-number="2.3.5" class="anchored" data-anchor-id="interpret-the-results-myplace-questions"><span class="header-section-number">2.3.5</span> Interpret the results (MyPlace Questions)</h3>
 <p>The key result returned by <code>Water</code> is again the overall sequence alignment, which once more is provided at the foot of the results page:</p>
 <pre class="text"><code>sequence_1        27 ACTTTAGAGGCTTGCAACCA     46
                      ||||||||||||||||||||
@@ -624,10 +621,6 @@ What do you notice about the alignment?
 </div>
 </div>
 </div>
-</section>
-</section>
-<section id="questions" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="questions"><span class="header-section-number">2.4</span> Questions</h2>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -638,29 +631,82 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Please complete the answers in the formative quiz on MyPlace</p>
+<p><strong>Please answer the questions below in the formative quiz on MyPlace</strong></p>
+<ul>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956398">MyPlace formative quiz</a></li>
+</ul>
+<p>Clicking on the green box should give you a hint to the answer, or where to find it.</p>
 </div>
 </div>
-<ol type="1">
-<li>What is the reported percentage <a href="./glossary.html#identity-percentage-identity"><em>sequence identity</em></a> for the <code>Needle</code> global alignment?</li>
-<li>What is the reported percentage <a href="./glossary.html#identity-percentage-identity"><em>sequence identity</em></a> for the <code>Water</code> local alignment?</li>
-<li>Which alignment - <em>global</em> or <em>local</em> - do you think does the best job of aligning these sequences? Justify your answer with one or two sentences.</li>
-</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is the reported percentage <a href="./glossary.html#identity-percentage-identity"><em>sequence identity</em></a> for the <code>Needle</code> global alignment?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Examine the second boxed section in the <code>Needle</code> output.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is the reported percentage <a href="./glossary.html#identity-percentage-identity"><em>sequence identity</em></a> for the <code>Water</code> local alignment?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Examine the second boxed section in the <code>Water</code> output.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Which alignment - <em>global</em> or <em>local</em> - do you think does the best job of aligning these sequences? Justify your answer with one or two sentences.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Consider the kinds of biological questions you might ask. When do you need to have the context of the full sequence information? When do you only need to know the best matching region? Which percentage identity result best represents the extent to which the two sequences actually resemble each other?</p>
+</div>
+</div>
+</div>
 </section>
-<section id="summary" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="summary"><span class="header-section-number">2.5</span> Summary</h2>
-<div class="callout callout-style-default callout-tip callout-titled" title="Let's try a sequence search">
+</section>
+<section id="summary" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="summary"><span class="header-section-number">2.4</span> Summary</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="Well done!">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Let’s try a sequence search
+Well done!
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Now you are familiar with pairwise sequence alignment, and the difference between a <em>global</em> and a <em>local</em> pairwise alignment, we can move on to using <code>BLAST</code>, which uses <em>local</em> sequence alignments to search large databases of reference sequences to find the best matches to an input query sequence.</p>
-<p><a href="./blast.html">Next section</a></p>
+<p>After completing this section you should:</p>
+<ul>
+<li>understand the difference between <em>global</em> and <em>local</em> pairwise alignments, and how to interpret their results</li>
+<li>know how to use the <code>EMBOSS</code> <code>Water</code> and <code>Needle</code> tools to obtain optimal pairwise alignments</li>
+<li>be able to explain the output from the <code>Water</code> and <code>Needle</code> tools</li>
+</ul>
+<p>Now you are ready to move on to using <code>BLAST</code>, which uses <em>local</em> sequence alignments to search large databases of reference sequences to find the best matches to an input query sequence.</p>
 </div>
 </div>
 

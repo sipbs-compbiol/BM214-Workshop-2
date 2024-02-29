@@ -8,7 +8,7 @@
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 6&nbsp; Scenario 1: 16S Identification</title>
+<title>BM214 Workshop 2: Sequence Searching - 4&nbsp; Scenario 1: 16S Identification</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./scenario-2.html" rel="next">
-<link href="./blast-interpretation.html" rel="prev">
+<link href="./blast.html" rel="prev">
 <link href="./icon_32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./scenario-1.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./scenario-1.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -142,38 +142,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blast-how.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./blast-interpretation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">BLAST: Interpreting a Report</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./scenario-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -204,23 +192,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">6.1</span> Introduction</a></li>
-  <li><a href="#analysis-steps" id="toc-analysis-steps" class="nav-link" data-scroll-target="#analysis-steps"><span class="header-section-number">6.2</span> Analysis Steps</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">4.1</span> Introduction</a></li>
+  <li><a href="#analysis-steps" id="toc-analysis-steps" class="nav-link" data-scroll-target="#analysis-steps"><span class="header-section-number">4.2</span> Analysis Steps</a>
   <ul class="collapse">
-  <li><a href="#navigate-to-the-ncbi-blast-webserver" id="toc-navigate-to-the-ncbi-blast-webserver" class="nav-link" data-scroll-target="#navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">6.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</a></li>
-  <li><a href="#select-the-blast-tool" id="toc-select-the-blast-tool" class="nav-link" data-scroll-target="#select-the-blast-tool"><span class="header-section-number">6.2.2</span> Select the <code>BLAST</code> Tool</a></li>
-  <li><a href="#enter-the-query-sequence" id="toc-enter-the-query-sequence" class="nav-link" data-scroll-target="#enter-the-query-sequence"><span class="header-section-number">6.2.3</span> Enter the query sequence</a></li>
-  <li><a href="#set-appropriate-parameter-choices" id="toc-set-appropriate-parameter-choices" class="nav-link" data-scroll-target="#set-appropriate-parameter-choices"><span class="header-section-number">6.2.4</span> Set appropriate parameter choices</a></li>
-  <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">6.2.5</span> Run the <code>BLAST</code> search</a></li>
-  <li><a href="#interpret-the-blast-report-myplace-questions" id="toc-interpret-the-blast-report-myplace-questions" class="nav-link" data-scroll-target="#interpret-the-blast-report-myplace-questions"><span class="header-section-number">6.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</a></li>
+  <li><a href="#navigate-to-the-ncbi-blast-webserver" id="toc-navigate-to-the-ncbi-blast-webserver" class="nav-link" data-scroll-target="#navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">4.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</a></li>
+  <li><a href="#select-the-blast-tool" id="toc-select-the-blast-tool" class="nav-link" data-scroll-target="#select-the-blast-tool"><span class="header-section-number">4.2.2</span> Select the <code>BLAST</code> Tool</a></li>
+  <li><a href="#enter-the-query-sequence" id="toc-enter-the-query-sequence" class="nav-link" data-scroll-target="#enter-the-query-sequence"><span class="header-section-number">4.2.3</span> Enter the query sequence</a></li>
+  <li><a href="#set-appropriate-parameter-choices" id="toc-set-appropriate-parameter-choices" class="nav-link" data-scroll-target="#set-appropriate-parameter-choices"><span class="header-section-number">4.2.4</span> Set appropriate parameter choices</a></li>
+  <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">4.2.5</span> Run the <code>BLAST</code> search</a></li>
+  <li><a href="#interpret-the-blast-report-myplace-questions" id="toc-interpret-the-blast-report-myplace-questions" class="nav-link" data-scroll-target="#interpret-the-blast-report-myplace-questions"><span class="header-section-number">4.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</a></li>
   </ul></li>
-  <li><a href="#stretch-activities" id="toc-stretch-activities" class="nav-link" data-scroll-target="#stretch-activities"><span class="header-section-number">6.3</span> Stretch Activities</a>
+  <li><a href="#stretch-activities" id="toc-stretch-activities" class="nav-link" data-scroll-target="#stretch-activities"><span class="header-section-number">4.3</span> Stretch Activities</a>
   <ul class="collapse">
-  <li><a href="#inspect-the-matching-sequence-alignments" id="toc-inspect-the-matching-sequence-alignments" class="nav-link" data-scroll-target="#inspect-the-matching-sequence-alignments"><span class="header-section-number">6.3.1</span> Inspect the matching sequence alignments</a></li>
-  <li><a href="#inspect-the-graphic-summary" id="toc-inspect-the-graphic-summary" class="nav-link" data-scroll-target="#inspect-the-graphic-summary"><span class="header-section-number">6.3.2</span> Inspect the graphic summary</a></li>
-  <li><a href="#inspect-the-match-taxonomy" id="toc-inspect-the-match-taxonomy" class="nav-link" data-scroll-target="#inspect-the-match-taxonomy"><span class="header-section-number">6.3.3</span> Inspect the match taxonomy</a></li>
+  <li><a href="#inspect-the-matching-sequence-alignments" id="toc-inspect-the-matching-sequence-alignments" class="nav-link" data-scroll-target="#inspect-the-matching-sequence-alignments"><span class="header-section-number">4.3.1</span> Inspect the matching sequence alignments</a></li>
+  <li><a href="#inspect-the-graphic-summary" id="toc-inspect-the-graphic-summary" class="nav-link" data-scroll-target="#inspect-the-graphic-summary"><span class="header-section-number">4.3.2</span> Inspect the graphic summary</a></li>
+  <li><a href="#inspect-the-match-taxonomy" id="toc-inspect-the-match-taxonomy" class="nav-link" data-scroll-target="#inspect-the-match-taxonomy"><span class="header-section-number">4.3.3</span> Inspect the match taxonomy</a></li>
   </ul></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">6.4</span> Summary</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">4.4</span> Summary</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/scenario-1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -229,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></h1>
 </div>
 
 
@@ -246,20 +234,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">6.1</span> Introduction</h2>
-<p>You have been investigating a heavily-contaminated industrial site (<a href="#fig-industrial-site" class="quarto-xref">Figure&nbsp;<span>6.1</span></a>), where you identified a biofilm growing on some chemical waste. It is possible that bacteria in this biofilm may produce enzymes useful for bioremediation, so you would like to identify the species that might be present, so you can research more about their potential.</p>
+<section id="introduction" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">4.1</span> Introduction</h2>
+<p>You have been investigating a heavily-contaminated industrial site (<a href="#fig-industrial-site" class="quarto-xref">Figure&nbsp;<span>4.1</span></a>), where you identified a biofilm growing on some chemical waste. It is possible that bacteria in this biofilm may produce enzymes useful for degrading toxic chemical waste and you would like to identify the species that might be present, so you can research more about their potential use in bioremediation of contaminated sites.</p>
 <div id="fig-industrial-site" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-industrial-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/contaminated_site.jpg" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-industrial-site-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.1: An industrial brownfield site. <a href="https://www.flickr.com/photos/cambridgeuniversity-engineering/5389529869/">Photograph</a> by University of Cambridge Department of Engineering, CC BY-NC-ND 2.0
+Figure&nbsp;4.1: An industrial brownfield site. <a href="https://www.flickr.com/photos/cambridgeuniversity-engineering/5389529869/">Photograph</a> by University of Cambridge Department of Engineering, CC BY-NC-ND 2.0
 </figcaption>
 </figure>
 </div>
-<p>To make this identification, you have used PCR to amplify 16S rDNA genes from the genomic DNA of a colony of bacteria you have isolated from a sample of that biofilm. You have had the resulting amplicon sequenced by Sanger sequencing, and this resulted in the <code>isolate_1_16S_rDNA</code> sequence shown below.</p>
+<p>To make this identification, you have used PCR to amplify 16S rDNA genes from the genomic DNA of the colony of bacteria you isolated from a sample of that biofilm.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -278,6 +266,7 @@ Figure&nbsp;6.1: An industrial brownfield site. <a href="https://www.flickr.com/
 </div>
 </div>
 </div>
+<p>You have had the resulting amplicon sequenced by Sanger sequencing, and this resulted in the <code>isolate_1_16S_rDNA</code> sequence shown below.</p>
 <pre class="text"><code>&gt;isolate_1_16S_rDNA
 ACTCTAGTGGCGAACGGGTGAGTAACACGTGGGCGACCTACCCCCAAGTACGGCATAACCCCGGGAAACC
 GGAGCTAATTCCGTATGTGCTCGTACCTCCTATGGTACGCGTAAAGATTTATCGCTTGGGGATGGGCCCG
@@ -315,17 +304,17 @@ Your assignment
 </div>
 </div>
 </section>
-<section id="analysis-steps" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="analysis-steps"><span class="header-section-number">6.2</span> Analysis Steps</h2>
-<p>Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the <a href="./blast.html#performing-a-blast-search">example search</a> in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.</p>
-<section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="6.2.1">
-<h3 data-number="6.2.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">6.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</h3>
+<section id="analysis-steps" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="analysis-steps"><span class="header-section-number">4.2</span> Analysis Steps</h2>
+<p>Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the <a href="./blast.html#performing-a-blast-search">example search</a> in the <code>BLAST</code> introduction chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.</p>
+<section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">4.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</h3>
 <ul>
 <li><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI <code>BLAST</code> Webserver</a></li>
 </ul>
 </section>
-<section id="select-the-blast-tool" class="level3" data-number="6.2.2">
-<h3 data-number="6.2.2" class="anchored" data-anchor-id="select-the-blast-tool"><span class="header-section-number">6.2.2</span> Select the <code>BLAST</code> Tool</h3>
+<section id="select-the-blast-tool" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="select-the-blast-tool"><span class="header-section-number">4.2.2</span> Select the <code>BLAST</code> Tool</h3>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -362,7 +351,7 @@ Answer: The <code>BLAST</code> tool to use
 <img src="assets/images/nucleutide-blast-cover.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-nucleotide-blast-cover-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.2: Nucleotide BLAST image
+Figure&nbsp;4.2: Nucleotide BLAST image
 </figcaption>
 </figure>
 </div>
@@ -370,8 +359,8 @@ Figure&nbsp;6.2: Nucleotide BLAST image
 </div>
 </div>
 </section>
-<section id="enter-the-query-sequence" class="level3" data-number="6.2.3">
-<h3 data-number="6.2.3" class="anchored" data-anchor-id="enter-the-query-sequence"><span class="header-section-number">6.2.3</span> Enter the query sequence</h3>
+<section id="enter-the-query-sequence" class="level3" data-number="4.2.3">
+<h3 data-number="4.2.3" class="anchored" data-anchor-id="enter-the-query-sequence"><span class="header-section-number">4.2.3</span> Enter the query sequence</h3>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -391,7 +380,7 @@ Answer: Entering the query sequence
 <img src="assets/images/scenario-1-query.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-1-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.3: Query sequence pasted into the query field
+Figure&nbsp;4.3: Query sequence pasted into the query field
 </figcaption>
 </figure>
 </div>
@@ -399,8 +388,8 @@ Figure&nbsp;6.3: Query sequence pasted into the query field
 </div>
 </div>
 </section>
-<section id="set-appropriate-parameter-choices" class="level3" data-number="6.2.4">
-<h3 data-number="6.2.4" class="anchored" data-anchor-id="set-appropriate-parameter-choices"><span class="header-section-number">6.2.4</span> Set appropriate parameter choices</h3>
+<section id="set-appropriate-parameter-choices" class="level3" data-number="4.2.4">
+<h3 data-number="4.2.4" class="anchored" data-anchor-id="set-appropriate-parameter-choices"><span class="header-section-number">4.2.4</span> Set appropriate parameter choices</h3>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -438,7 +427,7 @@ Answer: Which database to use
 <img src="assets/images/scenario-1-database.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-1-database-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.4: NCBI BLAST 16S database choice
+Figure&nbsp;4.4: NCBI BLAST 16S database choice
 </figcaption>
 </figure>
 </div>
@@ -446,8 +435,8 @@ Figure&nbsp;6.4: NCBI BLAST 16S database choice
 </div>
 </div>
 </section>
-<section id="run-the-blast-search" class="level3" data-number="6.2.5">
-<h3 data-number="6.2.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">6.2.5</span> Run the <code>BLAST</code> search</h3>
+<section id="run-the-blast-search" class="level3" data-number="4.2.5">
+<h3 data-number="4.2.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">4.2.5</span> Run the <code>BLAST</code> search</h3>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -467,7 +456,7 @@ Answer: Running the <code>BLAST</code> search
 <img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-1-button-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.5: NCBI <code>BLAST</code> button
+Figure&nbsp;4.5: NCBI <code>BLAST</code> button
 </figcaption>
 </figure>
 </div>
@@ -475,21 +464,24 @@ Figure&nbsp;6.5: NCBI <code>BLAST</code> button
 </div>
 </div>
 </section>
-<section id="interpret-the-blast-report-myplace-questions" class="level3" data-number="6.2.6">
-<h3 data-number="6.2.6" class="anchored" data-anchor-id="interpret-the-blast-report-myplace-questions"><span class="header-section-number">6.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</h3>
+<section id="interpret-the-blast-report-myplace-questions" class="level3" data-number="4.2.6">
+<h3 data-number="4.2.6" class="anchored" data-anchor-id="interpret-the-blast-report-myplace-questions"><span class="header-section-number">4.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</h3>
 <p>It is common for 16S rDNA sequences to match many other bacterial sequences in the database. However, by identifying those most closely-related to the query sequence, you should be able to establish a likely identity for this organism.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Your assignment">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Your assignment
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Answer the questions below in the formative quiz on MyPlace.</strong></p>
-<p>Clicking on the box for each question should give you a hint to the answer, or where to find it.</p>
+<p><strong>Please answer the questions below in the formative quiz on MyPlace</strong></p>
+<ul>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956008">MyPlace formative quiz</a></li>
+</ul>
+<p>Clicking on the green box should give you a hint to the answer, or where to find it.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -756,11 +748,11 @@ What kind of environment was this organism isolated from?
 </div>
 </section>
 </section>
-<section id="stretch-activities" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="stretch-activities"><span class="header-section-number">6.3</span> Stretch Activities</h2>
+<section id="stretch-activities" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="stretch-activities"><span class="header-section-number">4.3</span> Stretch Activities</h2>
 <p>These activities are not necessary for the assessment, but provide more information relevant to interpreting your <code>BLAST</code> results. Open the orange boxes to see the questions, and use the green boxes to find some answers.</p>
-<section id="inspect-the-matching-sequence-alignments" class="level3" data-number="6.3.1">
-<h3 data-number="6.3.1" class="anchored" data-anchor-id="inspect-the-matching-sequence-alignments"><span class="header-section-number">6.3.1</span> Inspect the matching sequence alignments</h3>
+<section id="inspect-the-matching-sequence-alignments" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="inspect-the-matching-sequence-alignments"><span class="header-section-number">4.3.1</span> Inspect the matching sequence alignments</h3>
 <div class="callout callout-style-default callout-caution callout-titled" title="Click on the `Alignments` tab in the report">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -846,8 +838,8 @@ Hints: <code>MSA viewer</code>
 </div>
 </div>
 </section>
-<section id="inspect-the-graphic-summary" class="level3" data-number="6.3.2">
-<h3 data-number="6.3.2" class="anchored" data-anchor-id="inspect-the-graphic-summary"><span class="header-section-number">6.3.2</span> Inspect the graphic summary</h3>
+<section id="inspect-the-graphic-summary" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="inspect-the-graphic-summary"><span class="header-section-number">4.3.2</span> Inspect the graphic summary</h3>
 <div class="callout callout-style-default callout-caution callout-titled" title="Click on the `Graphic Summary` tab in the report">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-30-contents" aria-controls="callout-30" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -890,8 +882,8 @@ Hints: <code>Graphic Summary</code>
 </div>
 </div>
 </section>
-<section id="inspect-the-match-taxonomy" class="level3" data-number="6.3.3">
-<h3 data-number="6.3.3" class="anchored" data-anchor-id="inspect-the-match-taxonomy"><span class="header-section-number">6.3.3</span> Inspect the match taxonomy</h3>
+<section id="inspect-the-match-taxonomy" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="inspect-the-match-taxonomy"><span class="header-section-number">4.3.3</span> Inspect the match taxonomy</h3>
 <div class="callout callout-style-default callout-caution callout-titled" title="Click on the `Taxonomy` tab in the report">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-32-contents" aria-controls="callout-32" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -971,8 +963,8 @@ Hints: <code>Distance tree</code>
 </div>
 </section>
 </section>
-<section id="summary" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.4</span> Summary</h2>
+<section id="summary" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.4</span> Summary</h2>
 <div class="callout callout-style-default callout-note callout-titled" title="Well done!">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -983,7 +975,18 @@ Well done!
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>In this scenario, you have <strong>identified an unknown organism and its relatives</strong> from a 16S sequence. You may have also inspected the corresponding <strong>multiple sequence alignment</strong> and <strong>phylogenetic tree</strong> to understand the relationships between them more clearly.</p>
+<p>After successfully working through this scenario, you should be able to</p>
+<ul>
+<li>identify an unknown organism and its relatives from a 16S sequence</li>
+<li>interpret the main output from a <code>BLAST</code> search at NCBI</li>
+<li>be able to use NCBI <code>BLAST</code> search output to find and use additional information about matching sequences</li>
+</ul>
+<p>If you completed the <a href="#stretch-activities">stretch activities</a> you should be able to</p>
+<ul>
+<li>use the graphic summary to interpret the similarities between the query sequence and the matches reported by <code>BLAST</code></li>
+<li>find and explain the <code>BLAST</code> result’s multiple sequence alignment</li>
+<li>find and explain the <code>BLAST</code> result’s distance tree and taxonomy information, and use it to understand the relationships between the matching sequences</li>
+</ul>
 </div>
 </div>
 
@@ -1380,13 +1383,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./blast-interpretation.html" class="pagination-link" aria-label="BLAST: Interpreting a Report">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">BLAST: Interpreting a Report</span></span>
+      <a href="./blast.html" class="pagination-link" aria-label="BLAST: Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST: Introduction</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./scenario-2.html" class="pagination-link" aria-label="Scenario 2: Protein Identification">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

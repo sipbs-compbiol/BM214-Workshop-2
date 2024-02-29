@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Leighton Pritchard">
+<meta name="dcterms.date" content="2024-03-01">
 
 <title>BM214 Workshop 2: Sequence Searching</title>
 <style>
@@ -141,38 +142,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blast-how.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./blast-interpretation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">BLAST: Interpreting a Report</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./scenario-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -234,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">March 1, 2024</p>
     </div>
   </div>
   
@@ -253,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This year is the first presentation of the workshop material in this format, and we would be very grateful to hear feedback <a href="mailto:leighton.pritchard@strath.ac.uk">by email</a> or through the <a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues">GitHub repository Issues page</a>.</p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This workshop asks you to search for biological sequences <em>similar to</em> a <a href="./glossary.html#query-sequence">query sequence</a> in public sequence databases, using common bioinformatics tools.</p>
+<p>This workshop asks you to search for biological sequences <em>similar to</em> a <a href="./glossary.html#query-sequence">query sequence</a> that you provide, using public sequence databases and common bioinformatics research tools.</p>
 <div class="callout callout-style-default callout-warning callout-titled" title="Important Note">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -264,7 +253,7 @@ Important Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>There is new material in this workshop that is not covered in lectures, and this material is examinable. Please take care to reach the text in the expandable callout boxes, as well as that for the workshop activities, to be sure you have understood the topic and obtain full value from the exercise.</p>
+<p>There is new material in this workshop that is not covered in lectures, and this material is examinable. Please take care to reach the text in the expandable callout boxes, as well as that for the workshop activities, to be sure you have understood the topic and obtain full value from the exercises.</p>
 </div>
 </div>
 </section>
@@ -272,15 +261,34 @@ Important Note
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this workshop, students will be able to:</p>
 <ul>
-<li>Explain how the BLAST search algorithm works</li>
+<li>Explain the implications of sequence similarity for taxonomic and functional relatedness</li>
 <li>Use common bioinformatics tools, such as BLAST, to identify matches to a <a href="./glossary.html#query-sequence">query sequence</a></li>
 <li>Interpret the output of common bioinformatics sequence search tools</li>
-<li>Compare, and make informed judgements between, the outputs from searches using different tools and databases</li>
+<li>Compare, and make informed biological judgements between, the outputs from searches using different tools and databases</li>
 </ul>
 </section>
 <section id="assessment" class="level2">
 <h2 class="anchored" data-anchor-id="assessment">Assessment</h2>
-<p>The workshop is not formally assessed although, as noted, all the material contained in the workshop is examinable. There is a formative assessment of short answer questions <a href="https://classes.myplace.strath.ac.uk/course/view.php?id=21632">on MyPlace</a> which you should complete as part of the workshop.</p>
+<p>The workshop is not formally assessed although, as noted, all the material contained in the workshop is examinable. Three scenarios for using sequence search tools are presented for you to work through. Each scenario comprises an section to establish that you are able to use the bioinformatics tool (with associated MyPlace formative quiz), and an additional set of <em>stretch activities</em> designed to introduce you to more advanced uses of these tools.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>There are four formative assessments - one for each scenario, and one for the pairwise sequence alignment exercises - of short answer questions <a href="https://classes.myplace.strath.ac.uk/course/view.php?id=21632">on MyPlace</a> which you should complete as part of the workshop.</p>
+<ul>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956398">Pairwise Sequence Alignment Formative Quiz</a></li>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956008">Scenario 1 Formative Quiz</a></li>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956134">Scenario 2 Formative Quiz</a></li>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956302">Scenario 3 Formative Quiz</a></li>
+</ul>
+</div>
+</div>
 
 
 </section>

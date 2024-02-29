@@ -51,7 +51,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./blast-how.html" rel="next">
+<link href="./scenario-1.html" rel="next">
 <link href="./pairwise.html" rel="prev">
 <link href="./icon_32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -162,38 +162,26 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blast-how.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./blast-interpretation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">BLAST: Interpreting a Report</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./scenario-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -233,6 +221,7 @@ div.csl-indent {
   <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">3.1.5</span> Run the <code>BLAST</code> search</a></li>
   <li><a href="#wait-for-the-search-to-complete" id="toc-wait-for-the-search-to-complete" class="nav-link" data-scroll-target="#wait-for-the-search-to-complete"><span class="header-section-number">3.1.6</span> Wait for the search to complete</a></li>
   </ul></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps"><span class="header-section-number">3.2</span> Next Steps</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/blast.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -280,7 +269,7 @@ Note
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-A brief history of the <code>BLAST</code> software suite
+A brief history of <code>BLAST</code>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -292,21 +281,8 @@ A brief history of the <code>BLAST</code> software suite
 <li>2000: The <code>MegaBLAST</code> algorithm for fast alignment-based searching of large nucleotide sequences is proposed, and incorporated into the <code>BLAST</code> suite (<span class="citation" data-cites="Zhang2000-wn">Zhang et al. (<a href="references.html#ref-Zhang2000-wn" role="doc-biblioref">2000</a>)</span>).</li>
 <li>2009: A completely rewritten version of the software suite, <code>BLAST+</code> is released. This improved performance and changed many features of the algorithms used for searching and building databases (<span class="citation" data-cites="Camacho2009-za">Camacho et al. (<a href="references.html#ref-Camacho2009-za" role="doc-biblioref">2009</a>)</span>).</li>
 </ul>
-<p>The latest updates to the <code>BLAST</code> software are described on the <a href="https://blast.ncbi.nlm.nih.gov/doc/blast-news/2023-BLAST-News.html">BLAST news page</a></p>
+<p><strong>The latest updates to the <code>BLAST</code> software are described on the <a href="https://blast.ncbi.nlm.nih.gov/doc/blast-news/2023-BLAST-News.html">BLAST news page</a></strong></p>
 </div>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>In the exercises that follow, you will carry out BLAST searches using the provided sequences, and use the results to answer the formative assessment on MyPlace.</strong></p>
 </div>
 </div>
 <section id="performing-a-blast-search" class="level2" data-number="3.1">
@@ -339,7 +315,7 @@ Figure&nbsp;3.1: The landing page of the NCBI <code>BLAST</code> webserver.
 </figure>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -348,7 +324,7 @@ You can use an NCBI account to save searches
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Note that there is a <code>Log in</code> button at the top right of the landing page. If you have a suitable account with NCBI/NIH, NCBI maintains a record of your searches and history so you can store your searches and retrieve them later.</p>
 <ul>
@@ -361,7 +337,7 @@ You can use an NCBI account to save searches
 <section id="select-the-blast-tool-you-want-to-use" class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="select-the-blast-tool-you-want-to-use"><span class="header-section-number">3.1.2</span> Select the <code>BLAST</code> tool you want to use</h3>
 <p>The <code>BLAST</code> suite provides search tools for finding matches to a query in a database. The query can be either a nucleotide or a protein sequence, and the database being searched can contain either protein sequences or nucleotide sequences. <code>BLAST</code> provides four different programs to carry out these combinations of search.</p>
-<div id="tbl-blast-programs" class="striped hover quarto-float anchored">
+<div id="tbl-blast-programs" class="striped hover quarto-float anchored" data-tbl-width="75%">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-blast-programs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;3.1: The four main <code>BLAST</code> programs, and the combination of query/database sequence type they are used for
@@ -392,7 +368,7 @@ Table&nbsp;3.1: The four main <code>BLAST</code> programs, and the combination o
 </figure>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -401,7 +377,7 @@ Specialised <code>BLAST</code> tools
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>The NCBI <code>BLAST</code> webserver provides specialised search options with specific combinations of parameters and databases pre-selected to support particular kinds of search (<a href="#fig-blast-specialised" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>).</p>
 <div id="fig-blast-specialised" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -462,7 +438,7 @@ Caution
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -471,7 +447,7 @@ Improving your searches by changing parameters
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>You can make your <code>BLAST</code> searches quicker, and more relevant to your biological question, if you can use information about your sequence and the type of organism you want to search.</p>
 <p>NCBI <code>BLAST</code> offers a number of smaller specialised databases with particular sequence types (e.g.&nbsp;RNA databases, sequences of protein structures, etc.) (<a href="#fig-ncbi-specialised-db" class="quarto-xref">Figure&nbsp;<span>3.5</span></a>).</p>
@@ -481,7 +457,7 @@ Improving your searches by changing parameters
 <img src="assets/images/ncbi-specialised-db.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.5: A list of specialised sequence databases offered by the NCBI <code>BLAST</code> webserver
+Figure&nbsp;3.5: A list of specialised nucleotide sequence databases offered by the NCBI <code>BLAST</code> webserver
 </figcaption>
 </figure>
 </div>
@@ -549,6 +525,48 @@ Figure&nbsp;3.10: An NCBI <code>BLAST</code> results page, for a <code>blastn</c
 </figcaption>
 </figure>
 </div>
+</section>
+</section>
+<section id="next-steps" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="next-steps"><span class="header-section-number">3.2</span> Next Steps</h2>
+<div class="callout callout-style-default callout-note callout-titled" title="Well done!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Well done!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>After completing this section you should:</p>
+<ul>
+<li>be able to carry out a <code>BLAST</code> search at the NCBI <code>BLAST</code> service</li>
+<li>be able to choose the correct database for your search type</li>
+<li>be able to modify search parameters, suitable for your biological question</li>
+</ul>
+<p>Now you are ready to move on to using <code>BLAST</code>, which uses <em>local</em> sequence alignments to search large databases of reference sequences to find the best matches to an input query sequence.</p>
+</div>
+</div>
+<p>You will next be presented with three scenarios, representing real uses of <code>BLAST</code> in research or clinical settings. Please work through the scenarios, completing the assessed sections and - if you have time - attempting the <em>stretch activities</em>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>There is a formative assessment <a href="https://classes.myplace.strath.ac.uk/course/view.php?id=21632">on MyPlace</a> for each scenario, which you should complete as part of the workshop.</p>
+<ul>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956008">Scenario 1 Formative Quiz</a></li>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956134">Scenario 2 Formative Quiz</a></li>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956302">Scenario 3 Formative Quiz</a></li>
+</ul>
+</div>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -568,7 +586,6 @@ Steinegger, Martin, and Johannes Söding. 2017. <span>“<span>MMseqs2</span> En
 Zhang, Z, S Schwartz, L Wagner, and W Miller. 2000. <span>“A Greedy Algorithm for Aligning <span>DNA</span> Sequences.”</span> <em>J. Comput. Biol.</em> 7 (1-2): 203–14.
 </div>
 </div>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -966,8 +983,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./blast-how.html" class="pagination-link" aria-label="BLAST: How It Works">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./scenario-1.html" class="pagination-link" aria-label="Scenario 1: 16S Identification">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

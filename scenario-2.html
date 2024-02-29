@@ -8,7 +8,7 @@
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 7&nbsp; Scenario 2: Protein Identification</title>
+<title>BM214 Workshop 2: Sequence Searching - 5&nbsp; Scenario 2: Protein Identification</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,7 +103,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./scenario-2.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./scenario-2.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -162,38 +162,26 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./blast-how.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">BLAST: How It Works</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./blast-interpretation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">BLAST: Interpreting a Report</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./scenario-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./scenario-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -224,23 +212,23 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">7.1</span> Introduction</a></li>
-  <li><a href="#analysis-steps" id="toc-analysis-steps" class="nav-link" data-scroll-target="#analysis-steps"><span class="header-section-number">7.2</span> Analysis Steps</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">5.1</span> Introduction</a></li>
+  <li><a href="#analysis-steps" id="toc-analysis-steps" class="nav-link" data-scroll-target="#analysis-steps"><span class="header-section-number">5.2</span> Analysis Steps</a>
   <ul class="collapse">
-  <li><a href="#navigate-to-the-ncbi-blast-webserver" id="toc-navigate-to-the-ncbi-blast-webserver" class="nav-link" data-scroll-target="#navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">7.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</a></li>
-  <li><a href="#select-the-blast-tool" id="toc-select-the-blast-tool" class="nav-link" data-scroll-target="#select-the-blast-tool"><span class="header-section-number">7.2.2</span> Select the <code>BLAST</code> Tool</a></li>
-  <li><a href="#enter-the-query-sequence" id="toc-enter-the-query-sequence" class="nav-link" data-scroll-target="#enter-the-query-sequence"><span class="header-section-number">7.2.3</span> Enter the query sequence</a></li>
-  <li><a href="#set-appropriate-parameter-choices" id="toc-set-appropriate-parameter-choices" class="nav-link" data-scroll-target="#set-appropriate-parameter-choices"><span class="header-section-number">7.2.4</span> Set appropriate parameter choices</a></li>
-  <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">7.2.5</span> Run the <code>BLAST</code> search</a></li>
-  <li><a href="#interpret-the-blast-report-myplace-questions" id="toc-interpret-the-blast-report-myplace-questions" class="nav-link" data-scroll-target="#interpret-the-blast-report-myplace-questions"><span class="header-section-number">7.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</a></li>
+  <li><a href="#navigate-to-the-ncbi-blast-webserver" id="toc-navigate-to-the-ncbi-blast-webserver" class="nav-link" data-scroll-target="#navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">5.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</a></li>
+  <li><a href="#select-the-blast-tool" id="toc-select-the-blast-tool" class="nav-link" data-scroll-target="#select-the-blast-tool"><span class="header-section-number">5.2.2</span> Select the <code>BLAST</code> Tool</a></li>
+  <li><a href="#enter-the-query-sequence" id="toc-enter-the-query-sequence" class="nav-link" data-scroll-target="#enter-the-query-sequence"><span class="header-section-number">5.2.3</span> Enter the query sequence</a></li>
+  <li><a href="#set-appropriate-parameter-choices" id="toc-set-appropriate-parameter-choices" class="nav-link" data-scroll-target="#set-appropriate-parameter-choices"><span class="header-section-number">5.2.4</span> Set appropriate parameter choices</a></li>
+  <li><a href="#run-the-blast-search" id="toc-run-the-blast-search" class="nav-link" data-scroll-target="#run-the-blast-search"><span class="header-section-number">5.2.5</span> Run the <code>BLAST</code> search</a></li>
+  <li><a href="#interpret-the-blast-report-myplace-questions" id="toc-interpret-the-blast-report-myplace-questions" class="nav-link" data-scroll-target="#interpret-the-blast-report-myplace-questions"><span class="header-section-number">5.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</a></li>
   </ul></li>
-  <li><a href="#stretch-activities" id="toc-stretch-activities" class="nav-link" data-scroll-target="#stretch-activities"><span class="header-section-number">7.3</span> Stretch Activities</a>
+  <li><a href="#stretch-activities" id="toc-stretch-activities" class="nav-link" data-scroll-target="#stretch-activities"><span class="header-section-number">5.3</span> Stretch Activities</a>
   <ul class="collapse">
-  <li><a href="#find-out-more-about-your-proteins-function" id="toc-find-out-more-about-your-proteins-function" class="nav-link" data-scroll-target="#find-out-more-about-your-proteins-function"><span class="header-section-number">7.3.1</span> Find out more about your protein’s function</a></li>
-  <li><a href="#inspect-the-match-taxonomy" id="toc-inspect-the-match-taxonomy" class="nav-link" data-scroll-target="#inspect-the-match-taxonomy"><span class="header-section-number">7.3.2</span> Inspect the match taxonomy</a></li>
-  <li><a href="#repeat-the-search-with-different-parameters" id="toc-repeat-the-search-with-different-parameters" class="nav-link" data-scroll-target="#repeat-the-search-with-different-parameters"><span class="header-section-number">7.3.3</span> Repeat the search with different parameters</a></li>
+  <li><a href="#find-out-more-about-your-proteins-function" id="toc-find-out-more-about-your-proteins-function" class="nav-link" data-scroll-target="#find-out-more-about-your-proteins-function"><span class="header-section-number">5.3.1</span> Find out more about your protein’s function</a></li>
+  <li><a href="#inspect-the-match-taxonomy" id="toc-inspect-the-match-taxonomy" class="nav-link" data-scroll-target="#inspect-the-match-taxonomy"><span class="header-section-number">5.3.2</span> Inspect the match taxonomy</a></li>
+  <li><a href="#repeat-the-search-with-different-parameters" id="toc-repeat-the-search-with-different-parameters" class="nav-link" data-scroll-target="#repeat-the-search-with-different-parameters"><span class="header-section-number">5.3.3</span> Repeat the search with different parameters</a></li>
   </ul></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">7.4</span> Summary</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">5.4</span> Summary</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/edit/main/scenario-2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sipbs-compbiol/BM214-Workshop-2/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -249,7 +237,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Scenario 2: Protein Identification</span></h1>
 </div>
 
 
@@ -266,16 +254,16 @@ div.csl-indent {
 </header>
 
 
-<section id="introduction" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">7.1</span> Introduction</h2>
-<p>There has been an outbreak of diarrhoeal disease, suspected to be due to a transmissible bacterial pathogen. As you work in a clinical microbiology laboratory, you have been asked to help investigate.</p>
+<section id="introduction" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">5.1</span> Introduction</h2>
+<p>There has been an outbreak of diarrhoeal disease on a hospital ward, suspected to be due to a transmissible bacterial pathogen. You work in a clinical microbiology laboratory at the hospital, and you have been asked to help investigate.</p>
 <div id="fig-diarrhoea" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-diarrhoea-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/diarrhoea.jpeg" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-diarrhoea-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.1: An anxious person in jeans, holding a toilet roll
+Figure&nbsp;5.1: An anxious person in jeans, holding a toilet roll
 </figcaption>
 </figure>
 </div>
@@ -293,11 +281,11 @@ Faecal metaproteomics
 <div class="callout-body-container callout-body">
 <p>Just as metagenomic analysis identifies which organisms are present in a sample, and gives an indication of their relative abundance, metaproteomic analysis does a similar job for the proteins that are present in a sample.</p>
 <p>The human gut is a highly diverse microbial ecosystem populated by microbial communities that vary in composition along its length. Our understanding of these communities has been enhanced by metagenomic analyses that tell us which organisms are present in which communities, but also by <em>metaproteomic analyses</em> (e.g. <span class="citation" data-cites="Kolmeder2012-qa">Kolmeder et al. (<a href="references.html#ref-Kolmeder2012-qa" role="doc-biblioref">2012</a>)</span>) which give insight into the molecular activities expressed by these communities.</p>
-<p>Knowing what the normal, stable, gut microbial community looks like allows us to identify <em>dysbioses</em> - disturbances to the normal operation of these biological systems. MALDI-ToF (Matrix-Assisted Laser Desorption - Time of Flight mass spectrometry) is a valuable tool for identifying which organisms are present (e.g. <span class="citation" data-cites="Feucherolles2019-lq">Feucherolles et al. (<a href="references.html#ref-Feucherolles2019-lq" role="doc-biblioref">2019</a>)</span>) and also for identifying and quantifying disturbances due to disease as changes in the presence, absence, and abundances of proteins produced by the microbial communities (<span class="citation" data-cites="Debyser2019-nj">Debyser et al. (<a href="references.html#ref-Debyser2019-nj" role="doc-biblioref">2019</a>)</span>).</p>
+<p>Knowing what the normal, stable, gut microbial community looks like allows us to identify <em>dysbioses</em> - disturbances to the normal operation of these biological systems. MALDI-ToF (Matrix-Assisted Laser Desorption - Time of Flight mass spectrometry) is a valuable tool for identifying which organisms are present (e.g. <span class="citation" data-cites="Feucherolles2019-lq">Feucherolles et al. (<a href="references.html#ref-Feucherolles2019-lq" role="doc-biblioref">2019</a>)</span>) and also for identifying and quantifying disturbances due to disease and measured as changes in the presence, absence, and abundances of proteins produced by the microbial communities (<span class="citation" data-cites="Debyser2019-nj">Debyser et al. (<a href="references.html#ref-Debyser2019-nj" role="doc-biblioref">2019</a>)</span>).</p>
 </div>
 </div>
 </div>
-<p>Using MALDI-ToF, you have carried out a metaproteomic analysis of one of the faecal samples, obtaining the protein sequence below as a highly-abundant protein present in the sample.</p>
+<p>Using MALDI-ToF, you have carried out a metaproteomic analysis of one of the faecal samples, obtaining the protein sequence below as a highly-abundant protein, present in the sample.</p>
 <pre class="text"><code>&gt;seq1437_abd10275_rank7
 MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGF
 VRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYS
@@ -317,17 +305,17 @@ Your assignment
 </div>
 </div>
 </section>
-<section id="analysis-steps" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="analysis-steps"><span class="header-section-number">7.2</span> Analysis Steps</h2>
-<p>Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the <a href="./blast.html#performing-a-blast-search">example search</a> in the previous chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.</p>
-<section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="7.2.1">
-<h3 data-number="7.2.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">7.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</h3>
+<section id="analysis-steps" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="analysis-steps"><span class="header-section-number">5.2</span> Analysis Steps</h2>
+<p>Follow the steps below to carry out the analysis for this scenario. If you need a reminder, please check with the <a href="./blast.html#performing-a-blast-search">example search</a> in the <code>BLAST</code> introduction chapter. If you need more help, the green boxes below expand to give you a hint for what to do, and the orange boxes expand to give a more direct instruction.</p>
+<section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">5.2.1</span> Navigate to the NCBI <code>BLAST</code> Webserver</h3>
 <ul>
 <li><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI <code>BLAST</code> Webserver</a></li>
 </ul>
 </section>
-<section id="select-the-blast-tool" class="level3" data-number="7.2.2">
-<h3 data-number="7.2.2" class="anchored" data-anchor-id="select-the-blast-tool"><span class="header-section-number">7.2.2</span> Select the <code>BLAST</code> Tool</h3>
+<section id="select-the-blast-tool" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="select-the-blast-tool"><span class="header-section-number">5.2.2</span> Select the <code>BLAST</code> Tool</h3>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -364,7 +352,7 @@ Answer: The <code>BLAST</code> tool to use
 <img src="assets/images/protein-blast-cover.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-protein-blast-cover-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.2: Protein BLAST image
+Figure&nbsp;5.2: Protein BLAST image
 </figcaption>
 </figure>
 </div>
@@ -372,8 +360,8 @@ Figure&nbsp;7.2: Protein BLAST image
 </div>
 </div>
 </section>
-<section id="enter-the-query-sequence" class="level3" data-number="7.2.3">
-<h3 data-number="7.2.3" class="anchored" data-anchor-id="enter-the-query-sequence"><span class="header-section-number">7.2.3</span> Enter the query sequence</h3>
+<section id="enter-the-query-sequence" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="enter-the-query-sequence"><span class="header-section-number">5.2.3</span> Enter the query sequence</h3>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -393,7 +381,7 @@ Answer: Entering the query sequence
 <img src="assets/images/scenario-2-query.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-2-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.3: Query sequence pasted into the query field
+Figure&nbsp;5.3: Query sequence pasted into the query field
 </figcaption>
 </figure>
 </div>
@@ -401,8 +389,8 @@ Figure&nbsp;7.3: Query sequence pasted into the query field
 </div>
 </div>
 </section>
-<section id="set-appropriate-parameter-choices" class="level3" data-number="7.2.4">
-<h3 data-number="7.2.4" class="anchored" data-anchor-id="set-appropriate-parameter-choices"><span class="header-section-number">7.2.4</span> Set appropriate parameter choices</h3>
+<section id="set-appropriate-parameter-choices" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="set-appropriate-parameter-choices"><span class="header-section-number">5.2.4</span> Set appropriate parameter choices</h3>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -440,7 +428,7 @@ Answer: Which database to use
 <img src="assets/images/scenario-2-database.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-2-database-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.4: NCBI BLAST <code>nr</code> database, filtering on bacteria
+Figure&nbsp;5.4: NCBI BLAST <code>nr</code> database, filtering on bacteria
 </figcaption>
 </figure>
 </div>
@@ -448,8 +436,8 @@ Figure&nbsp;7.4: NCBI BLAST <code>nr</code> database, filtering on bacteria
 </div>
 </div>
 </section>
-<section id="run-the-blast-search" class="level3" data-number="7.2.5">
-<h3 data-number="7.2.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">7.2.5</span> Run the <code>BLAST</code> search</h3>
+<section id="run-the-blast-search" class="level3" data-number="5.2.5">
+<h3 data-number="5.2.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">5.2.5</span> Run the <code>BLAST</code> search</h3>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -469,7 +457,7 @@ Answer: Running the <code>BLAST</code> search
 <img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-2-button-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.5: NCBI <code>BLAST</code> button
+Figure&nbsp;5.5: NCBI <code>BLAST</code> button
 </figcaption>
 </figure>
 </div>
@@ -477,21 +465,24 @@ Figure&nbsp;7.5: NCBI <code>BLAST</code> button
 </div>
 </div>
 </section>
-<section id="interpret-the-blast-report-myplace-questions" class="level3" data-number="7.2.6">
-<h3 data-number="7.2.6" class="anchored" data-anchor-id="interpret-the-blast-report-myplace-questions"><span class="header-section-number">7.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</h3>
+<section id="interpret-the-blast-report-myplace-questions" class="level3" data-number="5.2.6">
+<h3 data-number="5.2.6" class="anchored" data-anchor-id="interpret-the-blast-report-myplace-questions"><span class="header-section-number">5.2.6</span> Interpret the <code>BLAST</code> report (<strong>MyPlace Questions</strong>)</h3>
 <p>It is not unusual to find that a query matches many proteins in the database. By identifying those most closely-related to the query sequence, you should be able to establish a likely function for your protein, and a candidate identity for the organism it originates from.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Your assignment">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Your assignment
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Answer the questions below in the formative quiz on MyPlace.</strong></p>
-<p>Clicking on the box for each question should give you a hint to the answer, or where to find it.</p>
+<p><strong>Please answer the questions below in the formative quiz on MyPlace</strong></p>
+<ul>
+<li><a href="https://classes.myplace.strath.ac.uk/mod/quiz/view.php?id=1956134">MyPlace formative quiz</a></li>
+</ul>
+<p>Clicking on the green box should give you a hint to the answer, or where to find it.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -659,11 +650,11 @@ What conserved domain superfamily does this protein belong to?
 </div>
 </section>
 </section>
-<section id="stretch-activities" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="stretch-activities"><span class="header-section-number">7.3</span> Stretch Activities</h2>
+<section id="stretch-activities" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="stretch-activities"><span class="header-section-number">5.3</span> Stretch Activities</h2>
 <p>These activities are not necessary for the assessment, but provide more information relevant to interpreting your <code>BLAST</code> results. Open the orange boxes to see the questions, and use the green boxes to find some answers.</p>
-<section id="find-out-more-about-your-proteins-function" class="level3" data-number="7.3.1">
-<h3 data-number="7.3.1" class="anchored" data-anchor-id="find-out-more-about-your-proteins-function"><span class="header-section-number">7.3.1</span> Find out more about your protein’s function</h3>
+<section id="find-out-more-about-your-proteins-function" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="find-out-more-about-your-proteins-function"><span class="header-section-number">5.3.1</span> Find out more about your protein’s function</h3>
 <div class="callout callout-style-default callout-caution callout-titled" title="Click on the `Graphic Summary` tab in the report">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -684,29 +675,10 @@ Click on the <code>Graphic Summary</code> tab in the report
 </div>
 </div>
 </section>
-<section id="inspect-the-match-taxonomy" class="level3" data-number="7.3.2">
-<h3 data-number="7.3.2" class="anchored" data-anchor-id="inspect-the-match-taxonomy"><span class="header-section-number">7.3.2</span> Inspect the match taxonomy</h3>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Hints: <code>Taxonomy</code>
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-21" class="callout-21-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>Yes they are consistent, and the total count of matches to each taxonomic group is given.</li>
-</ol>
-</div>
-</div>
-</div>
-<hr>
+<section id="inspect-the-match-taxonomy" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="inspect-the-match-taxonomy"><span class="header-section-number">5.3.2</span> Inspect the match taxonomy</h3>
 <div class="callout callout-style-default callout-caution callout-titled" title="Click on the `Distance tree of results` link in the report">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -715,7 +687,7 @@ Click on the <code>Distance tree of results</code> link in the report
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-22" class="callout-22-contents callout-collapse collapse">
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>The <code>Distance tree of results</code> link will open a new tab containing a phylogenetic tree, showing the placement of your sequence in relation to the matching sequences. Some questions to consider:</p>
 <ol type="1">
@@ -725,7 +697,7 @@ Click on the <code>Distance tree of results</code> link in the report
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -734,7 +706,7 @@ Hints: <code>Distance tree</code>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-23" class="callout-23-contents callout-collapse collapse">
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ol type="1">
 <li>Yes, they are consistent. The tree gives us evolutionary information about the order of divergence of each organism’s sequences, when they diverged, and also which organisms’ sequences are more similar to each other.</li>
@@ -743,10 +715,10 @@ Hints: <code>Distance tree</code>
 </div>
 </div>
 </section>
-<section id="repeat-the-search-with-different-parameters" class="level3" data-number="7.3.3">
-<h3 data-number="7.3.3" class="anchored" data-anchor-id="repeat-the-search-with-different-parameters"><span class="header-section-number">7.3.3</span> Repeat the search with different parameters</h3>
+<section id="repeat-the-search-with-different-parameters" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="repeat-the-search-with-different-parameters"><span class="header-section-number">5.3.3</span> Repeat the search with different parameters</h3>
 <div class="callout callout-style-default callout-caution callout-titled" title="Exclude bacterial sequences from the search">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -755,7 +727,7 @@ Exclude bacterial sequences from the search
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-24" class="callout-24-contents callout-collapse collapse">
+<div id="callout-23" class="callout-23-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Return to your <code>BLAST</code> query by clicking on the <code>Edit Search</code> button at the top of the report.</p>
 <div id="fig-scenario-2-edit" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -764,7 +736,7 @@ Exclude bacterial sequences from the search
 <img src="assets/images/blast-edit-search.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-2-edit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.6: <code>BLAST</code> report <code>Edit Search</code> button
+Figure&nbsp;5.6: <code>BLAST</code> report <code>Edit Search</code> button
 </figcaption>
 </figure>
 </div>
@@ -775,7 +747,7 @@ Figure&nbsp;7.6: <code>BLAST</code> report <code>Edit Search</code> button
 <img src="assets/images/blast-exclude-bacteria.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-2-exclude-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.7: Excluding a taxon from the <code>BLAST</code> search
+Figure&nbsp;5.7: Excluding a taxon from the <code>BLAST</code> search
 </figcaption>
 </figure>
 </div>
@@ -786,7 +758,7 @@ Figure&nbsp;7.7: Excluding a taxon from the <code>BLAST</code> search
 <img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenario-2-button-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7.8: NCBI <code>BLAST</code> button
+Figure&nbsp;5.8: NCBI <code>BLAST</code> button
 </figcaption>
 </figure>
 </div>
@@ -799,7 +771,7 @@ Figure&nbsp;7.8: NCBI <code>BLAST</code> button
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -808,7 +780,7 @@ Hints: Excluding bacterial sequences
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-25" class="callout-25-contents callout-collapse collapse">
+<div id="callout-24" class="callout-24-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ol type="1">
 <li>Yes, there is one exact match to a non-bacterial sequence.</li>
@@ -820,8 +792,8 @@ Hints: Excluding bacterial sequences
 </div>
 </section>
 </section>
-<section id="summary" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.4</span> Summary</h2>
+<section id="summary" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.4</span> Summary</h2>
 <div class="callout callout-style-default callout-note callout-titled" title="Well done!">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -832,7 +804,17 @@ Well done!
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>In this scenario, you have used a protein sequence search to <strong>identify the putative function of a protein</strong> and the <strong>most likely organism from which it comes</strong>. You have used the <code>BLAST</code> result to <strong>identify the protein’s conserved protein domain classification</strong> and you may have <strong>used links to external sites to learn more</strong> about its evolution and function. You have <strong>used the database taxon filtering options</strong> to refine your search to a set of target organisms, and you may have also used the same filter to <strong>exclude organisms</strong> from your search.</p>
+<p>After successfully working through this scenario, you should be able to</p>
+<ul>
+<li>identify the putative function of a protein and the organism from which it is likely to originate</li>
+<li>identify and name conserved domains of a protein, using the <code>BLAST</code> output</li>
+</ul>
+<p>If you completed the <a href="#stretch-activities">stretch activities</a> you should be able to</p>
+<ul>
+<li>use the graphic summary to identify more information about the conserved domains, using the CDD database</li>
+<li>find and explain the <code>BLAST</code> result’s phylogenetic tree and taxonomy information, and use it to understand the relationships between the matching sequences</li>
+<li>modify your search parameters for the same query, using taxon filters to exclude organisms from your search and identify biologically-useful information</li>
+</ul>
 </div>
 </div>
 
@@ -1241,12 +1223,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./scenario-1.html" class="pagination-link" aria-label="Scenario 1: 16S Identification">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Scenario 1: 16S Identification</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./scenario-3.html" class="pagination-link" aria-label="Scenario 3: Annotating a Metagenomic Contig">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
