@@ -40,7 +40,7 @@ we can **guarantee** to find the alignment with the largest possible score, usin
 ::: { .callout-caution collapse="true" }
 ## Is the optimal alignment biologically "real"?
 
-Given that we can find an alignment with a maximum score - the _optimal_ alignment - why should we believe that this is the best _biological_ alignment?
+Given that we can find an alignment with a maximum score - the _optimal_ scoring alignment - why should we believe that this is the best alignment that preserves _biological_ function or information?
 
 If we change the scoring scheme we might change the alignment, so what features of a scoring scheme might make it a better or worse representation of biological "reality"?
 :::
@@ -103,6 +103,9 @@ A holding window will appear while the job runs (@fig-emboss-needle-running), an
 
 ### Interpret the results
 
+::: { .callout-tip collapse="true" }
+## SPOILER!
+
 The key result returned by `Needle` is, of course, the overall sequence alignment, which is provided at the foot of the results page:
 
 ```text
@@ -114,6 +117,7 @@ sequence_1        47 -----------------     46
                                       
 sequence_2        27 TTTAGAGGCTTGCTCAC     43
 ```
+:::
 
 ::: { .callout-caution collapse="true" }
 ## What do you notice about the alignment?
@@ -171,6 +175,9 @@ A holding window will appear while the job runs (@fig-emboss-water-running), and
 
 ### Interpret the results (MyPlace Questions)
 
+::: { .callout-tip collapse="true" }
+## SPOILER!
+
 The key result returned by `Water` is again the overall sequence alignment, which once more is provided at the foot of the results page:
 
 ```text
@@ -178,6 +185,7 @@ sequence_1        27 ACTTTAGAGGCTTGCAACCA     46
                      ||||||||||||||||||||
 sequence_2         3 ACTTTAGAGGCTTGCAACCA     22
 ```
+:::
 
 ::: { .callout-caution collapse="true" }
 ## What do you notice about the alignment?
