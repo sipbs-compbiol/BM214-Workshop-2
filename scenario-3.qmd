@@ -4,7 +4,7 @@
 
 You are working in a research group specialising in drug discovery. You have been investigating marine microbial communities using metagenomics in a search for sources of novel antibiotic candidates. You have carried out shotgun genome sequencing of an underwater microbial community and assembled a number of interesting contigs that likely contain novel genes. Now you need to annotate them. Today, you're looking to annotate the sequence at [this link](assets/sequences/metagenomic_contig.fasta).
 
-![A seabed much like the one you've been investigating. Photo credit: Petr Kratochvil CC0](assets/images/seabed-underwater-14436111451mk.jpg){#fig-seabed width="80%"}
+![A typical marine environment](assets/images/spongebob.jpg){#fig-seabed width="80%"}
 
 ::: { .callout-warning title="Download the metagenome contig now."}
 Be sure to download the [metagenome contig](assets/sequences/metagenomic_contig.fasta) to your computer so that you can use it with NCBI `BLAST` to obtain a preliminary functional annotation.
