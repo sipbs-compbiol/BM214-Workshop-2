@@ -112,9 +112,14 @@ While the search runs, you will see a holding page that updates you with progres
 
 ![An NCBI `BLAST` webserver progress page.](assets/images/ncbi-blast-progress.png){#fig-ncbi-blast-progress width="80%"}
 
+::: { .callout-tip collapse="true" }
+## SPOILER!
+
 When the search is complete, you will see the `blastn` results page (@fig-ncbi-blast-results).
 
 ![An NCBI `BLAST` results page, for a `blastn` query.](assets/images/ncbi-blast-results.png){#fig-ncbi-blast-results width="80%"}
+:::
+
 
 ## Next Steps
 
