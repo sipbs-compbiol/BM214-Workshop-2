@@ -237,10 +237,10 @@ Click on the link at the top of the prediction page ("Conserved domains on [[gi|
 1. Alanine-tRNA ligase
 2. Archaeoglobus fulgidus
 3. 42.74%
-4. 1WQY
+4. 3WQY_A
 5. A-tRNA_syn_arch superfamily
 6. Four (4)
-7. 1WQZ
+7. 3WQZ
 8. Two copies of the enzyme are visible, as chains A and B.
 9. Yes. There is a 75bp RNA molecule (chain C), and two molecules of A5A ('5'-O-(N-(L-Alanyl)-Sulfamoyl)adenosine). There are also two zinc ions.
 :::
