@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 3&nbsp; BLAST: Introduction</title>
+<title>3&nbsp; BLAST: Introduction – BM214 Workshop 2: Sequence Searching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,10 +59,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a34d670291f06f286357e447776a572a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -100,13 +100,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./blast.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">BLAST: Introduction</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -139,7 +139,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface to 2023-24 BM214 Workshop 2: Sequence Searching</span></a>
+ <span class="menu-text">Preface to 2024-25 BM214 Workshop 2: Sequence Searching</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -304,7 +304,7 @@ Caution
 <section id="navigate-to-the-ncbi-blast-webserver" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="navigate-to-the-ncbi-blast-webserver"><span class="header-section-number">3.1.1</span> Navigate to the NCBI <code>BLAST</code> webserver</h3>
 <p>Open a web browser and navigate to the <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi">NCBI BLAST webserver</a>. You should see a landing page that resembles <a href="#fig-ncbi-blast-landing" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>.</p>
-<div id="fig-ncbi-blast-landing" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-blast-landing" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-landing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-landing.png" class="img-fluid figure-img" style="width:80.0%">
@@ -337,13 +337,13 @@ You can use an NCBI account to save searches
 <section id="select-the-blast-tool-you-want-to-use" class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="select-the-blast-tool-you-want-to-use"><span class="header-section-number">3.1.2</span> Select the <code>BLAST</code> tool you want to use</h3>
 <p>The <code>BLAST</code> suite provides search tools for finding matches to a query in a database. The query can be either a nucleotide or a protein sequence, and the database being searched can contain either protein sequences or nucleotide sequences. <code>BLAST</code> provides four different programs to carry out these combinations of search.</p>
-<div id="tbl-blast-programs" class="striped hover quarto-float anchored" data-tbl-width="75%">
+<div id="tbl-blast-programs" class="striped hover quarto-float quarto-figure quarto-figure-center anchored" data-tbl-width="75%">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-blast-programs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Table&nbsp;3.1: The four main <code>BLAST</code> programs, and the combination of query/database sequence type they are used for
 </figcaption>
 <div aria-describedby="tbl-blast-programs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table-striped table-hover table">
+<table class="table-striped table-hover caption-top table">
 <thead>
 <tr class="header">
 <th>Query type</th>
@@ -380,7 +380,7 @@ Specialised <code>BLAST</code> tools
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>The NCBI <code>BLAST</code> webserver provides specialised search options with specific combinations of parameters and databases pre-selected to support particular kinds of search (<a href="#fig-blast-specialised" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>).</p>
-<div id="fig-blast-specialised" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-blast-specialised" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-blast-specialised-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/blast-specialised.png" class="img-fluid figure-img" style="width:80.0%">
@@ -394,7 +394,7 @@ Figure&nbsp;3.2: Specialised <code>BLAST</code> search options are available at 
 </div>
 </div>
 <p>Select <code>Nucleotide BLAST</code> from the NCBI landing page, to get to the <code>blastn</code> search page (<a href="#fig-ncbi-blastn" class="quarto-xref">Figure&nbsp;<span>3.3</span></a>).</p>
-<div id="fig-ncbi-blastn" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-blastn" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blastn-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blastn.png" class="img-fluid figure-img" style="width:80.0%">
@@ -411,7 +411,7 @@ Figure&nbsp;3.3: The NCBI <code>blastn</code> webservice search page
 <pre class="text"><code>ATGCGTCGAGGGCGTCTGCTGGAGATCGCCCTGGGATTTACCGTGCT
 TTTAGCGTCCTACACGAGCCATGGGGCGGACGCCAATTTGGAGGC
 TGGGAACGTGAAGGAAACCAGAGCCAGTCGGGCC</code></pre>
-<div id="fig-ncbi-blastn-query" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-blastn-query" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blastn-query-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blastn-query.png" class="img-fluid figure-img" style="width:80.0%">
@@ -451,7 +451,7 @@ Improving your searches by changing parameters
 <div class="callout-body-container callout-body">
 <p>You can make your <code>BLAST</code> searches quicker, and more relevant to your biological question, if you can use information about your sequence and the type of organism you want to search.</p>
 <p>NCBI <code>BLAST</code> offers a number of smaller specialised databases with particular sequence types (e.g.&nbsp;RNA databases, sequences of protein structures, etc.) (<a href="#fig-ncbi-specialised-db" class="quarto-xref">Figure&nbsp;<span>3.5</span></a>).</p>
-<div id="fig-ncbi-specialised-db" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-specialised-db" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-specialised-db-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-specialised-db.png" class="img-fluid figure-img" style="width:80.0%">
@@ -462,7 +462,7 @@ Figure&nbsp;3.5: A list of specialised nucleotide sequence databases offered by 
 </figure>
 </div>
 <p>You can also narrow down the search by specifying an organism, or other taxonomic rank, using the <code>Organism</code> field (<a href="#fig-ncbi-organism" class="quarto-xref">Figure&nbsp;<span>3.6</span></a>).</p>
-<div id="fig-ncbi-organism" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-organism" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-organism-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/fig-ncbi-organism.png" class="img-fluid figure-img" style="width:80.0%">
@@ -476,7 +476,7 @@ Figure&nbsp;3.6: Taxonomic options offered by the NCBI <code>BLAST</code> search
 </div>
 </div>
 <p>Restrict the sequences being searched by typing “Homo sapiens” in the <code>Organism</code> field and selecting the appropriate option from the drop-down list (<a href="#fig-ncbi-homo-sapiens" class="quarto-xref">Figure&nbsp;<span>3.7</span></a>).</p>
-<div id="fig-ncbi-homo-sapiens" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-homo-sapiens" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-homo-sapiens-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-homo-sapiens.png" class="img-fluid figure-img" style="width:80.0%">
@@ -490,7 +490,7 @@ Figure&nbsp;3.7: Taxonomic options offered by the NCBI <code>BLAST</code> search
 <section id="run-the-blast-search" class="level3" data-number="3.1.5">
 <h3 data-number="3.1.5" class="anchored" data-anchor-id="run-the-blast-search"><span class="header-section-number">3.1.5</span> Run the <code>BLAST</code> search</h3>
 <p>Click on the <code>BLAST</code> button (<a href="#fig-ncbi-blast-button" class="quarto-xref">Figure&nbsp;<span>3.8</span></a>).</p>
-<div id="fig-ncbi-blast-button" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-blast-button" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-button-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-button.png" class="img-fluid figure-img" style="width:80.0%">
@@ -504,7 +504,7 @@ Figure&nbsp;3.8: The NCBI <code>BLAST</code> webserver <code>BLAST</code> button
 <section id="wait-for-the-search-to-complete" class="level3" data-number="3.1.6">
 <h3 data-number="3.1.6" class="anchored" data-anchor-id="wait-for-the-search-to-complete"><span class="header-section-number">3.1.6</span> Wait for the search to complete</h3>
 <p>While the search runs, you will see a holding page that updates you with progress (<a href="#fig-ncbi-blast-progress" class="quarto-xref">Figure&nbsp;<span>3.9</span></a>)</p>
-<div id="fig-ncbi-blast-progress" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-blast-progress" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-progress-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-progress.png" class="img-fluid figure-img" style="width:80.0%">
@@ -514,8 +514,20 @@ Figure&nbsp;3.9: An NCBI <code>BLAST</code> webserver progress page.
 </figcaption>
 </figure>
 </div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+SPOILER!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>When the search is complete, you will see the <code>blastn</code> results page (<a href="#fig-ncbi-blast-results" class="quarto-xref">Figure&nbsp;<span>3.10</span></a>).</p>
-<div id="fig-ncbi-blast-results" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ncbi-blast-results" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ncbi-blast-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/ncbi-blast-results.png" class="img-fluid figure-img" style="width:80.0%">
@@ -524,6 +536,9 @@ Figure&nbsp;3.9: An NCBI <code>BLAST</code> webserver progress page.
 Figure&nbsp;3.10: An NCBI <code>BLAST</code> results page, for a <code>blastn</code> query.
 </figcaption>
 </figure>
+</div>
+</div>
+</div>
 </div>
 </section>
 </section>
@@ -624,18 +639,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -667,7 +671,45 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -702,7 +744,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -750,7 +796,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

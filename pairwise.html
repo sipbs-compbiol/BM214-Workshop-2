@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 2&nbsp; Pairwise Sequence Alignment</title>
+<title>2&nbsp; Pairwise Sequence Alignment – BM214 Workshop 2: Sequence Searching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,10 +59,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a34d670291f06f286357e447776a572a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -100,13 +100,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pairwise.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Pairwise Sequence Alignment</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -139,7 +139,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface to 2023-24 BM214 Workshop 2: Sequence Searching</span></a>
+ <span class="menu-text">Preface to 2024-25 BM214 Workshop 2: Sequence Searching</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -281,7 +281,7 @@ P-ELICAN--</code></pre>
 </div>
 </div>
 </div>
-<div id="fig-pelican-coelacanth-cartoon" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-pelican-coelacanth-cartoon" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-pelican-coelacanth-cartoon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/pelican_coelacanth.jpg" class="img-fluid figure-img" style="width:80.0%">
@@ -315,7 +315,7 @@ Is the optimal alignment biologically “real”?
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Given that we can find an alignment with a maximum score - the <em>optimal</em> alignment - why should we believe that this is the best <em>biological</em> alignment?</p>
+<p>Given that we can find an alignment with a maximum score - the <em>optimal</em> scoring alignment - why should we believe that this is the best alignment that preserves <em>biological</em> function or information?</p>
 <p>If we change the scoring scheme we might change the alignment, so what features of a scoring scheme might make it a better or worse representation of biological “reality”?</p>
 </div>
 </div>
@@ -370,7 +370,7 @@ TCACTTTAGAGGCTTGCAACCAGTACTTTAGAGGCTTGCTCAC</code></pre>
 <section id="open-the-emboss-needle-webpage" class="level3" data-number="2.2.1">
 <h3 data-number="2.2.1" class="anchored" data-anchor-id="open-the-emboss-needle-webpage"><span class="header-section-number">2.2.1</span> Open the <code>EMBOSS Needle</code> webpage</h3>
 <p>Open the link <a href="https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle">https://www.ebi.ac.uk/jdispatcher/psa/emboss_needle</a> in a web browser, to reach the landing page (<a href="#fig-emboss-water" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>)</p>
-<div id="fig-emboss-needle" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-needle" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle.png" class="img-fluid figure-img" style="width:80.0%">
@@ -384,7 +384,7 @@ Figure&nbsp;2.2: The <code>EMBOSS Needle</code> landing page.
 <section id="enter-the-input-sequences" class="level3" data-number="2.2.2">
 <h3 data-number="2.2.2" class="anchored" data-anchor-id="enter-the-input-sequences"><span class="header-section-number">2.2.2</span> Enter the input sequences</h3>
 <p>Paste the two sequences given above into the two sequence input boxes, as shown in <a href="#fig-emboss-needle-seq" class="quarto-xref">Figure&nbsp;<span>2.3</span></a>.</p>
-<div id="fig-emboss-needle-seq" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-needle-seq" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-seq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-seq.png" class="img-fluid figure-img" style="width:80.0%">
@@ -398,7 +398,7 @@ Figure&nbsp;2.3: The <code>EMBOSS Needle</code> page with two input sequences pr
 <section id="set-appropriate-parameters" class="level3" data-number="2.2.3">
 <h3 data-number="2.2.3" class="anchored" data-anchor-id="set-appropriate-parameters"><span class="header-section-number">2.2.3</span> Set appropriate parameters</h3>
 <p>The two sequences you have entered are DNA sequences, so check the radio button marked <code>DNA</code> (<a href="#fig-emboss-needle-params" class="quarto-xref">Figure&nbsp;<span>2.4</span></a>)</p>
-<div id="fig-emboss-needle-params" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-needle-params" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-params-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-params.png" class="img-fluid figure-img" style="width:30.0%">
@@ -412,7 +412,7 @@ Figure&nbsp;2.4: <code>EMBOSS Needle</code> input parameter set to <code>DNA</co
 <section id="run-the-alignment" class="level3" data-number="2.2.4">
 <h3 data-number="2.2.4" class="anchored" data-anchor-id="run-the-alignment"><span class="header-section-number">2.2.4</span> Run the alignment</h3>
 <p>Click on the <code>Submit</code> button at the bottom of the page to run the alignment. You can give your job a title, if you like (<a href="#fig-emboss-needle-title" class="quarto-xref">Figure&nbsp;<span>2.5</span></a>).</p>
-<div id="fig-emboss-needle-title" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-needle-title" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-title-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-submit.png" class="img-fluid figure-img" style="width:80.0%">
@@ -423,7 +423,7 @@ Figure&nbsp;2.5: <code>EMBOSS Needle</code> submit button.
 </figure>
 </div>
 <p>A holding window will appear while the job runs (<a href="#fig-emboss-needle-running" class="quarto-xref">Figure&nbsp;<span>2.6</span></a>), and after a short wait you will be presented with the results page (<a href="#fig-emboss-needle-results" class="quarto-xref">Figure&nbsp;<span>2.7</span></a>).</p>
-<div id="fig-emboss-needle-running" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-needle-running" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-running-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-running.png" class="img-fluid figure-img" style="width:80.0%">
@@ -433,7 +433,7 @@ Figure&nbsp;2.6: <code>EMBOSS Needle</code> holding window.
 </figcaption>
 </figure>
 </div>
-<div id="fig-emboss-needle-results" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-needle-results" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-needle-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-needle-results.png" class="img-fluid figure-img" style="width:80.0%">
@@ -446,6 +446,18 @@ Figure&nbsp;2.7: <code>EMBOSS Needle</code> results window.
 </section>
 <section id="interpret-the-results" class="level3" data-number="2.2.5">
 <h3 data-number="2.2.5" class="anchored" data-anchor-id="interpret-the-results"><span class="header-section-number">2.2.5</span> Interpret the results</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+SPOILER!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>The key result returned by <code>Needle</code> is, of course, the overall sequence alignment, which is provided at the foot of the results page:</p>
 <pre class="text"><code>sequence_1         1 ACTACTAGATTACTTACGGATCAGGTACTTTAGAGGCTTGCAACCA----     46
                                          ||    ||||||||||||||||||||    
@@ -454,8 +466,11 @@ sequence_2         1 --------------------TC----ACTTTAGAGGCTTGCAACCAGTAC     26
 sequence_1        47 -----------------     46
                                       
 sequence_2        27 TTTAGAGGCTTGCTCAC     43</code></pre>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -464,7 +479,7 @@ What do you notice about the alignment?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>All bases from both sequences are represented in the alignment, even though the sequences are different lengths, and most bases are not found to align.</li>
@@ -521,7 +536,7 @@ Exercise 2 task
 <section id="open-the-emboss-water-webpage" class="level3" data-number="2.3.1">
 <h3 data-number="2.3.1" class="anchored" data-anchor-id="open-the-emboss-water-webpage"><span class="header-section-number">2.3.1</span> Open the <code>EMBOSS Water</code> webpage</h3>
 <p>Open the link <a href="https://www.ebi.ac.uk/jdispatcher/psa/emboss_water">https://www.ebi.ac.uk/jdispatcher/psa/emboss_water</a> in a web browser, to reach the landing page (<a href="#fig-emboss-water" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>)</p>
-<div id="fig-emboss-water" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-water" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water.png" class="img-fluid figure-img" style="width:80.0%">
@@ -535,7 +550,7 @@ Figure&nbsp;2.8: The <code>EMBOSS Water</code> landing page.
 <section id="enter-the-input-sequences-1" class="level3" data-number="2.3.2">
 <h3 data-number="2.3.2" class="anchored" data-anchor-id="enter-the-input-sequences-1"><span class="header-section-number">2.3.2</span> Enter the input sequences</h3>
 <p>Paste the two sequences you used for the <code>Needle</code> global alignment above into the two sequence input boxes, as shown in <a href="#fig-emboss-water-seq" class="quarto-xref">Figure&nbsp;<span>2.9</span></a>.</p>
-<div id="fig-emboss-water-seq" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-water-seq" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-seq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-seq.png" class="img-fluid figure-img" style="width:80.0%">
@@ -549,7 +564,7 @@ Figure&nbsp;2.9: The <code>EMBOSS Water</code> page with two input sequences pro
 <section id="set-appropriate-parameters-1" class="level3" data-number="2.3.3">
 <h3 data-number="2.3.3" class="anchored" data-anchor-id="set-appropriate-parameters-1"><span class="header-section-number">2.3.3</span> Set appropriate parameters</h3>
 <p>The two sequences you have entered are DNA sequences, so check the radio button marked <code>DNA</code> (<a href="#fig-emboss-water-params" class="quarto-xref">Figure&nbsp;<span>2.10</span></a>)</p>
-<div id="fig-emboss-water-params" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-water-params" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-params-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-params.png" class="img-fluid figure-img" style="width:30.0%">
@@ -563,7 +578,7 @@ Figure&nbsp;2.10: <code>EMBOSS Water</code> input parameter set to <code>DNA</co
 <section id="run-the-alignment-1" class="level3" data-number="2.3.4">
 <h3 data-number="2.3.4" class="anchored" data-anchor-id="run-the-alignment-1"><span class="header-section-number">2.3.4</span> Run the alignment</h3>
 <p>Click on the <code>Submit</code> button at the bottom of the page to run the alignment. You can give your job a title, if you like (<a href="#fig-emboss-water-title" class="quarto-xref">Figure&nbsp;<span>2.11</span></a>).</p>
-<div id="fig-emboss-water-title" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-water-title" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-title-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-submit.png" class="img-fluid figure-img" style="width:80.0%">
@@ -574,7 +589,7 @@ Figure&nbsp;2.11: <code>EMBOSS Water</code> submit button.
 </figure>
 </div>
 <p>A holding window will appear while the job runs (<a href="#fig-emboss-water-running" class="quarto-xref">Figure&nbsp;<span>2.12</span></a>), and after a short wait you will be presented with the results page (<a href="#fig-emboss-water-results" class="quarto-xref">Figure&nbsp;<span>2.13</span></a>).</p>
-<div id="fig-emboss-water-running" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-water-running" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-running-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-running.png" class="img-fluid figure-img" style="width:80.0%">
@@ -584,7 +599,7 @@ Figure&nbsp;2.12: <code>EMBOSS Water</code> holding window.
 </figcaption>
 </figure>
 </div>
-<div id="fig-emboss-water-results" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-emboss-water-results" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-emboss-water-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/emboss-water-results.png" class="img-fluid figure-img" style="width:80.0%">
@@ -597,12 +612,27 @@ Figure&nbsp;2.13: <code>EMBOSS Water</code> results window.
 </section>
 <section id="interpret-the-results-myplace-questions" class="level3" data-number="2.3.5">
 <h3 data-number="2.3.5" class="anchored" data-anchor-id="interpret-the-results-myplace-questions"><span class="header-section-number">2.3.5</span> Interpret the results (MyPlace Questions)</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+SPOILER!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>The key result returned by <code>Water</code> is again the overall sequence alignment, which once more is provided at the foot of the results page:</p>
 <pre class="text"><code>sequence_1        27 ACTTTAGAGGCTTGCAACCA     46
                      ||||||||||||||||||||
 sequence_2         3 ACTTTAGAGGCTTGCAACCA     22</code></pre>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -611,7 +641,7 @@ What do you notice about the alignment?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ul>
 <li>Although the input sequences are the same ones that were used for global alignment, the local alignment is quite different: it is <em>much shorter</em>.</li>
@@ -639,7 +669,7 @@ Important
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -648,14 +678,14 @@ What is the reported percentage <a href="./glossary.html#identity-percentage-ide
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Examine the second boxed section in the <code>Needle</code> output.</p>
 </div>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -664,14 +694,14 @@ What is the reported percentage <a href="./glossary.html#identity-percentage-ide
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Examine the second boxed section in the <code>Water</code> output.</p>
 </div>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -680,7 +710,7 @@ Which alignment - <em>global</em> or <em>local</em> - do you think does the best
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Consider the kinds of biological questions you might ask. When do you need to have the context of the full sequence information? When do you only need to know the best matching region? Which percentage identity result best represents the extent to which the two sequences actually resemble each other?</p>
 </div>
@@ -754,18 +784,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -797,7 +816,45 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -832,7 +889,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -880,7 +941,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

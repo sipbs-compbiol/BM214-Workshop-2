@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Leighton Pritchard">
 
-<title>BM214 Workshop 2: Sequence Searching - 6&nbsp; Scenario 3: Annotating a Metagenomic Contig</title>
+<title>6&nbsp; Scenario 3: Annotating a Metagenomic Contig – BM214 Workshop 2: Sequence Searching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a34d670291f06f286357e447776a572a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -80,13 +80,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./scenario-3.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Scenario 3: Annotating a Metagenomic Contig</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface to 2023-24 BM214 Workshop 2: Sequence Searching</span></a>
+ <span class="menu-text">Preface to 2024-25 BM214 Workshop 2: Sequence Searching</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -235,13 +235,13 @@ ul.task-list li input[type="checkbox"] {
 <section id="introduction" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">6.1</span> Introduction</h2>
 <p>You are working in a research group specialising in drug discovery. You have been investigating marine microbial communities using metagenomics in a search for sources of novel antibiotic candidates. You have carried out shotgun genome sequencing of an underwater microbial community and assembled a number of interesting contigs that likely contain novel genes. Now you need to annotate them. Today, you’re looking to annotate the sequence at <a href="assets/sequences/metagenomic_contig.fasta">this link</a>.</p>
-<div id="fig-seabed" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-seabed" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-seabed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="assets/images/seabed-underwater-14436111451mk.jpg" class="img-fluid figure-img" style="width:80.0%">
+<img src="assets/images/spongebob.jpg" class="img-fluid figure-img" style="width:80.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-seabed-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.1: A seabed much like the one you’ve been investigating. Photo credit: Petr Kratochvil CC0
+Figure&nbsp;6.1: A typical marine environment
 </figcaption>
 </figure>
 </div>
@@ -327,7 +327,7 @@ Answer: The <code>BLAST</code> tool to use
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>This is a <strong>(translated) nucleotide vs protein</strong> search, so use the <code>BLASTX</code> tool.</p>
-<div id="fig-blastx-arrow" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-blastx-arrow" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-blastx-arrow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/blastx-arrow.png" class="img-fluid figure-img" style="width:80.0%">
@@ -356,7 +356,7 @@ Answer: Uploading the query sequence
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Click on the <code>Browse…</code> button.</p>
-<div id="fig-scenario-3-query-1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-query-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-query-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-query-1.png" class="img-fluid figure-img" style="width:80.0%">
@@ -367,7 +367,7 @@ Figure&nbsp;6.3: The empty BLASTX query field, showing the <code>Browse…</code
 </figure>
 </div>
 <p>Navigate to where you saved the metagenome contig file, and select it.</p>
-<div id="fig-scenario-3-query-2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-query-2" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-query-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-query-2.png" class="img-fluid figure-img" style="width:80.0%">
@@ -414,7 +414,7 @@ Answer: Which database to use
 <div class="callout-body-container callout-body">
 <p>The NCBI <code>BLAST</code> webserver allows you to query against a small non-redundant database derived from model organisms (the <code>landmark</code> database). You should use this for preliminary annotation with <code>BLASTX</code>.</p>
 <p><strong>Select the <code>Model Organisms (landmark)</code> database</strong></p>
-<div id="fig-scenario-3-database" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-database" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-database-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-database.png" class="img-fluid figure-img" style="width:80.0%">
@@ -443,7 +443,7 @@ Answer: Running the <code>BLAST</code> search
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Click on the <code>BLAST</code> button.</p>
-<div id="fig-scenario-3-button-1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-button-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-button-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-button.png" class="img-fluid figure-img" style="width:80.0%">
@@ -610,7 +610,7 @@ Refine the search against <code>nr</code>
 <div id="callout-18" class="callout-18-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Return to your <code>BLAST</code> query by clicking on the <code>Edit Search</code> button at the top of the report.</p>
-<div id="fig-scenario-3-edit" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-edit" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-edit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-edit-search.png" class="img-fluid figure-img" style="width:80.0%">
@@ -621,7 +621,7 @@ Figure&nbsp;6.7: <code>BLAST</code> report <code>Edit Search</code> button
 </figure>
 </div>
 <p>Select the <code>nr</code> database and restrict the taxon by entering the appropriate value into the <code>Organism</code> field.</p>
-<div id="fig-scenario-3-filter" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-filter" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-filter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-filter.png" class="img-fluid figure-img" style="width:80.0%">
@@ -632,7 +632,7 @@ Figure&nbsp;6.8: Filtering taxa from the <code>BLASTX</code> search
 </figure>
 </div>
 <p>Click on the <code>BLAST</code> button.</p>
-<div id="fig-scenario-3-button-2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-button-2" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-button-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-button-2.png" class="img-fluid figure-img" style="width:80.0%">
@@ -667,19 +667,19 @@ Hints: Refining the search against <code>nr</code>
 <div class="callout-body-container callout-body">
 <ol type="1">
 <li>Archaea (taxid:2157)</li>
-<li>No - there are fewer: only four (4)</li>
+<li>No - there are fewer: only three (3)</li>
 <li>99.89%</li>
-<li>Some are, some are not. There is one match to the region spanning base 2500 in the query, not annotated the same way as the previous search. The regions spanning bases 5000, 7500, and 10000 have similar functional annotations.</li>
-<li>The precise taxonomy at genus or species level is not clear from this search. Most matches are to sequences only annotated at Phylum level: <em>Euryarchaeota</em>.</li>
+<li>Some are, some are not. There is one match to the region spanning base 2500 in the query, not annotated the same way as the previous search. The regions spanning bases 7500, and 10000 have similar functional annotations.</li>
+<li>The precise taxonomy at genus or species level is not clear from this search. Most matches are to sequences only annotated at Phylum level (<em>Euryarchaeota</em>) or that have not been formally assigned taxa (<em>Candidatus</em>).</li>
 <li>There are several points to consider:</li>
 </ol>
 <ul>
 <li>The <code>Model Organisms (landmark)</code> database is small (it contains only 27 genomes), so is not very comprehensive, even though it contains representatives across the entire tree of life. We should not expect very close sequence matches as a result, but the search should be quick.</li>
 <li>The <code>nr</code> database, even filtered to provide results only for archaea, contains many more genomes and is much larger. As we have “tuned” the database to organisms similar to the query, we should expect many close matches at the expense of a slower search.</li>
 <li>The <code>Model Organisms (landmark)</code> database contains well-annotated genomes and we should expect clear indications of molecular function for the matches.</li>
-<li>The <code>nr</code> database contains all relevant sequences in the NCBI database, many of which have not been annotated. The annotated functions of matches may be less clear.</li>
+<li>The <code>nr</code> database contains all relevant sequences in the NCBI database, many of which have not been annotated or may have been annotated with less certainty. The annotated functions of matches here may be less clear.</li>
 <li>The <code>Model Organisms (landmark)</code> database contains relatively few organisms so we should not expect an accurate prediction of taxonomy for our query.</li>
-<li>The <code>nr</code> database contains all relevant sequences in the NCBI database and is likely to place the taxonomy of our query organism more accurately.</li>
+<li>The <code>nr</code> database contains all relevant sequences in the NCBI database and is likely to place our query organism more accurately alongside close relatives, even if the taxonomy of those relatives is uncertain.</li>
 </ul>
 </div>
 </div>
@@ -697,7 +697,7 @@ Refine the search against <code>pdb</code>
 <div id="callout-20" class="callout-20-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Return to your <code>BLAST</code> query by clicking on the <code>Edit Search</code> button at the top of the report.</p>
-<div id="fig-scenario-3-edit-1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-edit-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-edit-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-edit-search.png" class="img-fluid figure-img" style="width:80.0%">
@@ -708,7 +708,7 @@ Figure&nbsp;6.10: <code>BLAST</code> report <code>Edit Search</code> button
 </figure>
 </div>
 <p>Select the <code>pdb</code> database and do not restrict the organism range.</p>
-<div id="fig-scenario-3-pdbdb" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-pdbdb" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-pdbdb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-pdbdb.png" class="img-fluid figure-img" style="width:80.0%">
@@ -719,7 +719,7 @@ Figure&nbsp;6.11: Selecting the <code>pdb</code> database
 </figure>
 </div>
 <p>Click on <code>Algorithm parameters</code> to reveal more options and modify the <code>Expect threshold</code> to read <code>1e-6</code> to include only strong matches.</p>
-<div id="fig-scenario-3-expect" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-expect" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-expect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-expect.png" class="img-fluid figure-img" style="width:80.0%">
@@ -730,7 +730,7 @@ Figure&nbsp;6.12: Setting a less permissive <code>Expect</code> threshold
 </figure>
 </div>
 <p>Click on the <code>BLAST</code> button.</p>
-<div id="fig-scenario-3-button-3" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-button-3" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-button-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-button-3.png" class="img-fluid figure-img" style="width:80.0%">
@@ -747,7 +747,7 @@ Figure&nbsp;6.13: NCBI <code>BLAST</code> button
 <li>What is the PDB accession number of the top hit?</li>
 </ol>
 <p>Click on the accession number for the top hit to open the protein record for that page in a new tab. Click on the <code>Identify Conserved Domains</code> link under <code>Analyse this sequence</code> on the right-hand side of the page. This will take you to a prediction of the conserved domains</p>
-<div id="fig-scenario-3-analyse" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scenario-3-analyse" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scenario-3-analyse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="assets/images/scenario-3-analyse.png" class="img-fluid figure-img" style="width:80.0%">
@@ -864,18 +864,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -907,7 +896,45 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -942,7 +969,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -990,7 +1021,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
