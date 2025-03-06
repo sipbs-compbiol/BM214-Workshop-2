@@ -2,7 +2,7 @@
 
 Welcome to the BM214 (Being a Biomolecular Scientist 2) workshop on sequence searching in bioinformatics, for {{< var ay >}}.
 
-This year is the first presentation of the workshop material in this format, and we would be very grateful to hear feedback [by email](mailto:{{< var admin.email >}}) or through the [GitHub repository Issues page]({{< var github.issues >}}).
+We are always looking to improve our teaching materials, and we would be very grateful to hear feedback [by email](mailto:{{< var admin.email >}}) or through the [GitHub repository Issues page]({{< var github.issues >}}).
 
 ## Overview
 

@@ -4,7 +4,7 @@
 
 You are working in a research group specialising in drug discovery. You have been investigating marine microbial communities using metagenomics in a search for sources of novel antibiotic candidates. You have carried out shotgun genome sequencing of an underwater microbial community and assembled a number of interesting contigs that likely contain novel genes. Now you need to annotate them. Today, you're looking to annotate the sequence at [this link](assets/sequences/metagenomic_contig.fasta).
 
-![A seabed much like the one you've been investigating. Photo credit: Petr Kratochvil CC0](assets/images/seabed-underwater-14436111451mk.jpg){#fig-seabed width="80%"}
+![A typical marine environment](assets/images/spongebob.jpg){#fig-seabed width="80%"}
 
 ::: { .callout-warning title="Download the metagenome contig now."}
 Be sure to download the [metagenome contig](assets/sequences/metagenomic_contig.fasta) to your computer so that you can use it with NCBI `BLAST` to obtain a preliminary functional annotation.
@@ -180,17 +180,17 @@ Click on the `BLAST` button.
 ## Hints: Refining the search against `nr`
 
 1. Archaea (taxid:2157)
-2. No - there are fewer: only four (4)
+2. No - there are fewer: only three (3)
 3. 99.89%
-4. Some are, some are not. There is one match to the region spanning base 2500 in the query, not annotated the same way as the previous search. The regions spanning bases 5000, 7500, and 10000 have similar functional annotations.
-5. The precise taxonomy at genus or species level is not clear from this search. Most matches are to sequences only annotated at Phylum level: _Euryarchaeota_.
+4. Some are, some are not. There is one match to the region spanning base 2500 in the query, not annotated the same way as the previous search. The regions spanning bases 7500, and 10000 have similar functional annotations.
+5. The precise taxonomy at genus or species level is not clear from this search. Most matches are to sequences only annotated at Phylum level (_Euryarchaeota_) or that have not been formally assigned taxa (_Candidatus_).
 6. There are several points to consider:
   - The `Model Organisms (landmark)` database is small (it contains only 27 genomes), so is not very comprehensive, even though it contains representatives across the entire tree of life. We should not expect very close sequence matches as a result, but the search should be quick.
   - The `nr` database, even filtered to provide results only for archaea, contains many more genomes and is much larger. As we have "tuned" the database to organisms similar to the query, we should expect many close matches at the expense of a slower search.
   - The `Model Organisms (landmark)` database contains well-annotated genomes and we should expect clear indications of molecular function for the matches.
-  - The `nr` database contains all relevant sequences in the NCBI database, many of which have not been annotated. The annotated functions of matches may be less clear.
+  - The `nr` database contains all relevant sequences in the NCBI database, many of which have not been annotated or may have been annotated with less certainty. The annotated functions of matches here may be less clear.
   - The `Model Organisms (landmark)` database contains relatively few organisms so we should not expect an accurate prediction of taxonomy for our query.
-  - The `nr` database contains all relevant sequences in the NCBI database and is likely to place the taxonomy of our query organism more accurately.
+  - The `nr` database contains all relevant sequences in the NCBI database and is likely to place our query organism more accurately alongside close relatives, even if the taxonomy of those relatives is uncertain.
 :::
 
 ::: { .callout-caution title="Refine the search against `pdb`" collapse="true"}

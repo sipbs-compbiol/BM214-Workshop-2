@@ -183,9 +183,9 @@ The gene record contains an annotation field called `/isolation_source` that can
 :::
 
 ::: { .callout-tip collapse="true"}
-## What organism (other than the one you have already identified) has the next-best match to your query?
+## What bacterial species (other than the one you have already identified) has the next-best match to your query?
 
-Look down the list of results under "Sequences producing significant alignments" until you find an organism that is not the same as the best match to your query.
+Look down the list of results under "Sequences producing significant alignments" until you find an organism that is not the same species as the best match to your query.
 :::
 
 ::: { .callout-tip collapse="true"}
@@ -225,7 +225,7 @@ The gene record contains an annotation field called `/product` that can be found
 
 If it is not already open, click on the accession number for this match. This will open a new tab in your browser with the gene record.
 
-The gene record contains an annotation field called `/country` that can be found just above the sequence data. If you cannot see it, search for `/country` in the page.
+There is no annotation field called `/country` that can be found just above the sequence data, but check the `TITLE` field for the associated publication.
 :::
 
 ::: { .callout-tip collapse="true"}
@@ -233,7 +233,7 @@ The gene record contains an annotation field called `/country` that can be found
 
 If it is not already open, click on the accession number for this match. This will open a new tab in your browser with the gene record.
 
-The gene record contains an annotation field called `/isolation_source` that can be found just above the sequence data. If you cannot see it, search for `/isolation_source` in the page.
+There is no annotation field called `/isolation_source` in this case, but check the `TITLE` field for the associated publication.
 :::
 
 ## Stretch Activities
@@ -331,7 +331,7 @@ The `Distance tree of results` link will open a new tab containing a phylogeneti
 ::: { .callout-note title="Well done!"}
 After successfully working through this scenario, you should be able to
 
-- identify an unknown organism and its relatives from a 16S sequence
+- propose a taxonomic identity for an unknown organism by identifying its likely relatives from a 16S sequence
 - interpret the main output from a `BLAST` search at NCBI
 - be able to use NCBI `BLAST` search output to find and use additional information about matching sequences
 
