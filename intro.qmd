@@ -7,19 +7,19 @@
 It may be surprising, but we do not know what all genes in an organism do. In some organisms, we may not even know what _most_ genes do, or even whether we know all the genes that are present.
 
 ::: { .callout-warning }
-Model organisms, such as _Escherichia coli_, are possibly the forms of life we understand best. But even the [genome of _E. coli_ O157:H7](https://www.ncbi.nlm.nih.gov/nuccore/NC_002695.2) - maybe the best-understood genome we know - contains 756 coding sequences (CDS) annotated as `hypothetical protein`, which means we have no evidence of what their functions are. This is 756/5067 ≈ 15% of the predicted proteome for that organism.
+Model organisms, such as _Escherichia coli_, are possibly the forms of life we understand best. But even the [genome of _E. coli_ O157:H7](https://www.ncbi.nlm.nih.gov/nuccore/NC_002695.2) - maybe the best-understood genome we know - contains ≈750 coding sequences (CDS) annotated as `hypothetical protein`, which means we have no evidence of what their functions are. This is 750/5067 ≈ 15% of the predicted proteome for that organism.
 :::
 
 As biological sequences diverge through the actions of random mutation and nonrandom natural selection, they accumulate differences between them. The smaller the amount of time since two sequences diverged, the less time they have to accumulate these changes and, as a result, sequences from more closely-related organisms tend to be more similar to each other.
 
 In general, the more similar two protein sequences are, the more likely they are to share the same functional activity, and to perform the same job for the organism they are found in. So, if we have a biological sequence of unknown function, and we can find a protein whose function we know whose sequence is similar _enough_ to our sequence, then we can hypothesise that they have the same function.
 
-Part of the reason the sequence of a protein enables its function is that the sequence dictates how the protein _folds_ into its final shape. This shape places catalytic centres, and recognition surfaces for other proteins and small molecules, into the right place for the function to happen. Similar protein sequences fold up into similar shapes.
+Part of the reason the sequence of a protein enables its function is that the sequence dictates how the protein _folds_ into its final shape. This shape places catalytic centres, and recognition surfaces for other proteins and small molecules, into position so that the biochemical function can happen. Similar protein sequences fold up into similar shapes.
 
 ::: { .callout-note collapse="true"}
 ## Functional Annotation Transfer
 
-Assigning a proposed function, on the basis of sequence similarity to another sequence that has an annotated function, is called **functional annotation transfer**. The vast majority of genes and gene products in public databases have functions assigned by this approach, _not_ by direct experimental verification. New sequences are added to these databases at a rate that far exceeds our ability to characterise their products experimentally, so this situation is likely to persist for some time.
+Assigning a proposed function on the basis of sequence similarity to another sequence that has an annotated function is called **functional annotation transfer**. The vast majority of genes and gene products in public databases have functions assigned by this approach, _not_ by direct experimental verification. New sequences are added to these databases at a rate that far exceeds our ability to characterise their products experimentally, so this situation is likely to persist for some time.
 
 The [Critical Assessment of Functional Annotation](https://biofunctionprediction.org/cafa/) (CAFA) is series of experiments and challenges designed to understand how well our computational methods of functional annotation match experimental reality (@Zhou2019-ny).
 :::
@@ -42,7 +42,7 @@ For example, the activity of an enzyme like chymotrypsin relies on the exact pla
 There is no single value of "similar" short of 100% exact identity that is guaranteed to be "similar enough" to imply identical function. What might qualify as "similar enough" depends on the scientific question you are asking, and will vary if you are asking questions like:
 
 - Are these two biological sequences from the same organism?
-- Do these two biological sequences share a single ancestor?
+- Do these two biological sequences share a single common ancestor?
 - Do these two enzymes share the same catalytic function?
 - Do these two enzymes catalyse the same reactions for the same substrates?
 - Do these two proteins fold into the same $\alpha$-carbon backbone structure?
@@ -57,7 +57,7 @@ Similarly, we can often consider proteins sharing at least 40% amino acid identi
 ![A plot of pairwise protein structure dissimilarity (rmsd) against pairwise protein sequence identity for a set of membrane-spanning proteins, reproduced from @Olivella2013-rm](assets/images/bioinformatics_29_13_1589_f1.jpeg){#fig-rmsd_vs_identity}
 :::
 
-## Where can we go to find similar sequences?
+## Where can we find similar sequences?
 
 There are many publicly-available biological sequence reference databases available. Each has different contents, and may focus on a particular aspect of biology.
 
@@ -77,7 +77,7 @@ These organisations share their data, so have approximately the same core sequen
 
 ### GenBank
 
-The [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) database contains an annotated collection of all publicly available DNA sequences, and is maintained by NCBI as part of the INSDC. The initial release of GenBank in December 1982 contained 606 nucleotide sequences. As of December 2023, GenBank contains 249,060,436 nucleotide sequences, and 2,863,228,552 additional sequences deriving from whole-genome sequencing. The number of bases in GenBank [doubles approximately every 18 months](https://www.ncbi.nlm.nih.gov/genbank/statistics/).
+The [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) database contains an annotated collection of all publicly available DNA sequences, and is maintained by NCBI as part of the INSDC. The initial release of GenBank in December 1982 contained 606 nucleotide sequences. As of December 2023, GenBank contained 249,060,436 nucleotide sequences, and 2,863,228,552 additional sequences deriving from whole-genome sequencing. The number of bases in GenBank [doubles approximately every 18 months](https://www.ncbi.nlm.nih.gov/genbank/statistics/).
 
 ### RefSeq
 
@@ -119,7 +119,7 @@ The current statistics can be found at [UniProtKB](https://www.uniprot.org/unipr
 After reading through this section and following the links you should
 
 - understand why it is important to be able identify similar sequences.
-- be able to name some of the major sequence databases that help us use sequence similarity to understand the possible origins and functions of biological sequences
+- be able to name some of the major sequence databases that help us use sequence similarity to understand the possible origins and functions of biological sequences and understand which might be most useful for a particular query.
 
 Now you are ready to start using some of the bioinformatic tools for determining sequence similarity.
 :::
