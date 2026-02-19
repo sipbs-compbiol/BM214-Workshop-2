@@ -51,7 +51,7 @@ On this page you will carry out two pairwise alignments, one _global_ and one _l
 
 ## Exercise 1: Global Pairwise Alignment
 
-**Global sequence alignment** finds the optimal alignment acriss the full lengths of both sequences being aligned.
+**Global sequence alignment** finds the optimal alignment across the full lengths of both sequences being aligned.
 
 ::: { .callout-note }
 Given a scoring scheme, the [Needleman-Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm) is **guaranteed** to find an optimal global alignment between two sequences.

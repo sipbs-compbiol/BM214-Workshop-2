@@ -22,7 +22,7 @@ The original `BLAST` paper is one of the most highly cited publications of all t
 This section describes a general `BLAST` query using the [NCBI BLAST server](https://blast.ncbi.nlm.nih.gov/Blast.cgi). It is intended as a reference guide for you to return to as you get used to querying `BLAST` through this interface.
 
 ::: { .callout-caution }
-There are implementations of `BLAST` or other sequence search methods at many other databases, and they may present a different interface and choice of options, or even a totally different search method. For example, the `RCSB-PDB` protein structure database offers a [sequence search page](https://www.rcsb.org/search/advanced/sequence) which uses the `mmseqs2` search algorithm (@Steinegger2017-sy).
+There are implementations of `BLAST` and other sequence search methods at many other databases, and they may present a different interface and choice of options, or even a totally different search method. For example, the `RCSB-PDB` protein structure database offers a [sequence search page](https://www.rcsb.org/search/advanced/sequence) which uses the `mmseqs2` search algorithm (@Steinegger2017-sy).
 :::
 
 ### Navigate to the NCBI `BLAST` webserver
@@ -36,7 +36,7 @@ Open a web browser and navigate to the [NCBI BLAST webserver](https://blast.ncbi
 
 Note that there is a `Log in` button at the top right of the landing page. If you have a suitable account with NCBI/NIH, NCBI maintains a record of your searches and history so you can  store your searches and retrieve them later.
 
-- [Sign up](https://account.ncbi.nlm.nih.gov/signup/) for a free NCBI account
+- [Sign up](https://account.ncbi.nlm.nih.gov/signup/) for a free NCBI account (you _do not_ need this for the workshop)
 :::
 
 ### Select the `BLAST` tool you want to use
@@ -79,7 +79,7 @@ TGGGAACGTGAAGGAAACCAGAGCCAGTCGGGCC
 ### Set appropriate parameter choices
 
 ::: { .callout-caution }
-If you make no more changes to the parameter settings for your search, the default options will be used. Your query will be made against the `nr/nt` complete nucleotide collection, a very large database. Due to the size of the database, the search may take a relatively long time.
+If you make no more changes to the parameter settings for your search, the default options will be used. Your query will be made against the `core_nt` core nucleotide collection, a very large database. Due to the size of the database, the search may take a relatively long time.
 :::
 
 ::: { .callout-tip collapse="true"}
@@ -115,7 +115,7 @@ While the search runs, you will see a holding page that updates you with progres
 ::: { .callout-tip collapse="true" }
 ## SPOILER!
 
-When the search is complete, you will see the `blastn` results page (@fig-ncbi-blast-results).
+When the search is complete, you will see a `blastn` results page similar, but not identical, to @fig-ncbi-blast-results.
 
 ![An NCBI `BLAST` results page, for a `blastn` query.](assets/images/ncbi-blast-results.png){#fig-ncbi-blast-results width="80%"}
 :::
