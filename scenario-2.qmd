@@ -79,9 +79,9 @@ The outbreak is thought to be caused by a transmissible bacterial pathogen, so p
 ::: { .callout-warning collapse="true"}
 ## Answer: Which database to use
 
-The NCBI `BLAST` webserver allows you to restrict your searches by taxonomic group. You can query within the comprehensive `nr` (non-redundant protein) database, while restricting your search only to proteins that come from bacteria.
+The NCBI `BLAST` webserver allows you to restrict your searches by taxonomic group. You can query within the database, while restricting your search only to proteins that come from bacteria.
 
-**Select the `nr` database, and select `Bacteria` from the Organism field**
+**Select the `nr_cluster_seq` database, and select `Bacteria` from the Organism field**
 
 ![NCBI BLAST `nr` database, filtering on bacteria](assets/images/scenario-2-database.png){#fig-scenario-2-database width="80%"}
 :::
@@ -147,22 +147,6 @@ The gene record contains an annotation field called `/product` that can be found
 :::
 
 ::: { .callout-tip collapse="true"}
-## Where was the best-matching organism isolated?
-
-If it is not already open, click on the accession number for the best match. This will open a new tab in your browser with the gene record.
-
-The gene record contains an annotation field called `/country` that can be found just above the sequence data. If you cannot see it, search for `/country` in the page.
-:::
-
-::: { .callout-tip collapse="true"}
-## What kind of environment was the best-matching organism isolated from?
-
-If it is not already open, click on the accession number for the best match. This will open a new tab in your browser with the gene record.
-
-The gene record contains an annotation field called `/host` that can be found just above the sequence data. If you cannot see it, search for `/host` in the page.
-:::
-
-::: { .callout-tip collapse="true"}
 ## From what other species does `BLAST` report a hit?
 
 Scroll down the table in the `Descriptions` tab, or use the `Taxonomy` tab to find other organisms
@@ -211,7 +195,7 @@ Return to your `BLAST` query by clicking on the `Edit Search` button at the top 
 
 ![`BLAST` report `Edit Search` button](assets/images/blast-edit-search.png){#fig-scenario-2-edit width="80%"}
 
-Check the `Exclude` box next to the `Organism` field, to exclude bacterial sequences from your `BLAST` search.
+Use the `nr` database rather than the default choice. Check the `Exclude` box next to the `Organism` field, to exclude bacterial sequences from your `BLAST` search.
 
 ![Excluding a taxon from the `BLAST` search](assets/images/blast-exclude-bacteria.png){#fig-scenario-2-exclude width="80%"}
 
