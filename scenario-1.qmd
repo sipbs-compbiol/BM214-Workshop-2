@@ -171,7 +171,7 @@ The gene record contains an annotation field called `/product` that can be found
 
 If it is not already open, click on the accession number for the best match. This will open a new tab in your browser with the gene record.
 
-The gene record contains an annotation field called `/country` that can be found just above the sequence data. If you cannot see it, search for `/country` in the page.
+The gene record contains an annotation field called `/geo_loc_name` that can be found just above the sequence data. If you cannot see it, search for `/geo_loc_name` in the page.
 :::
 
 ::: { .callout-tip collapse="true"}
