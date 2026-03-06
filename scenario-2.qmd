@@ -83,7 +83,7 @@ The NCBI `BLAST` webserver allows you to restrict your searches by taxonomic gro
 
 **Select the `nr_cluster_seq` database, and select `Bacteria` from the Organism field**
 
-![NCBI BLAST `nr` database, filtering on bacteria](assets/images/scenario-2-database.png){#fig-scenario-2-database width="80%"}
+![NCBI BLAST `ClusteredNR` database, filtering on bacteria](assets/images/scenario-2-database.png){#fig-scenario-2-database width="80%"}
 :::
 
 ### Run the `BLAST` search
